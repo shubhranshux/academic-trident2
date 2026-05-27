@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2C3A8C;
+  --color-primary-rose: #2C3A8C;
+  --color-secondary: #A59381;
+  --color-secondary-beige: #A59381;
+  --color-bg-light: #EFE7DF;
+  --color-bg-soft: #F5EEEC;
+  --color-soft: #EAE0D5;
+  --color-text-dark: #3E3A36;
+  --color-accent-red: #EF4444;
+  --color-accent-green: #22C55E;
+  --color-inst-pink: #FDF2F0;
+  --color-inst-blue: #2C3A8C;
+  --color-inst-green: #006738;
+  --color-inst-yellow: #E8BD63;
+  --color-brand-green: #2D9A47;
+  --color-brand-red: #C5282F;
+  --color-brand-orange: #E56D24;
+  --color-brand-yellow: #F0B823;
+  --color-brand-blue: #2C3A8C;
+  --color-brand-sky: #349FCC;
+
+  --font-sans: 'Inter', 'DM Sans', sans-serif;
+  --font-serif: '"Source Serif 4"', Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #2C3A8C;
+  color: #fff;
+}
+
+/* ── Custom Scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3E3A36;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A59381;
+  border-radius: 100px;
+  border: 2px solid #3E3A36;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2C3A8C;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #A59381 #3E3A36;
+}
