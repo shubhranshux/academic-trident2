@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import SchoolOfComputingPage from './pages/SchoolOfComputingPage';
+import SchoolOfComputingSubPage from './pages/SchoolOfComputingSubPage';
 
 function App() {
   return (
@@ -12,6 +14,10 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/:slug" element={<SchoolOfComputingSubPage isHome={true} />} />
+            <Route path="/:slug/overview" element={<SchoolOfComputingSubPage isHome={false} />} />
+            <Route path="/:slug/:subpage" element={<SchoolOfComputingPage />} />
+            <Route path="/:slug/:subpage/:detail" element={<SchoolOfComputingPage />} />
           </Routes>
         </main>
         <Footer />

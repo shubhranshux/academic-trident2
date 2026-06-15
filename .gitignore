@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignored directories and files
+.scratch/
+pdf_scratch/
+*.bak*
+

@@ -8,6 +8,7 @@ import RankingRecognition from '../components/RankingRecognition';
 import AcademicPrograms from '../components/AcademicPrograms';
 import AcademicGovernance from '../components/AcademicGovernance';
 import SectionDivider, { SkewedMarquee } from '../components/SectionDivider';
+import SubNav from '../components/SubNav';
 import { ArrowRight, Award, Users, BookOpen, ShieldCheck, Landmark } from 'lucide-react';
 
 
@@ -77,8 +78,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#F8F9FA] font-sans">
+    <div className="min-h-screen bg-[#F8F9FA] font-sans relative">
       <Hero />
+      <SubNav />
       
       {/* Introduction block with Stats - Modern Non-Card Layout */}
       <section id="about" className="pt-40 pb-32 relative overflow-hidden group bg-white">
@@ -137,20 +139,20 @@ export default function Home() {
         </div>
       </section>
       
-      <RankingRecognition />
+      <div id="ranking"><RankingRecognition /></div>
       <SectionDivider type="curve" topColor="#F0BB51" bottomColor="#FAF9F7" height={80} />
       
-      <AcademicPrograms />
+      <div id="programs"><AcademicPrograms /></div>
       <SectionDivider type="wave" topColor="#FAF9F7" bottomColor="#EDF2F7" height={70} />
       
-      <InstitutionalInfo />
+      <div id="institutional"><InstitutionalInfo /></div>
       <SectionDivider type="tilt" topColor="#EDF2F7" bottomColor="#ffffff" height={80} />
       
-      <AcademicGovernance />
+      <div id="governance"><AcademicGovernance /></div>
       <SectionDivider type="curve" topColor="#ffffff" bottomColor="#1A1817" height={70} />
 
-      <JournalsSection title="Online Journals and Databases" items={journals} />
-      <DigitalResourcesSection title="Digital Resources & Publications" items={digitalResources} />
+      <div id="journals"><JournalsSection title="Online Journals and Databases" items={journals} /></div>
+      <div id="resources"><DigitalResourcesSection title="Digital Resources & Publications" items={digitalResources} /></div>
 
       {/* Final CTA Section */}
       <section className="relative w-full py-32 md:py-40 flex items-center justify-center overflow-hidden">
@@ -179,9 +181,14 @@ export default function Home() {
           <p className="text-white/90 text-[18px] md:text-[22px] font-medium max-w-2xl mx-auto mb-10 leading-relaxed">
             Join thousands of successful alumni who began their journey at Trident. Take the first step towards a brilliant career today.
           </p>
-          <a href="https://apply-now.tekkzy.com" className="bg-[#D3494B] text-white font-bold text-[15px] tracking-widest uppercase px-12 py-5 rounded-full hover:bg-white hover:text-[#D3494B] transition-all duration-500 shadow-xl shadow-[#D3494B]/30 hover:scale-105">
-            Begin Your Application
-          </a>
+          <div className="flex flex-col sm:flex-row gap-5 items-center justify-center">
+            <a href="https://apply-now.tekkzy.com" className="bg-[#D3494B] text-white font-bold text-[15px] tracking-widest uppercase px-12 py-5 rounded-full hover:bg-white hover:text-[#D3494B] transition-all duration-500 shadow-xl shadow-[#D3494B]/30 hover:scale-105">
+              Begin Your Application
+            </a>
+            <a href="https://placement-tat.tekkzy.com" className="bg-white/10 backdrop-blur-sm border border-white/30 text-white font-bold text-[15px] tracking-widest uppercase px-12 py-5 rounded-full hover:bg-white hover:text-[#283B91] transition-all duration-500 shadow-xl hover:scale-105">
+              Explore Placements
+            </a>
+          </div>
         </div>
       </section>
 

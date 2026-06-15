@@ -37,7 +37,7 @@ export default function Footer() {
             
             {/* Brand Column */}
             <div className="lg:col-span-4">
-              <a href="/" className="flex items-center gap-5 mb-10 text-decoration-none">
+              <a href="https://tat.tekkzy.com" className="flex items-center gap-5 mb-10 text-decoration-none">
                 <img src={logo} alt="TAT Logo" className="w-[64px] h-[64px] object-contain" />
                 <div className="h-12 w-[1px] bg-white/10 mx-2"></div>
                 <div className="flex flex-col justify-center">
@@ -73,6 +73,7 @@ export default function Footer() {
                 { h:"Academics & Student Life", ls:[
                   { t:"Library", h:"#" },
                   { t:"IQAC", h:"#" },
+                  { t:"Placement", h:"https://placement-tat.tekkzy.com" },
                   { t:"Testimonials", h:"#" },
                   { t:"Student Clubs", h:"#" },
                   { t:"CISCO thingQbator", h:"#" },

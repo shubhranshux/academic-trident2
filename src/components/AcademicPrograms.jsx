@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ArrowRight, ChevronDown } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const fluidStyles = `
   /* ── Base light beige layer ── */
@@ -177,13 +178,16 @@ const fluidStyles = `
 const programs = [
   {
     title: "School of Computing",
+    slug: "computer-science-engineering",
     subtitle: "Driving the Digital Revolution",
     description: "The School of Computing offers cutting-edge programmes in Computer Science, Artificial Intelligence, and Data Science. Our curriculum blends strong theoretical foundations with practical, industry-relevant exposure, preparing graduates for high-demand careers in emerging technologies.",
     nba: "B.Tech in Computer Science & Engineering",
     btech: [
-      "Computer Science and Engineering",
-      "Computer Science and Engineering (Artificial Intelligence & Machine Learning)",
-      "Computer Science and Engineering (Data Science)"
+      { name: "Computer Science & Engineering (CSE)", href: "/computer-science-engineering" },
+      { name: "Computer Science & Engineering (AI & ML)", href: "#" },
+      { name: "Computer Science & Engineering (Data Science)", href: "#" },
+      { name: "Computer Science and Technology (CST)", href: "/computer-science-technology" },
+      { name: "Computer Science & Information Technology (CSIT)", href: "/computer-science-information-technology" }
     ],
     integratedMtech: [
       "Computer Science and Engineering"
@@ -390,9 +394,15 @@ export default function AcademicPrograms() {
                             {prog.subtitle}
                           </h4>
                         </div>
-                        <div className={`hidden md:flex w-14 h-14 rounded-full border-[2px] items-center justify-center transition-all duration-500 shrink-0 ml-8 ${isActive ? 'bg-[#1A1A1A] border-[#1A1A1A] text-[#FDFBF7] shadow-lg' : 'border-[#1A1A1A]/20 text-[#1A1A1A]/60'}`}>
-                          {isActive ? <ArrowRight size={22} strokeWidth={2.5} /> : <ChevronDown size={22} strokeWidth={2} />}
-                        </div>
+                        {prog.slug ? (
+                          <Link to={`/${prog.slug}`} className={`hidden md:flex w-14 h-14 rounded-full border-[2px] items-center justify-center transition-all duration-500 shrink-0 ml-8 cursor-pointer ${isActive ? 'bg-[#1B4D8E] border-[#1B4D8E] text-[#FDFBF7] shadow-lg hover:bg-[#283B91] hover:scale-110 hover:-translate-y-1' : 'border-[#1A1A1A]/20 text-[#1A1A1A]/60 hover:border-[#1B4D8E] hover:text-[#1B4D8E]'}`} title={`View ${prog.title} Department Page`}>
+                            <ArrowRight size={22} strokeWidth={2.5} />
+                          </Link>
+                        ) : (
+                          <div className={`hidden md:flex w-14 h-14 rounded-full border-[2px] items-center justify-center transition-all duration-500 shrink-0 ml-8 ${isActive ? 'bg-[#1A1A1A] border-[#1A1A1A] text-[#FDFBF7] shadow-lg' : 'border-[#1A1A1A]/20 text-[#1A1A1A]/60'}`}>
+                            {isActive ? <ArrowRight size={22} strokeWidth={2.5} /> : <ChevronDown size={22} strokeWidth={2} />}
+                          </div>
+                        )}
                      </div>
 
                      <div className="space-y-10">
@@ -414,12 +424,15 @@ export default function AcademicPrograms() {
                            <div>
                              <h5 className="font-extrabold text-[#7A5230] mb-3 text-[13px] uppercase tracking-[0.15em]">B.Tech Programmes</h5>
                              <div className="flex flex-col">
-                               {prog.btech.map((p, idx) => (
-                                 <a key={p} href="#" className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
-                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{p}</span>
+                               {prog.btech.map((p, idx) => {
+                                 const name = typeof p === 'string' ? p : p.name;
+                                 const href = typeof p === 'string' ? '#' : (p.href || '#');
+                                 return (
+                                 <Link key={name} to={href} className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
+                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{name}</span>
                                    <ArrowRight size={18} strokeWidth={2.5} className="text-[#1A1A1A]/20 group-hover:text-[#7A5230] group-hover:translate-x-1.5 transition-all duration-300 shrink-0" />
-                                 </a>
-                               ))}
+                                 </Link>
+                               )})}
                              </div>
                            </div>
                          )}
