@@ -258,11 +258,13 @@ export default function SchoolOfComputingPage() {
 
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 xl:px-12">
           <nav className="flex items-center gap-2 text-[12px] font-medium text-white/60 mb-10 flex-wrap uppercase">
-            <Link to="/" className="flex items-center gap-1 hover:text-white transition-colors">
-              <Home size={13} /> Academics
-            </Link>
+            <a href="https://trident.ac.in" className="flex items-center hover:text-white transition-colors" title="Trident Home">
+              <Home size={13} />
+            </a>
             <ChevronRight size={12} />
-            <span className="text-white/60">Departments</span>
+            <Link to="/" className="hover:text-white transition-colors">
+              Academics
+            </Link>
             <ChevronRight size={12} />
             <Link to={`/${slug}`} className="hover:text-white transition-colors">{data.hero.breadcrumb}</Link>
             {activeSection === 'overview' && (
@@ -293,13 +295,23 @@ export default function SchoolOfComputingPage() {
 
           <FadeInUp>
             <h1 className="font-serif text-[42px] md:text-[64px] lg:text-[76px] font-black text-white leading-[1.05] tracking-tight mb-6">
-              {data.hero.titleLine1}<br/>
-              <span className={`${theme.accent}`}>{data.hero.titleLine2}</span>
+              {activeSection === 'overview' ? (
+                <>
+                  {data.hero.titleLine1}<br/>
+                  <span className={`${theme.accent}`}>{data.hero.titleLine2}</span>
+                </>
+              ) : (
+                <span className={`${theme.accent}`}>
+                  {data.sidebar.items.find(i => i.id === activeSection)?.label || activeSection.replace('-', ' ')}
+                </span>
+              )}
             </h1>
           </FadeInUp>
           <FadeInUp delay={150}>
             <p className="text-white/80 text-[18px] md:text-[22px] max-w-3xl leading-relaxed font-medium">
-              {data.hero.subtitle}
+              {activeSection === 'overview' 
+                ? data.hero.subtitle 
+                : data.hero.breadcrumb}
             </p>
           </FadeInUp>
 

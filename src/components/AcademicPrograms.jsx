@@ -184,8 +184,8 @@ const programs = [
     nba: "B.Tech in Computer Science & Engineering",
     btech: [
       { name: "Computer Science & Engineering (CSE)", href: "/computer-science-engineering" },
-      { name: "Computer Science & Engineering (AI & ML)", href: "#" },
-      { name: "Computer Science & Engineering (Data Science)", href: "#" },
+      { name: "Computer Science & Engineering (AI & ML)", href: "/computer-science-engineering-ai-ml" },
+      { name: "Computer Science & Engineering (Data Science)", href: "/computer-science-engineering-data-science" },
       { name: "Computer Science and Technology (CST)", href: "/computer-science-technology" },
       { name: "Computer Science & Information Technology (CSIT)", href: "/computer-science-information-technology" }
     ],
@@ -216,14 +216,14 @@ const programs = [
     description: "From Mechanical to Civil, Electrical, and Electronics Engineering, this school combines core engineering principles with modern advancements. Students gain hands-on experience through well-equipped labs, live projects, and industry partnerships.",
     nba: "B.Tech in Electronics & Telecommunication Engineering | B.Tech in Electrical & Electronics Engineering",
     btech: [
-      "Electronics and Telecommunication Engineering",
+      { name: "Electronics and Telecommunication Engineering", href: "/electronics-and-telecommunication-engineering" },
       "Electronics Engineering (VLSI Design Technology)",
       "Electrical and Electronics Engineering",
-      "Civil Engineering",
+      { name: "Civil Engineering", href: "/civil-engineering" },
       "Mechanical Engineering"
     ],
     mtech: [
-      "Electronics and Telecommunication Engineering",
+      { name: "Electronics and Telecommunication Engineering", href: "/electronics-and-telecommunication-engineering" },
       "Electronics Engineering (VLSI Design)",
       "Environmental Engineering",
       "Energy and Environmental Engineering",
@@ -232,7 +232,7 @@ const programs = [
       "Industrial Safety Engineering"
     ],
     diploma: [
-      "Civil Engineering",
+      { name: "Civil Engineering", href: "/civil-engineering" },
       "Electrical Engineering",
       "Mechanical Engineering"
     ],
@@ -240,10 +240,11 @@ const programs = [
   },
   {
     title: "School of Biotechnology",
+    slug: "biotechnology-engineering",
     subtitle: "Innovating for a Healthier Tomorrow",
     description: "The School of Biotechnology offers advanced programmes fostering research and innovation in healthcare, agriculture, and environmental sustainability. Students work on cutting-edge projects in state-of-the-art labs, bridging the gap between science and real-world impact.",
     programmes: [
-      "B.Tech in Biotechnology Engineering"
+      { name: "B.Tech in Biotechnology Engineering", href: "/biotechnology-engineering" }
     ],
     image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=800",
   },
@@ -394,15 +395,6 @@ export default function AcademicPrograms() {
                             {prog.subtitle}
                           </h4>
                         </div>
-                        {prog.slug ? (
-                          <Link to={`/${prog.slug}`} className={`hidden md:flex w-14 h-14 rounded-full border-[2px] items-center justify-center transition-all duration-500 shrink-0 ml-8 cursor-pointer ${isActive ? 'bg-[#1B4D8E] border-[#1B4D8E] text-[#FDFBF7] shadow-lg hover:bg-[#283B91] hover:scale-110 hover:-translate-y-1' : 'border-[#1A1A1A]/20 text-[#1A1A1A]/60 hover:border-[#1B4D8E] hover:text-[#1B4D8E]'}`} title={`View ${prog.title} Department Page`}>
-                            <ArrowRight size={22} strokeWidth={2.5} />
-                          </Link>
-                        ) : (
-                          <div className={`hidden md:flex w-14 h-14 rounded-full border-[2px] items-center justify-center transition-all duration-500 shrink-0 ml-8 ${isActive ? 'bg-[#1A1A1A] border-[#1A1A1A] text-[#FDFBF7] shadow-lg' : 'border-[#1A1A1A]/20 text-[#1A1A1A]/60'}`}>
-                            {isActive ? <ArrowRight size={22} strokeWidth={2.5} /> : <ChevronDown size={22} strokeWidth={2} />}
-                          </div>
-                        )}
                      </div>
 
                      <div className="space-y-10">
@@ -441,12 +433,15 @@ export default function AcademicPrograms() {
                            <div>
                              <h5 className="font-extrabold text-[#7A5230] mb-3 text-[13px] uppercase tracking-[0.15em]">Integrated M.Tech (5 Yrs)</h5>
                              <div className="flex flex-col">
-                               {prog.integratedMtech.map((p, idx) => (
-                                 <a key={p} href="#" className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
-                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{p}</span>
+                               {prog.integratedMtech.map((p, idx) => {
+                                 const name = typeof p === 'string' ? p : p.name;
+                                 const href = typeof p === 'string' ? '#' : (p.href || '#');
+                                 return (
+                                 <Link key={name} to={href} className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
+                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{name}</span>
                                    <ArrowRight size={18} strokeWidth={2.5} className="text-[#1A1A1A]/20 group-hover:text-[#7A5230] group-hover:translate-x-1.5 transition-all duration-300 shrink-0" />
-                                 </a>
-                               ))}
+                                 </Link>
+                               )})}
                              </div>
                            </div>
                          )}
@@ -455,12 +450,15 @@ export default function AcademicPrograms() {
                            <div>
                              <h5 className="font-extrabold text-[#7A5230] mb-3 text-[13px] uppercase tracking-[0.15em]">M.Tech Programmes</h5>
                              <div className="flex flex-col">
-                               {prog.mtech.map((p, idx) => (
-                                 <a key={p} href="#" className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
-                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{p}</span>
+                               {prog.mtech.map((p, idx) => {
+                                 const name = typeof p === 'string' ? p : p.name;
+                                 const href = typeof p === 'string' ? '#' : (p.href || '#');
+                                 return (
+                                 <Link key={name} to={href} className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
+                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{name}</span>
                                    <ArrowRight size={18} strokeWidth={2.5} className="text-[#1A1A1A]/20 group-hover:text-[#7A5230] group-hover:translate-x-1.5 transition-all duration-300 shrink-0" />
-                                 </a>
-                               ))}
+                                 </Link>
+                               )})}
                              </div>
                            </div>
                          )}
@@ -469,12 +467,15 @@ export default function AcademicPrograms() {
                            <div>
                              <h5 className="font-extrabold text-[#7A5230] mb-3 text-[13px] uppercase tracking-[0.15em]">Diploma Programmes</h5>
                              <div className="flex flex-col">
-                               {prog.diploma.map((p, idx) => (
-                                 <a key={p} href="#" className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
-                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{p}</span>
+                               {prog.diploma.map((p, idx) => {
+                                 const name = typeof p === 'string' ? p : p.name;
+                                 const href = typeof p === 'string' ? '#' : (p.href || '#');
+                                 return (
+                                 <Link key={name} to={href} className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
+                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{name}</span>
                                    <ArrowRight size={18} strokeWidth={2.5} className="text-[#1A1A1A]/20 group-hover:text-[#7A5230] group-hover:translate-x-1.5 transition-all duration-300 shrink-0" />
-                                 </a>
-                               ))}
+                                 </Link>
+                               )})}
                              </div>
                            </div>
                          )}
@@ -483,12 +484,15 @@ export default function AcademicPrograms() {
                            <div>
                              <h5 className="font-extrabold text-[#7A5230] mb-3 text-[13px] uppercase tracking-[0.15em]">Programmes Offered</h5>
                              <div className="flex flex-col">
-                               {prog.programmes.map((p, idx) => (
-                                 <a key={p} href="#" className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
-                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{p}</span>
+                               {prog.programmes.map((p, idx) => {
+                                 const name = typeof p === 'string' ? p : p.name;
+                                 const href = typeof p === 'string' ? '#' : (p.href || '#');
+                                 return (
+                                 <Link key={name} to={href} className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
+                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{name}</span>
                                    <ArrowRight size={18} strokeWidth={2.5} className="text-[#1A1A1A]/20 group-hover:text-[#7A5230] group-hover:translate-x-1.5 transition-all duration-300 shrink-0" />
-                                 </a>
-                               ))}
+                                 </Link>
+                               )})}
                              </div>
                            </div>
                          )}

@@ -48,10 +48,11 @@ export const EVENTS = [
 
 export const PROGRAMS = [
   { name:"Computer Science & Engineering", dept:"B.Tech", icon:"💻", dur:"4 Years", seats:180, href:"/computer-science-engineering" },
-  { name:"Electronics & Communication",    dept:"B.Tech", icon:"📡", dur:"4 Years", seats:120, href:"https://academics-tat.tekkzy.com/electronics-and-telecommunication-engineering" },
+  { name:"Electronics & Communication",    dept:"B.Tech", icon:"📡", dur:"4 Years", seats:120, href:"/electronics-and-telecommunication-engineering" },
   { name:"Mechanical Engineering",          dept:"B.Tech", icon:"⚙️",  dur:"4 Years", seats:120, href:"https://academics-tat.tekkzy.com/mechanical-engineering" },
   { name:"Civil Engineering",               dept:"B.Tech", icon:"🏗️", dur:"4 Years", seats:60,  href:"https://academics-tat.tekkzy.com/civil-engineering" },
   { name:"Electrical & Electronics",        dept:"B.Tech", icon:"⚡", dur:"4 Years", seats:60,  href:"https://academics-tat.tekkzy.com/electricals-and-electronics-engineering" },
+  { name:"Biotechnology Engineering",       dept:"B.Tech", icon:"🧬", dur:"4 Years", seats:30,  href:"/biotechnology-engineering" },
 ];
 
 export const RECRUITERS = ["TCS","Infosys","Wipro","HCL","Capgemini","Accenture","Cognizant","Tech Mahindra","L&T Infotech","IBM","Hexaware","Mphasis"];

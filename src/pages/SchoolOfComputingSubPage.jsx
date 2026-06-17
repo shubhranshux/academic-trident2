@@ -118,11 +118,13 @@ export default function SchoolOfComputingSubPage({ isHome }) {
 
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 xl:px-12">
           <nav className="flex items-center gap-2 text-[12px] font-medium text-white/60 mb-10 flex-wrap uppercase">
-            <Link to="/" className="flex items-center gap-1 hover:text-white transition-colors">
-              <Home size={13} /> Academics
-            </Link>
+            <a href="https://trident.ac.in" className="flex items-center hover:text-white transition-colors" title="Trident Home">
+              <Home size={13} />
+            </a>
             <ChevronRight size={12} />
-            <span className="text-white/60">Departments</span>
+            <Link to="/" className="hover:text-white transition-colors">
+              Academics
+            </Link>
             <ChevronRight size={12} />
             <Link to={`/${slug}`} className="hover:text-white transition-colors">{data.hero.breadcrumb}</Link>
             {!isHome && (

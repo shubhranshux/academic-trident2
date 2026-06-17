@@ -2229,6 +2229,2322 @@ const departmentData = {
       }
     ]
   }
+,
+
+  "computer-science-engineering-data-science": {
+    name: "Computer Science & Engineering (Data Science)",
+
+    meta: {
+      title: "Computer Science & Engineering (Data Science) — Trident Academy of Technology",
+      description: "Department of Computer Science & Engineering (Data Science) at Trident Academy of Technology.",
+    },
+
+    theme: {
+      primary: "text-[#E11D48]",
+      bgPrimary: "bg-[#E11D48]",
+      borderPrimary: "border-[#E11D48]",
+      borderPrimary10: "border-[#E11D48]/10",
+      bgPrimary10: "bg-[#E11D48]/10",
+      hoverTextPrimary: "hover:text-[#E11D48]",
+      hoverBgPrimary: "hover:bg-[#E11D48]",
+      shadowPrimary20: "shadow-[#E11D48]/20",
+      accent: "text-[#2563EB]",
+      bgAccent: "bg-[#2563EB]",
+      secondary: "text-[#E11D48]",
+      gradient: "from-[#881337]/95 via-[#9F1239]/90 to-[#BE123C]/80",
+      btn: "bg-[#F43F5E]",
+      btnHover: "hover:bg-[#BE123C]",
+    },
+
+    hero: {
+      titleLine1: "Computer Science &",
+      titleLine2: "Engineering (Data Science)",
+      subtitle: "Preparing students for future-ready careers in the rapidly evolving field of technology.",
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=2000",
+      breadcrumb: "Computer Science & Engineering (Data Science)",
+      stats: [
+        { label: "B.Tech Seats", value: "120" },
+      ],
+    },
+
+    sidebar: {
+      heading: "COMPUTER SCIENCE &\nTECHNOLOGY",
+      items: [
+        { id: "overview", label: "Department Overview", icon: "BookOpen", href: "/computer-science-engineering-data-science/overview" },
+        { id: "syllabus", label: "Syllabus", icon: "Layers", href: "/computer-science-engineering-data-science/syllabus" },
+        { id: "faculties", label: "Faculty", icon: "Users", href: "/computer-science-engineering-data-science/faculties" },
+        { id: "laboratories", label: "Laboratories", icon: "Beaker", href: "/computer-science-engineering-data-science/laboratories" },
+        { id: "question-bank", label: "Question Bank", icon: "FileText", href: "/computer-science-engineering-data-science/question-bank" },
+      ],
+    },
+
+    overview: {
+      paragraphs: [
+        "The B.Tech in Computer Science & Engineering (Data Science) (CST) program is designed to equip students with a robust foundation in computer science and the practical skills necessary to navigate and shape the future of technology.",
+        "With an emphasis on modern computing paradigms, the department offers a comprehensive curriculum that covers both foundational concepts and emerging technologies. Our students benefit from state-of-the-art laboratories and a faculty dedicated to fostering innovation and excellence.",
+        "Initially, the Department was started with an intake capacity of 60 and subsequently escalated its intake capacity to meet the global requirement. The department has a good number of faculty members with M.Tech/Ph.D qualification.",
+        "In order to cope up with the changing need of the industry as well as academia, the Department of CST at present offers following programme variants with unique philosophies and objectives:",
+      ],
+      tabs: [
+        {
+          id: 'vision',
+          label: 'Vision',
+          content: 'To be a centre of excellence in Computer Science Engineering by imparting quality education, fostering innovation and cultivating ethical professionals to meet the evolving global challenges.',
+        },
+        {
+          id: 'mission',
+          label: 'Mission',
+          content: 'M1. Provide quality education to build students strong expertise in software development, profound sense of hardware design and problem-solving skills to address global needs through innovation.\n\nM2. Foster well-disciplined leadership quality, a strong sense of responsibility and ethical values for impactful professional growth.\n\nM3. Encourage innovation, research and adaptability to tackle global challenges with sustainable technological proficiency.',
+        },
+        {
+          id: 'peo',
+          label: 'PEO',
+          content: 'PEO-1. To develop competent computer professionals to solve computer science related problems through their strong problem-solving skills using efficient algorithms.\nKeyword: Problem-solving skills.\n\nPEO-2. To develop strong leadership qualities in students, enhancing their skillsets for solving real-world problems.\nKeywords: Leadership Quality.\n\nPEO-3. To develop students as ethical engineers with strong managerial skill, communication skill, interpersonal skills, self-esteem, and stress management for future leadership.\nKeywords: Ethical Ability.\n\nPEO-4. To motivate students to pursue higher studies, research & entrepreneurship in emerging technologies with expert guidance from industry and academia.\nKeywords: Motivation for Higher studies, Research & Entrepreneurship.',
+        },
+        {
+          id: 'po',
+          label: 'PO',
+          content: '1. Engineering Knowledge: Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.\n\n2. Problem Analysis: Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences and engineering sciences.\n\n3. Design/Development of Solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate considerations for the public health and safety and the cultural, societal and environmental considerations.\n\n4. Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.\n\n5. Modern tool Usage: Create, select and apply appropriate techniques, resources and modern engineering and IT tools including prediction and modelling to complex engineering activities with an understanding of the limitations.\n\n6. The Engineer and Society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.\n\n7. Environment and Sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts and demonstrate the knowledge of and need for sustainable development.\n\n8. Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.\n\n9. Individual and Team Work: Function effectively as an individual, and as a member or leader in diverse teams and in multidisciplinary settings.\n\n10. Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.\n\n11. Project Management and Finance: Demonstrate knowledge and understanding of engineering and management principle and apply these to one\'s own work as member and leader in team to manage projects and in multidisciplinary environments.\n\n12. Life-long Learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.',
+        },
+        {
+          id: 'pso',
+          label: 'PSO',
+          content: 'PSO1: Enterprise Software Development – Design, develop, test, and maintain software systems for enterprises and specialized domains, aligning with industry needs.\n\nPSO2: Advanced Computing Expertise – Gain proficiency in advanced computing and programming to build intelligent and efficient solutions.\n\nPSO3: Legacy System Enhancement – Maintain, optimize, and modernize legacy computing systems for sustained usability and integration.',
+        },
+        {
+          id: 'lo',
+          label: 'LO',
+          content: 'Learning Outcomes (LOs)\n\nLO-1. Acquire knowledge of advanced computing skill and programming expertise.\n\nLO-2. Capability to design, build, evaluate, and sustain software systems for business and enterprise applications.\n\nLO-3. Ability to develop, test and maintain Software Systems for Specific Application Domain and as per the industry need.\n\nLO-4. Develop expertise to maintain and extend usability of legacy computer systems.',
+        }
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=600"
+      ]
+    },
+
+    questionBank: {
+      years: [
+        { 
+          id: "1st-year", 
+          label: "1st Year", 
+          color: "bg-[#B894B7]", 
+          subjects: [] 
+        },
+        { 
+          id: "2nd-year", 
+          label: "2nd Year", 
+          color: "bg-[#5B50C2]", 
+          subjects: [] 
+        },
+        { 
+          id: "3rd-year", 
+          label: "3rd Year", 
+          color: "bg-[#D18E47]", 
+          subjects: [
+            { name: "DATABASE MANAGEMENT SYSTEMS", href: "#" },
+            { name: "OPERATING SYSTEM", href: "#" },
+            { name: "COMPILER DESIGN", href: "#" },
+            { name: "FLAT-SET-1", href: "#" },
+            { name: "FLAT SET-2", href: "#" },
+            { name: "COMPUTER GRAPHICS", href: "#" },
+            { name: "DATA COMMUNICATION", href: "#" }
+          ] 
+        },
+        { 
+          id: "4th-year", 
+          label: "4th Year", 
+          color: "bg-[#C3594B]", 
+          subjects: [] 
+        },
+      ],
+      previousSemester: {
+        label: "Previous Semester Questions",
+        href: "https://drive.google.com/drive/folders/1VS1tfkMdzFSkDXX0NKdquVs8iGugrFpW"
+      }
+    },
+
+    syllabus: [
+      {
+        program: "B.TECH.",
+        years: [
+          {
+            title: "SYLLABUS FOR FIRST YEAR",
+            buttons: [
+              { label: "VIEW / DOWNLOAD 1ST YEAR SYLLABUS", href: "#" }
+            ]
+          },
+          {
+            title: "SYLLABUS FOR SECOND YEAR",
+            buttons: [
+              { label: "VIEW / DOWNLOAD 3RD SEM SYLLABUS", href: "#" },
+              { label: "VIEW / DOWNLOAD 4TH SEM SYLLABUS", href: "#" }
+            ]
+          },
+          {
+            title: "SYLLABUS FOR THIRD YEAR",
+            buttons: [
+              { label: "VIEW / DOWNLOAD 5TH SEM SYLLABUS", href: "#" },
+              { label: "VIEW / DOWNLOAD 6TH SEM SYLLABUS", href: "#" }
+            ]
+          },
+          {
+            title: "SYLLABUS FOR FOURTH YEAR",
+            buttons: [
+              { label: "VIEW / DOWNLOAD 4TH YEAR SYLLABUS", href: "#" }
+            ]
+          }
+        ]
+      }
+    ],
+
+    programmes: [
+      {
+        title: "B.Tech in Computer Science & Engineering (Data Science) (CST)",
+        seats: "120 Seats",
+        details: "4-Year Full-Time Programme",
+        sections: [
+          {
+            text: "The B.Tech (Data Science) program prepares students for dynamic roles in the technology sector, focusing on the latest advancements and practical applications."
+          },
+          {
+            text: "Students will explore a wide range of topics, including software development, systems architecture, network security, and intelligent systems, ensuring they are well-prepared for diverse career opportunities."
+          }
+        ]
+      }
+    ],
+
+    laboratories: [
+      { 
+        name: "Programming Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Dev C++ IDE",
+          "Code::Blocks IDE",
+          "Windows 10 Education Operating System"
+        ],
+        experiments: [
+          {
+            set: "Experiment Set 1",
+            list: [
+              "Write a program to print your Bio-data.",
+              "Write a program in C to test the arithmetic operators.",
+              "Write a program to find Simple Interest and Compound Interest."
+            ]
+          },
+          {
+            set: "Experiment Set 2",
+            list: [
+              "Test logical, bitwise, unary and ternary operators.",
+              "Check whether a given year is a leap year.",
+              "Calculate salary statement of an employee using basic pay, DA, HRA and TA."
+            ]
+          },
+          {
+            set: "Experiment Set 3",
+            list: [
+              "Enter marks of 4 subjects and calculate Total, Aggregate %, and Grade.",
+              "Display the day of the week using switch case.",
+              "Menu driven program to find total, average, smallest and largest."
+            ]
+          },
+          {
+            set: "Experiment Set 4",
+            list: [
+              "Check whether a number is palindrome.",
+              "Generate prime numbers between two numbers.",
+              "Print a pyramid star pattern."
+            ]
+          },
+          {
+            set: "Experiment Set 5",
+            list: [
+              "Find largest, smallest, sum and average of an array.",
+              "Sort an array in ascending order.",
+              "Insert an element in an array at a desired position."
+            ]
+          },
+          {
+            set: "Experiment Set 6",
+            list: [
+              "Swap two variables using function.",
+              "Print Fibonacci series using function.",
+              "Multiply two matrices using functions."
+            ]
+          },
+          {
+            set: "Experiment Set 7",
+            list: [
+              "Find GCD using recursion.",
+              "Store and display student data using structure.",
+              "Check string palindrome using pointer."
+            ]
+          },
+          {
+            set: "Experiment Set 8",
+            list: [
+              "Find smallest element and position using pointer.",
+              "Implement realloc() and free().",
+              "Demonstrate Dynamic Memory Allocation."
+            ]
+          },
+          {
+            set: "Experiment Set 9",
+            list: [
+              "Implement Linked List insertion and deletion.",
+              "Implement Stack Push and Pop.",
+              "Implement Queue insertion and deletion."
+            ]
+          },
+          {
+            set: "Experiment Set 10",
+            list: [
+              "Implement Quick Sort.",
+              "Implement Linear Search.",
+              "Implement Binary Search."
+            ]
+          }
+        ],
+        images: [
+          "/images/programming-lab-img-1.jpeg",
+          "/images/programming-lab-img-2.jpeg"
+        ]
+      },
+      { 
+        name: "Data Structures Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Dev C++ IDE",
+          "Code::Blocks IDE",
+          "Windows 10 Education Operating System"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Write a C program to implement a Sparse Matrix.",
+              "Create a Stack using an Array and perform PUSH, POP and Traversal operations.",
+              "Create a Queue using an Array and perform Insertion, Deletion and Traversal.",
+              "Perform Creation, Insertion, Deletion and Traversal on a Single Linked List using functions.",
+              "Perform Creation, Insertion, Deletion and Traversal on a Doubly Linked List using functions.",
+              "Perform Creation, Insertion and Deletion operations on a Binary Tree.",
+              "Write a C program to perform Bubble Sort.",
+              "Write a C program to perform Insertion Sort.",
+              "Write a C program to perform Selection Sort.",
+              "Write a C program to perform Quick Sort.",
+              "Write a C program to perform Merge Sort.",
+              "Write a C program to implement Linear Search.",
+              "Write a C program to implement Binary Search."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Object Oriented Programming Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Java Development Kit (JDK)",
+          "NetBeans IDE / Eclipse IDE",
+          "Apache Tomcat (for Applet / Web support if required)",
+          "Windows 10 Education Operating System"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Write a Java program to print \u201CHello World!\u201D.",
+              "Write a program to demonstrate data types, variables, operators, arrays, and control structures.",
+              "Write a program to define a class and constructors and demonstrate constructor usage.",
+              "Write a program to define class, methods, and objects and demonstrate method overloading.",
+              "Write a program to demonstrate inheritance and method overriding.",
+              "Write a program to demonstrate Packages in Java.",
+              "Write a program to demonstrate Exception Handling.",
+              "Write a program to demonstrate Multithreading.",
+              "Write a program to demonstrate Applet structure and event handling.",
+              "Write a program to demonstrate different Layout Managers in Java."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Web and Application Development Lab", 
+        description: "The configuration supports the development and execution of web applications, front-end technologies, backend programming, and deployment activities required for the laboratory exercises and projects.",
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Java Development Kit (JDK)",
+          "NetBeans IDE / Eclipse IDE",
+          "Apache Tomcat Server (for Applet / Web Application support)",
+          "Node.js and npm (for JavaScript runtime and package management)",
+          "Visual Studio Code or any Code Editor",
+          "Git and GitHub Desktop (for version control and collaboration)",
+          "Postman (for API testing)",
+          "Google Chrome / Mozilla Firefox Web Browser"
+        ],
+        experiments: [
+          {
+            set: "Introduction to Web Development with HTML, CSS, JavaScript",
+            list: [
+              "Intro to HTML (JSFiddle): Explore the components of an HTML file including HTML markup, CSS styling, and JavaScript code.",
+              "HTML \u2013 Creating a Simple Web Page: Create a web page for the fan club of IBM founder Thomas J. Watson Sr.",
+              "Unit Conversion using HTML5 Structural Elements: Create a Unit Converter web page that converts Temperature from Celsius to Fahrenheit, Weight from Kilograms to Pounds, Distance from Kilometers to Miles.",
+              "CSS Basics \u2013 Styling Your Web Page: Create a webpage on the Solar System and learn to create a basic webpage, specify font family and size, use colors for styling, create borders.",
+              "JavaScript: Create an HTML form that uses JavaScript to validate user input and dynamically update webpage content.",
+              "JavaScript \u2013 Browser Console: Practice JavaScript concepts using the browser console.",
+              "Simple Interest Calculator: Develop a calculator by modifying HTML, CSS, and JavaScript files and verifying webpage functionality.",
+              "Single Page Portfolio Website: Create a portfolio website with sections About Me, Skills, Projects, Recommendations.",
+              "Publish your Portfolio to GitHub Pages: Publish your portfolio website using GitHub Pages static hosting service."
+            ]
+          },
+          {
+            set: "Getting Started with Git and GitHub",
+            list: [
+              "GitHub Sign Up and Create Repo: Create a GitHub account, create a repository, and add files using the GitHub interface.",
+              "Getting Started with Branches using Git Commands: Use Git commands in a cloud IDE to create and manage branches.",
+              "Cloning and Forking GitHub Projects: Learn to fork repositories, clone them locally, create branches, commit changes, and submit pull requests.",
+              "Practice Project Overview: Manage development and deployment of a shipping calculator web application using GitHub collaboration features.",
+              "Practice Project Part 1 \u2013 GitHub UI: Create repository with README, license, Code of Conduct, and Contribution Guidelines.",
+              "Practice Project Part 2 \u2013 Git CLI: Fork repository, edit code using Git CLI, add files, and submit pull request.",
+              "Final Project Part 1 \u2013 GitHub UI: Create repository, choose license, add README, Code of Conduct, Contribution Guidelines and commit files."
+            ]
+          },
+          {
+            set: "Developing Front-End Apps with React",
+            list: [
+              "Content Rating Application: Create a React component that allows users to like or dislike content and track ratings.",
+              "Function Component Event Planner Landing Page: Create a React landing page for an event planning organization with sections for features, testimonials, and contact form.",
+              "Fetch Data Using useFetch: Use React hooks (useState, useEffect) and a custom hook to fetch and display data dynamically.",
+              "Create Feedback Form for Survey: Create a feedback form with validation, confirmation dialog, and submission handling using React.",
+              "Practice Project - Conference Event Planner: Develop an application for selecting conference rooms, equipment, and meals for events."
+            ]
+          },
+          {
+            set: "Developing Back-End Apps with Node.js and Express",
+            list: [
+              "First Server with Server-Side JavaScript: Create and run a Node.js web server and access it from a client.",
+              "Promises and Callback: Create a Node.js application using promise callbacks.",
+              "Async Callback Programming: Understand asynchronous callbacks and implement them in Node.js.",
+              "CRUD Operations with Node.js and Express: Create a Friends List application with Create, Retrieve, Update, Delete operations and test endpoints with Postman.",
+              "Express Server: Create an Express server, use middleware and JWT authentication, and render static HTML pages.",
+              "Friends List Application Using Express Server with JWT: Secure CRUD operations with JWT authentication and test APIs using Postman.",
+              "Book Review Application: Build a server-side book review application."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Database Engineering Lab", 
+        description: "The objective of this laboratory is to provide hands-on experience in designing, implementing, and manipulating relational databases using SQL and PL/SQL. Students will learn database schema design, query processing, views, triggers, procedures, joins, and transaction control statements.",
+        equipments: [
+          "Processor : Intel Core i3 / higher",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Operating System : Windows 10 / Linux"
+        ],
+        software: [
+          "Oracle Database / MySQL",
+          "SQL Developer / MySQL Workbench",
+          "Command Line SQL Client"
+        ],
+        experiments: [
+          {
+            set: "Experiment 1: Library Database",
+            list: [
+              "Consider the following schema: BOOK (Book_id, Title, Publisher_Name, Pub_Year), BOOK_AUTHORS (Book_id, Author_Name), PUBLISHER (Name, Address, Phone), BOOK_COPIES (Book_id, Programme_id, No_of_Copies), BOOK_LENDING (Book_id, Programme_id, Card_No, Date_Out, Due_Date), LIBRARY_PROGRAMME (Programme_id, Programme_Name, Address)",
+              "Retrieve details of all books in the library including title, publisher, authors and number of copies.",
+              "Get the borrowers who borrowed more than 3 books between Jan 2025 and Jun 2025.",
+              "Delete a book from BOOK table and update related tables.",
+              "Partition BOOK table based on publication year.",
+              "Create a view showing available books and number of copies."
+            ]
+          },
+          {
+            set: "Experiment 2: College Database",
+            list: [
+              "Schema: STUDENT (REGNO, SName, Address, Phone, Gender), SEMSEC (SSID, Sem, Sec), CLASS (REGNO, SSID), COURSE (Subcode, Title, Sem, Credits), IAMARKS (REGNO, Subcode, SSID, Test1, Test2, Test3, FinalIA)",
+              "List student details studying in 4th semester C section.",
+              "Compute number of male and female students in each semester and section.",
+              "Create a view for Test1 marks of student REGNO '1BP22CS101'.",
+              "Calculate FinalIA as average of best two tests.",
+              "Categorize students as Outstanding, Average, and Weak based on FinalIA."
+            ]
+          },
+          {
+            set: "Experiment 3: Order Database",
+            list: [
+              "Schema: SALESMAN (Salesman_id, Name, City, Commission), CUSTOMER (Customer_id, Cust_Name, City, Grade, Salesman_id), ORDERS (Ord_No, Purchase_Amt, Ord_Date, Customer_id, Salesman_id)",
+              "Count customers with grades above Bangalore's average.",
+              "Find salesman with more than one customer.",
+              "List salesman with and without customers using UNION.",
+              "Create a view showing salesman with highest order of the day.",
+              "Delete salesman with id 1000 and remove all related orders."
+            ]
+          },
+          {
+            set: "Experiment 4: Privileges and Transactions",
+            list: [
+              "Tables: Departments (dept_no, dept_name, dept_location), Employees (emp_id, emp_name, emp_salary, dept_no)",
+              "Grant all privileges on employees table.",
+              "Grant selective privileges on employees table.",
+              "Revoke all privileges.",
+              "Revoke selective privileges.",
+              "Implement SAVEPOINT in transactions."
+            ]
+          },
+          {
+            set: "Experiment 5: SQL Joins",
+            list: [
+              "Display employee and department details using INNER JOIN.",
+              "Display employee name and department name using LEFT OUTER JOIN.",
+              "Display employee name and department name using RIGHT OUTER JOIN.",
+              "Display employees with salary greater than average salary."
+            ]
+          },
+          {
+            set: "Experiment 6: Election Commission Database",
+            list: [
+              "Schema: CONSTITUENCY (cons_id, csname, csstate, no_of_voters), PARTY (pid, pname, psymbol), CANDIDATES (cand_id, name, age, state, phone_no), VOTER (vid, vname, vage, vaddr)",
+              "Find candidates contesting in more than one constituency in different states.",
+              "Display the state having maximum constituencies.",
+              "Create stored procedure to insert voter if age \u2265 18.",
+              "Create stored procedure to display number of voters in a constituency.",
+              "Create trigger to update voter count after voter insertion."
+            ]
+          },
+          {
+            set: "Experiment 7: Airline Flight Database",
+            list: [
+              "Schema: FLIGHTS (flno, distance, departs, arrives), AIRCRAFT (aid, aname, cruisingrange), CERTIFIED (eid, aid), EMPLOYEES (eid, ename, salary)",
+              "Find pilots certified for Boeing aircraft.",
+              "Find aircraft that can fly non-stop from Delhi to Mumbai.",
+              "Find pilots certified for aircraft with range greater than 3000 miles.",
+              "Find employees with highest and second highest salary.",
+              "Find pilots certified for largest number of aircraft.",
+              "Find total salary paid to employees."
+            ]
+          },
+          {
+            set: "Experiment 8: Cursor Implementation",
+            list: [
+              "Schema: Employee (E_id, E_name, Age, Salary)",
+              "Create a cursor to extract employee records.",
+              "Declare variables, open cursor, fetch values, and close cursor."
+            ]
+          },
+          {
+            set: "Experiment 9: Stored Procedure \u2013 Student Grading",
+            list: [
+              "Tables: Stud_Marks (Name, Total_Marks), Result (Roll, Name, Class)",
+              "Create stored procedure proc_Grade to categorize students based on marks.",
+              "Use PL/SQL block to call the procedure.",
+              "Classify students as Distinction, First Class, and Higher Second Class."
+            ]
+          },
+          {
+            set: "Experiment 10: PL/SQL Fine Calculation",
+            list: [
+              "Schema: Borrower (Rollin, Name, Date_of_Issue, Name_of_Book, Status), Fine (Roll_no, Date, Amt)",
+              "Accept Roll number and book name from user.",
+              "Calculate fine based on number of days after issue.",
+              "Update book status after submission.",
+              "Store fine details if applicable.",
+              "Use control structures and exception handling."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Computer Organization and Architecture Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "C / C++ Compiler (GCC / Dev C++ / Turbo C)",
+          "Java Development Kit (JDK)",
+          "NetBeans IDE / Eclipse IDE",
+          "Apache Tomcat (for Applet / Web support if required)",
+          "Hardware Simulation Tools (Logisim / Proteus)",
+          "Microsoft Office / LibreOffice for documentation"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Simulation and Design of Fast Multiplication and Division Programs: Design and simulate programs that perform fast multiplication and division operations to understand arithmetic processing and algorithm efficiency in computer systems.",
+              "Experiments using Hardware Training Kits: Perform experiments using hardware training kits to study the working and interfacing of devices such as floppy disk drives, dot matrix printers, and other peripheral components.",
+              "Dismantling and Assembling of a Personal Computer: Dismantle and assemble a PC system to study internal components including connections, ports, chipsets, SMPS, and other hardware parts. Draw and label the block diagram of the motherboard and other relevant boards.",
+              "Study Project on Hardware Technologies: Undertake a study project on various hardware technologies such as memory systems, serial bus, parallel bus, microprocessors, input/output devices, and motherboard architecture."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Design and Analysis of Algorithms Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "C / C++ Compiler (GCC / Dev C++ / Turbo C++)",
+          "Java Development Kit (JDK)",
+          "NetBeans IDE / Eclipse IDE",
+          "Graph Plotting Tools (GNU Plot / Excel / Python Matplotlib for analysis)",
+          "Microsoft Office / LibreOffice for documentation"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Selection Sort: Sort a given set of n integer elements using the Selection Sort method and compute its time complexity. Run the program for varied values of n > 5000 and record the time taken to sort. Plot a graph of time taken versus n.",
+              "Quick Sort: Sort a given set of n integer elements using the Quick Sort method and compute its time complexity. Run the program for varied values of n > 5000 and record the time taken to sort. Plot a graph of time taken versus n.",
+              "Merge Sort: Sort a given set of n integer elements using the Merge Sort method and compute its time complexity. Run the program for varied values of n > 5000 and record the time taken to sort. Plot a graph of time taken versus n.",
+              "Greedy Method \u2013 Knapsack Problem: Write a program to solve the Knapsack problem using the Greedy approach and demonstrate the selection of items based on maximum profit and weight constraints.",
+              "Dijkstra\u2019s Algorithm: Write a program to find the shortest path from a given vertex to all other vertices in a weighted connected graph using Dijkstra\u2019s algorithm.",
+              "Kruskal\u2019s Algorithm: Write a program to find the Minimum Cost Spanning Tree (MCST) of a connected undirected graph using Kruskal\u2019s algorithm with Union-Find techniques.",
+              "Prim\u2019s Algorithm: Write a program to find the Minimum Cost Spanning Tree (MCST) of a connected undirected graph using Prim\u2019s algorithm.",
+              "Dynamic Programming Problems: Write a program to solve the All-Pairs Shortest Path problem using Floyd\u2019s algorithm. Write a program to solve the Travelling Salesperson Problem using Dynamic Programming. Write a program to solve the 0/1 Knapsack problem using Dynamic Programming.",
+              "Subset Sum Problem: Design and implement a C++/Java program to find a subset of a given set S = {S1, S2, \u2026, Sn} of positive integers whose sum is equal to a given positive integer d.",
+              "Hamiltonian Cycle: Design and implement a program to find all Hamiltonian cycles in a connected undirected graph using the Backtracking technique."
+            ]
+          }
+        ]
+      },
+      { name: "Advanced Programming Lab", description: "Details and resources for the Advanced Programming Lab." },
+      { 
+        name: "Theory of Computation Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "JFLAP (Java Formal Languages and Automata Package)",
+          "Java Development Kit (JDK)",
+          "NetBeans IDE / Eclipse IDE (optional)",
+          "Text Editor or IDE for documentation"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Introduction to Automata Simulation Tools: Installation and familiarization with automata simulation tools such as JFLAP.",
+              "Design and Simulation of Deterministic Finite Automata (DFA): Construct DFA for given regular languages.",
+              "Design and Simulation of Non-Deterministic Finite Automata (NFA): Construct NFA for various regular languages. Convert the designed NFA into an equivalent DFA.",
+              "NFA with \u03B5-transitions: Design an NFA with epsilon (\u03B5) transitions for given regular expressions. Convert the \u03B5-NFA to an equivalent DFA.",
+              "Finite Automata with Output (Moore and Mealy Machines): Design Moore and Mealy machines for specific output requirements.",
+              "Context-Free Grammar (CFG) Design: Design CFGs for various context-free languages. Parse strings using the grammar and generate corresponding parse trees.",
+              "Pushdown Automata (PDA) Simulation: Design a PDA for specific context-free languages.",
+              "Turing Machine Design: Design and simulate a Turing machine to perform basic mathematical operations such as addition and subtraction."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Operating Systems Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Linux Distribution (Ubuntu / Fedora / CentOS)",
+          "GCC Compiler for C Programming",
+          "Linux Terminal / Bash Shell",
+          "Android Studio for Mobile Application Development",
+          "Text Editor / IDE (VS Code / Code::Blocks / Sublime Text)"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Installation of Operating System: Install and configure an operating system (Linux/Windows) and study the basic system environment.",
+              "Linux Administrative Commands: Practice common Linux administrative commands for file management, process monitoring, and system administration.",
+              "UNIX Shell Programming: Write and execute shell scripts to automate basic system tasks and operations.",
+              "Process Management using System Calls: Write programs demonstrating system calls such as fork(), exit(), getpid(), wait(), and close().",
+              "Synchronization Problems: Implement classical synchronization problems such as Dining Philosophers, Cigarette Smokers, or Sleeping Barber problems.",
+              "CPU Scheduling Algorithms: Simulate CPU scheduling algorithms such as First Come First Serve (FCFS), Round Robin (RR), and Shortest Job First (SJF).",
+              "Banker\u2019s Algorithm: Simulate Banker\u2019s Algorithm for deadlock avoidance and analyze system resource allocation.",
+              "Page Replacement Algorithms: Write programs to simulate page replacement algorithms such as FIFO, LRU, and Optimal.",
+              "Thread Programming: Write C programs to implement multithreading and demonstrate concurrent execution.",
+              "Paging Scheme Implementation: Implement a paging scheme using C programming to demonstrate memory management techniques.",
+              "Memory Allocation Methods: Write C programs to implement memory allocation techniques: First Fit, Worst Fit, Best Fit.",
+              "Android Programming: Develop a basic Android mobile application to understand mobile operating system concepts."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Machine Learning Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Linux (Ubuntu) \u2013 optional for development",
+          "Python 3.x",
+          "Anaconda Distribution",
+          "Jupyter Notebook / Google Colab",
+          "Python Libraries: NumPy, Pandas, Matplotlib, Seaborn",
+          "Machine Learning Libraries: Scikit-learn",
+          "Deep Learning Libraries: TensorFlow / PyTorch",
+          "IDE: VS Code / PyCharm / Jupyter Notebook"
+        ],
+        experiments: [
+          {
+            set: "Lab Assignments",
+            list: [
+              "Introduction to Python Programming: Install Python and set up Anaconda. Write basic Python scripts including loops, conditional statements, and functions.",
+              "Introduction to Machine Learning Libraries using Python: Overview of commonly used libraries for machine learning and data analysis.",
+              "Working with NumPy, Matplotlib, and Pandas: NumPy: Perform matrix operations, loops, and conditional computations. Matplotlib: Create and customize plots and visualizations. Pandas: Load, explore, and summarize datasets.",
+              "Statistical Analysis using Python: Write a Python program to find the mean, median, mode, variance, and standard deviation of a list of numbers.",
+              "Overview of Machine Learning Frameworks: Study the features and applications of Scikit-learn, TensorFlow, and PyTorch libraries.",
+              "Linear Regression: Implement the Linear Regression algorithm using Python.",
+              "Logistic Regression: Implement the Logistic Regression algorithm for classification tasks.",
+              "k-Nearest Neighbors (k-NN): Implement the k-NN algorithm and analyze classification results.",
+              "Decision Tree: Implement the Decision Tree algorithm for classification or prediction.",
+              "Random Forest: Implement the Random Forest algorithm and evaluate model performance.",
+              "Support Vector Machine (SVM): Implement the Support Vector Machine algorithm for classification tasks.",
+              "Principal Component Analysis (PCA): Implement PCA for dimensionality reduction and visualization of datasets.",
+              "K-Means Clustering: Implement the K-Means clustering algorithm to group similar data points.",
+              "Real-World Applications: Image Classification, Text Classification, Regression Problems (e.g., Housing Price Prediction)."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Project for Product Development Lab", 
+        description: "The course is organized as an independent project-based learning activity conducted in teams of 4\u20135 students. Each team is responsible for developing a product idea from concept to a stage where it is ready for potential market launch for a specific organization or business context.",
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Microsoft Office / LibreOffice for documentation and presentations",
+          "Project Management Tools (MS Project / Trello / Asana)",
+          "Data Analysis Tools (Excel / Google Sheets / Python-based tools)",
+          "Presentation Tools (PowerPoint / Google Slides)",
+          "Internet and Market Research Tools"
+        ],
+        experiments: []
+      },
+      { 
+        name: "Compiler Design Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Linux Distribution (Ubuntu / Fedora / CentOS) for compiler tools",
+          "LEX / FLEX (Lexical Analyzer Generator)",
+          "YACC / Bison (Parser Generator)",
+          "GCC (C Compiler)",
+          "Linux Environment or Compatible Terminal Emulator (Cygwin / Ubuntu WSL)",
+          "Text Editor / IDE (VS Code / Sublime Text / Vim)"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Implementation of Lexical Analyzer using LEX: Tokenization of a simple program. Handling identifiers, keywords, numbers, and operators.",
+              "Design of Syntax Analyzer using YACC: Parsing arithmetic expressions. Parsing conditional and looping constructs such as if-else and while statements.",
+              "Removing Left Recursion and Left Factoring: Manual implementation of algorithms for eliminating left recursion and left factoring in grammars.",
+              "Implementation of Predictive Parser (LL(1)): Construct parsing table and simulate the parsing process.",
+              "Implementation of Shift-Reduce Parser: Simulate stack operations used in shift-reduce parsing.",
+              "Syntax Directed Translation: Construction of Abstract Syntax Trees (AST) for expressions.",
+              "Intermediate Code Generation: Generate three-address code for arithmetic expressions. Implement backpatching for boolean expressions and control flow statements.",
+              "Design and Implementation of Symbol Table: Implement operations such as insertion, lookup, and scope management.",
+              "Implementation of Type Checking and Type Conversion.",
+              "Basic Code Optimization Techniques: Constant folding. Dead code elimination. Strength reduction.",
+              "Simulation of Runtime Environment: Activation record structure. Stack management for function calls.",
+              "Mini Project: Development of a Simple Compiler: Design a compiler for a subset of a programming language."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Software Engineering Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Linux Distribution (Ubuntu) \u2013 optional",
+          "UML Modeling Tools (StarUML / Visual Paradigm / Lucidchart)",
+          "Diagram Design Tools (Draw.io / Creately)",
+          "Project Management Tools (MS Project / Trello)",
+          "Testing Tools (Selenium / JUnit / TestNG or other open-source testing tools)",
+          "Documentation Tools (MS Word / Google Docs)"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Analysis and Identification of Suitable Process Models: Study and analyze different software process models such as Waterfall, Spiral, Agile, and Incremental models.",
+              "Work Breakdown Structure (WBS) and Estimation: Develop Work Breakdown Structures based on Process-Based, Product-Based, Geographic-Based, and Role-Based structures.",
+              "Requirement Modeling \u2013 Structural Modeling: Develop an Entity Relationship (ER) Diagram to represent the structural aspects of the system.",
+              "Requirement Modeling \u2013 Functional Modeling: Develop Context Flow Diagrams and Data Flow Diagrams (DFD) to represent system functionality.",
+              "Requirement Modeling \u2013 Behavioral Modeling: Create State Transition Diagrams to illustrate system behavior and state changes.",
+              "Object-Oriented Design \u2013 Use Case and Class Models: Design UML diagrams including Use Case Diagrams and Class Diagrams.",
+              "Object-Oriented Design \u2013 Interaction Models: Develop interaction diagrams such as Sequence Diagrams and Communication Diagrams.",
+              "Object-Oriented Design \u2013 Architectural Models: Create Package Diagrams, Component Diagrams, and Deployment Diagrams.",
+              "Software Testing: Design and demonstrate test cases including Functional Testing and Non-Functional Testing using open-source testing tools.",
+              "Storyboarding and User Interface Design: Design storyboards and user interface models to represent layout, navigation, and user interaction flow."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+,
+
+  "computer-science-engineering-ai-ml": {
+    name: "Computer Science & Engineering (AI & ML)",
+
+    meta: {
+      title: "Computer Science & Engineering (AI & ML) — Trident Academy of Technology",
+      description: "Department of Computer Science & Engineering (AI & ML) at Trident Academy of Technology.",
+    },
+
+    theme: {
+      primary: "text-[#059669]",
+      bgPrimary: "bg-[#059669]",
+      borderPrimary: "border-[#059669]",
+      borderPrimary10: "border-[#059669]/10",
+      bgPrimary10: "bg-[#059669]/10",
+      hoverTextPrimary: "hover:text-[#059669]",
+      hoverBgPrimary: "hover:bg-[#059669]",
+      shadowPrimary20: "shadow-[#059669]/20",
+      accent: "text-[#D97706]",
+      bgAccent: "bg-[#D97706]",
+      secondary: "text-[#059669]",
+      gradient: "from-[#022C22]/95 via-[#064E3B]/90 to-[#047857]/80",
+      btn: "bg-[#10B981]",
+      btnHover: "hover:bg-[#047857]",
+    },
+
+    hero: {
+      titleLine1: "Computer Science &",
+      titleLine2: "Engineering (AI & ML)",
+      subtitle: "Preparing students for future-ready careers in the rapidly evolving field of technology.",
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=2000",
+      breadcrumb: "Computer Science & Engineering (AI & ML)",
+      stats: [
+        { label: "B.Tech Seats", value: "120" },
+      ],
+    },
+
+    sidebar: {
+      heading: "COMPUTER SCIENCE &\nTECHNOLOGY",
+      items: [
+        { id: "overview", label: "Department Overview", icon: "BookOpen", href: "/computer-science-engineering-ai-ml/overview" },
+        { id: "syllabus", label: "Syllabus", icon: "Layers", href: "/computer-science-engineering-ai-ml/syllabus" },
+        { id: "faculties", label: "Faculty", icon: "Users", href: "/computer-science-engineering-ai-ml/faculties" },
+        { id: "laboratories", label: "Laboratories", icon: "Beaker", href: "/computer-science-engineering-ai-ml/laboratories" },
+        { id: "question-bank", label: "Question Bank", icon: "FileText", href: "/computer-science-engineering-ai-ml/question-bank" },
+      ],
+    },
+
+    overview: {
+      paragraphs: [
+        "The B.Tech in Computer Science & Engineering (AI & ML) (CST) program is designed to equip students with a robust foundation in computer science and the practical skills necessary to navigate and shape the future of technology.",
+        "With an emphasis on modern computing paradigms, the department offers a comprehensive curriculum that covers both foundational concepts and emerging technologies. Our students benefit from state-of-the-art laboratories and a faculty dedicated to fostering innovation and excellence.",
+        "Initially, the Department was started with an intake capacity of 60 and subsequently escalated its intake capacity to meet the global requirement. The department has a good number of faculty members with M.Tech/Ph.D qualification.",
+        "In order to cope up with the changing need of the industry as well as academia, the Department of CST at present offers following programme variants with unique philosophies and objectives:",
+      ],
+      tabs: [
+        {
+          id: 'vision',
+          label: 'Vision',
+          content: 'To be a centre of excellence in Computer Science Engineering by imparting quality education, fostering innovation and cultivating ethical professionals to meet the evolving global challenges.',
+        },
+        {
+          id: 'mission',
+          label: 'Mission',
+          content: 'M1. Provide quality education to build students strong expertise in software development, profound sense of hardware design and problem-solving skills to address global needs through innovation.\n\nM2. Foster well-disciplined leadership quality, a strong sense of responsibility and ethical values for impactful professional growth.\n\nM3. Encourage innovation, research and adaptability to tackle global challenges with sustainable technological proficiency.',
+        },
+        {
+          id: 'peo',
+          label: 'PEO',
+          content: 'PEO-1. To develop competent computer professionals to solve computer science related problems through their strong problem-solving skills using efficient algorithms.\nKeyword: Problem-solving skills.\n\nPEO-2. To develop strong leadership qualities in students, enhancing their skillsets for solving real-world problems.\nKeywords: Leadership Quality.\n\nPEO-3. To develop students as ethical engineers with strong managerial skill, communication skill, interpersonal skills, self-esteem, and stress management for future leadership.\nKeywords: Ethical Ability.\n\nPEO-4. To motivate students to pursue higher studies, research & entrepreneurship in emerging technologies with expert guidance from industry and academia.\nKeywords: Motivation for Higher studies, Research & Entrepreneurship.',
+        },
+        {
+          id: 'po',
+          label: 'PO',
+          content: '1. Engineering Knowledge: Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.\n\n2. Problem Analysis: Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences and engineering sciences.\n\n3. Design/Development of Solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate considerations for the public health and safety and the cultural, societal and environmental considerations.\n\n4. Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.\n\n5. Modern tool Usage: Create, select and apply appropriate techniques, resources and modern engineering and IT tools including prediction and modelling to complex engineering activities with an understanding of the limitations.\n\n6. The Engineer and Society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.\n\n7. Environment and Sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts and demonstrate the knowledge of and need for sustainable development.\n\n8. Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.\n\n9. Individual and Team Work: Function effectively as an individual, and as a member or leader in diverse teams and in multidisciplinary settings.\n\n10. Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.\n\n11. Project Management and Finance: Demonstrate knowledge and understanding of engineering and management principle and apply these to one\'s own work as member and leader in team to manage projects and in multidisciplinary environments.\n\n12. Life-long Learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.',
+        },
+        {
+          id: 'pso',
+          label: 'PSO',
+          content: 'PSO1: Enterprise Software Development – Design, develop, test, and maintain software systems for enterprises and specialized domains, aligning with industry needs.\n\nPSO2: Advanced Computing Expertise – Gain proficiency in advanced computing and programming to build intelligent and efficient solutions.\n\nPSO3: Legacy System Enhancement – Maintain, optimize, and modernize legacy computing systems for sustained usability and integration.',
+        },
+        {
+          id: 'lo',
+          label: 'LO',
+          content: 'Learning Outcomes (LOs)\n\nLO-1. Acquire knowledge of advanced computing skill and programming expertise.\n\nLO-2. Capability to design, build, evaluate, and sustain software systems for business and enterprise applications.\n\nLO-3. Ability to develop, test and maintain Software Systems for Specific Application Domain and as per the industry need.\n\nLO-4. Develop expertise to maintain and extend usability of legacy computer systems.',
+        }
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=600"
+      ]
+    },
+
+    questionBank: {
+      years: [
+        { 
+          id: "1st-year", 
+          label: "1st Year", 
+          color: "bg-[#B894B7]", 
+          subjects: [] 
+        },
+        { 
+          id: "2nd-year", 
+          label: "2nd Year", 
+          color: "bg-[#5B50C2]", 
+          subjects: [] 
+        },
+        { 
+          id: "3rd-year", 
+          label: "3rd Year", 
+          color: "bg-[#D18E47]", 
+          subjects: [
+            { name: "DATABASE MANAGEMENT SYSTEMS", href: "#" },
+            { name: "OPERATING SYSTEM", href: "#" },
+            { name: "COMPILER DESIGN", href: "#" },
+            { name: "FLAT-SET-1", href: "#" },
+            { name: "FLAT SET-2", href: "#" },
+            { name: "COMPUTER GRAPHICS", href: "#" },
+            { name: "DATA COMMUNICATION", href: "#" }
+          ] 
+        },
+        { 
+          id: "4th-year", 
+          label: "4th Year", 
+          color: "bg-[#C3594B]", 
+          subjects: [] 
+        },
+      ],
+      previousSemester: {
+        label: "Previous Semester Questions",
+        href: "https://drive.google.com/drive/folders/1VS1tfkMdzFSkDXX0NKdquVs8iGugrFpW"
+      }
+    },
+
+    syllabus: [
+      {
+        program: "B.TECH.",
+        years: [
+          {
+            title: "SYLLABUS FOR FIRST YEAR",
+            buttons: [
+              { label: "VIEW / DOWNLOAD 1ST YEAR SYLLABUS", href: "#" }
+            ]
+          },
+          {
+            title: "SYLLABUS FOR SECOND YEAR",
+            buttons: [
+              { label: "VIEW / DOWNLOAD 3RD SEM SYLLABUS", href: "#" },
+              { label: "VIEW / DOWNLOAD 4TH SEM SYLLABUS", href: "#" }
+            ]
+          },
+          {
+            title: "SYLLABUS FOR THIRD YEAR",
+            buttons: [
+              { label: "VIEW / DOWNLOAD 5TH SEM SYLLABUS", href: "#" },
+              { label: "VIEW / DOWNLOAD 6TH SEM SYLLABUS", href: "#" }
+            ]
+          },
+          {
+            title: "SYLLABUS FOR FOURTH YEAR",
+            buttons: [
+              { label: "VIEW / DOWNLOAD 4TH YEAR SYLLABUS", href: "#" }
+            ]
+          }
+        ]
+      }
+    ],
+
+    programmes: [
+      {
+        title: "B.Tech in Computer Science & Engineering (AI & ML) (CST)",
+        seats: "120 Seats",
+        details: "4-Year Full-Time Programme",
+        sections: [
+          {
+            text: "The B.Tech (AI & ML) program prepares students for dynamic roles in the technology sector, focusing on the latest advancements and practical applications."
+          },
+          {
+            text: "Students will explore a wide range of topics, including software development, systems architecture, network security, and intelligent systems, ensuring they are well-prepared for diverse career opportunities."
+          }
+        ]
+      }
+    ],
+
+    laboratories: [
+      { 
+        name: "Programming Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Dev C++ IDE",
+          "Code::Blocks IDE",
+          "Windows 10 Education Operating System"
+        ],
+        experiments: [
+          {
+            set: "Experiment Set 1",
+            list: [
+              "Write a program to print your Bio-data.",
+              "Write a program in C to test the arithmetic operators.",
+              "Write a program to find Simple Interest and Compound Interest."
+            ]
+          },
+          {
+            set: "Experiment Set 2",
+            list: [
+              "Test logical, bitwise, unary and ternary operators.",
+              "Check whether a given year is a leap year.",
+              "Calculate salary statement of an employee using basic pay, DA, HRA and TA."
+            ]
+          },
+          {
+            set: "Experiment Set 3",
+            list: [
+              "Enter marks of 4 subjects and calculate Total, Aggregate %, and Grade.",
+              "Display the day of the week using switch case.",
+              "Menu driven program to find total, average, smallest and largest."
+            ]
+          },
+          {
+            set: "Experiment Set 4",
+            list: [
+              "Check whether a number is palindrome.",
+              "Generate prime numbers between two numbers.",
+              "Print a pyramid star pattern."
+            ]
+          },
+          {
+            set: "Experiment Set 5",
+            list: [
+              "Find largest, smallest, sum and average of an array.",
+              "Sort an array in ascending order.",
+              "Insert an element in an array at a desired position."
+            ]
+          },
+          {
+            set: "Experiment Set 6",
+            list: [
+              "Swap two variables using function.",
+              "Print Fibonacci series using function.",
+              "Multiply two matrices using functions."
+            ]
+          },
+          {
+            set: "Experiment Set 7",
+            list: [
+              "Find GCD using recursion.",
+              "Store and display student data using structure.",
+              "Check string palindrome using pointer."
+            ]
+          },
+          {
+            set: "Experiment Set 8",
+            list: [
+              "Find smallest element and position using pointer.",
+              "Implement realloc() and free().",
+              "Demonstrate Dynamic Memory Allocation."
+            ]
+          },
+          {
+            set: "Experiment Set 9",
+            list: [
+              "Implement Linked List insertion and deletion.",
+              "Implement Stack Push and Pop.",
+              "Implement Queue insertion and deletion."
+            ]
+          },
+          {
+            set: "Experiment Set 10",
+            list: [
+              "Implement Quick Sort.",
+              "Implement Linear Search.",
+              "Implement Binary Search."
+            ]
+          }
+        ],
+        images: [
+          "/images/programming-lab-img-1.jpeg",
+          "/images/programming-lab-img-2.jpeg"
+        ]
+      },
+      { 
+        name: "Data Structures Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Dev C++ IDE",
+          "Code::Blocks IDE",
+          "Windows 10 Education Operating System"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Write a C program to implement a Sparse Matrix.",
+              "Create a Stack using an Array and perform PUSH, POP and Traversal operations.",
+              "Create a Queue using an Array and perform Insertion, Deletion and Traversal.",
+              "Perform Creation, Insertion, Deletion and Traversal on a Single Linked List using functions.",
+              "Perform Creation, Insertion, Deletion and Traversal on a Doubly Linked List using functions.",
+              "Perform Creation, Insertion and Deletion operations on a Binary Tree.",
+              "Write a C program to perform Bubble Sort.",
+              "Write a C program to perform Insertion Sort.",
+              "Write a C program to perform Selection Sort.",
+              "Write a C program to perform Quick Sort.",
+              "Write a C program to perform Merge Sort.",
+              "Write a C program to implement Linear Search.",
+              "Write a C program to implement Binary Search."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Object Oriented Programming Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Java Development Kit (JDK)",
+          "NetBeans IDE / Eclipse IDE",
+          "Apache Tomcat (for Applet / Web support if required)",
+          "Windows 10 Education Operating System"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Write a Java program to print \u201CHello World!\u201D.",
+              "Write a program to demonstrate data types, variables, operators, arrays, and control structures.",
+              "Write a program to define a class and constructors and demonstrate constructor usage.",
+              "Write a program to define class, methods, and objects and demonstrate method overloading.",
+              "Write a program to demonstrate inheritance and method overriding.",
+              "Write a program to demonstrate Packages in Java.",
+              "Write a program to demonstrate Exception Handling.",
+              "Write a program to demonstrate Multithreading.",
+              "Write a program to demonstrate Applet structure and event handling.",
+              "Write a program to demonstrate different Layout Managers in Java."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Web and Application Development Lab", 
+        description: "The configuration supports the development and execution of web applications, front-end technologies, backend programming, and deployment activities required for the laboratory exercises and projects.",
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Java Development Kit (JDK)",
+          "NetBeans IDE / Eclipse IDE",
+          "Apache Tomcat Server (for Applet / Web Application support)",
+          "Node.js and npm (for JavaScript runtime and package management)",
+          "Visual Studio Code or any Code Editor",
+          "Git and GitHub Desktop (for version control and collaboration)",
+          "Postman (for API testing)",
+          "Google Chrome / Mozilla Firefox Web Browser"
+        ],
+        experiments: [
+          {
+            set: "Introduction to Web Development with HTML, CSS, JavaScript",
+            list: [
+              "Intro to HTML (JSFiddle): Explore the components of an HTML file including HTML markup, CSS styling, and JavaScript code.",
+              "HTML \u2013 Creating a Simple Web Page: Create a web page for the fan club of IBM founder Thomas J. Watson Sr.",
+              "Unit Conversion using HTML5 Structural Elements: Create a Unit Converter web page that converts Temperature from Celsius to Fahrenheit, Weight from Kilograms to Pounds, Distance from Kilometers to Miles.",
+              "CSS Basics \u2013 Styling Your Web Page: Create a webpage on the Solar System and learn to create a basic webpage, specify font family and size, use colors for styling, create borders.",
+              "JavaScript: Create an HTML form that uses JavaScript to validate user input and dynamically update webpage content.",
+              "JavaScript \u2013 Browser Console: Practice JavaScript concepts using the browser console.",
+              "Simple Interest Calculator: Develop a calculator by modifying HTML, CSS, and JavaScript files and verifying webpage functionality.",
+              "Single Page Portfolio Website: Create a portfolio website with sections About Me, Skills, Projects, Recommendations.",
+              "Publish your Portfolio to GitHub Pages: Publish your portfolio website using GitHub Pages static hosting service."
+            ]
+          },
+          {
+            set: "Getting Started with Git and GitHub",
+            list: [
+              "GitHub Sign Up and Create Repo: Create a GitHub account, create a repository, and add files using the GitHub interface.",
+              "Getting Started with Branches using Git Commands: Use Git commands in a cloud IDE to create and manage branches.",
+              "Cloning and Forking GitHub Projects: Learn to fork repositories, clone them locally, create branches, commit changes, and submit pull requests.",
+              "Practice Project Overview: Manage development and deployment of a shipping calculator web application using GitHub collaboration features.",
+              "Practice Project Part 1 \u2013 GitHub UI: Create repository with README, license, Code of Conduct, and Contribution Guidelines.",
+              "Practice Project Part 2 \u2013 Git CLI: Fork repository, edit code using Git CLI, add files, and submit pull request.",
+              "Final Project Part 1 \u2013 GitHub UI: Create repository, choose license, add README, Code of Conduct, Contribution Guidelines and commit files."
+            ]
+          },
+          {
+            set: "Developing Front-End Apps with React",
+            list: [
+              "Content Rating Application: Create a React component that allows users to like or dislike content and track ratings.",
+              "Function Component Event Planner Landing Page: Create a React landing page for an event planning organization with sections for features, testimonials, and contact form.",
+              "Fetch Data Using useFetch: Use React hooks (useState, useEffect) and a custom hook to fetch and display data dynamically.",
+              "Create Feedback Form for Survey: Create a feedback form with validation, confirmation dialog, and submission handling using React.",
+              "Practice Project - Conference Event Planner: Develop an application for selecting conference rooms, equipment, and meals for events."
+            ]
+          },
+          {
+            set: "Developing Back-End Apps with Node.js and Express",
+            list: [
+              "First Server with Server-Side JavaScript: Create and run a Node.js web server and access it from a client.",
+              "Promises and Callback: Create a Node.js application using promise callbacks.",
+              "Async Callback Programming: Understand asynchronous callbacks and implement them in Node.js.",
+              "CRUD Operations with Node.js and Express: Create a Friends List application with Create, Retrieve, Update, Delete operations and test endpoints with Postman.",
+              "Express Server: Create an Express server, use middleware and JWT authentication, and render static HTML pages.",
+              "Friends List Application Using Express Server with JWT: Secure CRUD operations with JWT authentication and test APIs using Postman.",
+              "Book Review Application: Build a server-side book review application."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Database Engineering Lab", 
+        description: "The objective of this laboratory is to provide hands-on experience in designing, implementing, and manipulating relational databases using SQL and PL/SQL. Students will learn database schema design, query processing, views, triggers, procedures, joins, and transaction control statements.",
+        equipments: [
+          "Processor : Intel Core i3 / higher",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Operating System : Windows 10 / Linux"
+        ],
+        software: [
+          "Oracle Database / MySQL",
+          "SQL Developer / MySQL Workbench",
+          "Command Line SQL Client"
+        ],
+        experiments: [
+          {
+            set: "Experiment 1: Library Database",
+            list: [
+              "Consider the following schema: BOOK (Book_id, Title, Publisher_Name, Pub_Year), BOOK_AUTHORS (Book_id, Author_Name), PUBLISHER (Name, Address, Phone), BOOK_COPIES (Book_id, Programme_id, No_of_Copies), BOOK_LENDING (Book_id, Programme_id, Card_No, Date_Out, Due_Date), LIBRARY_PROGRAMME (Programme_id, Programme_Name, Address)",
+              "Retrieve details of all books in the library including title, publisher, authors and number of copies.",
+              "Get the borrowers who borrowed more than 3 books between Jan 2025 and Jun 2025.",
+              "Delete a book from BOOK table and update related tables.",
+              "Partition BOOK table based on publication year.",
+              "Create a view showing available books and number of copies."
+            ]
+          },
+          {
+            set: "Experiment 2: College Database",
+            list: [
+              "Schema: STUDENT (REGNO, SName, Address, Phone, Gender), SEMSEC (SSID, Sem, Sec), CLASS (REGNO, SSID), COURSE (Subcode, Title, Sem, Credits), IAMARKS (REGNO, Subcode, SSID, Test1, Test2, Test3, FinalIA)",
+              "List student details studying in 4th semester C section.",
+              "Compute number of male and female students in each semester and section.",
+              "Create a view for Test1 marks of student REGNO '1BP22CS101'.",
+              "Calculate FinalIA as average of best two tests.",
+              "Categorize students as Outstanding, Average, and Weak based on FinalIA."
+            ]
+          },
+          {
+            set: "Experiment 3: Order Database",
+            list: [
+              "Schema: SALESMAN (Salesman_id, Name, City, Commission), CUSTOMER (Customer_id, Cust_Name, City, Grade, Salesman_id), ORDERS (Ord_No, Purchase_Amt, Ord_Date, Customer_id, Salesman_id)",
+              "Count customers with grades above Bangalore's average.",
+              "Find salesman with more than one customer.",
+              "List salesman with and without customers using UNION.",
+              "Create a view showing salesman with highest order of the day.",
+              "Delete salesman with id 1000 and remove all related orders."
+            ]
+          },
+          {
+            set: "Experiment 4: Privileges and Transactions",
+            list: [
+              "Tables: Departments (dept_no, dept_name, dept_location), Employees (emp_id, emp_name, emp_salary, dept_no)",
+              "Grant all privileges on employees table.",
+              "Grant selective privileges on employees table.",
+              "Revoke all privileges.",
+              "Revoke selective privileges.",
+              "Implement SAVEPOINT in transactions."
+            ]
+          },
+          {
+            set: "Experiment 5: SQL Joins",
+            list: [
+              "Display employee and department details using INNER JOIN.",
+              "Display employee name and department name using LEFT OUTER JOIN.",
+              "Display employee name and department name using RIGHT OUTER JOIN.",
+              "Display employees with salary greater than average salary."
+            ]
+          },
+          {
+            set: "Experiment 6: Election Commission Database",
+            list: [
+              "Schema: CONSTITUENCY (cons_id, csname, csstate, no_of_voters), PARTY (pid, pname, psymbol), CANDIDATES (cand_id, name, age, state, phone_no), VOTER (vid, vname, vage, vaddr)",
+              "Find candidates contesting in more than one constituency in different states.",
+              "Display the state having maximum constituencies.",
+              "Create stored procedure to insert voter if age \u2265 18.",
+              "Create stored procedure to display number of voters in a constituency.",
+              "Create trigger to update voter count after voter insertion."
+            ]
+          },
+          {
+            set: "Experiment 7: Airline Flight Database",
+            list: [
+              "Schema: FLIGHTS (flno, distance, departs, arrives), AIRCRAFT (aid, aname, cruisingrange), CERTIFIED (eid, aid), EMPLOYEES (eid, ename, salary)",
+              "Find pilots certified for Boeing aircraft.",
+              "Find aircraft that can fly non-stop from Delhi to Mumbai.",
+              "Find pilots certified for aircraft with range greater than 3000 miles.",
+              "Find employees with highest and second highest salary.",
+              "Find pilots certified for largest number of aircraft.",
+              "Find total salary paid to employees."
+            ]
+          },
+          {
+            set: "Experiment 8: Cursor Implementation",
+            list: [
+              "Schema: Employee (E_id, E_name, Age, Salary)",
+              "Create a cursor to extract employee records.",
+              "Declare variables, open cursor, fetch values, and close cursor."
+            ]
+          },
+          {
+            set: "Experiment 9: Stored Procedure \u2013 Student Grading",
+            list: [
+              "Tables: Stud_Marks (Name, Total_Marks), Result (Roll, Name, Class)",
+              "Create stored procedure proc_Grade to categorize students based on marks.",
+              "Use PL/SQL block to call the procedure.",
+              "Classify students as Distinction, First Class, and Higher Second Class."
+            ]
+          },
+          {
+            set: "Experiment 10: PL/SQL Fine Calculation",
+            list: [
+              "Schema: Borrower (Rollin, Name, Date_of_Issue, Name_of_Book, Status), Fine (Roll_no, Date, Amt)",
+              "Accept Roll number and book name from user.",
+              "Calculate fine based on number of days after issue.",
+              "Update book status after submission.",
+              "Store fine details if applicable.",
+              "Use control structures and exception handling."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Computer Organization and Architecture Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "C / C++ Compiler (GCC / Dev C++ / Turbo C)",
+          "Java Development Kit (JDK)",
+          "NetBeans IDE / Eclipse IDE",
+          "Apache Tomcat (for Applet / Web support if required)",
+          "Hardware Simulation Tools (Logisim / Proteus)",
+          "Microsoft Office / LibreOffice for documentation"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Simulation and Design of Fast Multiplication and Division Programs: Design and simulate programs that perform fast multiplication and division operations to understand arithmetic processing and algorithm efficiency in computer systems.",
+              "Experiments using Hardware Training Kits: Perform experiments using hardware training kits to study the working and interfacing of devices such as floppy disk drives, dot matrix printers, and other peripheral components.",
+              "Dismantling and Assembling of a Personal Computer: Dismantle and assemble a PC system to study internal components including connections, ports, chipsets, SMPS, and other hardware parts. Draw and label the block diagram of the motherboard and other relevant boards.",
+              "Study Project on Hardware Technologies: Undertake a study project on various hardware technologies such as memory systems, serial bus, parallel bus, microprocessors, input/output devices, and motherboard architecture."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Design and Analysis of Algorithms Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "C / C++ Compiler (GCC / Dev C++ / Turbo C++)",
+          "Java Development Kit (JDK)",
+          "NetBeans IDE / Eclipse IDE",
+          "Graph Plotting Tools (GNU Plot / Excel / Python Matplotlib for analysis)",
+          "Microsoft Office / LibreOffice for documentation"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Selection Sort: Sort a given set of n integer elements using the Selection Sort method and compute its time complexity. Run the program for varied values of n > 5000 and record the time taken to sort. Plot a graph of time taken versus n.",
+              "Quick Sort: Sort a given set of n integer elements using the Quick Sort method and compute its time complexity. Run the program for varied values of n > 5000 and record the time taken to sort. Plot a graph of time taken versus n.",
+              "Merge Sort: Sort a given set of n integer elements using the Merge Sort method and compute its time complexity. Run the program for varied values of n > 5000 and record the time taken to sort. Plot a graph of time taken versus n.",
+              "Greedy Method \u2013 Knapsack Problem: Write a program to solve the Knapsack problem using the Greedy approach and demonstrate the selection of items based on maximum profit and weight constraints.",
+              "Dijkstra\u2019s Algorithm: Write a program to find the shortest path from a given vertex to all other vertices in a weighted connected graph using Dijkstra\u2019s algorithm.",
+              "Kruskal\u2019s Algorithm: Write a program to find the Minimum Cost Spanning Tree (MCST) of a connected undirected graph using Kruskal\u2019s algorithm with Union-Find techniques.",
+              "Prim\u2019s Algorithm: Write a program to find the Minimum Cost Spanning Tree (MCST) of a connected undirected graph using Prim\u2019s algorithm.",
+              "Dynamic Programming Problems: Write a program to solve the All-Pairs Shortest Path problem using Floyd\u2019s algorithm. Write a program to solve the Travelling Salesperson Problem using Dynamic Programming. Write a program to solve the 0/1 Knapsack problem using Dynamic Programming.",
+              "Subset Sum Problem: Design and implement a C++/Java program to find a subset of a given set S = {S1, S2, \u2026, Sn} of positive integers whose sum is equal to a given positive integer d.",
+              "Hamiltonian Cycle: Design and implement a program to find all Hamiltonian cycles in a connected undirected graph using the Backtracking technique."
+            ]
+          }
+        ]
+      },
+      { name: "Advanced Programming Lab", description: "Details and resources for the Advanced Programming Lab." },
+      { 
+        name: "Theory of Computation Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "JFLAP (Java Formal Languages and Automata Package)",
+          "Java Development Kit (JDK)",
+          "NetBeans IDE / Eclipse IDE (optional)",
+          "Text Editor or IDE for documentation"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Introduction to Automata Simulation Tools: Installation and familiarization with automata simulation tools such as JFLAP.",
+              "Design and Simulation of Deterministic Finite Automata (DFA): Construct DFA for given regular languages.",
+              "Design and Simulation of Non-Deterministic Finite Automata (NFA): Construct NFA for various regular languages. Convert the designed NFA into an equivalent DFA.",
+              "NFA with \u03B5-transitions: Design an NFA with epsilon (\u03B5) transitions for given regular expressions. Convert the \u03B5-NFA to an equivalent DFA.",
+              "Finite Automata with Output (Moore and Mealy Machines): Design Moore and Mealy machines for specific output requirements.",
+              "Context-Free Grammar (CFG) Design: Design CFGs for various context-free languages. Parse strings using the grammar and generate corresponding parse trees.",
+              "Pushdown Automata (PDA) Simulation: Design a PDA for specific context-free languages.",
+              "Turing Machine Design: Design and simulate a Turing machine to perform basic mathematical operations such as addition and subtraction."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Operating Systems Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Linux Distribution (Ubuntu / Fedora / CentOS)",
+          "GCC Compiler for C Programming",
+          "Linux Terminal / Bash Shell",
+          "Android Studio for Mobile Application Development",
+          "Text Editor / IDE (VS Code / Code::Blocks / Sublime Text)"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Installation of Operating System: Install and configure an operating system (Linux/Windows) and study the basic system environment.",
+              "Linux Administrative Commands: Practice common Linux administrative commands for file management, process monitoring, and system administration.",
+              "UNIX Shell Programming: Write and execute shell scripts to automate basic system tasks and operations.",
+              "Process Management using System Calls: Write programs demonstrating system calls such as fork(), exit(), getpid(), wait(), and close().",
+              "Synchronization Problems: Implement classical synchronization problems such as Dining Philosophers, Cigarette Smokers, or Sleeping Barber problems.",
+              "CPU Scheduling Algorithms: Simulate CPU scheduling algorithms such as First Come First Serve (FCFS), Round Robin (RR), and Shortest Job First (SJF).",
+              "Banker\u2019s Algorithm: Simulate Banker\u2019s Algorithm for deadlock avoidance and analyze system resource allocation.",
+              "Page Replacement Algorithms: Write programs to simulate page replacement algorithms such as FIFO, LRU, and Optimal.",
+              "Thread Programming: Write C programs to implement multithreading and demonstrate concurrent execution.",
+              "Paging Scheme Implementation: Implement a paging scheme using C programming to demonstrate memory management techniques.",
+              "Memory Allocation Methods: Write C programs to implement memory allocation techniques: First Fit, Worst Fit, Best Fit.",
+              "Android Programming: Develop a basic Android mobile application to understand mobile operating system concepts."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Machine Learning Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Linux (Ubuntu) \u2013 optional for development",
+          "Python 3.x",
+          "Anaconda Distribution",
+          "Jupyter Notebook / Google Colab",
+          "Python Libraries: NumPy, Pandas, Matplotlib, Seaborn",
+          "Machine Learning Libraries: Scikit-learn",
+          "Deep Learning Libraries: TensorFlow / PyTorch",
+          "IDE: VS Code / PyCharm / Jupyter Notebook"
+        ],
+        experiments: [
+          {
+            set: "Lab Assignments",
+            list: [
+              "Introduction to Python Programming: Install Python and set up Anaconda. Write basic Python scripts including loops, conditional statements, and functions.",
+              "Introduction to Machine Learning Libraries using Python: Overview of commonly used libraries for machine learning and data analysis.",
+              "Working with NumPy, Matplotlib, and Pandas: NumPy: Perform matrix operations, loops, and conditional computations. Matplotlib: Create and customize plots and visualizations. Pandas: Load, explore, and summarize datasets.",
+              "Statistical Analysis using Python: Write a Python program to find the mean, median, mode, variance, and standard deviation of a list of numbers.",
+              "Overview of Machine Learning Frameworks: Study the features and applications of Scikit-learn, TensorFlow, and PyTorch libraries.",
+              "Linear Regression: Implement the Linear Regression algorithm using Python.",
+              "Logistic Regression: Implement the Logistic Regression algorithm for classification tasks.",
+              "k-Nearest Neighbors (k-NN): Implement the k-NN algorithm and analyze classification results.",
+              "Decision Tree: Implement the Decision Tree algorithm for classification or prediction.",
+              "Random Forest: Implement the Random Forest algorithm and evaluate model performance.",
+              "Support Vector Machine (SVM): Implement the Support Vector Machine algorithm for classification tasks.",
+              "Principal Component Analysis (PCA): Implement PCA for dimensionality reduction and visualization of datasets.",
+              "K-Means Clustering: Implement the K-Means clustering algorithm to group similar data points.",
+              "Real-World Applications: Image Classification, Text Classification, Regression Problems (e.g., Housing Price Prediction)."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Project for Product Development Lab", 
+        description: "The course is organized as an independent project-based learning activity conducted in teams of 4\u20135 students. Each team is responsible for developing a product idea from concept to a stage where it is ready for potential market launch for a specific organization or business context.",
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Microsoft Office / LibreOffice for documentation and presentations",
+          "Project Management Tools (MS Project / Trello / Asana)",
+          "Data Analysis Tools (Excel / Google Sheets / Python-based tools)",
+          "Presentation Tools (PowerPoint / Google Slides)",
+          "Internet and Market Research Tools"
+        ],
+        experiments: []
+      },
+      { 
+        name: "Compiler Design Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Linux Distribution (Ubuntu / Fedora / CentOS) for compiler tools",
+          "LEX / FLEX (Lexical Analyzer Generator)",
+          "YACC / Bison (Parser Generator)",
+          "GCC (C Compiler)",
+          "Linux Environment or Compatible Terminal Emulator (Cygwin / Ubuntu WSL)",
+          "Text Editor / IDE (VS Code / Sublime Text / Vim)"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Implementation of Lexical Analyzer using LEX: Tokenization of a simple program. Handling identifiers, keywords, numbers, and operators.",
+              "Design of Syntax Analyzer using YACC: Parsing arithmetic expressions. Parsing conditional and looping constructs such as if-else and while statements.",
+              "Removing Left Recursion and Left Factoring: Manual implementation of algorithms for eliminating left recursion and left factoring in grammars.",
+              "Implementation of Predictive Parser (LL(1)): Construct parsing table and simulate the parsing process.",
+              "Implementation of Shift-Reduce Parser: Simulate stack operations used in shift-reduce parsing.",
+              "Syntax Directed Translation: Construction of Abstract Syntax Trees (AST) for expressions.",
+              "Intermediate Code Generation: Generate three-address code for arithmetic expressions. Implement backpatching for boolean expressions and control flow statements.",
+              "Design and Implementation of Symbol Table: Implement operations such as insertion, lookup, and scope management.",
+              "Implementation of Type Checking and Type Conversion.",
+              "Basic Code Optimization Techniques: Constant folding. Dead code elimination. Strength reduction.",
+              "Simulation of Runtime Environment: Activation record structure. Stack management for function calls.",
+              "Mini Project: Development of a Simple Compiler: Design a compiler for a subset of a programming language."
+            ]
+          }
+        ]
+      },
+      { 
+        name: "Software Engineering Lab", 
+        equipments: [
+          "Processor : Intel(R) Core(TM) i3-10100 CPU @ 3.60 GHz",
+          "RAM : 8 GB",
+          "Storage : 256 GB SSD",
+          "Monitor : 18\u201D TFT"
+        ],
+        software: [
+          "Windows 10 Education Operating System",
+          "Linux Distribution (Ubuntu) \u2013 optional",
+          "UML Modeling Tools (StarUML / Visual Paradigm / Lucidchart)",
+          "Diagram Design Tools (Draw.io / Creately)",
+          "Project Management Tools (MS Project / Trello)",
+          "Testing Tools (Selenium / JUnit / TestNG or other open-source testing tools)",
+          "Documentation Tools (MS Word / Google Docs)"
+        ],
+        experiments: [
+          {
+            set: "List of Experiments",
+            list: [
+              "Analysis and Identification of Suitable Process Models: Study and analyze different software process models such as Waterfall, Spiral, Agile, and Incremental models.",
+              "Work Breakdown Structure (WBS) and Estimation: Develop Work Breakdown Structures based on Process-Based, Product-Based, Geographic-Based, and Role-Based structures.",
+              "Requirement Modeling \u2013 Structural Modeling: Develop an Entity Relationship (ER) Diagram to represent the structural aspects of the system.",
+              "Requirement Modeling \u2013 Functional Modeling: Develop Context Flow Diagrams and Data Flow Diagrams (DFD) to represent system functionality.",
+              "Requirement Modeling \u2013 Behavioral Modeling: Create State Transition Diagrams to illustrate system behavior and state changes.",
+              "Object-Oriented Design \u2013 Use Case and Class Models: Design UML diagrams including Use Case Diagrams and Class Diagrams.",
+              "Object-Oriented Design \u2013 Interaction Models: Develop interaction diagrams such as Sequence Diagrams and Communication Diagrams.",
+              "Object-Oriented Design \u2013 Architectural Models: Create Package Diagrams, Component Diagrams, and Deployment Diagrams.",
+              "Software Testing: Design and demonstrate test cases including Functional Testing and Non-Functional Testing using open-source testing tools.",
+              "Storyboarding and User Interface Design: Design storyboards and user interface models to represent layout, navigation, and user interaction flow."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+
+,
+
+  "civil-engineering": {
+    name: "Civil Engineering",
+    shortName: "CE",
+    theme: {
+      primary: "text-[#B92A32]",
+      bgPrimary: "bg-[#B92A32]",
+      borderPrimary: "border-[#B92A32]",
+      borderPrimary10: "border-[#B92A32]/10",
+      bgPrimary10: "bg-[#B92A32]/10",
+      hoverTextPrimary: "hover:text-[#B92A32]",
+      hoverBgPrimary: "hover:bg-[#B92A32]",
+      shadowPrimary20: "shadow-[#B92A32]/20",
+      accent: "text-[#E67E22]",
+      bgAccent: "bg-[#E67E22]",
+      secondary: "text-[#4A4A4A]",
+      gradient: "from-[#2C3E50]/95 via-[#34495E]/90 to-[#7F8C8D]/80",
+      btn: "bg-[#C0392B]",
+      btnHover: "hover:bg-[#E74C3C]",
+    },
+
+    sidebar: {
+      heading: "CIVIL\nENGINEERING",
+      items: [
+        { id: "overview", label: "DEPARTMENT OVERVIEW", icon: "BookOpen" },
+        { id: "syllabus", label: "SYLLABUS", icon: "FileText" },
+        { id: "faculty", label: "FACULTY", icon: "Users" },
+        { id: "laboratories", label: "LABORATORIES", icon: "Beaker" },
+      ]
+    },
+
+    hero: {
+      titleLine1: "Civil",
+      titleLine2: "Engineering",
+      subtitle: "Building the foundations of tomorrow with innovative and sustainable infrastructure solutions.",
+      image: "/CIVIL.png",
+      breadcrumb: "Civil Engineering",
+      stats: [
+        { label: "Founded", value: "2013" },
+        { label: "BPUT Affiliated", value: "Yes" },
+        { label: "AICTE Approved", value: "Yes" }
+      ]
+    },
+
+    overview: {
+      paragraphs: [
+        "The Department of Civil Engineering (CE) at Trident Academy of Technology (TAT), started in the year 2013 as an addition to the existing stream of technical degree courses, at present offers an undergraduate degrees program of 204 credit points in civil engineering (B.Tech. in Civil) from Biju Pattnaik University of Technology (BPUT), Odisha. The program curricular distributed over 8 semesters is delivered under the able headship of Mr. Sanjay Kumar Behera – an eminent professor fortified with vast field exposure and experience, in a congenial ambience by a group of highly experienced and committed faculty members with the aim of providing a wide spectrum of knowledge and exposure on various key components of the civil engineering curricula: in fundamental knowledge covering mathematics, physics, chemistry, thermodynamics, metallurgy, engineering drawing, etc.; building up proficiency and exposure in the specialized areas, such as environmental engineering, structural engineering, water resource engineering, etc.",
+        "The Department of Civil Engineering adequately equipped with state-of-the-art up-to-date Lab infrastructure delivers the courses by a group of competent and dedicated faculty members and field instructors who help them develop strong and dependable proficiency in various structural design skills which yield them with high degree of confidence in designing effective and efficient solutions to real-life problems. Apart from rigorously drilling down the students with regular classroom delivery on academic curricula as per BPUT guidelines, the department emphasizes on boosting their professional skill, communication skill, inter-personal skill to make them competent enough to understand significance of both ethical issues in Civil Engineering and the importance of Civil Engineering work in the society. In general, as a part of the Trident Culture, students are plugged in with the “Learn with Fun” approach to nurture their intellectual, technological and personal skill development by involving them through varieties of technical and intellectual clubs, and professional societies. Academic environment at Trident is sufficient enough to trigger their mindset for lifelong learning to maintain them as successful Civil that are necessary for success in industry, society and research."
+      ],
+      vision: "To stand as a model of excellence in technical education and research and a collaborative hub with excellent facilities where leading civil engineering research serves the needs of a broad array of disciplines, and innovations from various fields to enrich civil engineering knowledge and practices in order to produce brilliant technocrats of the nation.",
+      mission: [
+        "To produce unbounded academic environment in technical research to serve the current generation to be proficient in National and International platforms.",
+        "To be excel in the field of all disciplines of Civil Engineering to facilitate the students with innovations and best practices",
+        "To promote skill development for enhancing professional and academic growth to meet social challenges of infrastructural and Research organisations of nation.",
+        "To impart leadership quality through dissemination of knowledge with professional to ethical codes of conduct of society for future professional practices."
+      ],
+      po: [
+        "An ability to apply knowledge of mathematics, science, and engineering.",
+        "An ability to design and conduct experiments, as well as to analyze and interpret data.",
+        "An ability to design a system, component, or process to meet desired needs within realistic constraints such as economic, environmental, social, political, ethical, health and safety, manufacturability, and sustainability.",
+        "An ability to function on multidisciplinary teams.",
+        "An ability to identify, formulate, and solve engineering problems.",
+        "An understanding of professional and ethical responsibility.",
+        "An ability to communicate effectively.",
+        "The broad education necessary to understand the impact of engineering solutions in a global, economic, environmental, and societal context.",
+        "A recognition of the need for, and an ability to engage in life-long learning.",
+        "A knowledge of contemporary issues.",
+        "An ability to use the techniques, skills, and modern engineering tools necessary for engineering practice."
+      ],
+      peo: [
+        "The Program Educational Objectives of the Civil Engineering degree program are to prepare graduates who will be successful in their chosen career paths by:",
+        "• becoming productive and valuable engineers in the civil engineering sector,",
+        "• pursuing and completing graduate studies to become competent researchers, and/or",
+        "• ability to play leadership roles in their professional, as well as in their societal career."
+      ],
+      pso: [
+        "To acquire the knowledge of planning and design in construction of various structures in development of civil engineering with application of computer.",
+        "To establish an efficient designer and consultant in various fields and technical resource person in civil engineering works.",
+        "To expertise as a construction engineer in various structural works like dams, bridges, water retaining structures, harbours, airports, railways and highways handling the critical situations and manage efficiently as a safety engineer."
+      ],
+      lo: [
+        "To acquire the knowledge of planning and design in construction of various structures in development of civil engineering with application of computer.",
+        "To establish an efficient designer and consultant in various fields and technical resource person in civil engineering works.",
+        "To expertise as a construction engineer in various structural works like dams, bridges, water retaining structures, harbours, airports, railways and highways handling the critical situations and manage efficiently as a safety engineer."
+      ],
+      tabs: [
+        {
+          id: "diploma",
+          label: "Diploma",
+          content: "Diploma in Civil Engineering - 60 Seats\n\n• Strong entry pathway into the infrastructure and construction industry with practical, skill-focused training.\n• Hands-on learning through labs, fieldwork, and project-based activities that build real engineering competence.\n• High employability as diploma civil engineers are in demand for site supervision, surveying, drafting, quantity estimation, quality control, and maintenance roles.\n• Opportunities in government sectors such as PWD, Water Resources, Housing & Urban Development, Rural Development, and Municipal Engineering as Junior Engineers (JE).\n• Excellent scope in private industry including construction companies, contractors, consultancies, real estate developers, and infrastructure firms.\n• Cost-effective & time-efficient program that enables students to start a professional career earlier.\n• Pathway to higher studies—lateral entry to B.Tech (direct 2nd year), and later M.Tech or advanced specializations.\n• Opportunities for entrepreneurship in surveying, estimation, contracting, and material testing services."
+        },
+        {
+          id: "btech",
+          label: "B.Tech",
+          content: "B.Tech. in Civil Engineering - 30 Seats\n\n• Foundation of all infrastructure — roads, bridges, buildings, water systems, smart cities, airports, and more.\n• High demand in both government and private sectors due to continuous national development.\n• Diverse career options across design, construction, planning, surveying, project management, environmental engineering, and emerging digital technologies.\n• Strong job security with wide opportunities in government departments, PSUs, and top private companies.\n• Scope for innovation in sustainable construction, green infrastructure, disaster-resilient design, and advanced materials.\n• Excellent higher-study pathways (M.Tech, MS, MBA, Ph.D., research fellowships).\n• Entrepreneurial potential through consulting firms, construction companies, material testing labs, and digital engineering services.\n• Blend of creativity and engineering—designing real-world structures that directly improve society.\n• Ever-growing relevance as India and the world expand infrastructure through mega projects, smart city missions, and modern transportation networks."
+        },
+        {
+          id: "mtech-env",
+          label: "M.Tech (Env.)",
+          content: "M.Tech. in Environmental Engineering \u2013 18 Seats\n\n\u2022 Specialized expertise in managing and protecting natural resources through sustainable engineering solutions.\n\u2022 High national and global demand due to increasing focus on climate change, pollution control, waste management, and environmental sustainability.\n\u2022 Critical role in public health & safety\u2014environmental engineers design systems for clean water supply, wastewater treatment, air quality control, and solid waste management.\n\u2022 Opportunities across major sectors:\n  \u2013 Pollution Control Boards\n  \u2013 Municipal Corporations\n  \u2013 Water & Wastewater Treatment Plants\n  \u2013 Environmental Consultancies\n  \u2013 Industries (mining, steel, power, chemical)\n  \u2013 Research & policy organizations\n\u2022 Key job roles: Environmental Engineer, Sustainability Specialist, EIA Consultant, Water Resource Engineer, Environmental Analyst, and Research Engineer.\n\u2022 Strong research scope in climate resilience, green technologies, renewable energy systems, waste-to-resource innovation, and environmental monitoring.\n\u2022 Pathway to Ph.D., academia, and advanced research careers in premier institutes and government labs.\n\u2022 Excellent prospects for entrepreneurship\u2014environmental audits, EIA services, waste management startups, water treatment solutions, and environmental monitoring labs.\n\u2022 Aligned with national missions such as Swachh Bharat, Namami Gange, Smart Cities Mission, and climate action initiatives."
+        },
+        {
+          id: "mtech-struct",
+          label: "M.Tech (Struct.)",
+          content: "M.Tech. in Structural Engineering \u2013 18 Seats\n\nThese programs are delivered under the able leadership of Mr. Sanjay Kumar Behera (HoD, Civil), an eminent academician with extensive field exposure and experience. A team of highly qualified, dedicated, and experienced faculty members contributes to creating a conducive learning environment that focuses on delivering a broad spectrum of knowledge aligned with the civil engineering curriculum, while also preparing students to become job-ready professionals capable of contributing meaningfully to society.\n\nThe department boasts state-of-the-art laboratory facilities, enabling students to build strong technical proficiency and confidence in designing effective and efficient engineering solutions to real-world problems. In addition to structured classroom teaching as per BPUT guidelines, the department places significant emphasis on enhancing students\u2019 professional competencies, communication skills, and interpersonal abilities.\n\nTo strengthen industry\u2013academia collaboration and ensure holistic exposure, the department has signed MoUs with leading organizations such as NBCC and OCC, and is also associated with OMC, IDCO, OBCC, and other reputed agencies. These partnerships play a pivotal role in enriching students\u2019 industrial training and practical understanding.\n\nAs a part of the Trident Culture, students are engaged through the \u201cLearn with Fun\u201d approach, which nurtures intellectual, technological, and personal growth. Various technical and intellectual clubs, as well as professional societies, actively involve students in hands-on learning, innovation, and skill-building activities. The academic environment at Trident is intentionally crafted to cultivate a mindset geared toward lifelong learning, thereby equipping students with the skills and attitudes essential for success in industry, research, and society at large."
+        }
+      ]
+    },
+    
+    syllabus: {
+      documents: [
+        { title: "SYLLABUS FOR FIRST YEAR", fileUrl: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-1ST-YEAR.pdf", btnText: "VIEW / DOWNLOAD 1ST YEAR SYLLABUS" },
+        { title: "SYLLABUS FOR SECOND YEAR", fileUrl: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-2ND-YEAR.pdf", btnText: "VIEW / DOWNLOAD 2ND YEAR SYLLABUS" },
+        { title: "SYLLABUS FOR THIRD YEAR", fileUrl: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-3RD-YEAR.pdf", btnText: "VIEW / DOWNLOAD 3RD YEAR SYLLABUS" },
+        { title: "SYLLABUS FOR FOURTH YEAR", fileUrl: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-4TH-YEAR.pdf", btnText: "VIEW / DOWNLOAD 4TH YEAR SYLLABUS" }
+      ],
+      addOnCourses: [
+        { name: "Auto CAD", fileUrl: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Auto-Cad.pdf" },
+        { name: "Revit", fileUrl: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Revit.pdf" },
+        { name: "Land Surveying", fileUrl: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Land-Surveying.pdf" },
+        { name: "Staad Pro", fileUrl: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/staad-pro.pdf" }
+      ]
+    },
+
+    laboratories: [
+        {
+          name: "MATERIAL TESTING LABORATORY",
+          experimentList: [
+            "Tests on cement: Determination of Fineness modulus by sieve analysis and/or by air permeability method, standard consistency, setting times, soundness, specific gravity, compressive strength.",
+            "Tests on Aggregates: Sieve analysis of fine aggregate and coarse aggregates for determination of fineness modulus and grain size distribution, determination of water absorption and specific gravity of fine aggregate and coarse aggregates, bulking of sand, crushing value of coarse aggregates.",
+            "Tests on Steel: Tensile strength of mild steel and HYSD Bars.",
+            "Tests on Bricks: Determination of shape, size and Water absorption of Bricks.",
+            "Tests on Concrete: Compressive strength, flexural strength and split tensile strength of concrete."
+          ],
+          equipmentList: [
+            "SIEVE SET",
+            "COMPRESSION TESTING MACHINE",
+            "CUBE MOULD(70.6MM)",
+            "WEIGHING BALANCE(30KG)",
+            "TROWEI",
+            "TRAY",
+            "LE CHATELIER APPARATUS",
+            "LE CHATELIER FLASK",
+            "MEASURING CYLINDER(500ml)",
+            "MEASURING CYLINDER(250ml)",
+            "OVEN",
+            "SPECIFIC GRAVITY BOTTOL",
+            "STOP WATCH",
+            "VICAT APPARATUS",
+            "WATER BATH"
+          ]
+        },
+        {
+          name: "SURVEY FIELD WORK",
+          experimentList: [
+            "Testing of chain measurement of correct length of the line",
+            "Traversing by chain surveying",
+            "Traversing by compass survey",
+            "Intersection method of plane table survey",
+            "Traversing by plane table",
+            "Use of dumpy level and fly leveling",
+            "longitudinal section and cross section of road",
+            "Contouring",
+            "Measurement of horizontal and vertical angle by theodolite"
+          ],
+          equipmentList: [
+            "Chain, 30 m length",
+            "Tape, 30 m length",
+            "Arrow pin",
+            "Ranging rod",
+            "Total station",
+            "Theodolite",
+            "Dumpy level",
+            "Prismatic compass",
+            "Plane table with all accessories",
+            "Clinometers",
+            "Leveling staff",
+            "Auto level",
+            "Total Station",
+            "GPS",
+            "DGPS"
+          ]
+        },
+        {
+          name: "GEOTECHNICAL LABORATORY",
+          experimentList: [
+            "01. Determination of specific gravity of soil grains",
+            "02. Determination of grain size distribution of soil\n    a) Sieve test\n    b) Hydrometer",
+            "03. Determination of Atterberg limits of soil\n    a) Liquid limit\n    b) Plastic limit\n    c) Shrinkage limit of soil",
+            "04. Measurement of soil compaction in field\n    a) Core cutter method\n    b) Sand replacement method",
+            "05. Determination of Density – water content relationship of soil\n    a) Proctor compaction test\n    b) Modified proctor compaction test\n    c) Use of proctor penetration needle",
+            "06. Determination of relative density of granular soil",
+            "07. Determination of shear strength parameter of soil\n    a) Shear box test\n    b) Tri-axial compression test\n    c) Unconfind compression test\n    d) Vane shear test",
+            "08. Determination of consolidation characteristics of soil using fixed ring odometer",
+            "09. Determination of California Bearing ratio (CBR) of soaked and un-soaked soil specimens",
+            "10. Determination of coefficient of permeability of soil\n    a) Constant head permeameter\n    b) Falling head permeameter"
+          ],
+          equipmentList: [
+            "CONSOLIDATION APPARATUS",
+            "DIRECT SHEAR TEST APPARATUS",
+            "FIELD DENSITY CORE CUTTER",
+            "HYDROMETER",
+            "HAND OPERATED EXTRACTOR APPARATUS",
+            "LIQUID LIMIT DEVICE APPARATUS",
+            "PERMEABILITY APPARATUS",
+            "OVER HEAD TANK APPARATUS",
+            "PYCNOMETER",
+            "PLASTIC LIMIT APPARATUS",
+            "RELATIVE DENSITY APPARATUS",
+            "SAND POURING CYLINDER APPARATUS",
+            "SHRINKAGE LIMIT APPARATUS",
+            "SHIVE SHAKER APPARATUS",
+            "TRIAXIAL APPARATUS",
+            "UNCONFINED COMPRESSION APPARATUS",
+            "VANE SHEAR APPARATUS APPARATUS"
+          ]
+        },
+        {
+          name: "TRANSPORTATION ENGINEERING LAB.",
+          experimentList: [
+            "Determination of aggregate crushing value.",
+            "Determination of Los Angeles abrasion value of aggregates.",
+            "Determination of aggregate impact value.",
+            "Determination of penetration value of bitumen.",
+            "Determination of softening point value of bitumen.",
+            "Determination of ductility value of bitumen.",
+            "Determination of flash and fire point of bitumen.",
+            "Determination of specific gravity of bitumen.",
+            "Determination of stripping value of aggregate.",
+            "Determination of flakiness index and elongation index of coarse aggregate.",
+            "Determination of specific gravity and water absorption of coarse aggregate.",
+            "Determination of CBR of soil subgrade.",
+            "Design of GSB and WMM",
+            "Marshal method of mix design."
+          ],
+          equipmentList: [
+            "AGGREGATE CROSSING VALUE APPARATUS",
+            "AGGREGATE IMPACT TEST APPARATUS",
+            "CBR APPARATUS",
+            "DUCTILITY TESTING MACHINE",
+            "DEVAL ATTRITION TESTING MACHINE",
+            "DENSITY BASKET WITH HANDLE",
+            "FLASH AND FIRE POINT APPARATUS",
+            "FILM STRIPPING APPARATUS",
+            "LOSS ANGELES ABRASION TEST MACHINE",
+            "LENGTH GAUGE",
+            "MARSALL STABILITY TEST APPARATUS",
+            "RING AND BALL APPARATUS",
+            "THICKNESS GAUGE",
+            "THERMOMETER",
+            "UNIVERSAL PENETROMETER"
+          ]
+        },
+        {
+          name: "CONCRETE AND STRUCTURAL LAB.",
+          experimentList: [
+            "01. Workability test of concrete\n    a) Slump test\n    b) Compaction factor test\n    c) Flow table test",
+            "02. Cube test of concrete",
+            "03. Cylinder test for concrete.",
+            "04. Split tensile strength of concrete.",
+            "05. Prism Test for determining modulus of rupture of concrete.",
+            "06. Design of concrete Mix.",
+            "07. Failure of RC beam in bending and shear."
+          ],
+          equipmentList: [
+            "CTM machine",
+            "Flexural testing machine",
+            "Cube mould ( 150 X150X150 ) mm",
+            "Cube mould ( 70.6X 70.6X70.6 ) mm",
+            "Cylinder mould",
+            "Slump test apparatus",
+            "Compaction factor apparatus",
+            "Flow table"
+          ]
+        },
+        {
+          name: "HYDRAULICS LAB",
+          experimentList: [
+            "1. Proof of Bernoulli's theorem.",
+            "2. Friction flow through pipes.",
+            "3. Determination of Reynolds number.",
+            "4. Determination of metacentric height.",
+            "5. Determination of coefficient of discharge for v-notch.",
+            "6. Determination of coefficient of discharge for venturimeter.",
+            "7. Impact of jet.",
+            "8. Flow through orifice.",
+            "9. Proof of stokes law.",
+            "10. Work done by pelton wheel turbine.",
+            "11. Efficiency of Francis turbine.",
+            "12. Discharge through centrifugal pump."
+          ],
+          equipmentList: [
+            "Impact of jet on vane apparatus",
+            "Reciprocating pump test rig",
+            "Centrifugal pump test rig",
+            "Pelton wheel turbine test rig",
+            "Francis turbine test rig",
+            "Kaplan turbine test rig"
+          ]
+        },
+        {
+          name: "CAD LAB",
+          experimentList: [
+            "1. Introduction to MATLAB and Excel",
+            "2. Plotting of Shear force and bending moment diagram of beam using MATLAB",
+            "3. Drawing of Shear force and bending moment diagram of frames using MATLAB",
+            "4. Plotting of Shear force and bending moment diagram of arches using MATLAB",
+            "5. Calculation and plotting of ILDs of beam using MATLAB",
+            "6. Calculation and plotting of ILDs of frames using MATLAB",
+            "7. Calculation and plotting of ILDs of arches using MATLAB",
+            "8. Plotting of stress contours using MATLAB",
+            "9. Introduction to Graphic Software: Basic commands, plotting of graphs and data analysis."
+          ],
+          equipmentList: []
+        }
+    ],
+    faculty: [
+      { name: "Dr. Roma Sahu", designation: "Associate Professor", doj: "7/2/2020", qualification: "Ph.D", bputId: "T220128901" },
+      { name: "Mr. Tapan Kumar Nayak", designation: "Assistant Professor", doj: "6/7/2015", qualification: "M.Tech", bputId: "T163528902" },
+      { name: "Mr. Sibananda Rout", designation: "Assistant Professor", doj: "11/9/2017", qualification: "M.Tech", bputId: "T240128915" },
+      { name: "Mr. Biswajit Nayak", designation: "Associate Professor", doj: "25/9/2017", qualification: "M.Tech", bputId: "T171289846" },
+      { name: "Mr. Satya Prakash Pradhan", designation: "Assistant Professor", doj: "10/8/2018", qualification: "M.Tech", bputId: "T220228902" },
+      { name: "Mr. J Nihar Ranjan", designation: "Assistant Professor", doj: "7/6/2023", qualification: "M.Tech", bputId: "T230128906" },
+      { name: "Mrs. Ankita Bohidar", designation: "Assistant Professor", doj: "8/6/2023", qualification: "M.Tech", bputId: "T230128909" },
+      { name: "Mr. Sanjay Kumar Behera", designation: "Asst. Prof. & HOD", doj: "1/2/2016", qualification: "M.Tech", bputId: "T163528903" },
+      { name: "Mr. Sarbajit Panda", designation: "Assistant Professor", doj: "26/2/2024", qualification: "M.Tech", bputId: "T240128901" },
+      { name: "Mrs. Smruti Saswati Dash", designation: "Assistant Professor", doj: "20/9/2023", qualification: "M.Tech", bputId: "T240728914" },
+      { name: "Dr. Sankalp Raj", designation: "Assistant Professor", doj: "30/9/2024", qualification: "Ph.D", bputId: "T240128934" },
+      { name: "Dr. Prabodha Kumar Pradhan", designation: "Associate Professor", doj: "22/1/2025", qualification: "Ph.D", bputId: "T250728914" }
+    ]
+  },
+
+  "biotechnology-engineering": {
+    name: "Biotechnology Engineering",
+
+    meta: {
+      title: "Biotechnology Engineering — Trident Academy of Technology",
+      description: "Department of Biotechnology Engineering at Trident Academy of Technology.",
+    },
+
+    hero: {
+      titleLine1: "School of",
+      titleLine2: "Biotechnology",
+      subtitle: "INNOVATING FOR A HEALTHIER TOMORROW\nThe School of Biotechnology offers advanced programmes fostering research and innovation in healthcare, agriculture, and environmental sustainability. Students work on cutting-edge projects in state-of-the-art labs, bridging the gap between science and real-world impact.",
+      image: "/images/biotech_hero.png",
+      breadcrumb: "Biotechnology Engineering",
+      stats: [
+        { label: "Established", value: "2018" },
+        { label: "B.Tech Seats", value: "30" },
+        { label: "Int. M.Tech Seats", value: "60" }
+      ],
+    },
+
+    acmBanner: null,
+
+    sidebar: {
+      heading: "BIOTECHNOLOGY\nENGINEERING",
+      items: [
+        { id: "overview", label: "Department Overview", icon: "BookOpen", href: "/biotechnology-engineering/overview" },
+        { id: "syllabus", label: "Syllabus", icon: "Layers", href: "/biotechnology-engineering/syllabus" },
+        { id: "faculty", label: "Faculty", icon: "Users", href: "/biotechnology-engineering/faculty" },
+        { id: "laboratories", label: "Laboratories", icon: "Beaker", href: "/biotechnology-engineering/laboratories" }
+      ],
+    },
+
+    homeContent: {
+      paragraphs: [
+        "The Biotechnology department was established in 2018 at Trident Academy of Technology, offering a B.Tech. program with an intake of 30 students and introducing an Integrated M.Tech. program with an intake of 60 students from the academic year 2026, committed to excellence in biotechnology education and innovation.",
+        "The main aims and objectives of the department are: To enhance skills of the students by training to excel in bioindustries through research and development, to inculcate the spirit of innovation and creativity in young minds to solve human problems with sound research aptitude, to create a serene research environment in different areas of biotechnology pertinent to society, environment and industry, to enable the graduates to identify, analyze, design and solve problems related to the field of biotechnology with strong foundation on the basic science, biology and IT related applications, to provide theoretical and practical concept to students in the field of biotechnology so that they will be able to apply this broad knowledge to serve the society in a better way, to motivate and help the students to prepare for various competitive examinations like GATE, CSIR-NET, IARI, etc., to enhance the innovative ideas and skills in the field of biotechnology to earn jobs in top leading biotechnology industries, to create an awareness about the importance of biotechnology to solve social economical problems.",
+      ],
+      salientFeatures: [
+        "Presently there are 10 dedicated and committed teaching faculty members in this department with various specializations like Recombinant DNA Technology, Environmental Biotechnology, Immunology and Immunotechnology, Bioprocess Technology, Industrial Microbiology, Bioinformatics, Protein Engineering, Enzyme Technology, Animal Biotechnology, Molecular Biology and Biochemistry.",
+        "Department is actively involved in maintaining corporate relationship for providing placement to the students.",
+        "The academic performance of our students in University exams is outstanding.",
+        "Department organizes workshops and seminars regularly for the interest of students and faculties.",
+        "Professors and Technical experts are invited from various universities and industries for providing additional advanced information in the field of biotechnology for the benefits of students.",
+        "Department has excellent infrastructure and laboratory facilities to provide hands on training in frontier area of biotechnology."
+      ]
+    },
+
+    overview: {
+      paragraphs: [
+        "The Department of Biotechnology at Trident Academy of Technology (TAT), started in the year 2018 as an addition to the existing stream of technical degree courses, at present offers an undergraduate degree program of 160 credit points in B.Tech. in Biotechnology from Biju Patnaik University of Technology (BPUT), Odisha and the program curricula are distributed over 8 semesters. Presently there are 10 dedicated, committed and highly experienced teaching faculty members in this department with various specializations like Recombinant DNA Technology, Environmental Biotechnology, Immunology, Immunotechnology, Bioprocess Technology, Industrial Microbiology, Bioinformatics, Protein Engineering, Enzyme Technology, Animal Biotechnology, Plant Biotechnology, Molecular Biology and Biochemistry.",
+        "Department organizes workshops and seminars regularly for the interest of students and also organizes study tour for them to various industries and national research institutes. Professors and Technical experts are invited from various universities and industries for providing additional advanced information in the field of biotechnology for the benefits of students. Apart from rigorously drilling down the students with regular classroom delivery on academic curricula as per BPUT guidelines, the department emphasizes on making students to identify, analyze, design and solve problems related to the field of biotechnology with strong foundation on the basic science, biology and IT related application. Department not only provides good theoretical and practical concept but also motivate and help the students to prepare for various competitive examinations like GATE, CSIR-NET, IARI, etc. In general, as a part of the Trident culture, students are plugged in with the “learn with fun” approach to nurture their intellectual, technological and personal skills development by involving them through varieties of technical and intellectual club, and professional societies. Academic environment at Trident is sufficient enough to elicit their mindset for life long learning to maintain them as successful person that are very much necessary for success in research, industry and society."
+      ],
+      vision: "To produce competent biotechnologists who can use premium processes and applications to improve agriculture, industry and health care sectors and provide sustainable development to the present society.",
+      mission: [
+        "To enhance skills of the students by training to excel in bioindustries through research and development.",
+        "To inculcate the spirit of innovation and creativity in young minds to solve human problems with sound research aptitude.",
+        "To create a serene research environment in different areas of biotechnology pertinent to society, environment and industry.",
+        "To enable the graduates to identify, analyze, design and solve problems related to the field of biotechnology with strong foundation on the basic science, biology and IT related applications.",
+        "To provide theoretical and practical concept to students in the field of biotechnology so that they will be able to apply this broad knowledge to serve the society in a better way.",
+        "To motivate and help the students to prepare for various competitive examinations like GATE, CSIR-NET, IARI, etc.",
+        "To enhance the innovative ideas and skills in the field of biotechnology to earn jobs in top leading biotechnology industries.",
+        "To create an awareness about the importance of biotechnology to solve social economical problems."
+      ],
+      tabs: [
+        {
+          id: 'btech',
+          label: 'B.Tech in Biotechnology Engineering',
+          content: 'The B.Tech program in Biotechnology Engineering combines engineering principles with biological sciences to foster innovation in healthcare, agriculture, and environmental sustainability.\n\nDuration: 4-Year Full-Time Programme\nIntake: 30 Seats'
+        },
+        {
+          id: 'mtech',
+          label: 'Integrated M.Tech',
+          content: 'The Integrated M.Tech program provides an advanced curriculum tailored to meet the growing demands of bioindustries and research organizations.\n\nDuration: 5-Year Full-Time Programme (From 2026)\nIntake: 60 Seats'
+        }
+      ],
+      images: [
+        "/images/biotech_overview.jpg"
+      ]
+    },
+
+    programmes: [
+      {
+        title: "B.Tech in Biotechnology Engineering",
+        seats: "30 Seats",
+        details: "4-Year Full-Time Programme",
+        sections: [
+          {
+            heading: "Programme Overview",
+            text: "The B.Tech program in Biotechnology Engineering combines engineering principles with biological sciences to foster innovation in healthcare, agriculture, and environmental sustainability."
+          }
+        ]
+      },
+      {
+        title: "Integrated M.Tech in Biotechnology Engineering",
+        seats: "60 Seats",
+        details: "5-Year Full-Time Programme (From 2026)",
+        sections: [
+          {
+            heading: "Programme Overview",
+            text: "The Integrated M.Tech program provides an advanced curriculum tailored to meet the growing demands of bioindustries and research organizations."
+          }
+        ]
+      }
+    ],
+    faculties: [
+      { name: "Dr. Arup Sarkar", designation: "Professor", joining: "15/10/2014", qualification: "Ph.D", bputId: "T171289843" },
+      { name: "Dr. Deoraj Sharma", designation: "Asso. Prof. & HOD", joining: "10/9/2015", qualification: "Ph.D", bputId: "T171289845" },
+      { name: "Dr. Anshuman Sarangi", designation: "Associate Professor", joining: "1/7/2006", qualification: "Ph.D", bputId: "T210128915" },
+      { name: "Mrs. Chirasmita Mishra", designation: "Assistant Professor", joining: "31/7/2007", qualification: "M.Tech", bputId: "T251128910" },
+      { name: "Dr. Snigdha Gupta", designation: "Assistant Professor", joining: "11/7/2025", qualification: "Ph.D", bputId: "T250728924" },
+      { name: "Dr. Sampat Narayan Satapathy", designation: "Assistant Professor", joining: "11/6/2025", qualification: "Ph.D", bputId: "T251128911" }
+    ],
+    laboratories: [
+      {
+        name: "Cell and Molecular Biology Laboratory",
+        equipments: [
+          "UV VISIBLE SPECTROPHOTOMETER (1)",
+          "COOLING CENTRIFUGE (1)",
+          "DIGITAL WATERBATH (1)",
+          "AUTOCLAVE (1)",
+          "LAMINAR AIRFLOW (1)",
+          "HOT AIR OVEN (1)",
+          "WEIGHING BALANCE (1)",
+          "PH METER (2)",
+          "SDS PAGE UNIT (1)",
+          "MICROPIPETTE-20 (2)",
+          "UV TRANSILLUMINATER (1)"
+        ],
+        experiments: [
+          {
+            list: [
+              "Gram’s Staining",
+              "Leishman Staining",
+              "Giemsa Staining",
+              "Identification of given plant, animal and bacterial cells & their components by microscopy",
+              "Thin Layer Chromatography",
+              "Tryphan Blue Assay",
+              "Isolation of microbial DNA",
+              "Isolation of genomic DNA",
+              "Electrophoresis _ Agarose and Polyacrylamide Gel",
+              "Restriction enzyme digestion& Ligation"
+            ]
+          }
+        ],
+        images: [
+          "/images/biotech_lab_1.png",
+          "/images/biotech_lab_2.png"
+        ]
+      },
+      {
+        name: "Enzyme Technology Laboratory",
+        experiments: [
+          {
+            list: [
+              "Identification of enzymes (amylase, invertase and catalase)",
+              "Isolation of Enzyme from different microorganism.",
+              "Isolation of alpha amylase from plant source.",
+              "To determine Km and Vmax of α Amylase",
+              "Determination of specific enzyme activity of α Amylase.",
+              "Effect of pH on Enzyme kinetics.",
+              "Effect of temperature on Enzyme kinetics.",
+              "Identification of Enzyme by different assay.",
+              "Purification of enzymes.",
+              "Immobilization of Enzyme by sodium Alginate method"
+            ]
+          }
+        ],
+        images: [
+          "/images/biotech_lab_3.png",
+          "/images/biotech_lab_4.png"
+        ]
+      },
+      {
+        name: "Genetic Engineering Laboratory",
+        equipments: [
+          "PCR (1)",
+          "PH METER (2)",
+          "AGAROSE GEL ELECTROPHORESIS UNIT (1)",
+          "DEEP FREEZER (-20 C ) (1)",
+          "REFRIGERATOR (1)",
+          "MICROPIPETTE (100) (2)",
+          "MICROPIPETTE (200) (2)",
+          "MICROSCOPE (3)",
+          "WEIGHING BALANCE (1)",
+          "MINI GEL (1)"
+        ],
+        experiments: [
+          {
+            list: [
+              "Isolation of DNA from bacterial cells",
+              "Quantitative analysis of DNA using spectrophotometer",
+              "Restriction digestion of DNA",
+              "Preparation of competent cells",
+              "Transformation in E. coli. with recombinant vector",
+              "Demonstration of PCR",
+              "Southern blotting",
+              "Northern blotting"
+            ]
+          }
+        ]
+      },
+      {
+        name: "Developmental Biology Laboratory",
+        experiments: [
+          {
+            list: [
+              "Identification of developmental stages of chick embryo using permanent mounts",
+              "Preparation of a temporary stained mount of chick embryo",
+              "Study of developmental stages of Anopheles."
+            ]
+          }
+        ]
+      },
+      {
+        name: "Microbiology Laboratory",
+        equipments: [
+          "BIOSAFETY CABINET (1)",
+          "GEL ROCKER (1)",
+          "MICROTOME (1)",
+          "MICROSCOPE (3)",
+          "PH METER (1)",
+          "HOT AIR OVEN (1)",
+          "AUTOCLAVE (1)",
+          "MICROPIPETTE (200) (3)",
+          "REFRIGERATOR (1)"
+        ],
+        experiments: [
+          {
+            list: [
+              "Preparation of plant tissue culture medium.",
+              "Organ culture, Callus"
+            ]
+          }
+        ]
+      },
+      {
+        name: "Computation Biology Laboratory",
+        equipments: [
+          "CO2 INCUBATOR (1)",
+          "INVERTED MICROSCOPE (1)",
+          "AUTOCLAVE VERICAL (1)",
+          "HOT PLATE STIRRER (1)",
+          "PH METER (2)",
+          "MICROPIPETTE (1000) (2)",
+          "WESTERN BLOT UNIT (1)",
+          "DEEP FREEZER (-40) (1)"
+        ],
+        experiments: [
+          {
+            list: [
+              "Preparation of Ca++ -Mg++ -free phosphate buffered saline at different pH, Preparation of other buffers (HBSS, MES)",
+              "Sub-culturing of adherent and non adherent cell lines, with counting & viability staining of cells, Cryopreservation and thawing of cells",
+              "Primary culture of animal cells: Aseptic techniques, selection and isolation of organ, disaggregation (mechanical/enzymatic), seeding, cell counting and cell viability",
+              "Separation of primary cells from blood by Histopaque 1077 and 1119 and Percoll density gradient centrifugation,",
+              "Study of apoptosis by microscopy/western blotting and/or FACS, Cytotoxicity assays (MTT and MTS and PMS and real time PCR)"
+            ]
+          }
+        ]
+      },
+      {
+        name: "Immunology Laboratory",
+        experiments: [
+          {
+            list: [
+              "Cells and Organs of Immune System: Examine the cells that comprise the immune system (counts and morphology), Locate organs and tissues of immune system (primary and secondary)",
+              "Preparation of blood film and identification of cells, Collection of serum, purification of IgG",
+              "Polarization of immune cells (phagocytes only) using stimulation cocktail and characterization",
+              "Estimation of reactive oxygen species (ROS) by fluorescence dye DCFDA/DHR and reactive nitrogen species (RNS) by griess reaction",
+              "Determination of cytokines by ELISA",
+              "Hemagglutination test (HA), Hemagglutination Inhibition test (HI), ELISA etc"
+            ]
+          }
+        ]
+      }
+    ],
+    syllabus: [
+      { year: "First Year", title: "SYLLABUS FOR FIRST YEAR", buttonText: "VIEW / DOWNLOAD 1ST YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/FIRST-YEAR-B-TECH-COURSE-STRUCTURE-2023-24.pdf" },
+      { year: "Second Year", title: "SYLLABUS FOR SECOND YEAR", buttonText: "VIEW / DOWNLOAD 2ND YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/2nd-YEAR-B-TECH-Biotech-COURSE-STRUCTURE-2023-24.pdf" },
+      { year: "Third Year", title: "SYLLABUS FOR THIRD YEAR", buttonText: "VIEW / DOWNLOAD 3RD YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/3rd-YEAR-B-TECH-Biotech-COURSE-STRUCTURE-2023-24.pdf" },
+      { year: "Fourth Year", title: "SYLLABUS FOR FOURTH YEAR", buttonText: "VIEW / DOWNLOAD 4TH YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/Bio-Technology.pdf" }
+    ]
+  },
+  
+  "electronics-and-telecommunication-engineering": {
+    name: "ELECTRONICS AND TELECOMMUNICATION ENGINEERING",
+    meta: {
+      title: "Electronics and Telecommunication Engineering | Trident Academy of Technology",
+      description: "Department of Electronics and Telecommunication Engineering at Trident Academy of Technology."
+    },
+    heroImage: "/images/media__1781667341960.png",
+    sidebar: {
+      heading: "ELECTRONICS &\nTELECOMMUNICATION",
+      items: [
+        { id: "syllabus", label: "SYLLABUS", icon: "FileText" },
+        { id: "faculty", label: "FACULTIES", icon: "Users" },
+        { id: "laboratories", label: "LABORATORIES", icon: "Cpu" },
+        { id: "placement", label: "PLACEMENT DATA (ETC)", icon: "Award" },
+        { id: "startup", label: "Student Start up and Product Development", icon: "Zap" },
+        { id: "clubs", label: "Clubs", icon: "Users" },
+        { id: "bput-questions", label: "BPUT Questions (PY)", icon: "BookOpen" },
+        { id: "lecture-notes", label: "Lecture Notes", icon: "FileText" },
+        { id: "professional-societies", label: "Professional Societies and Chapters", icon: "Award" },
+        { id: "evoluer", label: "Evoluer Magazine", icon: "BookOpen" },
+        { id: "ingenium", label: "The Ingenium Newsletter", icon: "FileText" },
+        { id: "innovation", label: "Innovation in Teaching and Learning", icon: "Zap" },
+        { id: "publications", label: "Publications, Patent & Chapters and", icon: "FileText" },
+        { id: "conferences", label: "Conferences", icon: "Users" },
+        { id: "inter-institute", label: "Inter-Institute Events", icon: "Award" }
+      ]
+    },
+    homeContent: {
+      paragraphs: [
+        "The Department of Electronics and Telecommunication Engineering (ETC), one of the flagship branches of the undergraduate program, was established in 2005 with the approval of AICTE and affiliation to Biju Patnaik University of Technology (BPUT), Odisha. The Department has earned national recognition from the Ministry of Electronics and Information Technology (MeitY), Government of India, under the prestigious C-DAC ChipIN Program of the Chip to Start-up (C2S) Scheme, reflecting its active engagement in advanced electronics and semiconductor-driven communication technologies.",
+        "It also serves as a Nodal Centre for Research (NCR) under Biju Patnaik University of Technology (BPUT), fostering a vibrant research ecosystem through the enrollment and supervision of doctoral scholars."
+      ],
+      salientFeatures: [
+        "Recognized by Ministry of Electronics and Information Technology (MeitY), Govt. of India.",
+        "Secured cumulative research funding of ₹99.5 lakhs from various Government agencies.",
+        "NBA Accredited B.Tech programme reflecting high quality standards.",
+        "Nodal Centre for Research (NCR) under BPUT."
+      ]
+    },
+    overview: {
+      paragraphs: [
+        "The curriculum integrates theoretical foundations with practical implementation, enabling graduates to meet the evolving demands of the global ESDM Sector and Semicon industry. The department encourages holistic student development through active technical and professional clubs that foster innovation, teamwork, leadership, and practical learning beyond the classroom.",
+        "The department is distinguished by its team of highly qualified, dedicated, and experienced faculty members, who actively contribute to strong scholarly publications, outcome-oriented research, and innovation-driven activities, including patents, reflecting the department's commitment to academic excellence and technological advancement.",
+        "The B.Tech programme in Electronics and Telecommunication Engineering (ETC), has been duly accredited by the National Board of Accreditation (NBA), reflecting its compliance with prescribed quality standards in technical education."
+      ],
+      vision: "To become a globally recognized Department in imparting high quality result oriented technical education in the field of Electronics & Telecommunication Engineering and to sustain its excellence in teaching, research and community development to create excellent facilities in shaping the future of technocrats by nurturing their talents as per the need of the Nation.",
+      mission: [
+        { text: "M1: Placeholder for Mission 1." }
+      ],
+      po: [{text: "PO1: Engineering Knowledge"}],
+      peo: [{text: "PEO1: Core Competency"}],
+      pso: [{text: "PSO1: Apply knowledge in Electronics"}]
+    },
+    faculty: [
+      {
+        name: "Dr. Example Faculty",
+        designation: "Professor & HOD",
+        qualification: "Ph.D. in Electronics",
+        specialization: "VLSI Design, Signal Processing",
+        experience: "20 Years",
+        email: "hod.etc@trident.ac.in",
+        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400"
+      }
+    ],
+    laboratories: [
+      {
+        name: "VLSI Design Laboratory",
+        description: "Equipped with industry-standard EDA tools for ASIC and FPGA design.",
+        keyExperiments: ["Digital IC Design", "Analog Layout", "FPGA Prototyping"],
+        equipments: ["Cadence Suite", "Xilinx Vivado", "FPGA Boards"],
+        images: ["https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=600"]
+      }
+    ],
+    syllabus: [
+      { year: "First Year", title: "SYLLABUS FOR FIRST YEAR", buttonText: "VIEW / DOWNLOAD", link: "#" },
+      { year: "Second Year", title: "SYLLABUS FOR SECOND YEAR", buttonText: "VIEW / DOWNLOAD", link: "#" }
+    ]
+  }
 
 };
 
