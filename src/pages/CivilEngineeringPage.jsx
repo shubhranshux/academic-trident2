@@ -16,12 +16,12 @@ const ICONS = {
 /* ══════════════════════════════════════════════
    CUSTOM ELECTRONICS STYLES (Glassmorphism)
    ══════════════════════════════════════════════ */
-const electricalEngineeringStyles = `
-  .electrical-engineering-bg {
+const civilEngineeringStyles = `
+  .civil-engineering-bg {
     background: radial-gradient(circle at top left, #f0f9ff 0%, #e0f2fe 50%, #e0e7ff 100%);
   }
 
-  .glass-card-electrical-engineering {
+  .glass-card-civil-engineering {
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -93,17 +93,17 @@ const electricalEngineeringStyles = `
 /* ══════════════════════════════════════════════
    CUSTOM SIDEBAR
    ══════════════════════════════════════════════ */
-function ElectricalEngineeringSidebar({ data, activeSection }) {
+function CivilEngineeringSidebar({ data, activeSection }) {
   return (
     <aside className="hidden xl:block sticky top-[100px] self-start w-[300px] shrink-0 z-20 h-[calc(100vh-120px)]">
-      <div className="h-full flex flex-col p-5 rounded-3xl glass-card-electrical-engineering relative overflow-hidden">
+      <div className="h-full flex flex-col p-5 rounded-3xl glass-card-civil-engineering relative overflow-hidden">
         
         {/* Decorative icon faded in bg */}
         <CircuitBoard size={100} className="absolute -bottom-4 -right-4 text-[#2563eb]/8 -rotate-12 pointer-events-none" />
 
         <div className="relative mb-5 pb-3 border-b border-[#2563eb]/20 z-10">
           <h3 className="text-[#0369a1] text-[13px] font-black uppercase tracking-[0.15em] whitespace-pre-line leading-snug">
-            {data.sidebar.heading || 'ELECTRICAL &\nELECTRONICS ENGINEERING'}
+            {data.sidebar.heading || 'CIVIL\nENGINEERING'}
           </h3>
         </div>
 
@@ -111,7 +111,7 @@ function ElectricalEngineeringSidebar({ data, activeSection }) {
           {data.sidebar.items.map((item) => {
             const isActive = activeSection === item.id;
             const Icon = ICONS[item.icon] || Cpu;
-            const targetUrl = `/electricals-and-electronics-engineering/${item.id}`;
+            const targetUrl = `/civil-engineering/${item.id}`;
 
             return (
               <Link
@@ -137,10 +137,10 @@ function ElectricalEngineeringSidebar({ data, activeSection }) {
 /* ══════════════════════════════════════════════
    MAIN ELECTRONICS COMPONENT
    ══════════════════════════════════════════════ */
-export default function ElectricalEngineeringPage({ isHome }) {
+export default function CivilEngineeringPage({ isHome }) {
   const params = useParams();
   const subpage = isHome ? 'home' : (params.subpage || 'overview');
-  const data = getDepartment('electricals-and-electronics-engineering');
+  const data = getDepartment('civil-engineering');
   const [activeProgramTab, setActiveProgramTab] = useState(0);
   const [expandedLab, setExpandedLab] = useState(null);
   const [activeVisionTab, setActiveVisionTab] = useState('vision');
@@ -158,7 +158,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
       case 'home':
         return (
           <div className="space-y-16">
-            <section className="glass-card-electrical-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden">
+            <section className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-[#2563eb]/10 to-transparent rounded-bl-full pointer-events-none"></div>
               
               <FadeInUp>
@@ -193,7 +193,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
 
                 {data.homeContent?.salientFeatures && (
                 <FadeInUp delay={300}>
-                  <div className="mt-10 glass-card-electrical-engineering p-8 rounded-2xl bg-white/40">
+                  <div className="mt-10 glass-card-civil-engineering p-8 rounded-2xl bg-white/40">
                     <h3 className="text-[20px] font-black text-[#0c4a6e] mb-6 flex items-center gap-3">
                       <div className="w-8 h-1.5 bg-[#4f46e5] rounded-full"></div>
                       Salient Features
@@ -217,7 +217,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
       case 'overview':
         return (
           <div className="space-y-16">
-            <section className="glass-card-electrical-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden">
+            <section className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden">
               <FadeInUp>
                 <div className="flex items-center gap-4 mb-10 relative z-10">
                   <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#2563eb] to-[#4f46e5] flex items-center justify-center shadow-lg shadow-[#2563eb]/30">
@@ -250,7 +250,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
               </div>
 
               <FadeInUp delay={300}>
-                <div className="glass-card-electrical-engineering rounded-3xl overflow-hidden bg-white/40 border border-[#2563eb]/20">
+                <div className="glass-card-civil-engineering rounded-3xl overflow-hidden bg-white/40 border border-[#2563eb]/20">
                   <div className="flex border-b border-[#2563eb]/20">
                     <button 
                       onClick={() => setActiveVisionTab('vision')}
@@ -306,69 +306,49 @@ export default function ElectricalEngineeringPage({ isHome }) {
         return (
           <div className="space-y-12">
             <FadeInUp>
-              <h2 className="text-[28px] md:text-[36px] font-medium text-[#1e5b86] mb-12 uppercase tracking-wide border-b border-[#d13b3b] pb-4">
-                SYLLABUS
-              </h2>
+              <div className="flex items-center gap-4 mb-8">
+                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#2563eb] to-[#4f46e5] flex items-center justify-center shadow-lg shadow-[#2563eb]/30">
+                  <FileText size={24} className="text-white" />
+                </div>
+                <h2 className="text-[32px] md:text-[40px] font-black text-[#0c4a6e] leading-tight">Syllabus</h2>
+              </div>
             </FadeInUp>
 
-            {/* B.TECH. Section */}
             <FadeInUp delay={100}>
-              <div className="flex items-center justify-center mb-8">
-                <div className="w-1/4 border-b border-gray-200"></div>
-                <h3 className="px-6 text-[15px] font-bold text-[#1e5b86] tracking-wider uppercase">B.TECH.</h3>
-                <div className="w-1/4 border-b border-gray-200"></div>
+              <div className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl bg-white/70 mb-8">
+                <div className="border-b border-[#2563eb]/20 pb-3 mb-6">
+                  <h3 className="text-[28px] font-serif text-[#0c4a6e] uppercase tracking-wide">Regular Courses</h3>
+                </div>
+                
+                <div className="flex flex-col">
+                  {data.syllabus.documents && data.syllabus.documents.map((item, idx) => (
+                    <div key={idx} className="flex flex-col md:flex-row items-start md:items-center justify-between py-6 border-b border-gray-200 last:border-0 gap-4">
+                      <div className="text-[15px] font-bold text-[#0c4a6e] uppercase tracking-widest">{item.title}</div>
+                      <a href={item.fileUrl} target="_blank" rel="noopener noreferrer" className="px-5 py-3 bg-[#2563eb] text-white text-[11px] font-bold uppercase tracking-widest rounded-sm hover:bg-[#1d4ed8] transition-colors whitespace-nowrap shadow-sm">
+                        {item.btnText}
+                      </a>
+                    </div>
+                  ))}
+                </div>
               </div>
 
-              <div className="space-y-0">
-                {data.syllabus.btech && data.syllabus.btech.map((item, idx) => (
-                  <div key={idx} className={`py-8 flex flex-col md:flex-row md:items-center gap-6 ${idx !== 0 ? 'border-t border-gray-100' : ''}`}>
-                    <div className="w-full md:w-[35%]">
-                      <h4 className="text-[15px] font-bold text-[#1e5b86] uppercase tracking-wide">{item.year}</h4>
-                    </div>
-                    <div className="w-full md:w-[65%] flex flex-wrap gap-4">
-                      {item.links.map((link, lIdx) => (
-                        <a 
-                          key={lIdx}
-                          href={link.url}
-                          className="bg-[#78b9d2] hover:bg-[#64a5c0] text-white px-6 py-3 rounded text-[13px] font-bold uppercase tracking-wide transition-colors shadow-sm"
-                        >
-                          {link.text}
-                        </a>
-                      ))}
-                    </div>
+              {data.syllabus.addOnCourses && data.syllabus.addOnCourses.length > 0 && (
+                <div className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl bg-white/70">
+                  <div className="border-b border-[#2563eb]/20 pb-3 mb-6">
+                    <h3 className="text-[28px] font-serif text-[#0c4a6e] uppercase tracking-wide">Add-On Courses</h3>
                   </div>
-                ))}
-              </div>
-            </FadeInUp>
-
-            {/* M.TECH. Section */}
-            <FadeInUp delay={200}>
-              <div className="flex items-center justify-center mb-8 mt-12">
-                <div className="w-1/4 border-b border-gray-200"></div>
-                <h3 className="px-6 text-[15px] font-bold text-[#1e5b86] tracking-wider uppercase">M.TECH.</h3>
-                <div className="w-1/4 border-b border-gray-200"></div>
-              </div>
-
-              <div className="space-y-0">
-                {data.syllabus.mtech && data.syllabus.mtech.map((item, idx) => (
-                  <div key={idx} className="py-8 flex flex-col md:flex-row md:items-center gap-6 border-t border-gray-100">
-                    <div className="w-full md:w-[35%]">
-                      <h4 className="text-[15px] font-bold text-[#1e5b86] uppercase tracking-wide">{item.year}</h4>
-                    </div>
-                    <div className="w-full md:w-[65%] flex flex-wrap gap-4">
-                      {item.links.map((link, lIdx) => (
-                        <a 
-                          key={lIdx}
-                          href={link.url}
-                          className="bg-[#78b9d2] hover:bg-[#64a5c0] text-white px-6 py-3 rounded text-[13px] font-bold uppercase tracking-wide transition-colors shadow-sm"
-                        >
-                          {link.text}
-                        </a>
-                      ))}
-                    </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    {data.syllabus.addOnCourses.map((course, idx) => (
+                      <a key={idx} href={course.fileUrl} target="_blank" rel="noopener noreferrer" className="group glass-card-civil-engineering p-6 rounded-2xl flex flex-col items-center justify-center gap-4 hover:-translate-y-2 hover:bg-white/60 transition-all duration-300 relative overflow-hidden shadow-sm">
+                         <div className="text-center relative z-10">
+                           <h4 className="text-[18px] font-black text-[#0c4a6e] leading-tight mb-2">{course.name}</h4>
+                           <span className="text-[11px] font-bold text-[#2563eb] uppercase tracking-widest group-hover:text-[#4f46e5] transition-colors">Download PDF</span>
+                         </div>
+                      </a>
+                    ))}
                   </div>
-                ))}
-              </div>
+                </div>
+              )}
             </FadeInUp>
           </div>
         );
@@ -387,7 +367,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
 
             {data.faculty && data.faculty.length > 0 ? (
               <FadeInUp delay={100}>
-                <div className="glass-card-electrical-engineering rounded-3xl overflow-hidden">
+                <div className="glass-card-civil-engineering rounded-3xl overflow-hidden">
                   <div className="overflow-x-auto">
                     <table className="w-full text-left border-collapse min-w-[800px]">
                       <thead>
@@ -428,7 +408,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
               </FadeInUp>
             ) : (
               <FadeInUp delay={100}>
-                <div className="glass-card-electrical-engineering p-12 rounded-3xl text-center">
+                <div className="glass-card-civil-engineering p-12 rounded-3xl text-center">
                   <Users size={64} className="text-[#2563eb]/30 mx-auto mb-6" />
                   <h3 className="text-[24px] font-black text-[#0c4a6e] mb-3">Faculty Roster</h3>
                   <p className="text-[#546E7A] text-[16px] font-medium">Faculty details are currently being updated.</p>
@@ -456,7 +436,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
                   const isExpanded = expandedLab === idx;
                   return (
                     <FadeInUp key={idx} delay={idx * 80}>
-                      <div className="glass-card-electrical-engineering rounded-3xl overflow-hidden transition-all duration-300">
+                      <div className="glass-card-civil-engineering rounded-3xl overflow-hidden transition-all duration-300">
                         <button 
                           onClick={() => setExpandedLab(isExpanded ? null : idx)}
                           className="w-full flex items-center justify-between p-6 md:p-8 hover:bg-white/40 transition-colors text-left group"
@@ -549,7 +529,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
                 })
               ) : (
                 <FadeInUp delay={100}>
-                  <div className="glass-card-electrical-engineering p-12 rounded-3xl text-center">
+                  <div className="glass-card-civil-engineering p-12 rounded-3xl text-center">
                     <Cpu size={64} className="text-[#2563eb]/30 mx-auto mb-6" />
                     <h3 className="text-[24px] font-black text-[#0c4a6e] mb-3">Research Facilities</h3>
                     <p className="text-[#546E7A] text-[16px] font-medium">Laboratory details are currently being updated.</p>
@@ -580,7 +560,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group glass-card-electrical-engineering p-8 rounded-3xl flex flex-col items-center justify-center gap-4 hover:-translate-y-2 hover:bg-white/60 transition-all duration-300 relative overflow-hidden shadow-sm"
+                    className="group glass-card-civil-engineering p-8 rounded-3xl flex flex-col items-center justify-center gap-4 hover:-translate-y-2 hover:bg-white/60 transition-all duration-300 relative overflow-hidden shadow-sm"
                   >
                     <div className="absolute inset-0 bg-gradient-to-br from-[#2563eb]/5 to-[#4f46e5]/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                     <div className="w-16 h-16 rounded-full bg-white/80 flex items-center justify-center shadow-inner group-hover:scale-110 transition-transform relative z-10">
@@ -612,7 +592,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
             <FadeInUp delay={100}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {data.startup && data.startup.map((item, idx) => (
-                  <div key={idx} className="glass-card-electrical-engineering p-8 md:p-10 rounded-3xl flex flex-col justify-between group hover:bg-white/60 transition-all duration-300 shadow-sm relative overflow-hidden">
+                  <div key={idx} className="glass-card-civil-engineering p-8 md:p-10 rounded-3xl flex flex-col justify-between group hover:bg-white/60 transition-all duration-300 shadow-sm relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#2563eb]/5 to-transparent rounded-bl-full pointer-events-none"></div>
                     <div className="relative z-10">
                       <div className="w-16 h-16 rounded-2xl bg-white/80 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-inner border border-white">
@@ -654,7 +634,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
             <FadeInUp delay={100}>
               <div className="grid grid-cols-1 gap-8">
                 {data.clubs && data.clubs.map((club, idx) => (
-                  <div key={idx} className="glass-card-electrical-engineering p-8 md:p-12 rounded-3xl flex flex-col md:flex-row gap-8 items-center md:items-start group hover:bg-white/60 transition-all duration-300 shadow-sm relative overflow-hidden">
+                  <div key={idx} className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl flex flex-col md:flex-row gap-8 items-center md:items-start group hover:bg-white/60 transition-all duration-300 shadow-sm relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-[#2563eb]/5 to-transparent rounded-bl-full pointer-events-none"></div>
                     
                     <div className="shrink-0 w-24 h-24 rounded-2xl bg-gradient-to-br from-[#2563eb]/10 to-[#4f46e5]/10 flex items-center justify-center group-hover:scale-110 transition-transform shadow-inner border border-white">
@@ -698,7 +678,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
 
             {data.bputQuestions && (
               <FadeInUp delay={100}>
-                <div className="glass-card-electrical-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden group hover:bg-white/60 transition-all duration-300">
+                <div className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden group hover:bg-white/60 transition-all duration-300">
                   <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-[#2563eb]/5 to-transparent rounded-bl-full pointer-events-none"></div>
                   
                   <div className="relative z-10 grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16 items-center">
@@ -760,7 +740,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
             </FadeInUp>
 
             <FadeInUp delay={100}>
-              <div className="glass-card-electrical-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden mb-10">
+              <div className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden mb-10">
                 <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-[#2563eb]/5 to-transparent rounded-bl-full pointer-events-none"></div>
                 <h3 className="text-[28px] font-serif text-[#0c4a6e] uppercase tracking-wide mb-4">Academic Resources</h3>
                 <p className="text-[#455A64] text-[16px] font-medium leading-relaxed max-w-3xl">
@@ -772,7 +752,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
             <FadeInUp delay={200}>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {data.lectureNotes && data.lectureNotes.map((note, idx) => (
-                  <div key={idx} className="glass-card-electrical-engineering p-6 rounded-2xl flex flex-col justify-between group hover:bg-white/60 transition-all duration-300 shadow-sm relative overflow-hidden border border-white/50 hover:border-[#2563eb]/30">
+                  <div key={idx} className="glass-card-civil-engineering p-6 rounded-2xl flex flex-col justify-between group hover:bg-white/60 transition-all duration-300 shadow-sm relative overflow-hidden border border-white/50 hover:border-[#2563eb]/30">
                     <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                       <BookOpen size={64} className="text-[#2563eb] -rotate-12 translate-x-4 -translate-y-4" />
                     </div>
@@ -814,11 +794,11 @@ export default function ElectricalEngineeringPage({ isHome }) {
             </FadeInUp>
 
             <FadeInUp delay={100}>
-              <div className="glass-card-electrical-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden mb-10">
+              <div className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden mb-10">
                 <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-[#2563eb]/5 to-transparent rounded-bl-full pointer-events-none"></div>
                 <h3 className="text-[28px] font-serif text-[#0c4a6e] uppercase tracking-wide mb-4">Our Affiliations</h3>
                 <p className="text-[#455A64] text-[16px] font-medium leading-relaxed max-w-3xl">
-                  The Department of ElectricalEngineering and Telecommunication Engineering is proud to be associated with leading professional societies. These student chapters provide a platform for networking, knowledge sharing, technical events, and bridging the gap between academia and industry.
+                  The Department of Electronics and Telecommunication Engineering is proud to be associated with leading professional societies. These student chapters provide a platform for networking, knowledge sharing, technical events, and bridging the gap between academia and industry.
                 </p>
               </div>
             </FadeInUp>
@@ -831,7 +811,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
                     href={society.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group glass-card-electrical-engineering p-8 rounded-3xl flex flex-col items-center justify-center gap-4 hover:-translate-y-2 hover:bg-white/60 transition-all duration-300 shadow-sm relative overflow-hidden"
+                    className="group glass-card-civil-engineering p-8 rounded-3xl flex flex-col items-center justify-center gap-4 hover:-translate-y-2 hover:bg-white/60 transition-all duration-300 shadow-sm relative overflow-hidden"
                   >
                     <div className="absolute inset-0 bg-gradient-to-br from-[#2563eb]/5 to-[#4f46e5]/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                     
@@ -865,11 +845,11 @@ export default function ElectricalEngineeringPage({ isHome }) {
             </FadeInUp>
 
             <FadeInUp delay={100}>
-              <div className="glass-card-electrical-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden mb-10">
+              <div className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden mb-10">
                 <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-[#2563eb]/5 to-transparent rounded-bl-full pointer-events-none"></div>
                 <h3 className="text-[28px] font-serif text-[#0c4a6e] uppercase tracking-wide mb-4">Departmental Magazine</h3>
                 <p className="text-[#455A64] text-[16px] font-medium leading-relaxed max-w-3xl">
-                  Explore the annual editions of "Evoluer," our departmental magazine. It showcases the technical achievements, research insights, and creative endeavors of our students and faculty in the field of ElectricalEngineering and Telecommunication Engineering.
+                  Explore the annual editions of "Evoluer," our departmental magazine. It showcases the technical achievements, research insights, and creative endeavors of our students and faculty in the field of Electronics and Telecommunication Engineering.
                 </p>
               </div>
             </FadeInUp>
@@ -885,7 +865,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
                     }}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group glass-card-electrical-engineering p-8 rounded-3xl flex flex-col items-center justify-center gap-4 hover:-translate-y-2 hover:bg-white/60 transition-all duration-300 relative overflow-hidden shadow-sm"
+                    className="group glass-card-civil-engineering p-8 rounded-3xl flex flex-col items-center justify-center gap-4 hover:-translate-y-2 hover:bg-white/60 transition-all duration-300 relative overflow-hidden shadow-sm"
                   >
                     <div className="absolute inset-0 bg-gradient-to-br from-[#2563eb]/5 to-[#4f46e5]/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                     
@@ -918,7 +898,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
 
             {data.ingeniumNewsletter && (
               <FadeInUp delay={100}>
-                <div className="glass-card-electrical-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden group hover:bg-white/60 transition-all duration-300 shadow-sm flex flex-col md:flex-row gap-8 items-center md:items-start">
+                <div className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden group hover:bg-white/60 transition-all duration-300 shadow-sm flex flex-col md:flex-row gap-8 items-center md:items-start">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-[#2563eb]/5 to-transparent rounded-bl-full pointer-events-none"></div>
                   
                   <div className="shrink-0 w-24 h-24 rounded-2xl bg-gradient-to-br from-[#2563eb]/10 to-[#4f46e5]/10 flex items-center justify-center group-hover:scale-110 transition-transform shadow-inner border border-white">
@@ -961,7 +941,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
 
             {data.innovationTeaching && (
               <FadeInUp delay={100}>
-                <div className="glass-card-electrical-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden group hover:bg-white/60 transition-all duration-300 shadow-sm text-center flex flex-col items-center">
+                <div className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden group hover:bg-white/60 transition-all duration-300 shadow-sm text-center flex flex-col items-center">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-[#2563eb]/5 to-transparent rounded-bl-full pointer-events-none"></div>
                   <div className="absolute bottom-0 left-0 w-40 h-40 bg-gradient-to-tr from-[#2563eb]/5 to-transparent rounded-tr-full pointer-events-none"></div>
                   
@@ -1048,7 +1028,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
 
             {data.interInstituteEvents && (
               <FadeInUp delay={100}>
-                <div className="glass-card-electrical-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden group hover:bg-white/60 transition-all duration-300 shadow-sm text-center flex flex-col items-center">
+                <div className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden group hover:bg-white/60 transition-all duration-300 shadow-sm text-center flex flex-col items-center">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-[#2563eb]/5 to-transparent rounded-bl-full pointer-events-none"></div>
                   <div className="absolute bottom-0 left-0 w-40 h-40 bg-gradient-to-tr from-[#2563eb]/5 to-transparent rounded-tr-full pointer-events-none"></div>
                   
@@ -1079,7 +1059,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
       default:
         return (
           <div className="space-y-16">
-            <section className="glass-card-electrical-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden">
+            <section className="glass-card-civil-engineering p-8 md:p-12 rounded-3xl relative overflow-hidden">
                <h2 className="text-[32px] md:text-[40px] font-black text-[#0c4a6e] leading-tight">Content Coming Soon</h2>
             </section>
           </div>
@@ -1088,8 +1068,8 @@ export default function ElectricalEngineeringPage({ isHome }) {
   };
 
   return (
-    <div className="min-h-screen electrical-engineering-bg relative overflow-hidden font-sans">
-      <style>{electricalEngineeringStyles}</style>
+    <div className="min-h-screen civil-engineering-bg relative overflow-hidden font-sans">
+      <style>{civilEngineeringStyles}</style>
       
       {/* Background Elements */}
       <div className="blob-shape-1 top-[-10%] left-[-10%]"></div>
@@ -1110,7 +1090,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
             
             {!isHome ? (
               <>
-                <Link to="/electricals-and-electronics-engineering" className="hover:text-[#0c4a6e] transition-colors">ElectricalEngineering & Telecommunication</Link>
+                <Link to="/civil-engineering" className="hover:text-[#0c4a6e] transition-colors">Electronics & Telecommunication</Link>
                 <ChevronRight size={12} className="text-[#0369a1]/40" />
                 <span className="text-[#0c4a6e] font-black">{sectionLabel}</span>
               </>
@@ -1124,7 +1104,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
             <div className="w-full lg:w-[55%]">
               <FadeInUp>
                 <h1 className="text-[52px] md:text-[72px] lg:text-[84px] font-black text-[#0c4a6e] leading-[1.05] tracking-tight mb-8">
-                  ElectricalEngineering &<br/>
+                  Electronics &<br/>
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2563eb] to-[#4f46e5]">
                     Telecommunication
                   </span>
@@ -1139,11 +1119,11 @@ export default function ElectricalEngineeringPage({ isHome }) {
 
               <FadeInUp delay={200}>
                 <div className="flex flex-wrap gap-4 md:gap-6">
-                    <div className="glass-card-electrical-engineering px-6 py-5 rounded-2xl flex-1 min-w-[140px] text-center border-white/60">
+                    <div className="glass-card-civil-engineering px-6 py-5 rounded-2xl flex-1 min-w-[140px] text-center border-white/60">
                       <div className="text-[32px] md:text-[40px] font-black text-[#0284c7] leading-none mb-2">120</div>
                       <div className="text-[11px] font-bold uppercase tracking-[0.15em] text-[#2563eb]">B.Tech Intake</div>
                     </div>
-                    <div className="glass-card-electrical-engineering px-6 py-5 rounded-2xl flex-1 min-w-[140px] text-center border-white/60">
+                    <div className="glass-card-civil-engineering px-6 py-5 rounded-2xl flex-1 min-w-[140px] text-center border-white/60">
                       <div className="text-[32px] md:text-[40px] font-black text-[#0284c7] leading-none mb-2">₹99.5L</div>
                       <div className="text-[11px] font-bold uppercase tracking-[0.15em] text-[#2563eb]">Research Grants</div>
                     </div>
@@ -1162,17 +1142,17 @@ export default function ElectricalEngineeringPage({ isHome }) {
                   <div className="absolute inset-8 rounded-full overflow-hidden border-8 border-white/60 shadow-2xl z-10 bg-[#e0f2fe]">
                     <img 
                       src={data.heroImage} 
-                      alt="ElectricalEngineering Lab" 
+                      alt="Electronics Lab" 
                       className="w-full h-full object-cover scale-110 hover:scale-100 transition-transform duration-1000 relative z-10"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0c4a6e]/40 to-transparent z-20 pointer-events-none"></div>
                   </div>
 
                   {/* Floating Elements */}
-                  <div className="absolute top-[10%] left-[5%] glass-card-electrical-engineering p-4 rounded-full z-20 shadow-lg animate-bounce" style={{ animationDuration: '3s' }}>
+                  <div className="absolute top-[10%] left-[5%] glass-card-civil-engineering p-4 rounded-full z-20 shadow-lg animate-bounce" style={{ animationDuration: '3s' }}>
                     <Cpu size={28} className="text-[#2563eb]" />
                   </div>
-                  <div className="absolute bottom-[15%] right-[5%] glass-card-electrical-engineering p-4 rounded-full z-20 shadow-lg animate-bounce" style={{ animationDuration: '4s', animationDelay: '1s' }}>
+                  <div className="absolute bottom-[15%] right-[5%] glass-card-civil-engineering p-4 rounded-full z-20 shadow-lg animate-bounce" style={{ animationDuration: '4s', animationDelay: '1s' }}>
                     <Zap size={28} className="text-[#4f46e5]" />
                   </div>
                 </div>
@@ -1192,7 +1172,7 @@ export default function ElectricalEngineeringPage({ isHome }) {
 
           <div className="w-full lg:w-[30%] space-y-8 sticky top-[100px]">
             {/* The sidebar */}
-            <ElectricalEngineeringSidebar data={data} activeSection={subpage} />
+            <CivilEngineeringSidebar data={data} activeSection={subpage} />
           </div>
         </div>
       </div>

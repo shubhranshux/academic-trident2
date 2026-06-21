@@ -13,6 +13,14 @@ import ElectronicsPage from './pages/ElectronicsPage';
 import ElectronicsVLSIPage from './pages/ElectronicsVLSIPage';
 import MechanicalEngineeringPage from './pages/MechanicalEngineeringPage';
 import ElectricalEngineeringPage from './pages/ElectricalEngineeringPage';
+import CivilEngineeringPage from './pages/CivilEngineeringPage';
+import ElectricalEngineeringDiplomaPage from './pages/ElectricalEngineeringDiplomaPage';
+import EnvironmentalEngineeringPage from './pages/EnvironmentalEngineeringPage';
+import EnergyEnvironmentalPage from './pages/EnergyEnvironmentalPage';
+import ElectricalVehicleTechPage from './pages/ElectricalVehicleTechPage';
+import StructuralEngineeringPage from './pages/StructuralEngineeringPage';
+import IndustrialSafetyPage from './pages/IndustrialSafetyPage';
+
 
 
 
@@ -26,10 +34,10 @@ function App() {
             <Route path="/" element={<Home />} />
             
             {/* Engineering Routes */}
-            <Route path="/civil-engineering" element={<SchoolOfEngineeringSubPage isHome={true} slug="civil-engineering" />} />
-            <Route path="/civil-engineering/overview" element={<SchoolOfEngineeringSubPage isHome={false} slug="civil-engineering" />} />
-            <Route path="/civil-engineering/:subpage" element={<SchoolOfEngineeringPage slug="civil-engineering" />} />
-            <Route path="/civil-engineering/:subpage/:detail" element={<SchoolOfEngineeringPage slug="civil-engineering" />} />
+            <Route path="/civil-engineering" element={<CivilEngineeringPage isHome={true} />} />
+            <Route path="/civil-engineering/:subpage" element={<CivilEngineeringPage isHome={false} />} />
+            <Route path="/civil-engineering/:subpage/:detail" element={<CivilEngineeringPage isHome={false} />} />
+
 
             <Route path="/biotechnology-engineering" element={<BiotechnologyPage isHome={true} />} />
             <Route path="/biotechnology-engineering/:subpage" element={<BiotechnologyPage isHome={false} />} />
@@ -50,6 +58,30 @@ function App() {
             <Route path="/electricals-and-electronics-engineering" element={<ElectricalEngineeringPage isHome={true} />} />
             <Route path="/electricals-and-electronics-engineering/:subpage" element={<ElectricalEngineeringPage isHome={false} />} />
             <Route path="/electricals-and-electronics-engineering/:subpage/:detail" element={<ElectricalEngineeringPage isHome={false} />} />
+
+            <Route path="/electrical-engineering-diploma" element={<ElectricalEngineeringDiplomaPage isHome={true} />} />
+            <Route path="/electrical-engineering-diploma/:subpage" element={<ElectricalEngineeringDiplomaPage isHome={false} />} />
+            <Route path="/electrical-engineering-diploma/:subpage/:detail" element={<ElectricalEngineeringDiplomaPage isHome={false} />} />
+
+            <Route path="/environmental-engineering" element={<EnvironmentalEngineeringPage isHome={true} />} />
+            <Route path="/environmental-engineering/:subpage" element={<EnvironmentalEngineeringPage isHome={false} />} />
+            <Route path="/environmental-engineering/:subpage/:detail" element={<EnvironmentalEngineeringPage isHome={false} />} />
+
+            <Route path="/energy-environmental-engineering" element={<EnergyEnvironmentalPage isHome={true} />} />
+            <Route path="/energy-environmental-engineering/:subpage" element={<EnergyEnvironmentalPage isHome={false} />} />
+            <Route path="/energy-environmental-engineering/:subpage/:detail" element={<EnergyEnvironmentalPage isHome={false} />} />
+
+            <Route path="/electrical-vehicle-technology" element={<ElectricalVehicleTechPage isHome={true} />} />
+            <Route path="/electrical-vehicle-technology/:subpage" element={<ElectricalVehicleTechPage isHome={false} />} />
+            <Route path="/electrical-vehicle-technology/:subpage/:detail" element={<ElectricalVehicleTechPage isHome={false} />} />
+
+            <Route path="/structural-engineering" element={<StructuralEngineeringPage isHome={true} />} />
+            <Route path="/structural-engineering/:subpage" element={<StructuralEngineeringPage isHome={false} />} />
+            <Route path="/structural-engineering/:subpage/:detail" element={<StructuralEngineeringPage isHome={false} />} />
+
+            <Route path="/industrial-safety-engineering" element={<IndustrialSafetyPage isHome={true} />} />
+            <Route path="/industrial-safety-engineering/:subpage" element={<IndustrialSafetyPage isHome={false} />} />
+            <Route path="/industrial-safety-engineering/:subpage/:detail" element={<IndustrialSafetyPage isHome={false} />} />
 
             {/* Default Computing Routes */}
             <Route path="/:slug" element={<SchoolOfComputingSubPage isHome={true} />} />

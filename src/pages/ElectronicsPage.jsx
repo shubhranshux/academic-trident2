@@ -301,38 +301,7 @@ export default function ElectronicsPage({ isHome }) {
           </div>
         );
 
-      case 'syllabus':
-        return (
-          <div className="space-y-12">
-            <FadeInUp>
-              <div className="flex items-center gap-4 mb-8">
-                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#2563eb] to-[#4f46e5] flex items-center justify-center shadow-lg shadow-[#2563eb]/30">
-                  <FileText size={24} className="text-white" />
-                </div>
-                <h2 className="text-[32px] md:text-[40px] font-black text-[#0c4a6e] leading-tight">Syllabus</h2>
-              </div>
-            </FadeInUp>
 
-            <FadeInUp delay={100}>
-              <div className="glass-card-electronics p-8 md:p-12 rounded-3xl bg-white/70">
-                <div className="border-b border-[#2563eb]/20 pb-3 mb-6">
-                  <h3 className="text-[28px] font-serif text-[#0c4a6e] uppercase tracking-wide">Syllabus</h3>
-                </div>
-                
-                <div className="flex flex-col">
-                  {data.syllabus && data.syllabus.map((item, idx) => (
-                    <div key={idx} className="flex flex-col md:flex-row items-start md:items-center justify-between py-6 border-b border-gray-200 last:border-0 gap-4">
-                      <div className="text-[15px] font-bold text-[#0c4a6e] uppercase tracking-widest">{item.title}</div>
-                      <a href={item.link} target="_blank" rel="noopener noreferrer" className="px-5 py-3 bg-[#2563eb] text-white text-[11px] font-bold uppercase tracking-widest rounded-sm hover:bg-[#1d4ed8] transition-colors whitespace-nowrap shadow-sm">
-                        {item.buttonText}
-                      </a>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </FadeInUp>
-          </div>
-        );
 
       case 'syllabus':
         if (!data.syllabus) return null;
