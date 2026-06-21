@@ -10,6 +10,11 @@ import SchoolOfEngineeringPage from './pages/SchoolOfEngineeringPage';
 import SchoolOfEngineeringSubPage from './pages/SchoolOfEngineeringSubPage';
 import BiotechnologyPage from './pages/BiotechnologyPage';
 import ElectronicsPage from './pages/ElectronicsPage';
+import ElectronicsVLSIPage from './pages/ElectronicsVLSIPage';
+import MechanicalEngineeringPage from './pages/MechanicalEngineeringPage';
+import ElectricalEngineeringPage from './pages/ElectricalEngineeringPage';
+
+
 
 function App() {
   return (
@@ -33,6 +38,18 @@ function App() {
             <Route path="/electronics-and-telecommunication-engineering" element={<ElectronicsPage isHome={true} />} />
             <Route path="/electronics-and-telecommunication-engineering/:subpage" element={<ElectronicsPage isHome={false} />} />
             <Route path="/electronics-and-telecommunication-engineering/:subpage/:detail" element={<ElectronicsPage isHome={false} />} />
+
+            <Route path="/electronics-vlsi-design" element={<ElectronicsVLSIPage isHome={true} />} />
+            <Route path="/electronics-vlsi-design/:subpage" element={<ElectronicsVLSIPage isHome={false} />} />
+            <Route path="/electronics-vlsi-design/:subpage/:detail" element={<ElectronicsVLSIPage isHome={false} />} />
+
+            <Route path="/mechanical-engineering" element={<MechanicalEngineeringPage isHome={true} />} />
+            <Route path="/mechanical-engineering/:subpage" element={<MechanicalEngineeringPage isHome={false} />} />
+            <Route path="/mechanical-engineering/:subpage/:detail" element={<MechanicalEngineeringPage isHome={false} />} />
+
+            <Route path="/electricals-and-electronics-engineering" element={<ElectricalEngineeringPage isHome={true} />} />
+            <Route path="/electricals-and-electronics-engineering/:subpage" element={<ElectricalEngineeringPage isHome={false} />} />
+            <Route path="/electricals-and-electronics-engineering/:subpage/:detail" element={<ElectricalEngineeringPage isHome={false} />} />
 
             {/* Default Computing Routes */}
             <Route path="/:slug" element={<SchoolOfComputingSubPage isHome={true} />} />

@@ -1418,6 +1418,16 @@ const departmentData = {
         software: ["Windows 10 Education Operating System", "Linux Distribution (Ubuntu) \u2013 optional", "UML Modeling Tools (StarUML / Visual Paradigm / Lucidchart)", "Diagram Design Tools (Draw.io / Creately)", "Project Management Tools (MS Project / Trello)", "Testing Tools (Selenium / JUnit / TestNG)", "Documentation Tools (MS Word / Google Docs)"],
         experiments: [{ set: "List of Experiments", list: ["Analysis and Identification of Suitable Process Models.", "Work Breakdown Structure (WBS) and Estimation.", "Requirement Modeling \u2013 Structural Modeling.", "Requirement Modeling \u2013 Functional Modeling.", "Requirement Modeling \u2013 Behavioral Modeling.", "Object-Oriented Design \u2013 Use Case and Class Models.", "Object-Oriented Design \u2013 Interaction Models.", "Object-Oriented Design \u2013 Architectural Models.", "Software Testing.", "Storyboarding and User Interface Design."] }]
       }
+    ],
+
+    faculties: [
+      { name: "Mr.Prasanta Kumar Parida", designation: "Assistant Professor", department: "CS-IT", qualification: "M.Tech", appointmentType: "Regular" },
+      { name: "Mr. Biswajit Sarangi", designation: "Assistant Professor", department: "CS-IT", qualification: "M.Tech", appointmentType: "Regular" },
+      { name: "Mr.Srikanta Barick", designation: "Assistant Professor", department: "CS-IT", qualification: "M.Tech", appointmentType: "Regular" },
+      { name: "Mr.Nikhil Lenka", designation: "Assistant Professor", department: "CS-IT", qualification: "M.Tech", appointmentType: "Regular" },
+      { name: "Dr.Pradipta Kumar Mishra", designation: "Associate professor", department: "CS-IT", qualification: "Ph.D", appointmentType: "Regular" },
+      { name: "Mr.Santosh kumar mohapatra", designation: "Assistant Professor", department: "CS-IT", qualification: "M.Tech", appointmentType: "Regular" },
+      { name: "Mr.Alok Ranjan Nayak", designation: "Assistant Professor", department: "CS-IT", qualification: "M.Sc", appointmentType: "Regular" }
     ]
   },
 
@@ -3847,6 +3857,21 @@ const departmentData = {
           }
         ]
       }
+    ],
+
+    faculties: [
+      { name: "Mr.Mohini Prasad Mishra", designation: "Asst. Prof. & HOD", joining: "19/12/2022", qualification: "M.Tech", bputId: "T230128904" },
+      { name: "Mrs.Nilima Baisakhi", designation: "Assistant Professor", joining: "19/12/2022", qualification: "M.Tech", bputId: "T230128903" },
+      { name: "Dr.Biswaranjan Nayak", designation: "Professor", joining: "10/1/2009", qualification: "Ph.D", bputId: "T101728903" },
+      { name: "Mr.Yashobanta Panda", designation: "Associate Professor", joining: "16/8/2011", qualification: "M.Tech", bputId: "T111828907" },
+      { name: "Mr.Satya Sundar Mishra", designation: "Assistant Professor", joining: "7/7/2014", qualification: "M.Tech", bputId: "T141928902" },
+      { name: "Mrs.Sasmita Mishra", designation: "Assistant Professor", joining: "8/8/2011", qualification: "M.Tech", bputId: "T121728902" },
+      { name: "Mr.Santosh kumar mohapatra", designation: "Assistant Professor", joining: "10/8/2007", qualification: "M.Tech", bputId: "T210128914" },
+      { name: "Mr.Pradyumna Kumar Nayak", designation: "Assistant Professor", joining: "16/12/2013", qualification: "M.Tech", bputId: "T142728902" },
+      { name: "Mr.Saroj Kumar Mohanty", designation: "Assistant Professor", joining: "13/8/2019", qualification: "M.Tech", bputId: "T250628944" },
+      { name: "Mr.Prakash Chandra Sahoo", designation: "Assistant Professor", joining: "7/9/2015", qualification: "M.Tech", bputId: "T210128905" },
+      { name: "Mr.Biswajit Sarangi", designation: "Assistant Professor", joining: "1/2/2021", qualification: "M.Tech", bputId: "T210128904" },
+      { name: "Mr.Chandan Kumar Panda", designation: "Assistant Professor", joining: "8/11/2025", qualification: "M.Tech", bputId: "T250728922" }
     ]
   }
 
@@ -4473,7 +4498,19 @@ const departmentData = {
       title: "Electronics and Telecommunication Engineering | Trident Academy of Technology",
       description: "Department of Electronics and Telecommunication Engineering at Trident Academy of Technology."
     },
-    heroImage: "/images/media__1781667341960.png",
+    heroImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=2000",
+    hero: {
+      titleLine1: "Electronics &",
+      titleLine2: "Telecommunication",
+      subtitle: "Driving the future of communication, embedded systems, and VLSI design with industry-aligned education and cutting-edge research.",
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=2000",
+      breadcrumb: "Electronics & Telecommunication Engineering",
+      stats: [
+        { label: "B.Tech Intake", value: "120" },
+        { label: "Research Grants", value: "₹99.5L" },
+        { label: "NBA Accredited", value: "Yes" }
+      ]
+    },
     sidebar: {
       heading: "ELECTRONICS &\nTELECOMMUNICATION",
       items: [
@@ -4489,9 +4526,46 @@ const departmentData = {
         { id: "evoluer", label: "Evoluer Magazine", icon: "BookOpen" },
         { id: "ingenium", label: "The Ingenium Newsletter", icon: "FileText" },
         { id: "innovation", label: "Innovation in Teaching and Learning", icon: "Zap" },
-        { id: "publications", label: "Publications, Patent & Chapters and", icon: "FileText" },
-        { id: "conferences", label: "Conferences", icon: "Users" },
+        { id: "publications", label: "Publications, Patent & Chapters and Conferences", icon: "FileText" },
         { id: "inter-institute", label: "Inter-Institute Events", icon: "Award" }
+      ]
+    },
+    syllabus: {
+      btech: [
+        { 
+          year: "SYLLABUS FOR FIRST YEAR", 
+          links: [
+            { text: "VIEW / DOWNLOAD SYLLABUS FOR 1ST YR", url: "#" }
+          ]
+        },
+        { 
+          year: "SYLLABUS FOR SECOND YEAR", 
+          links: [
+            { text: "VIEW / DOWNLOAD SYLLABUS FOR 3RD SEM", url: "#" },
+            { text: "VIEW / DOWNLOAD SYLLABUS FOR 4TH SEM", url: "#" }
+          ]
+        },
+        { 
+          year: "SYLLABUS FOR THIRD YEAR", 
+          links: [
+            { text: "VIEW / DOWNLOAD SYLLABUS FOR 5TH SEM", url: "#" },
+            { text: "VIEW / DOWNLOAD SYLLABUS FOR 6TH SEM", url: "#" }
+          ]
+        },
+        { 
+          year: "SYLLABUS FOR FOURTH YEAR", 
+          links: [
+            { text: "Summary Yet to Come", url: "#" }
+          ]
+        }
+      ],
+      mtech: [
+        {
+          year: "SYLLABUS FOR M. TECH",
+          links: [
+            { text: "VIEW / DOWNLOAD SYLLABUS FOR M. TECH", url: "#" }
+          ]
+        }
       ]
     },
     homeContent: {
@@ -4522,30 +4596,665 @@ const departmentData = {
     },
     faculty: [
       {
-        name: "Dr. Example Faculty",
-        designation: "Professor & HOD",
-        qualification: "Ph.D. in Electronics",
-        specialization: "VLSI Design, Signal Processing",
-        experience: "20 Years",
-        email: "hod.etc@trident.ac.in",
-        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400"
+        name: "Mr.Arun Kumar Pradhan",
+        designation: "Associate Professor",
+        doj: "9/5/2012",
+        qualification: "M.Tech",
+        bputId: "T132028901"
+      },
+      {
+        name: "Dr.Minu Samantaray",
+        designation: "Assistant Professor",
+        doj: "2/7/2007",
+        qualification: "Ph.D",
+        bputId: "T082028902"
+      },
+      {
+        name: "Mrs.Susmita Satapathy",
+        designation: "Assistant Professor",
+        doj: "7/12/2017",
+        qualification: "M.Tech",
+        bputId: "T210128910"
+      },
+      {
+        name: "Dr.Sakuntala Mahapatra",
+        designation: "Professor & Dean",
+        doj: "9/7/2008",
+        qualification: "Ph.D",
+        bputId: "T082028906"
+      },
+      {
+        name: "Mr. Rabindra Bhojray",
+        designation: "Associate Professor",
+        doj: "7/11/2009",
+        qualification: "M.Tech",
+        bputId: "T092028906"
       }
     ],
     laboratories: [
-      {
-        name: "VLSI Design Laboratory",
-        description: "Equipped with industry-standard EDA tools for ASIC and FPGA design.",
-        keyExperiments: ["Digital IC Design", "Analog Layout", "FPGA Prototyping"],
-        equipments: ["Cadence Suite", "Xilinx Vivado", "FPGA Boards"],
-        images: ["https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=600"]
+      { 
+        name: "Basic Electronics Lab",
+        equipments: [
+          "Cathode Ray Oscilloscope (30 MHz)",
+          "Function Generator (3 MHz)",
+          "Universal Trainer Board (DC 0-30v, ±15v, AC 5V/10V/20V)",
+          "Digital Multimeters"
+        ],
+        keyExperiments: [
+          "Familiarization with electronic components (Active & Passive) & electron equipments (Multi-meters, CROs and function generators)",
+          "Study of V-I characteristics of P-N junction diode & Calculate DC & AC resistance",
+          "Construction of half-wave rectifier and full wave rectifier circuits (with & without Filter)",
+          "Construction of positive, negative and biased clipper circuits & study of their output waveforms by CRO",
+          "Construction of positive, negative clamper circuits & study of their output waveforms by CRO",
+          "Design of inverting and non-inverting amplifiers using Op-Amp for a given gain with the help of breadboard and distinct components",
+          "Study and realization of logic gates (Truth table verification)",
+          "V I Characteristics of NPN transistor (Beyond Syllabus)"
+        ]
+      },
+      { 
+        name: "Analog Electronics Circuits Lab",
+        equipments: [
+          "Cathode Ray Oscilloscope (30 MHz)",
+          "Function Generator (3 MHz)",
+          "Universal Trainer Board (DC 0-30v, ±15v, AC 5V/10V/20V)",
+          "Digital Multimeter"
+        ]
+      },
+      { 
+        name: "Signal System Lab",
+        equipments: [
+          "DELL OPTIPLEX 330 PC (Intel Core 2 Duo @2.20GHz, 1GB RAM)",
+          "LENOVO Think Center PC (Intel Pentium Dual CPU @1.80GHz, 1GB RAM)",
+          "MATLAB 2007a (Standalone with simulink tool)"
+        ],
+        keyExperiments: [
+          "Write a program to generate the discrete sequences (i) unit step (ii) unit impulse (iii) ramp (iv) periodic sinusoidal sequences. Plot all the sequences.",
+          "Find the Fourier transform of a square pulse. Plot its amplitude and phase spectrum.",
+          "Write a program to convolve two discrete time sequences. Plot all the sequences. Verify the result by analytical calculation.",
+          "Write a program to find the trigonometric Fourier series coefficients of a rectangular periodic signal. Reconstruct the signal by combining the Fourier series coefficients with appropriate weightings.",
+          "Write a program to find the trigonometric and exponential Fourier series coefficients of a periodic rectangular signal. Plot the discrete spectrum of the signal.",
+          "Generate a discrete time sequence by sampling a continuous time signal. Show that with sampling rates less than Nyquist rate, aliasing occurs while reconstructing the signal.",
+          "Find the power content and power spectral density for the signal: X(t)=cos(2*pi*47)+cos(2*pi*219), 0<t<10 sampled at 1000 samples/sec.",
+          "Write a program to find the magnitude and phase response of first order low pass and high pass filter. Plot the responses in logarithmic scale.",
+          "Write a program to find the response of a low pass filter and high pass filter, when a speech signal is passed through these filters.",
+          "Write a program to find the autocorrelation and cross correlation of sequences.",
+          "Generate a uniformly distributed length 1000 random sequence in the range (0,1). Plot the histogram and the probability function for the sequence. Compute the mean and variance of the random signal. (Beyond Syllabus)",
+          "Generate a Gaussian distributed length 1000 random sequence. Compute the mean and variance of the random signal by a suitable method. (Beyond Syllabus)"
+        ]
+      },
+      { 
+        name: "DSDLab",
+        equipments: [
+          "Universal Trainer Board (DC 0-30v, ±15v, AC 5V/10V/20V, Function Generator & 7 Segment Display)",
+          "Cathode Ray Oscilloscope (30 MHz)",
+          "Function Generator (3 MHz)",
+          "Digital Multimeter"
+        ],
+        keyExperiments: [
+          "Digital Logic Gates: Investigate logic behavior of AND, OR, NAND, NOR, EX-OR, EX-NOR, Invert and Buffer gates, use of Universal NAND Gate.",
+          "Gate-level minimization: Two level and multi level implementation of Boolean functions.",
+          "Combinational Circuits: design, assemble and test: adders and subtractors, code converters, gray code to binary and 7 segment display.",
+          "Design, implement and test a given design example with (i) NAND Gates only (ii) NOR Gates only and (iii) using minimum number of Gates.",
+          "Design with multiplexers and de-multiplexers.",
+          "Flip-Flop: assemble, test and investigate operation of SR, D & J-K flip-flops.",
+          "Shift Registers: Design and investigate the operation of all types of shift registers with parallel load.",
+          "Counters: Design, assemble and test various ripple and synchronous counters – decimal counter, Binary counter with parallel load.",
+          "Binary Multiplier: Design and implement a circuit that multiplies 4-bit unsigned numbers to produce a 8 bit product.",
+          "Design of Running light using 555 Timer. (Beyond Syllabus)",
+          "Design, assemble and testing of Ring Counter. (Beyond Syllabus)"
+        ]
+      },
+      { 
+        name: "Electronics Device Lab",
+        equipments: [
+          "DELL OPTIPLEX 330 PC (Intel Core 2 Duo @2.20GHz, 1GB RAM)",
+          "LENOVO Think Center PC (Intel Pentium Dual CPU @1.80GHz, 1GB RAM)",
+          "MATLAB 2007a (Standalone with simulink tool)",
+          "HFSS 14 (Standalone License)"
+        ],
+        keyExperiments: [
+          "Wave-propagation in conductors and dielectrics using HFSS/CST/MATLAB.",
+          "Current and charge flow of electromagnetic wave in a rectangular waveguide using HFSS/CST/MATLAB.",
+          "Uniform Plane Wave Propagation in an Arbitrary Direction.",
+          "Transverse Electric Waves in a Parallel-Plate Waveguide.",
+          "To calculate Dispersion and Group Velocity.",
+          "To design Rectangular Waveguide.",
+          "To design cavity Resonator.",
+          "To show the modes of a rectangular waveguide using HFSS.",
+          "To show azimuth and elevation patterns.",
+          "To show the input and output impedance.",
+          "SWR measurements of rectangular waveguide.",
+          "Reflection of plane waves."
+        ]
+      },
+      { 
+        name: "Analog and Digital Communication Lab",
+        equipments: [
+          "Cathode Ray Oscilloscope (30 MHz & 25MHz)",
+          "Function Generator (3MHz) & Spectrum Analyzer (0.15MHz to 1050MHz)",
+          "Analog Communication Kits: AM, FM, DSB/SSB, PAM, VSB",
+          "Digital Communication Kits: ASK, PSK, FSK, DPSK, QPSK, MSK, QAM",
+          "Pulse Code Modulation (PCM) & Delta/Sigma Modulation Kits",
+          "LAN Trainer & ISDN Trainer",
+          "Multiplexing & Filtering: TDM, Active/Passive Filters",
+          "Noise Signal Generator, ADC/DAC 8 Channel, Level Converter"
+        ],
+        keyExperiments: [
+          "Analyze and plot the spectrum of various signals with aid of spectrum analyzer.",
+          "Analyze the process of frequency division multiplexing and frequency division de-multiplexing.",
+          "Study and design of AM modulator and demodulator (Full AM, SSB, DSBSC, SSBSC).",
+          "Study of FM modulation and Demodulation Techniques.",
+          "Observer the process of PAM, quantization and determination of quantization noise.",
+          "Using MATLAB/SCILAB generate a carrier and a modulating signal. Modulate using AM & FM, analyze waveform and frequency spectrum.",
+          "Using Lab-View software simulate AM & FM modulation and demodulation system.",
+          "Study the functioning of PCM and Delta modulator, demonstrate the process of PCM modulation and Delta modulation.",
+          "To study Time Division Multiplexing and different channel coding and decoding techniques.",
+          "Generation and reception of different types of signals like ASK, PSK, FSK.",
+          "To transmit and received three separate signals audio, video and tone simultaneously through satellite link.",
+          "To compare different forms of BPSK, QPSK, OQPSK (experimentally) and analyze their spectrum.",
+          "To transmit different types of signals using ISDN system and analyze LAN data communication using LAN trainer.",
+          "Generation of VSB, DPSK Modulator, MSK Modulator (Beyond Syllabus)"
+        ]
+      },
+      { 
+        name: "Digital Signal Processing Lab",
+        equipments: [
+          "LENOVO Think Center PC (Intel Pentium Dual CPU E2160 @1.80GHz, 1GB RAM)",
+          "DSP Trainer Kit (VI Micro System VSK-6713, TMS320C6713)",
+          "Cathode Ray Oscilloscope (30 MHZ)",
+          "Function Generator (3 MHz)",
+          "MATLAB 2007a (Standalone with simulink tool)",
+          "VI Debugger For 6713"
+        ],
+        keyExperiments: [
+          "(i) Introduction to MATLAB software and study of its important commands. (ii) Familiarization with the architecture of a standard DSP kit.",
+          "(a) Introduction to MATLAB software and study of its important commands. (b) Generation of various types of waveforms using MATLAB and DSP kit.",
+          "Linear convolution of sequences and verification of linear convolution using DSP kit.",
+          "Circular convolution of two sequences and comparison of the result with linear convolution using MATLAB and DSP kit.",
+          "(a) Computation of autocorrelation and cross correlation using MATLAB. (b) Computation of power spectral density using MATLAB and DSP kit.",
+          "Finding the convolution of a periodic sequence using DFT and IDFT in MATLAB.",
+          "(i) Implementation of FFT algorithm by DIT and DIF using MATLAB. (ii) Finding the FFT of a given 1-D signal using DSP kit and plotting the same.",
+          "Design and implementation of FIR (low pass and high pass) Filters using windowing techniques in MATLAB and DSP kit.",
+          "Design and implementation of IIR (low pass and high pass) Filters in MATLAB and DSP kit.",
+          "(i) Convolution of long duration sequences using overlap add, overlap save using MATLAB. (ii) Implementation of noise cancellation using adaptive filters on a DSP Kit.",
+          "Envelop detector using MATLAB (Beyond Syllabus)",
+          "Signal Reconstruction using MATLAB (Beyond Syllabus)"
+        ]
+      },
+      { 
+        name: "Microprocessor and Microcontroller Lab",
+        equipments: [
+          "8085 Microprocessor Trainer Kit (8-BIT)",
+          "8086 Microprocessor Trainer Kit (16-BIT)",
+          "8051 Microcontroller Trainer Kit (8-BIT)",
+          "Cathode Ray Oscilloscope (30MHZ)",
+          "Digital To Analog Converter Board",
+          "Elevator Simulator",
+          "8279 & 8255 Interface Boards",
+          "Stepper Motor Kit & Traffic Light Controller"
+        ],
+        keyExperiments: [
+          "Introduction to 8086 microprocessor and its register structures.",
+          "Programs for 16 bit arithmetic operations using 8086 (Addition, Subtraction, Multiplication, Division and 2's complement).",
+          "Programs for Searching using 8086 (Find largest and smallest numbers).",
+          "Programs for Sorting using 8086 (Ascending and descending order).",
+          "Programs for String manipulation operations using 8086 (Data block transfer).",
+          "Interfacing and Programming of Stepper Motor.",
+          "Interfacing and Programming of Traffic light control system.",
+          "Programming using Arithmetic, Logical and Bit Manipulation instructions of 8051 microcontroller.",
+          "Interfacing ADC and DAC.",
+          "A design problem using 8051.",
+          "Generate a square wave and rectangular wave of given frequency at the output pin of 8255 chip. (Beyond Syllabus)",
+          "Study of Elevator Simulator. (Beyond Syllabus)"
+        ]
+      },
+      { 
+        name: "MWE Lab",
+        equipments: [
+          "Klystron Power supply",
+          "Klystron Mount & Klystron Tube",
+          "Isolator & Frequency meter",
+          "Variable attenuator",
+          "Slotted section"
+        ],
+        keyExperiments: [
+          "Reflex Klystron Characteristics.",
+          "Gunn diode characteristics.",
+          "Directional Coupler Characteristics.",
+          "Measurement of Voltage Standing wave ratio.",
+          "Radiation Pattern Measurement of a Horn Antenna.",
+          "Impedance, Wavelength and Frequency Measurement.",
+          "Determination of Polarization of Horn Antenna.",
+          "Measurement of Scattering Parameters.",
+          "Coupling Measurement of H-Plane, E-Plane and Magic Tee junction.",
+          "Measurement of Dielectric Constant.",
+          "Measurement of Phase Shift.",
+          "Scattering Parameters of Circulator/Isolators.",
+          "To study the cavity resonator. (Beyond Syllabus)",
+          "Measurement of Dielectric constant of a low loss solid dielectric. (Beyond Syllabus)"
+        ]
+      },
+      { 
+        name: "Future Ready Contributor Programme Lab",
+        equipments: [],
+        keyExperiments: [
+          "Who Is A Contributor? Enable students to build a new vision of who they can become as 'future-ready contributors'.",
+          "Developing A Growth Identity: Enable students to develop a growth identity & build their self-esteem.",
+          "Become A Creator Of Your Destiny: Help students learn to deal positively with challenging life situations.",
+          "Achieving Sustainable Success: Developing a steady success in an uncertain world.",
+          "Career Development Pathways: Open up career possibilities and build a contributive career.",
+          "Unleashing Our Power To Contribute: Be contributors 'NOW' and start contributing at any point through any role.",
+          "Project 1: Building A Contributor Profile For A Real-Life Contributor (Think Solutions, Value Thinking, Engage Deeply).",
+          "Project 2: Building A Solution To A Citizen Challenge (Think In Enlightened Self-Interest, Human-Centric Thinking & Empathy, Trust Conduct).",
+          "Project 3: Building A Vision & Plan For Running A Contributor Company."
+        ]
+      },
+      { 
+        name: "Communication Engineering Lab",
+        equipments: [
+          "DELL OPTIFLEX 330 PC",
+          "Cathode Ray Oscilloscope (30MHZ)",
+          "Antenna Trainer Kit",
+          "Satellite Communication Trainer (1100-1300MHZ PPL MICROWAVE)",
+          "Fiber Optics Kit",
+          "Colour TV & DVD Player"
+        ],
+        keyExperiments: [
+          "Radiation pattern of Dipole, Yagi, Helical and Slot Antenna.",
+          "Study of different blocks of colour TV receiver such as RF amplifier, IF amplifier, sync separator, vertical oscillator, colour picture tube etc.",
+          "Polarization Detection of Dipole, Yagi, Helical and Slot Antenna.",
+          "Measurement of Refractive Index profile, Numerical Aperture.",
+          "Attenuation and bending loss/dispersion in a multimode optical fiber.",
+          "Measurement of Gain of a fiber communication link using (a) optical fiber, (b) free space.",
+          "Establishing and testing an optical Fiber analog and digital Link.",
+          "Simulation of a pn sequence generator using MATLAB.",
+          "Simulation of direct sequence spread spectrum technique using MATLAB.",
+          "Simulation of TDM and WDM using Matlab.",
+          "To establish a direct communication link between uplink transmitter and downlink receiver using tone signal. (Beyond Syllabus)",
+          "To set up an active satellite link and demonstrate link fail operation. (Beyond Syllabus)"
+        ]
+      },
+      { 
+        name: "Project Lab",
+        equipments: [
+          "SYSTEM (PC) DELL/ LENOVO (OPTIPLEX 330/ Think Center)",
+          "UPS (APC/ Back-UPS RS 600, 600VA/360W)",
+          "DSO (APLAB/ SCIENTIFIC D36060C/ SMO1060, 60mhz two channel)",
+          "UNIVERSAL PROGRAMMER (TOP WIN TOP2008, USB connected)",
+          "DAQ (NI USB6000, 12 bit 10 KS/S Multifunction I/O)",
+          "Raspberry Pi 2",
+          "Arduino",
+          "LabVIEW (NI 2013 License Version)"
+        ]
+      },
+      { 
+        name: "Additional Lab Facilities",
+        equipments: [
+          "National MEMS Design Centre (NMDC): MEMS perpetual licensed software (COMSOL, Coventorware, Intellisuite).",
+          "PCB Prototyping and Design Lab: CNC Based MITS PCB Antenna Prototyping Machine (Eleven Lab), OrCAD Simulation software.",
+          "IoT Maker's Space/Microchip Lab: Chipkit Wi-Fire, Atmel QTouch, Microchip Explorer 8, Atmel Xplained kits, PIC Kit 3.",
+          "Mechatronics Lab: Robotics, automation, unmanned vehicles (UVs) and Industry 4.0 tools.",
+          "Cisco Thingqbator: CISCO sponsored IoT Incubation Center.",
+          "Sponsored Research Laboratory: Dedicated lab for Govt. Sponsored projects (BRFST, BRNS, DDP)."
+        ],
+        keyExperiments: [
+          "NMDC Achievements: Student awards at ISSS-2014 for 'Wireless heartbeat monitoring system' and 'ZigBee based calling bell'.",
+          "PCB Lab Projects: Designed prototypes for Gas sensing applications and DRA based MIMO antenna for WiMax and WLAN.",
+          "IoT Lab Projects: Intelligent IoT system for Sensing Hazardous Gases in Manhole (DST Funded), IoT Based Smart Dustbin for Smart City.",
+          "Sponsored Research Projects: 16-Channel Wireless Acquisition System for Magnetic Diagnostics of ADITYA-U Tokamak (BRNS Funded)."
+        ]
       }
     ],
     syllabus: [
-      { year: "First Year", title: "SYLLABUS FOR FIRST YEAR", buttonText: "VIEW / DOWNLOAD", link: "#" },
-      { year: "Second Year", title: "SYLLABUS FOR SECOND YEAR", buttonText: "VIEW / DOWNLOAD", link: "#" }
-    ]
-  }
+      { year: "First Year", title: "SYLLABUS FOR FIRST YEAR", buttonText: "VIEW / DOWNLOAD 1ST YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Course-Structure-and-Detailed-Syllabus-for-1st-Year-B.Tech-Admission-Batch-2023-24.pdf" },
+      { year: "Second Year", title: "SYLLABUS FOR SECOND YEAR", buttonText: "VIEW / DOWNLOAD 2ND YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ES05-ETC-2nd-Year.pdf" },
+      { year: "Third Year", title: "SYLLABUS FOR THIRD YEAR", buttonText: "VIEW / DOWNLOAD 3RD YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ES05-ETC-3rd-Year.pdf" },
+      { year: "Fourth Year", title: "SYLLABUS FOR FOURTH YEAR", buttonText: "VIEW / DOWNLOAD 4TH YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ETC-ECE_7th-8th-sem.pdf" },
+      { year: "M.Tech", title: "SYLLABUS FOR M. TECH", buttonText: "VIEW / DOWNLOAD M. TECH SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/MTECH-ETC_merged.pdf" }
+    ],
+    placement: [
+      { year: "2024-25", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2024-25-ETC.pdf" },
+      { year: "2023-24", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2023-24-ETC.pdf" },
+      { year: "2022-23", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2022-23-ETC.pdf" },
+      { year: "2021-22", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2021-22-ETC.pdf" }
+    ],
+    startup: [
+      { title: "Student Start up", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Student-Startup.pdf" },
+      { title: "Product Development", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/ETC_product-development.pdf" }
+    ],
+    clubs: [
+      {
+        name: "Department Technical Clubs",
+        description: "The department encourages holistic student development through active technical and professional clubs that foster innovation, teamwork, leadership, and practical learning beyond the classroom. Students can engage in hands-on projects, national-level competitions, and interactive workshops.",
+        link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Club.pdf"
+      }
+    ],
+    bputQuestions: {
+      title: "Previous Year Question Papers (PYQ)",
+      description: "Access a comprehensive repository of BPUT Previous Year Question papers to enhance your exam preparation. Reviewing past papers helps you understand the exam pattern, identify important topics, and improve your time management skills during actual examinations.",
+      benefits: [
+        "Familiarize yourself with the exam structure and question formats.",
+        "Identify frequently asked topics and weightage distribution.",
+        "Practice solving questions within the stipulated time.",
+        "Assess your preparation level and focus on weak areas."
+      ],
+      link: "https://www.bputonline.com/"
+    },
+    lectureNotes: [
+      { title: "Microprocessor & Microcontroller Module 1", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Microprocessor-Microcontroller-Module-1.pdf" },
+      { title: "Microprocessor & Microcontroller Module 2", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Microprocessor-Microcontroller-Module-2.pdf" },
+      { title: "Microprocessor & Microcontroller Module 3", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Microprocessor-Microcontroller-Module-3.pdf" },
+      { title: "VLSI Design 1", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/VLSI-DESIGN.pdf" },
+      { title: "VLSI Design 2", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/VLSI-2.pdf" },
+      { title: "Radar & TV Engg.", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Radar-TV-Engg.pdf" },
+      { title: "Digital System Design", link: "#" }
+    ],
+    professionalSocieties: [
+      { name: "IEEE", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/IEEE-Student-Branch.pdf" },
+      { name: "ISTE", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/ISTE-Indian-Society-For-Technical-Education.pdf" },
+      { name: "IETE", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/IETE.pdf" },
+      { name: "VSI", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/VSI.pdf" }
+    ],
+    evoluerMagazine: [
+      { year: "2024-25", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/EVOLUER-Magazine-2024-2025.pdf" },
+      { year: "2023-24", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/EVOLUER-Magazine-2023-2024.pdf" },
+      { year: "2022-23", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/EVOLUER-Magazine-2022-2023.pdf" }
+    ],
+    ingeniumNewsletter: {
+      title: "The Ingenium Newsletter",
+      description: "Stay connected with the latest updates, departmental milestones, and student achievements through our official newsletter, 'The Ingenium'. Published quarterly, it highlights our relentless pursuit of academic excellence, innovative research projects, and the vibrant campus life of the Electronics and Telecommunication Engineering department.",
+      link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/The-Ingenium-1Compress_20250908_033818.pdf"
+    },
+    innovationTeaching: {
+      title: "Innovation in Teaching and Learning",
+      description: "Our department continuously strives to adopt innovative pedagogical methods to enhance the learning experience. We integrate modern tools, practical demonstrations, and interactive sessions to ensure students grasp complex engineering concepts effectively.",
+      link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Innovation-website1.pdf"
+    },
+    publications: [
+      { title: "Publication", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Journal-List.pdf" },
+      { title: "Patent", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/List-of-Patent-details.pdf" },
+      { title: "Chapters and Conferences", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Chapters-and-Conferences.pdf" }
+    ],
+    interInstituteEvents: {
+      title: "Inter-Institute Events",
+      description: "Our students regularly participate and excel in various inter-institute events, technical symposiums, and competitions. These events provide a platform to showcase their skills, exchange ideas, and foster a spirit of healthy competition and collaboration with peers from other institutions.",
+      link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Student-participation-Intercollege-1.pdf"
+    }
+  },
+  "electronics-vlsi-design": {
+    hero: {
+      breadcrumb: "VLSI DESIGN TECHNOLOGY",
+      title: "ELECTRONICS ENGINEERING",
+      highlight: "(VLSI DESIGN TECHNOLOGY)",
+      subtitle: "In order to cope up with the changing need of the industry as well as academia, the Department of Electronics (VLSI Design) at present offers following programme variants with unique philosophies and objectives:",
+      features: [
+        "B.Tech. in Electronics Engineering (VLSI Design Technology) – 30 Seats",
+        "M.Tech. in VLSI Design – 18 Seats"
+      ],
+      description: [
+        "Very Large Scale Integrated (VLSI) Circuit Design is a highly intricate process involving the creation of complex computer chips, known as integrated circuits (ICs), through the use of sophisticated computer-aided design (CAD) tools on workstations or personal computers (PCs). Pursuing an M.Tech in VLSI Design is a comprehensive two-year postgraduate program tailored to provide students with extensive knowledge in VLSI system design, covering a broad spectrum of subjects ranging from algorithms and hardware description languages to system architectures, physical designs, verification techniques, and low-power design strategies.",
+        "B.Tech. - Electronics Engineering (VLSI Design and Technology) is a 4-year program designed to prepare engineering graduates who have comprehensive knowledge about Integrated circuit designs, which is usually known as chip design. It aims to prepare skilled graduates who know the key aspects of VLSI Design which is required in VLSI domain Industries. This program will support the development of semiconductor ecosystem in India. The curriculum of VLSI Design has been designed to cater to the ever-changing demands of VLSI industry and needs of the society through research.",
+        "Through B.Tech. - Electronics Engineering (VLSI Design and Technology) program, graduates will develop an in-depth understanding of semiconductor devices, VLSI circuit design and verification, FPGA design, and fabrication process, along with hands-on experience with leading EDA (Electronic Design & Automation) tools. The evergreen VLSI domain is for the design and verification of electronics systems and circuits and its applications are found in areas like Communications, Signal & Image Processing, Space Research and Automation Industry.",
+        "Recent advancements in VLSI design have ushered in a new era of compact and reliable systems capable of delivering data at unprecedented speeds. This has led to a surge in the applications of integrated circuits (ICs) across diverse industries, including high-performance computing, telecommunications, image and video processing, controls, and consumer electronics. With the constant evolution of VLSI technologies and the relentless demand for innovative electronic devices, there exists a significant need for skilled VLSI engineers who can navigate the dynamic landscape of chip design, contributing to the development of cutting-edge solutions that meet the ever-growing demands of the modern world."
+      ]
+    },
+    sidebar: {
+      heading: "ELECTRONICS\nVLSI DESIGN",
+      title: "VLSI DESIGN",
+      items: [
+        { id: "student-achievements-&-participation", label: "STUDENT ACHIEVEMENTS & PARTICIPATION", icon: "Trophy" },
+        { id: "professional-activities-&-student-chapters", label: "PROFESSIONAL ACTIVITIES & STUDENT CHAPTERS", icon: "Users" },
+        { id: "projects-to-startups", label: "PROJECTS TO STARTUPS", icon: "Rocket" },
+        { id: "faculties", label: "FACULTIES", icon: "Users" },
+        { id: "laboratories", label: "LABORATORIES", icon: "Microscope" }
+      ]
+    },
+    faculty: [
+      {
+        name: "Mr.Arun Kumar Pradhan",
+        designation: "Associate Professor",
+        doj: "9/5/2012",
+        qualification: "M.Tech",
+        bputId: "T132028901"
+      },
+      {
+        name: "Dr.Minu Samantaray",
+        designation: "Assistant Professor",
+        doj: "2/7/2007",
+        qualification: "Ph.D",
+        bputId: "T082028902"
+      },
+      {
+        name: "Mrs.Susmita Satapathy",
+        designation: "Assistant Professor",
+        doj: "7/12/2017",
+        qualification: "M.Tech",
+        bputId: "T210128910"
+      },
+      {
+        name: "Dr.Sakuntala Mahapatra",
+        designation: "Professor & Dean",
+        doj: "9/7/2008",
+        qualification: "Ph.D",
+        bputId: "T082028906"
+      },
+      {
+        name: "Mr. Rabindra Bhojray",
+        designation: "Associate Professor",
+        doj: "7/11/2009",
+        qualification: "M.Tech",
+        bputId: "T092028906"
+      }
+    ],
+    laboratories: [
+      { name: "VLSI & Embedded System Lab", description: "Facilities for VLSI design and embedded systems." },
+      { name: "Digital Signal Processing Lab", description: "Facilities for Digital Signal Processing." },
+      { name: "Signals & Systems Lab", description: "Facilities for Signals & Systems." },
+      { name: "Project Lab", description: "Project development and research." },
+      { name: "Microwave Engineering Lab", description: "Facilities for Microwave Engineering." },
+      { name: "Digital Electronics Lab", description: "Facilities for Digital Electronics." },
+      { name: "Microprocessor Lab", description: "Facilities for Microprocessor programming." },
+      { name: "Analog Electronics Lab", description: "Facilities for Analog Electronics." },
+      { name: "ADC Lab", description: "Analog and Digital Communication Lab." },
+      { name: "Wireless Communication Lab", description: "Facilities for Wireless Communication." },
+      { name: "MEMS Design Center", description: "Facilities for MEMS Design." },
+      { name: "PCB Lab", description: "Printed Circuit Board fabrication and testing." },
+      { name: "CISCO ThingQbator", description: "CISCO ThingQbator innovation lab." }
+    ],
+    specialLaboratories: [
+      { name: "ARF Fabless Design Center", description: "Advanced Research Facility for Fabless Design." },
+      { name: "MIETY C2S Center (VLSI Lab)", description: "Ministry of Electronics and Information Technology Chips to Startup Center." },
+      { name: "IoT Makerspace / Microchip Lab", description: "Internet of Things and Microchip innovations." }
+    ],
+    stats: [
+      { value: "30", label: "B.Tech Seats" },
+      { value: "18", label: "M.Tech Seats" },
+      { value: "100%", label: "Placement Assistance" },
+      { value: "5+", label: "Advanced Labs" }
+    ],
+    homeContent: {
+      intro: "In order to cope up with the changing need of the industry as well as academia, the Department of Electronics (VLSI Design) at present offers following programme variants with unique philosophies and objectives:",
+      highlights: [
+        "B.Tech. in Electronics Engineering (VLSI Design Technology) \u2013 30 Seats",
+        "M.Tech. in VLSI Design \u2013 18 Seats"
+      ],
+      paragraphs: [
+        "Very Large Scale Integrated (VLSI) Circuit Design is a highly intricate process involving the creation of complex computer chips, known as integrated circuits (ICs), through the use of sophisticated computer-aided design (CAD) tools on workstations or personal computers (PCs). Pursuing an M.Tech in VLSI Design is a comprehensive two-year postgraduate program tailored to provide students with extensive knowledge in VLSI system design, covering a broad spectrum of subjects ranging from algorithms and hardware description languages to system architectures, physical designs, verification techniques, and low-power design strategies.",
+        "B.Tech. \u2013 Electronics Engineering (VLSI Design and Technology) is a 4-year program designed to prepare engineering graduates who have comprehensive knowledge about Integrated circuit designs, which is usually known as chip design. It aims to prepare skilled graduates who know the key aspects of VLSI Design which is required in VLSI domain Industries. This program will support the development of semiconductor ecosystem in India. The curriculum of VLSI Design has been designed to cater to the ever-changing demands of VLSI industry and needs of the society through research.",
+        "Through B.Tech. \u2013 Electronics Engineering (VLSI Design and Technology) program, graduates will develop an in-depth understanding of semiconductor devices, VLSI circuit design and verification, FPGA design, and fabrication process, along with hands-on experience with leading EDA (Electronic Design & Automation) tools. The evergreen VLSI domain is for the design and verification of electronics systems and circuits and its applications are found in areas like Communications, Signal & Image Processing, Space Research and Automation Industry.",
+        "Recent advancements in VLSI design have ushered in a new era of compact and reliable systems capable of delivering data at unprecedented speeds. This has led to a surge in the applications of integrated circuits (ICs) across diverse industries, including high-performance computing, telecommunications, image and video processing, controls, and consumer electronics. With the constant evolution of VLSI technologies and the relentless demand for innovative electronic devices, there exists a significant need for skilled VLSI engineers who can navigate the dynamic landscape of chip design, contributing to the development of cutting-edge solutions that meet the ever-growing demands of the modern world."
+      ]
+    },
 
+    achievements: {
+      overview: {
+        title: "Student Achievements & Participation",
+        description: "The Department of Electronics and Telecommunication Engineering at Trident Academy of Technology, Bhubaneswar takes pride in the outstanding achievements of its students in various inter-institute competitions, hackathons, and technical events.",
+        subtitle: "Our students consistently demonstrate innovation, teamwork, and technical excellence by securing top positions across prestigious platforms."
+      },
+      highlights: [
+        "Multiple First Positions in BPUT Hackathon 2024",
+        "Strong performance in Robotics Competitions (Robo Soccer, Robo Sumo, Line Follower)",
+        "Recognition in Startup Demo & Innovation Events",
+        "Consistent Runner-Up & 2nd Runner-Up positions across major technical fests"
+      ],
+      majorAchievements: [
+        {
+          title: "BPUT Hackathon 2024",
+          award: "First Position",
+          details: "Students secured First Position in Industry 4.0 \u2013 Surveillance Management and Low Visibility Traffic Management",
+          venue: "BPUT, Rourkela",
+          date: "January 2025",
+          icon: "trophy"
+        },
+        {
+          title: "BPUT Project Competition",
+          award: "First Position",
+          venue: "GIET, Gangapatna",
+          date: "December 2024",
+          icon: "trophy"
+        },
+        {
+          title: "Xenesis 2024 Hackathon",
+          award: "2nd Runner-Up",
+          venue: "Government College of Engineering, Keonjhar",
+          icon: "medal"
+        },
+        {
+          title: "Odisha Technological Conclave",
+          award: "2nd Runner-Up",
+          venue: "Bhubaneswar",
+          icon: "medal"
+        }
+      ],
+      roboticsAchievements: [
+        {
+          event: "OUTR \u2013 Perception 2024",
+          results: [
+            { competition: "Robo Soccer", position: "First Position" },
+            { competition: "Robo Sumo", position: "1st Runner-Up" }
+          ]
+        },
+        {
+          event: "IGIT Sarang \u2013 Horizon Event",
+          results: [
+            { competition: "Line Follower", position: "First Position" },
+            { competition: "Robo Sumo", position: "First Position" },
+            { competition: "Robo Soccer", position: "Runner-Up" }
+          ]
+        },
+        {
+          event: "IIT Bhubaneswar \u2013 Yantrix",
+          results: [
+            { competition: "Robo Soccer", position: "Runner-Up" },
+            { competition: "Line Follower", position: "2nd Runner-Up" }
+          ]
+        }
+      ],
+      innovationEvents: [
+        {
+          title: "Demo Day / Startup Exhibition",
+          awards: ["First Position", "Runner-Up"],
+          venue: "Trident Academy of Technology"
+        }
+      ],
+      specialAchievements: [
+        { title: "Trithon Triplets Hackathon", award: "1st Runner-Up" },
+        { title: "Nirman 3.0 Robotics Event", award: "2nd Runner-Up" }
+      ],
+      keyContributors: [
+        "Asutosh Nayak", "Soumya Ranjan Pradhan", "Ayush Kumar Jena",
+        "Saswat Mishra", "Satyajit Jena", "Allisha Routray", "Basudev Das"
+      ],
+      commitments: [
+        "Encouraging innovation and research",
+        "Promoting hands-on technical learning",
+        "Supporting students in national-level competitions"
+      ]
+    },
+    professionalSocieties: {
+      overview: {
+        title: "PROFESSIONAL ACTIVITIES & STUDENT CHAPTERS",
+        description: "The Department of Electronics and Telecommunication Engineering at Trident Academy of Technology, Bhubaneswar actively engages students through leading professional societies like IEEE, IETE, ISTE, and VSI.",
+        subtitle: "These platforms provide opportunities for technical learning, research, innovation, and industry exposure."
+      },
+      societies: [
+        {
+          id: "ieee",
+          name: "IEEE",
+          fullName: "Institute of Electrical and Electronics Engineers",
+          description: "The IEEE Student Branch conducts various technical talks, hackathons, and workshops to keep students engaged with the latest advancements in technology.",
+          events: [
+            { name: "Team Synexis secured 1st Runners-up position in Project Expo", date: "09/08/2025", venue: "Mayfair Lagoon, Bhubaneswar" },
+            { name: "Technical talk on 'STI Ecosystem and Funding Opportunities'", date: "08/07/2025", venue: "Trident Academy Of Technology" },
+            { name: "Expert Talk On 'AC, DC, and Transient Analysis of Op-Amps in Cadence ADE'", date: "23/06/2025", venue: "Trident Academy Of Technology" },
+            { name: "6 week Summer Internship on ASIC & Embedded System Design using Licensed EDA Tools", date: "16/06/25-26/07/25", venue: "Trident Academy Of Technology" },
+            { name: "Session on 'Research Conclave: Celebrating National Technology Day 2025'", date: "10/05/2025", venue: "Trident Academy Of Technology" },
+            { name: "Workshop on 'Design Thinking and Internship Pathways'", date: "17/04/2025", venue: "Trident Academy Of Technology" },
+            { name: "Annual Hackathon, TRITHON 2025", date: "8/03/2025-9/03/25", venue: "Trident Academy Of Technology" },
+            { name: "Two-day National Conclave on 'Energy, Semiconductors, Cyber security, and AI- i.e. ESCA-2025'", date: "15/02/2025", venue: "Trident Academy Of Technology" },
+            { name: "Sensitization Talk on 'Role of Artificial Intelligence (AI) in career development'", date: "05/02/2025", venue: "Trident Academy Of Technology" },
+            { name: "Technical talk on 'Advancements and Applications Fabrication Technology'", date: "07/11/2024", venue: "Trident Academy Of Technology" },
+            { name: "Alumina talk on 'Career Paths and Opportunities In VLSI Industry'", date: "29/10/2024", venue: "Trident Academy Of Technology" },
+            { name: "IEEE SSH-2024 Hackathon", date: "21/10/2024-22/10/24", venue: "Ghaziabad" },
+            { name: "IEEE Day celebrations", date: "26/09/2024 - 28/09/2024", venue: "Trident Academy Of Technology" },
+            { name: "Technical talk on 'Introduction to Digital VLSI Design and Standard Flow'", date: "06/08/2024", venue: "Trident Academy Of Technology" }
+          ]
+        },
+        {
+          id: "iete",
+          name: "IETE",
+          fullName: "The Institution of Electronics and Telecommunication Engineers",
+          description: "IETE is India's leading recognized professional society devoted to the advancement of Science and Technology of Electronics, Telecommunication & IT. It conducts and sponsors technical meetings, conferences, symposia, and exhibitions.",
+          events: [
+            { name: "One-day hands-on session titled 'Analog Circuit Design Using Cadence Tools'", date: "24/06/2025", venue: "Trident Academy Of Technology" },
+            { name: "A Technical Quiz Competition", date: "03/06/2025", venue: "Trident Academy Of Technology" },
+            { name: "A Technical Quiz Competition", date: "06/11/2024", venue: "Trident Academy Of Technology" },
+            { name: "IETE Foundation day celebration", date: "09/11/2024", venue: "Trident Academy Of Technology" },
+            { name: "A Technical Quiz Competition", date: "10-11-2023 to 11-11-2023", venue: "Trident Academy Of Technology" },
+            { name: "A Technical Paper Presentation on Chat GPT in Education", date: "24-05-2023", venue: "Trident Academy Of Technology" }
+          ]
+        },
+        {
+          id: "iste",
+          name: "ISTE",
+          fullName: "Indian Society For Technical Education",
+          description: "The Indian Society for Technical Education admitted TAT as an Institutional Member in 2012. This helps the institute to improve the quality and relevance of technical education.",
+          events: [
+            { name: "A Technical talk on VLSI Design & Verification Flow", date: "19-07-2025", venue: "Trident Academy Of Technology" },
+            { name: "A seminar on 'Security Awareness and Data Protection Measures'", date: "12-04-2024", venue: "Trident Academy Of Technology" },
+            { name: "A one day workshop on 'Semiconductor Characterization: Present status and Future needs'", date: "10-02-2024", venue: "Trident Academy Of Technology" }
+          ]
+        },
+        {
+          id: "vsi",
+          name: "VSI",
+          fullName: "VLSI Society of India",
+          description: "VSI is a premier professional body focused on promoting research, development, and education in the field of VLSI design and related technologies. On 17th August 2024, the department signed a MoU with VSI to strengthen VLSI education, research, and skill development.",
+          events: [
+            { name: "A technical talk on 'STI Ecosystem and Funding Opportunities for Researchers'", date: "08/07/2025", venue: "Trident Academy Of Technology" },
+            { name: "A session on 'Research Conclave: Celebrating National Technology Day 2025'", date: "10/05/2025", venue: "Trident Academy Of Technology" },
+            { name: "MoU Signing Ceremony", date: "17/08/2024", venue: "Trident Academy Of Technology" }
+          ]
+        }
+      ]
+    },
+    startup: {
+      title: "PROJECTS TO STARTUPS",
+      paragraphs: [
+        "The Department of Electronics and Telecommunication Engineering at Trident Academy of Technology, Bhubaneswar encourages students to transform innovative ideas into real-world solutions.",
+        "Selected student projects have successfully evolved into startups and are incubated at STPI (2024-25), reflecting the institute's strong focus on innovation and entrepreneurship."
+      ],
+      keyFocus: [
+        "Turning academic projects into startup ventures",
+        "Supporting innovation and entrepreneurship",
+        "Providing incubation and mentorship opportunities"
+      ],
+      vision: "To empower students to become future entrepreneurs and innovators, contributing to technological and economic growth.",
+      reportLink: "#" // Link to be updated later
+    },
+
+  }
 };
 
 export default departmentData;

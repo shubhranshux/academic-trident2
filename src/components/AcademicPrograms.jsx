@@ -182,20 +182,13 @@ const programs = [
     subtitle: "Driving the Digital Revolution",
     description: "The School of Computing offers cutting-edge programmes in Computer Science, Artificial Intelligence, and Data Science. Our curriculum blends strong theoretical foundations with practical, industry-relevant exposure, preparing graduates for high-demand careers in emerging technologies.",
     nba: "B.Tech in Computer Science & Engineering",
-    btech: [
-      { name: "Computer Science & Engineering (CSE)", href: "/computer-science-engineering" },
-      { name: "Computer Science & Engineering (AI & ML)", href: "/computer-science-engineering-ai-ml" },
-      { name: "Computer Science & Engineering (Data Science)", href: "/computer-science-engineering-data-science" },
-      { name: "Computer Science and Technology (CST)", href: "/computer-science-technology" },
-      { name: "Computer Science & Information Technology (CSIT)", href: "/computer-science-information-technology" }
-    ],
-    integratedMtech: [
-      "Computer Science and Engineering"
-    ],
-    mtech: [
-      "Computer Science and Engineering",
-      "Computer Science and Engineering (Artificial Intelligence & Machine Learning)",
-      "Data Science"
+    programmes: [
+      { name: "Computer Science & Engineering (B.Tech / M.Tech / Int. M.Tech)", href: "/computer-science-engineering" },
+      { name: "Computer Science & Engineering (AI & ML) (B.Tech / M.Tech)", href: "/computer-science-engineering-ai-ml" },
+      { name: "Computer Science & Engineering (Data Science) (B.Tech)", href: "/computer-science-engineering-data-science" },
+      { name: "Computer Science and Technology (CST) (B.Tech)", href: "/computer-science-technology" },
+      { name: "Computer Science & Information Technology (CSIT) (B.Tech)", href: "/computer-science-information-technology" },
+      { name: "Data Science (M.Tech)", href: "#" }
     ],
     image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80&w=800",
   },
@@ -215,26 +208,18 @@ const programs = [
     subtitle: "Building the Future, One Innovation at a Time",
     description: "From Mechanical to Civil, Electrical, and Electronics Engineering, this school combines core engineering principles with modern advancements. Students gain hands-on experience through well-equipped labs, live projects, and industry partnerships.",
     nba: "B.Tech in Electronics & Telecommunication Engineering | B.Tech in Electrical & Electronics Engineering",
-    btech: [
-      { name: "Electronics and Telecommunication Engineering", href: "/electronics-and-telecommunication-engineering" },
-      "Electronics Engineering (VLSI Design Technology)",
-      "Electrical and Electronics Engineering",
-      { name: "Civil Engineering", href: "/civil-engineering" },
-      "Mechanical Engineering"
-    ],
-    mtech: [
-      { name: "Electronics and Telecommunication Engineering", href: "/electronics-and-telecommunication-engineering" },
-      "Electronics Engineering (VLSI Design)",
-      "Environmental Engineering",
-      "Energy and Environmental Engineering",
-      "Electrical Vehicle Technology",
-      "Structural Engineering",
-      "Industrial Safety Engineering"
-    ],
-    diploma: [
-      { name: "Civil Engineering", href: "/civil-engineering" },
-      "Electrical Engineering",
-      "Mechanical Engineering"
+    programmes: [
+      { name: "Electronics and Telecommunication Engineering (B.Tech / M.Tech)", href: "/electronics-and-telecommunication-engineering" },
+      { name: "Electronics Engineering (VLSI Design) (B.Tech / M.Tech)", slug: "electronics-vlsi-design", href: "/electronics-vlsi-design" },
+      { name: "Electrical and Electronics Engineering (B.Tech)", href: "#" },
+      { name: "Civil Engineering (B.Tech / Diploma)", href: "/civil-engineering" },
+      { name: "Mechanical Engineering (B.Tech / Diploma)", href: "#" },
+      { name: "Electrical Engineering (Diploma)", href: "#" },
+      { name: "Environmental Engineering (M.Tech)", href: "#" },
+      { name: "Energy and Environmental Engineering (M.Tech)", href: "#" },
+      { name: "Electrical Vehicle Technology (M.Tech)", href: "#" },
+      { name: "Structural Engineering (M.Tech)", href: "#" },
+      { name: "Industrial Safety Engineering (M.Tech)", href: "#" }
     ],
     image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
   },
@@ -388,9 +373,20 @@ export default function AcademicPrograms() {
                      
                      <div className="flex items-start justify-between mb-8">
                         <div>
-                          <h3 className={`font-sans text-[36px] md:text-[44px] font-black tracking-tight leading-[1.1] mb-4 transition-colors duration-500 ${isActive ? 'text-[#1A1A1A]' : 'text-[#1A1A1A]/70'}`}>
-                            {prog.title}
-                          </h3>
+                          <div className="flex items-center gap-4 md:gap-6 mb-4">
+                            <h3 className={`font-sans text-[36px] md:text-[44px] font-black tracking-tight leading-[1.1] transition-colors duration-500 ${isActive ? 'text-[#1A1A1A]' : 'text-[#1A1A1A]/70'}`}>
+                              {prog.title}
+                            </h3>
+                            {prog.slug && (
+                              <Link 
+                                to={`/${prog.slug}`}
+                                className={`w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center shrink-0 transition-all duration-300 group shadow-md ${isActive ? 'bg-[#1A1A1A] hover:bg-[#283B91]' : 'bg-[#1A1A1A]/70 hover:bg-[#283B91]'}`}
+                                aria-label={`Go to ${prog.title}`}
+                              >
+                                <ArrowRight className="text-white w-5 h-5 md:w-6 md:h-6 group-hover:translate-x-1 transition-transform" />
+                              </Link>
+                            )}
+                          </div>
                           <h4 className={`text-[13px] font-extrabold uppercase tracking-[0.2em] transition-colors duration-500 ${isActive ? 'text-[#7A5230]' : 'text-[#7A5230]/70'}`}>
                             {prog.subtitle}
                           </h4>
@@ -412,74 +408,6 @@ export default function AcademicPrograms() {
                        )}
 
                        <div className="flex flex-col gap-12 mt-4">
-                         {prog.btech && (
-                           <div>
-                             <h5 className="font-extrabold text-[#7A5230] mb-3 text-[13px] uppercase tracking-[0.15em]">B.Tech Programmes</h5>
-                             <div className="flex flex-col">
-                               {prog.btech.map((p, idx) => {
-                                 const name = typeof p === 'string' ? p : p.name;
-                                 const href = typeof p === 'string' ? '#' : (p.href || '#');
-                                 return (
-                                 <Link key={name} to={href} className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
-                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{name}</span>
-                                   <ArrowRight size={18} strokeWidth={2.5} className="text-[#1A1A1A]/20 group-hover:text-[#7A5230] group-hover:translate-x-1.5 transition-all duration-300 shrink-0" />
-                                 </Link>
-                               )})}
-                             </div>
-                           </div>
-                         )}
-
-                         {prog.integratedMtech && (
-                           <div>
-                             <h5 className="font-extrabold text-[#7A5230] mb-3 text-[13px] uppercase tracking-[0.15em]">Integrated M.Tech (5 Yrs)</h5>
-                             <div className="flex flex-col">
-                               {prog.integratedMtech.map((p, idx) => {
-                                 const name = typeof p === 'string' ? p : p.name;
-                                 const href = typeof p === 'string' ? '#' : (p.href || '#');
-                                 return (
-                                 <Link key={name} to={href} className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
-                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{name}</span>
-                                   <ArrowRight size={18} strokeWidth={2.5} className="text-[#1A1A1A]/20 group-hover:text-[#7A5230] group-hover:translate-x-1.5 transition-all duration-300 shrink-0" />
-                                 </Link>
-                               )})}
-                             </div>
-                           </div>
-                         )}
-
-                         {prog.mtech && (
-                           <div>
-                             <h5 className="font-extrabold text-[#7A5230] mb-3 text-[13px] uppercase tracking-[0.15em]">M.Tech Programmes</h5>
-                             <div className="flex flex-col">
-                               {prog.mtech.map((p, idx) => {
-                                 const name = typeof p === 'string' ? p : p.name;
-                                 const href = typeof p === 'string' ? '#' : (p.href || '#');
-                                 return (
-                                 <Link key={name} to={href} className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
-                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{name}</span>
-                                   <ArrowRight size={18} strokeWidth={2.5} className="text-[#1A1A1A]/20 group-hover:text-[#7A5230] group-hover:translate-x-1.5 transition-all duration-300 shrink-0" />
-                                 </Link>
-                               )})}
-                             </div>
-                           </div>
-                         )}
-
-                         {prog.diploma && (
-                           <div>
-                             <h5 className="font-extrabold text-[#7A5230] mb-3 text-[13px] uppercase tracking-[0.15em]">Diploma Programmes</h5>
-                             <div className="flex flex-col">
-                               {prog.diploma.map((p, idx) => {
-                                 const name = typeof p === 'string' ? p : p.name;
-                                 const href = typeof p === 'string' ? '#' : (p.href || '#');
-                                 return (
-                                 <Link key={name} to={href} className="group flex items-center justify-between py-5 border-b border-[#1A1A1A]/10 hover:border-[#7A5230] transition-colors duration-300">
-                                   <span className="text-[16px] text-[#3E3A36] font-semibold group-hover:text-[#7A5230] transition-colors pr-4 leading-snug">{name}</span>
-                                   <ArrowRight size={18} strokeWidth={2.5} className="text-[#1A1A1A]/20 group-hover:text-[#7A5230] group-hover:translate-x-1.5 transition-all duration-300 shrink-0" />
-                                 </Link>
-                               )})}
-                             </div>
-                           </div>
-                         )}
-
                          {prog.programmes && (
                            <div>
                              <h5 className="font-extrabold text-[#7A5230] mb-3 text-[13px] uppercase tracking-[0.15em]">Programmes Offered</h5>

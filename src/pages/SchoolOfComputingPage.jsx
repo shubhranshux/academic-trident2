@@ -515,30 +515,55 @@ export default function SchoolOfComputingPage() {
               <FadeInUp delay={100}>
                 <div className="bg-white rounded-2xl border border-[#EFE7DF]/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden">
                   <div className="overflow-x-auto">
-                    <table className="w-full text-left border-collapse">
-                      <thead>
-                        <tr className={`${theme.bgPrimary} text-white`}>
-                          <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Sl. No.</th>
-                          <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Name</th>
-                          <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Designation</th>
-                          <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Date of Joining</th>
-                          <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Qualification</th>
-                          <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>BPUT ID</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-[#EFE7DF]/60">
-                        {data.faculties.map((faculty, idx) => (
-                          <tr key={idx} className="hover:bg-[#F8F9FA] transition-colors duration-200">
-                            <td className="py-4 px-6 text-[14px] text-[#6B6560] font-medium">{idx + 1}</td>
-                            <td className="py-4 px-6 text-[15px] text-[#212529] font-bold">{faculty.name}</td>
-                            <td className="py-4 px-6 text-[14px] text-[#6B6560]">{faculty.designation}</td>
-                            <td className="py-4 px-6 text-[14px] text-[#6B6560]">{faculty.joining}</td>
-                            <td className="py-4 px-6 text-[14px] text-[#6B6560]">{faculty.qualification}</td>
-                            <td className={`py-4 px-6 text-[14px] ${theme.primary} font-medium`}>{faculty.bputId}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
+                    {(() => {
+                      const hasBputId = data.faculties[0]?.bputId !== undefined;
+                      return (
+                        <table className="w-full text-left border-collapse">
+                          <thead>
+                            <tr className={`${theme.bgPrimary} text-white`}>
+                              <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Sl. No.</th>
+                              <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Name</th>
+                              <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Designation</th>
+                              {hasBputId ? (
+                                <>
+                                  <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Date of Joining</th>
+                                  <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Qualification</th>
+                                  <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>BPUT ID</th>
+                                </>
+                              ) : (
+                                <>
+                                  <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Department</th>
+                                  <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Qualification</th>
+                                  <th className={`py-4 px-6 font-bold text-[13px] uppercase tracking-wider border-b ${theme.borderPrimary} whitespace-nowrap`}>Appointment Type</th>
+                                </>
+                              )}
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-[#EFE7DF]/60">
+                            {data.faculties.map((faculty, idx) => (
+                              <tr key={idx} className="hover:bg-[#F8F9FA] transition-colors duration-200">
+                                <td className="py-4 px-6 text-[14px] text-[#6B6560] font-medium">{idx + 1}</td>
+                                <td className="py-4 px-6 text-[15px] text-[#212529] font-bold">{faculty.name}</td>
+                                <td className="py-4 px-6 text-[14px] text-[#6B6560]">{faculty.designation}</td>
+                                {hasBputId ? (
+                                  <>
+                                    <td className="py-4 px-6 text-[14px] text-[#6B6560]">{faculty.joining}</td>
+                                    <td className="py-4 px-6 text-[14px] text-[#6B6560]">{faculty.qualification}</td>
+                                    <td className={`py-4 px-6 text-[14px] ${theme.primary} font-medium`}>{faculty.bputId}</td>
+                                  </>
+                                ) : (
+                                  <>
+                                    <td className="py-4 px-6 text-[14px] text-[#6B6560]">{faculty.department}</td>
+                                    <td className="py-4 px-6 text-[14px] text-[#6B6560]">{faculty.qualification}</td>
+                                    <td className={`py-4 px-6 text-[14px] ${theme.primary} font-medium`}>{faculty.appointmentType}</td>
+                                  </>
+                                )}
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      );
+                    })()}
                   </div>
                 </div>
               </FadeInUp>
