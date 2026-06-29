@@ -47,17 +47,12 @@ export const EVENTS = [
 ];
 
 export const PROGRAMS = [
-  { name:"Electronics & Telecommunication Engineering", dept:"B.Tech / M.Tech", icon:"📡", dur:"4/2 Years", seats:120, href:"/electronics-and-telecommunication-engineering" },
-  { name:"Electronics Engineering (VLSI Design)", dept:"B.Tech / M.Tech", icon:"💻", dur:"4/2 Years", seats:60, href:"/electronics-vlsi-design" },
-  { name:"Electrical & Electronics Engineering", dept:"B.Tech", icon:"⚡", dur:"4 Years", seats:60, href:"/electricals-and-electronics-engineering" },
-  { name:"Civil Engineering", dept:"B.Tech / Diploma", icon:"🏗️", dur:"4/3 Years", seats:120, href:"/civil-engineering" },
-  { name:"Mechanical Engineering", dept:"B.Tech / Diploma", icon:"⚙️", dur:"4/3 Years", seats:120, href:"/mechanical-engineering" },
-  { name:"Electrical Engineering", dept:"Diploma", icon:"🔌", dur:"3 Years", seats:60, href:"/electrical-engineering-diploma" },
-  { name:"Environmental Engineering", dept:"M.Tech", icon:"🌱", dur:"2 Years", seats:18, href:"/environmental-engineering" },
-  { name:"Energy & Environmental Engineering", dept:"M.Tech", icon:"🌍", dur:"2 Years", seats:18, href:"/energy-environmental-engineering" },
-  { name:"Electrical Vehicle Technology", dept:"M.Tech", icon:"🚗", dur:"2 Years", seats:18, href:"/electrical-vehicle-technology" },
-  { name:"Structural Engineering", dept:"M.Tech", icon:"🏢", dur:"2 Years", seats:18, href:"/structural-engineering" },
-  { name:"Industrial Safety Engineering", dept:"M.Tech", icon:"🛡️", dur:"2 Years", seats:18, href:"/industrial-safety-engineering" },
+  { name:"Computer Science & Engineering", dept:"B.Tech", icon:"💻", dur:"4 Years", seats:180, href:"/computer-science-engineering" },
+  { name:"Electronics & Communication",    dept:"B.Tech", icon:"📡", dur:"4 Years", seats:120, href:"/electronics-and-telecommunication-engineering" },
+  { name:"Mechanical Engineering",          dept:"B.Tech", icon:"⚙️",  dur:"4 Years", seats:120, href:"https://academics-tat.tekkzy.com/mechanical-engineering" },
+  { name:"Civil Engineering",               dept:"B.Tech", icon:"🏗️", dur:"4 Years", seats:60,  href:"https://academics-tat.tekkzy.com/civil-engineering" },
+  { name:"Electrical & Electronics",        dept:"B.Tech", icon:"⚡", dur:"4 Years", seats:60,  href:"https://academics-tat.tekkzy.com/electricals-and-electronics-engineering" },
+  { name:"Biotechnology Engineering",       dept:"B.Tech", icon:"🧬", dur:"4 Years", seats:30,  href:"/biotechnology-engineering" },
 ];
 
 export const RECRUITERS = ["TCS","Infosys","Wipro","HCL","Capgemini","Accenture","Cognizant","Tech Mahindra","L&T Infotech","IBM","Hexaware","Mphasis"];

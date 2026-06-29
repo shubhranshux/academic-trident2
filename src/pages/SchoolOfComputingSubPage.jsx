@@ -88,7 +88,7 @@ export default function SchoolOfComputingSubPage({ isHome }) {
     accent: "text-[#E5AA3E]",
     bgAccent: "bg-[#E5AA3E]",
     secondary: "text-[#7A5230]",
-    gradient: "from-[#0d1b3e]/95 via-[#1a2660]/90 to-[#283B91]/80",
+    gradient: "from-[#0d1b3e]/30 via-[#1a2660]/10 to-transparent",
     btn: "bg-[#4884C6]",
     btnHover: "hover:bg-[#3A6AA0]",
   };
@@ -209,9 +209,23 @@ export default function SchoolOfComputingSubPage({ isHome }) {
                 <FadeInUp delay={100}>
                   <div className="prose prose-lg max-w-none">
                     {data.overview.paragraphs.map((p, idx) => (
-                      <p key={idx} className="text-[#3E3A36] text-[17px] leading-[1.9] mb-6 font-medium">
-                        {p}
-                      </p>
+                      <React.Fragment key={idx}>
+                        <p className="text-[#3E3A36] text-[17px] leading-[1.9] mb-6 font-medium">
+                          {p}
+                        </p>
+                        {data.overview.gallery && idx % 2 === 1 && data.overview.gallery[Math.floor(idx / 2)] && (
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                            <div className="rounded-2xl overflow-hidden shadow-md">
+                              <img src={data.overview.gallery[Math.floor(idx / 2)]} alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                            </div>
+                            {data.overview.gallery[Math.floor(idx / 2) + 1] && (
+                              <div className="rounded-2xl overflow-hidden shadow-md">
+                                <img src={data.overview.gallery[Math.floor(idx / 2) + 1]} alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                              </div>
+                            )}
+                          </div>
+                        )}
+                      </React.Fragment>
                     ))}
                   </div>
                 </FadeInUp>

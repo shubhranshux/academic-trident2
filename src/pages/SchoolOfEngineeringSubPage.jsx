@@ -98,8 +98,8 @@ export default function SchoolOfEngineeringSubPage({ isHome, slug: propSlug }) {
             alt={data.hero.breadcrumb}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] via-[#1a1a2e]/80 to-[#1a1a2e]/30"></div>
-          <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a2e]/90 via-transparent to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a2e]/30 via-[#1a1a2e]/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a2e]/30 via-[#1a1a2e]/10 to-transparent"></div>
         </div>
 
         {/* Subtle animated grain */}

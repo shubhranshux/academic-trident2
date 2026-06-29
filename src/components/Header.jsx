@@ -3,6 +3,7 @@ import { Users, Menu, X, FileText, ChevronDown, Award, CheckCircle, ShieldCheck,
 import { NAV_LINKS } from "../data/constants";
 import logo from "../assets/logo.png";
 
+import { Link } from "react-router-dom";
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -17,12 +18,12 @@ export default function Header() {
   }, []);
 
   const mandatoryLinks = [
-    { label: "AICTE Approvals", href: "#", icon: CheckCircle, color: "text-emerald-600", bg: "bg-emerald-50", hover: "group-hover/link:bg-emerald-600" },
-    { label: "BPUT Affiliation", href: "#", icon: Award, color: "text-blue-600", bg: "bg-blue-50", hover: "group-hover/link:bg-blue-600" },
-    { label: "NAAC Certificate", href: "#", icon: ShieldCheck, color: "text-purple-600", bg: "bg-purple-50", hover: "group-hover/link:bg-purple-600" },
-    { label: "NBA Documents", href: "#", icon: FileSpreadsheet, color: "text-amber-600", bg: "bg-amber-50", hover: "group-hover/link:bg-amber-600" },
-    { label: "Financial Audits", href: "#", icon: BookOpen, color: "text-indigo-600", bg: "bg-indigo-50", hover: "group-hover/link:bg-indigo-600" },
-    { label: "Anti-Ragging Policy", href: "#", icon: ShieldAlert, color: "text-rose-600", bg: "bg-rose-50", hover: "group-hover/link:bg-rose-600" }
+    { label: "AICTE Approvals", href: "/aicte-disclosure", icon: CheckCircle, color: "text-emerald-600", bg: "bg-emerald-50", hover: "group-hover/link:bg-emerald-600" },
+    { label: "BPUT Affiliation", href: "/bput-affiliation", icon: Award, color: "text-blue-600", bg: "bg-blue-50", hover: "group-hover/link:bg-blue-600" },
+    { label: "NAAC Certificate", href: "/naac", icon: ShieldCheck, color: "text-purple-600", bg: "bg-purple-50", hover: "group-hover/link:bg-purple-600" },
+    { label: "NBA Documents", href: "/nba", icon: FileSpreadsheet, color: "text-amber-600", bg: "bg-amber-50", hover: "group-hover/link:bg-amber-600" },
+    { label: "Financial Audits", href: "/financial-audits", icon: BookOpen, color: "text-indigo-600", bg: "bg-indigo-50", hover: "group-hover/link:bg-indigo-600" },
+    { label: "Anti-Ragging Policy", href: "/anti-ragging", icon: ShieldAlert, color: "text-rose-600", bg: "bg-rose-50", hover: "group-hover/link:bg-rose-600" }
   ];
 
   return (
@@ -33,17 +34,19 @@ export default function Header() {
           <div className="flex-1"></div>
           <div className="flex items-center gap-5">
             {/* Mandatory Disclosure Dropdown (Hover) */}
-            <div className="relative group py-2">
+            <div className="relative group/md pb-0">
               <button 
-                className="flex items-center gap-1.5 text-[10px] font-medium text-white/80 uppercase tracking-widest group-hover:text-white transition-colors whitespace-nowrap outline-none"
+                className="flex items-center gap-1.5 text-[10px] font-medium text-white/80 uppercase tracking-widest group-hover/md:text-white transition-colors whitespace-nowrap outline-none py-2"
               >
                 <FileText size={11} />
                 Mandatory Disclosure
-                <ChevronDown size={11} className={`transition-transform duration-300 group-hover:rotate-180`} />
+                <ChevronDown size={11} className={`transition-transform duration-300 group-hover/md:rotate-180`} />
               </button>
               
-              {/* Dropdown Menu Wrapper (Invisible but provides continuous hover area) */}
-              <div className="absolute top-full right-0 pt-2 w-[260px] opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-400 origin-top z-50">
+              {/* Dropdown Menu — invisible bridge + panel */}
+              <div className="absolute top-full right-0 w-[260px] opacity-0 translate-y-2 pointer-events-none group-hover/md:opacity-100 group-hover/md:translate-y-0 group-hover/md:pointer-events-auto transition-all duration-300 origin-top z-50">
+                {/* Invisible bridge to prevent hover gap */}
+                <div className="h-2" />
                 {/* The actual visible box */}
                 <div 
                   className="w-full bg-white rounded-xl shadow-[0_20px_40px_-10px_rgba(26,38,96,0.3)] overflow-hidden"
@@ -83,9 +86,9 @@ export default function Header() {
 
 
             {/* Alumni Portal */}
-            <a href="#" className="flex items-center gap-1.5 text-[10px] font-medium text-[#E8BD63] uppercase tracking-widest hover:text-[#F0D080] transition-colors whitespace-nowrap">
+            <Link to="/alumni" className="flex items-center gap-1.5 text-[10px] font-medium text-[#E8BD63] uppercase tracking-widest hover:text-[#F0D080] transition-colors whitespace-nowrap text-decoration-none">
               <Users size={11}/> Alumni
-            </a>
+            </Link>
           </div>
         </div>
       </div>

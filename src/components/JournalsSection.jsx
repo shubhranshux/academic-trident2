@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 export default function JournalsSection({ title, items }) {
   const [activeIdx, setActiveIdx] = useState(0);
 
@@ -78,12 +78,21 @@ export default function JournalsSection({ title, items }) {
                        {item.description}
                      </p>
                      
-                     <a href={item.linkHref} className="inline-flex items-center justify-center bg-white text-[#1A1817] px-8 py-4 rounded-full font-bold text-[14px] uppercase tracking-widest hover:bg-[#E5AA3E] hover:text-white transition-all duration-300 w-max shadow-xl hover:shadow-[0_10px_40px_rgba(229,170,62,0.4)] hover:-translate-y-1">
-                       Explore Portal
-                       <svg className="w-5 h-5 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                       </svg>
-                     </a>
+                     {item.linkHref.startsWith('http') ? (
+                       <a href={item.linkHref} className="inline-flex items-center justify-center bg-white text-[#1A1817] px-8 py-4 rounded-full font-bold text-[14px] uppercase tracking-widest hover:bg-[#E5AA3E] hover:text-white transition-all duration-300 w-max shadow-xl hover:shadow-[0_10px_40px_rgba(229,170,62,0.4)] hover:-translate-y-1">
+                         Explore Portal
+                         <svg className="w-5 h-5 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                         </svg>
+                       </a>
+                     ) : (
+                       <Link to={item.linkHref} className="inline-flex items-center justify-center bg-white text-[#1A1817] px-8 py-4 rounded-full font-bold text-[14px] uppercase tracking-widest hover:bg-[#E5AA3E] hover:text-white transition-all duration-300 w-max shadow-xl hover:shadow-[0_10px_40px_rgba(229,170,62,0.4)] hover:-translate-y-1">
+                         Explore Portal
+                         <svg className="w-5 h-5 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                         </svg>
+                       </Link>
+                     )}
                   </div>
                </div>
              ))}

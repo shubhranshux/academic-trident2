@@ -1,5 +1,6 @@
 import React from 'react';
 import { Users, FileCheck, CheckCircle, BookOpen } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const governanceData = [
   {
@@ -7,28 +8,28 @@ const governanceData = [
     description: "Our advisory body consists of esteemed academicians and industry experts who guide curriculum development and institutional strategy to ensure industry relevance and academic excellence.",
     icon: Users,
     color: "#283B91",
-    linkHref: "https://academics-tat.tekkzy.com/academics/academic-advisory-board/"
+    linkHref: "/academic-advisory"
   },
   {
     title: "Academic Monitoring Council",
     description: "The council regularly reviews academic progress, faculty performance, and student feedback to maintain high educational standards and continuous improvement in teaching methodologies.",
     icon: FileCheck,
     color: "#E5AA3E",
-    linkHref: "https://academics-tat.tekkzy.com/academic-council-monitoring/"
+    linkHref: "/academic-monitoring"
   },
   {
     title: "Peer Evaluation",
     description: "A robust peer evaluation system fosters a collaborative academic environment, allowing faculty and students to assess and learn from each other to enhance learning outcomes.",
     icon: CheckCircle,
     color: "#8B6E66",
-    linkHref: "https://academics-tat.tekkzy.com/peer-evaluation/"
+    linkHref: "/peer-evaluation"
   },
   {
     title: "Programme & Course Outcomes",
     description: "Clearly defined outcomes for every program and course help align teaching strategies with industry requirements, ensuring graduates acquire the necessary skills and knowledge.",
     icon: BookOpen,
     color: "#D3494B",
-    linkHref: "https://academics-tat.tekkzy.com/programme-&-course-outcomes/"
+    linkHref: "/programme-outcomes"
   }
 ];
 
@@ -86,11 +87,11 @@ export default function AcademicGovernance() {
                   {item.description}
                 </p>
                 
-                <a href={item.linkHref} className="mt-auto inline-flex items-center text-[12px] font-bold uppercase tracking-widest text-[#212529] group-hover:text-[#283B91] transition-colors relative pb-2 self-start">
+                <Link to={item.linkHref} className="mt-auto inline-flex items-center text-[12px] font-bold uppercase tracking-widest text-[#212529] group-hover:text-[#283B91] transition-colors relative pb-2 self-start">
                   Explore 
                   <span className="ml-3 transform group-hover:translate-x-2 transition-transform duration-300">&rarr;</span>
                   <span className="absolute bottom-0 left-0 w-full h-[1px] bg-[#EFE7DF] group-hover:bg-[#283B91] transition-colors" />
-                </a>
+                </Link>
               </div>
             </div>
           ))}

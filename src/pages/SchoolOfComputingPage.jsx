@@ -112,7 +112,7 @@ function ClubCard({  club, isOpen, onClick , theme }) {
             {club.name}
           </h4>
         </div>
-        <div className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 transition-all duration-300 ${isOpen ? '${theme.bgPrimary} text-white rotate-180' : 'bg-[#F0EBE3] ${theme.secondary}'}`}>
+        <div className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 transition-all duration-300 ${isOpen ? `${theme.bgPrimary} text-white rotate-180` : `bg-[#F0EBE3] ${theme.secondary}`}`}>
           <ChevronDown size={18} strokeWidth={2.5} />
         </div>
       </button>
@@ -220,7 +220,7 @@ export default function SchoolOfComputingPage() {
     accent: "text-[#E5AA3E]",
     bgAccent: "bg-[#E5AA3E]",
     secondary: "text-[#7A5230]",
-    gradient: "from-[#0d1b3e]/95 via-[#1a2660]/90 to-[#283B91]/80",
+    gradient: "from-[#0d1b3e]/30 via-[#1a2660]/10 to-transparent",
     btn: "bg-[#4884C6]",
     btnHover: "hover:bg-[#3A6AA0]",
   };
@@ -788,6 +788,7 @@ export default function SchoolOfComputingPage() {
                         club={club}
                         isOpen={openClub === idx}
                         onClick={() => setOpenClub(openClub === idx ? -1 : idx)}
+                        theme={theme}
                       />
                     ))}
                   </div>
@@ -812,6 +813,7 @@ export default function SchoolOfComputingPage() {
                         club={item}
                         isOpen={openClub === idx}
                         onClick={() => setOpenClub(openClub === idx ? -1 : idx)}
+                        theme={theme}
                       />
                     ))}
                   </div>

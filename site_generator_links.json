@@ -1,0 +1,1400 @@
+{
+  "total_occurrences": 140,
+  "total_unique_links": 138,
+  "occurrences": [
+    {
+      "file": "src/data/departmentData.js",
+      "line": 173,
+      "title": "IEEE Activities",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/IEEE_Student_Chapter.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 195,
+      "title": "ACM Student Chapter Annual Report",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/2024-25Trident-Acm-Student-Chapter-Annual-Report.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 987,
+      "title": "Innovations-by-the-Faculty-in-Teaching-and-Learning.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Innovations-by-the-Faculty-in-Teaching-and-Learning.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1050,
+      "title": "Inter-institute-events-by-students.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Inter-institute-events-by-students.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1064,
+      "title": "Product-Development.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Product-Development.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1075,
+      "title": "HACKIN 2023",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/HACKIN_2023.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1076,
+      "title": "HACKIN 2024",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/HACKIN_2024.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1077,
+      "title": "TRITHON 2023",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Trithon-2023.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1078,
+      "title": "TRITHON 2025",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Trithon-2025.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1080,
+      "title": "Hackathon Club Activities",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Hackathon_Club.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1089,
+      "title": "Brain Logic Club Activities",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Brain_Logic_Club.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1099,
+      "title": "More Details",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/AIML_Club-1-1.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1108,
+      "title": "IEEE Student Chapter Details",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/IEEE_Student_Chapter.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1124,
+      "title": "ACM Annual Report",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/2024-25Trident-Acm-Student-Chapter-Annual-Report.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1139,
+      "title": "View Publications List",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/publication-final-5.4.2541.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1148,
+      "title": "View Patents List",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Patents-file-list-2.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1164,
+      "title": "2024-25",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/CSE-PLACEMENT-2024-25.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1165,
+      "title": "2023-24",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/CSE-PLACEMENT-2023-24.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1166,
+      "title": "2022-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Placement-NBA-CSE-2022-23.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 1167,
+      "title": "2021-22",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Placement-NBA-CSE-2021-22.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4048,
+      "title": "SYLLABUS FOR FIRST YEAR",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-1ST-YEAR.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4049,
+      "title": "SYLLABUS FOR SECOND YEAR",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-2ND-YEAR.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4050,
+      "title": "SYLLABUS FOR THIRD YEAR",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-3RD-YEAR.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4051,
+      "title": "SYLLABUS FOR FOURTH YEAR",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-4TH-YEAR.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4054,
+      "title": "Auto CAD",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Auto-Cad.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4055,
+      "title": "Revit",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Revit.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4056,
+      "title": "Land Surveying",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Land-Surveying.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4057,
+      "title": "Staad Pro",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/staad-pro.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4546,
+      "title": "First Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/FIRST-YEAR-B-TECH-COURSE-STRUCTURE-2023-24.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4547,
+      "title": "Second Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/2nd-YEAR-B-TECH-Biotech-COURSE-STRUCTURE-2023-24.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4548,
+      "title": "Third Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/3rd-YEAR-B-TECH-Biotech-COURSE-STRUCTURE-2023-24.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4549,
+      "title": "Fourth Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/Bio-Technology.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4981,
+      "title": "First Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Course-Structure-and-Detailed-Syllabus-for-1st-Year-B.Tech-Admission-Batch-2023-24.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4982,
+      "title": "Second Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ES05-ETC-2nd-Year.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4983,
+      "title": "Third Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ES05-ETC-3rd-Year.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4984,
+      "title": "Fourth Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ETC-ECE_7th-8th-sem.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4985,
+      "title": "M.Tech",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/MTECH-ETC_merged.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4988,
+      "title": "2024-25",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2024-25-ETC.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4989,
+      "title": "2023-24",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2023-24-ETC.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4990,
+      "title": "2022-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2022-23-ETC.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4991,
+      "title": "2021-22",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2021-22-ETC.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4994,
+      "title": "Student Start up",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Student-Startup.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 4995,
+      "title": "Product Development",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/ETC_product-development.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5001,
+      "title": "Club.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Club.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5016,
+      "title": "Microprocessor & Microcontroller Module 1",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Microprocessor-Microcontroller-Module-1.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5017,
+      "title": "Microprocessor & Microcontroller Module 2",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Microprocessor-Microcontroller-Module-2.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5018,
+      "title": "Microprocessor & Microcontroller Module 3",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Microprocessor-Microcontroller-Module-3.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5019,
+      "title": "VLSI Design 1",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/VLSI-DESIGN.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5020,
+      "title": "VLSI Design 2",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/VLSI-2.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5021,
+      "title": "Radar & TV Engg.",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Radar-TV-Engg.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5025,
+      "title": "IEEE",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/IEEE-Student-Branch.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5026,
+      "title": "ISTE",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/ISTE-Indian-Society-For-Technical-Education.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5027,
+      "title": "IETE",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/IETE.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5028,
+      "title": "VSI",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/VSI.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5031,
+      "title": "2024-25",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/EVOLUER-Magazine-2024-2025.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5032,
+      "title": "2023-24",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/EVOLUER-Magazine-2023-2024.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5033,
+      "title": "2022-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/EVOLUER-Magazine-2022-2023.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5038,
+      "title": "The-Ingenium-1Compress_20250908_033818.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/The-Ingenium-1Compress_20250908_033818.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5043,
+      "title": "Innovation-website1.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Innovation-website1.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5046,
+      "title": "Publication",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Journal-List.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5047,
+      "title": "Patent",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/List-of-Patent-details.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5048,
+      "title": "Chapters and Conferences",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Chapters-and-Conferences.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5053,
+      "title": "Student-participation-Intercollege-1.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Student-participation-Intercollege-1.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5652,
+      "title": "Power electronics",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/5.power-electronics-by-lohit-sahoo-156c-1.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5653,
+      "title": "Network Theory",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/4.Network-Theory-LOHIT.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5654,
+      "title": "ODI module-1",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/ODI-module-1-by-LKS.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5655,
+      "title": "Optoelectronics Devices & Instrumentation",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Optoelectronics-Devices-Instrumentation-Madhulita-(1"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5656,
+      "title": "Electrical Power Transmission & Distribution",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/2.Electrical-Power-Transmission-Distribution-LOHIT-(1"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 5657,
+      "title": "Control System Engineering",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/1.Control-System-Engineering-LOHIT.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 6097,
+      "title": "2019 - 2020",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2019-20.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 6098,
+      "title": "2020 - 2021",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2020-21.xlsx"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 6099,
+      "title": "2021 - 2022",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2021-22.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 6100,
+      "title": "2022 - 2023",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2022-23.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 6101,
+      "title": "2023 - 2024",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2023-24-1.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 6102,
+      "title": "2024 - 2025",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2024-25.pdf"
+    },
+    {
+      "file": "src/data/departmentData.js",
+      "line": 6103,
+      "title": "2025 - 2026",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2025-26.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 89,
+      "title": "2026-2027",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/EOA-Report-2026-2027.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 90,
+      "title": "2025-2026",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/aicte25-26.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 91,
+      "title": "2024-2025",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/AICTE-EOA-TRIDENT-2024-2025.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 92,
+      "title": "2023-2024",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/TAT-EOA-Report-2023-24.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 93,
+      "title": "2022-2023",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/EOA-Report-22-23TAT-1.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 94,
+      "title": "2021-2022",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2021.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 95,
+      "title": "2020-2021",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2020.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 96,
+      "title": "2019-2020",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2019.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 97,
+      "title": "2018-2019",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2018.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 98,
+      "title": "2017-2018",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2017.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 99,
+      "title": "2016-2017",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2016.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 100,
+      "title": "2015-2016",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2015.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 101,
+      "title": "2014-2015",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2014.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 102,
+      "title": "2013-2014",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2013.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 103,
+      "title": "2012-2013",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2012.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 104,
+      "title": "2011-2012",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2011.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 105,
+      "title": "2010-2011",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2010.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 106,
+      "title": "2009-2010",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2009.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 107,
+      "title": "2008-2009",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2008.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 108,
+      "title": "2007-2008",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2007.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 109,
+      "title": "2006-2007",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2006.pdf"
+    },
+    {
+      "file": "src/pages/AICTEDisclosurePage.jsx",
+      "line": 110,
+      "title": "2005-2006",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2005.pdf"
+    },
+    {
+      "file": "src/pages/BPUTAffiliationPage.jsx",
+      "line": 7,
+      "title": "2026-27",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2026-27.pdf"
+    },
+    {
+      "file": "src/pages/BPUTAffiliationPage.jsx",
+      "line": 8,
+      "title": "2025-26",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2025-26.pdf"
+    },
+    {
+      "file": "src/pages/BPUTAffiliationPage.jsx",
+      "line": 9,
+      "title": "2023-24",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2023-24.pdf"
+    },
+    {
+      "file": "src/pages/BPUTAffiliationPage.jsx",
+      "line": 10,
+      "title": "2022-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2022-23.pdf"
+    },
+    {
+      "file": "src/pages/BPUTAffiliationPage.jsx",
+      "line": 11,
+      "title": "2021-22",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2021-22.pdf"
+    },
+    {
+      "file": "src/pages/BPUTAffiliationPage.jsx",
+      "line": 12,
+      "title": "2020-21",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2020-21.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 24,
+      "title": "Institutional Perspective Plan",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Institutionalperspective.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 25,
+      "title": "MoM IQAC",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/iqacmom.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 26,
+      "title": "AQAR 2016-2017",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/AQAR_report-2016-2017.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 27,
+      "title": "AQAR 2017-2018",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/NAAC-AQAR-2017-18-V1.1.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 28,
+      "title": "AQAR 2018-2019",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/NAAC-AQAR-2018-19-V1.0.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 29,
+      "title": "AQAR 2019-2020",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/AQAR2019-2020.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 30,
+      "title": "AQAR 2020-2021",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/AQAR2020-2021.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 31,
+      "title": "AQAR 2021-2022",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/AQAR2021-2022.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 37,
+      "title": "GREEN AUDIT REPORT 22-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Trident-Green-Audit-Report-2022-23.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 38,
+      "title": "ENVIRONMENT AUDIT REPORT 22-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Trident-Environment-Audit-Report-2022-23.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 39,
+      "title": "ENERGY AUDIT REPORT 22-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Trident-Energy-Audit-Report-2022-23.pdf"
+    },
+    {
+      "file": "src/pages/IQACPage.jsx",
+      "line": 40,
+      "title": "IQAC Internal Audit 22-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/IQAC+internal+audits.pdf"
+    },
+    {
+      "file": "src/pages/NAACPage.jsx",
+      "line": 139,
+      "title": "NAAC Accreditation 2025-2030",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/naac2ndcycle.jpg"
+    },
+    {
+      "file": "src/pages/NAACPage.jsx",
+      "line": 140,
+      "title": "NAAC Accreditation 2016-2021",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/naac2016.pdf"
+    },
+    {
+      "file": "src/pages/NBAPage.jsx",
+      "line": 130,
+      "title": "NBA Accreditation MBA (2026-2028)",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/NBA-MBA.pdf"
+    },
+    {
+      "file": "src/pages/NBAPage.jsx",
+      "line": 131,
+      "title": "NBA Accreditation CSE/ETC (2026-2028)",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/nba26-28-cse-etc.pdf"
+    },
+    {
+      "file": "src/pages/NBAPage.jsx",
+      "line": 132,
+      "title": "NBA Accreditation Mechanical/EEE/MCA (2024-2027)",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/nba-mech-eee-mca.pdf"
+    },
+    {
+      "file": "src/pages/NBAPage.jsx",
+      "line": 133,
+      "title": "NBA Accreditation CSE/ETC 2019-2022",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/NBA_CsEtc_31-7-2019.pdf"
+    },
+    {
+      "file": "src/pages/NBAPage.jsx",
+      "line": 134,
+      "title": "NBA Accreditation CSE/ETC 2018-2019",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/nbacs-etc-2018-19.pdf"
+    },
+    {
+      "file": "src/pages/NBAPage.jsx",
+      "line": 135,
+      "title": "NBA Accreditation CSE/ETC 2016-2018",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/nba-cs-etc2016-18.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 8,
+      "title": "Zero Emission Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Zero-Emission-Policy.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 9,
+      "title": "Energy Conservation Pledge",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Energy-Conservation-Pledge.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 10,
+      "title": "Sustainable Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Sustainable-Policy.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 11,
+      "title": "Start-up Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Start-up-Policy.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 12,
+      "title": "Climate Action Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Climate-Action-Policy.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 13,
+      "title": "Policy to safeguard individuals reporting discrimination",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Policy-to-safeguard-individual-rights.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 14,
+      "title": "Anti-discrimination and Equal Employment Opportunity Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Anti-discrimination-and-Equal-employment-Policy.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 15,
+      "title": "Policy promoting women",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Policy-promoting-womens-applications-and-participation.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 16,
+      "title": "Smoke free Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Smoke-free-Policy.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 17,
+      "title": "Scholarship Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Scholarship_Policy.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 18,
+      "title": "Pay scale equality policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Pay-scale-equity-policy.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 19,
+      "title": "Annual Increment criteria for Academic Staff",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Annual-Increment-criteria-for-Academic-Staff.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 20,
+      "title": "Leave Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Leave-Policy.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 21,
+      "title": "Water Reuse Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Water-Reuse-Policy.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 22,
+      "title": "Food Waste Management Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Food-Waste-Management-Policy.pdf"
+    },
+    {
+      "file": "src/pages/TridentPoliciesPage.jsx",
+      "line": 23,
+      "title": "Energy Efficiency standards for buildings Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Energy-Efficiency-standards-for-buildings-Policy.pdf"
+    }
+  ],
+  "unique_links": [
+    {
+      "title": "IEEE Activities",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/IEEE_Student_Chapter.pdf"
+    },
+    {
+      "title": "ACM Student Chapter Annual Report",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/2024-25Trident-Acm-Student-Chapter-Annual-Report.pdf"
+    },
+    {
+      "title": "Innovations-by-the-Faculty-in-Teaching-and-Learning.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Innovations-by-the-Faculty-in-Teaching-and-Learning.pdf"
+    },
+    {
+      "title": "Inter-institute-events-by-students.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Inter-institute-events-by-students.pdf"
+    },
+    {
+      "title": "Product-Development.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Product-Development.pdf"
+    },
+    {
+      "title": "HACKIN 2023",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/HACKIN_2023.pdf"
+    },
+    {
+      "title": "HACKIN 2024",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/HACKIN_2024.pdf"
+    },
+    {
+      "title": "TRITHON 2023",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Trithon-2023.pdf"
+    },
+    {
+      "title": "TRITHON 2025",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Trithon-2025.pdf"
+    },
+    {
+      "title": "Hackathon Club Activities",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Hackathon_Club.pdf"
+    },
+    {
+      "title": "Brain Logic Club Activities",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Brain_Logic_Club.pdf"
+    },
+    {
+      "title": "More Details",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/AIML_Club-1-1.pdf"
+    },
+    {
+      "title": "View Publications List",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/publication-final-5.4.2541.pdf"
+    },
+    {
+      "title": "View Patents List",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Patents-file-list-2.pdf"
+    },
+    {
+      "title": "2024-25",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/CSE-PLACEMENT-2024-25.pdf"
+    },
+    {
+      "title": "2023-24",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/CSE-PLACEMENT-2023-24.pdf"
+    },
+    {
+      "title": "2022-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Placement-NBA-CSE-2022-23.pdf"
+    },
+    {
+      "title": "2021-22",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/Placement-NBA-CSE-2021-22.pdf"
+    },
+    {
+      "title": "SYLLABUS FOR FIRST YEAR",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-1ST-YEAR.pdf"
+    },
+    {
+      "title": "SYLLABUS FOR SECOND YEAR",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-2ND-YEAR.pdf"
+    },
+    {
+      "title": "SYLLABUS FOR THIRD YEAR",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-3RD-YEAR.pdf"
+    },
+    {
+      "title": "SYLLABUS FOR FOURTH YEAR",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Civil-Engineering-4TH-YEAR.pdf"
+    },
+    {
+      "title": "Auto CAD",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Auto-Cad.pdf"
+    },
+    {
+      "title": "Revit",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Revit.pdf"
+    },
+    {
+      "title": "Land Surveying",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/Land-Surveying.pdf"
+    },
+    {
+      "title": "Staad Pro",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/CIVIL/staad-pro.pdf"
+    },
+    {
+      "title": "First Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/FIRST-YEAR-B-TECH-COURSE-STRUCTURE-2023-24.pdf"
+    },
+    {
+      "title": "Second Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/2nd-YEAR-B-TECH-Biotech-COURSE-STRUCTURE-2023-24.pdf"
+    },
+    {
+      "title": "Third Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/3rd-YEAR-B-TECH-Biotech-COURSE-STRUCTURE-2023-24.pdf"
+    },
+    {
+      "title": "Fourth Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Biotechnolgy/Bio-Technology.pdf"
+    },
+    {
+      "title": "First Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Course-Structure-and-Detailed-Syllabus-for-1st-Year-B.Tech-Admission-Batch-2023-24.pdf"
+    },
+    {
+      "title": "Second Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ES05-ETC-2nd-Year.pdf"
+    },
+    {
+      "title": "Third Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ES05-ETC-3rd-Year.pdf"
+    },
+    {
+      "title": "Fourth Year",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ETC-ECE_7th-8th-sem.pdf"
+    },
+    {
+      "title": "M.Tech",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/MTECH-ETC_merged.pdf"
+    },
+    {
+      "title": "2024-25",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2024-25-ETC.pdf"
+    },
+    {
+      "title": "2023-24",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2023-24-ETC.pdf"
+    },
+    {
+      "title": "2022-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2022-23-ETC.pdf"
+    },
+    {
+      "title": "2021-22",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2021-22-ETC.pdf"
+    },
+    {
+      "title": "Student Start up",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Student-Startup.pdf"
+    },
+    {
+      "title": "Product Development",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/ETC_product-development.pdf"
+    },
+    {
+      "title": "Club.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Club.pdf"
+    },
+    {
+      "title": "Microprocessor & Microcontroller Module 1",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Microprocessor-Microcontroller-Module-1.pdf"
+    },
+    {
+      "title": "Microprocessor & Microcontroller Module 2",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Microprocessor-Microcontroller-Module-2.pdf"
+    },
+    {
+      "title": "Microprocessor & Microcontroller Module 3",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Microprocessor-Microcontroller-Module-3.pdf"
+    },
+    {
+      "title": "VLSI Design 1",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/VLSI-DESIGN.pdf"
+    },
+    {
+      "title": "VLSI Design 2",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/VLSI-2.pdf"
+    },
+    {
+      "title": "Radar & TV Engg.",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Radar-TV-Engg.pdf"
+    },
+    {
+      "title": "IEEE",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/IEEE-Student-Branch.pdf"
+    },
+    {
+      "title": "ISTE",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/ISTE-Indian-Society-For-Technical-Education.pdf"
+    },
+    {
+      "title": "IETE",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/IETE.pdf"
+    },
+    {
+      "title": "VSI",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/VSI.pdf"
+    },
+    {
+      "title": "2024-25",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/EVOLUER-Magazine-2024-2025.pdf"
+    },
+    {
+      "title": "2023-24",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/EVOLUER-Magazine-2023-2024.pdf"
+    },
+    {
+      "title": "2022-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/EVOLUER-Magazine-2022-2023.pdf"
+    },
+    {
+      "title": "The-Ingenium-1Compress_20250908_033818.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/The-Ingenium-1Compress_20250908_033818.pdf"
+    },
+    {
+      "title": "Innovation-website1.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Innovation-website1.pdf"
+    },
+    {
+      "title": "Publication",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Journal-List.pdf"
+    },
+    {
+      "title": "Patent",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/List-of-Patent-details.pdf"
+    },
+    {
+      "title": "Chapters and Conferences",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Chapters-and-Conferences.pdf"
+    },
+    {
+      "title": "Student-participation-Intercollege-1.pdf",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Student-participation-Intercollege-1.pdf"
+    },
+    {
+      "title": "Power electronics",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/5.power-electronics-by-lohit-sahoo-156c-1.pdf"
+    },
+    {
+      "title": "Network Theory",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/4.Network-Theory-LOHIT.pdf"
+    },
+    {
+      "title": "ODI module-1",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/ODI-module-1-by-LKS.pdf"
+    },
+    {
+      "title": "Optoelectronics Devices & Instrumentation",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Optoelectronics-Devices-Instrumentation-Madhulita-(1"
+    },
+    {
+      "title": "Electrical Power Transmission & Distribution",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/2.Electrical-Power-Transmission-Distribution-LOHIT-(1"
+    },
+    {
+      "title": "Control System Engineering",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/1.Control-System-Engineering-LOHIT.pdf"
+    },
+    {
+      "title": "2019 - 2020",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2019-20.pdf"
+    },
+    {
+      "title": "2020 - 2021",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2020-21.xlsx"
+    },
+    {
+      "title": "2021 - 2022",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2021-22.pdf"
+    },
+    {
+      "title": "2022 - 2023",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2022-23.pdf"
+    },
+    {
+      "title": "2023 - 2024",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2023-24-1.pdf"
+    },
+    {
+      "title": "2024 - 2025",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2024-25.pdf"
+    },
+    {
+      "title": "2025 - 2026",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2025-26.pdf"
+    },
+    {
+      "title": "2026-2027",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/EOA-Report-2026-2027.pdf"
+    },
+    {
+      "title": "2025-2026",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/aicte25-26.pdf"
+    },
+    {
+      "title": "2024-2025",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/AICTE-EOA-TRIDENT-2024-2025.pdf"
+    },
+    {
+      "title": "2023-2024",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/TAT-EOA-Report-2023-24.pdf"
+    },
+    {
+      "title": "2022-2023",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/EOA-Report-22-23TAT-1.pdf"
+    },
+    {
+      "title": "2021-2022",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2021.pdf"
+    },
+    {
+      "title": "2020-2021",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2020.pdf"
+    },
+    {
+      "title": "2019-2020",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2019.pdf"
+    },
+    {
+      "title": "2018-2019",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2018.pdf"
+    },
+    {
+      "title": "2017-2018",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2017.pdf"
+    },
+    {
+      "title": "2016-2017",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2016.pdf"
+    },
+    {
+      "title": "2015-2016",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2015.pdf"
+    },
+    {
+      "title": "2014-2015",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2014.pdf"
+    },
+    {
+      "title": "2013-2014",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2013.pdf"
+    },
+    {
+      "title": "2012-2013",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2012.pdf"
+    },
+    {
+      "title": "2011-2012",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2011.pdf"
+    },
+    {
+      "title": "2010-2011",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2010.pdf"
+    },
+    {
+      "title": "2009-2010",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2009.pdf"
+    },
+    {
+      "title": "2008-2009",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2008.pdf"
+    },
+    {
+      "title": "2007-2008",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2007.pdf"
+    },
+    {
+      "title": "2006-2007",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2006.pdf"
+    },
+    {
+      "title": "2005-2006",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/AICTE/2005.pdf"
+    },
+    {
+      "title": "2026-27",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2026-27.pdf"
+    },
+    {
+      "title": "2025-26",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2025-26.pdf"
+    },
+    {
+      "title": "2023-24",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2023-24.pdf"
+    },
+    {
+      "title": "2022-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2022-23.pdf"
+    },
+    {
+      "title": "2021-22",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2021-22.pdf"
+    },
+    {
+      "title": "2020-21",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/BPUT+Affiliation+2020-21.pdf"
+    },
+    {
+      "title": "Institutional Perspective Plan",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Institutionalperspective.pdf"
+    },
+    {
+      "title": "MoM IQAC",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/iqacmom.pdf"
+    },
+    {
+      "title": "AQAR 2016-2017",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/AQAR_report-2016-2017.pdf"
+    },
+    {
+      "title": "AQAR 2017-2018",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/NAAC-AQAR-2017-18-V1.1.pdf"
+    },
+    {
+      "title": "AQAR 2018-2019",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/NAAC-AQAR-2018-19-V1.0.pdf"
+    },
+    {
+      "title": "AQAR 2019-2020",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/AQAR2019-2020.pdf"
+    },
+    {
+      "title": "AQAR 2020-2021",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/AQAR2020-2021.pdf"
+    },
+    {
+      "title": "AQAR 2021-2022",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/AQAR2021-2022.pdf"
+    },
+    {
+      "title": "GREEN AUDIT REPORT 22-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Trident-Green-Audit-Report-2022-23.pdf"
+    },
+    {
+      "title": "ENVIRONMENT AUDIT REPORT 22-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Trident-Environment-Audit-Report-2022-23.pdf"
+    },
+    {
+      "title": "ENERGY AUDIT REPORT 22-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Trident-Energy-Audit-Report-2022-23.pdf"
+    },
+    {
+      "title": "IQAC Internal Audit 22-23",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/IQAC+internal+audits.pdf"
+    },
+    {
+      "title": "NAAC Accreditation 2025-2030",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/naac2ndcycle.jpg"
+    },
+    {
+      "title": "NAAC Accreditation 2016-2021",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/naac2016.pdf"
+    },
+    {
+      "title": "NBA Accreditation MBA (2026-2028)",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/NBA-MBA.pdf"
+    },
+    {
+      "title": "NBA Accreditation CSE/ETC (2026-2028)",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/nba26-28-cse-etc.pdf"
+    },
+    {
+      "title": "NBA Accreditation Mechanical/EEE/MCA (2024-2027)",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/nba-mech-eee-mca.pdf"
+    },
+    {
+      "title": "NBA Accreditation CSE/ETC 2019-2022",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/NBA_CsEtc_31-7-2019.pdf"
+    },
+    {
+      "title": "NBA Accreditation CSE/ETC 2018-2019",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/nbacs-etc-2018-19.pdf"
+    },
+    {
+      "title": "NBA Accreditation CSE/ETC 2016-2018",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/nba-cs-etc2016-18.pdf"
+    },
+    {
+      "title": "Zero Emission Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Zero-Emission-Policy.pdf"
+    },
+    {
+      "title": "Energy Conservation Pledge",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Energy-Conservation-Pledge.pdf"
+    },
+    {
+      "title": "Sustainable Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Sustainable-Policy.pdf"
+    },
+    {
+      "title": "Start-up Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Start-up-Policy.pdf"
+    },
+    {
+      "title": "Climate Action Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Climate-Action-Policy.pdf"
+    },
+    {
+      "title": "Policy to safeguard individuals reporting discrimination",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Policy-to-safeguard-individual-rights.pdf"
+    },
+    {
+      "title": "Anti-discrimination and Equal Employment Opportunity Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Anti-discrimination-and-Equal-employment-Policy.pdf"
+    },
+    {
+      "title": "Policy promoting women",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Policy-promoting-womens-applications-and-participation.pdf"
+    },
+    {
+      "title": "Smoke free Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Smoke-free-Policy.pdf"
+    },
+    {
+      "title": "Scholarship Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Scholarship_Policy.pdf"
+    },
+    {
+      "title": "Pay scale equality policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Pay-scale-equity-policy.pdf"
+    },
+    {
+      "title": "Annual Increment criteria for Academic Staff",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Annual-Increment-criteria-for-Academic-Staff.pdf"
+    },
+    {
+      "title": "Leave Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Leave-Policy.pdf"
+    },
+    {
+      "title": "Water Reuse Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Water-Reuse-Policy.pdf"
+    },
+    {
+      "title": "Food Waste Management Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Food-Waste-Management-Policy.pdf"
+    },
+    {
+      "title": "Energy Efficiency standards for buildings Policy",
+      "url": "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Accreditation/Energy-Efficiency-standards-for-buildings-Policy.pdf"
+    }
+  ]
+}

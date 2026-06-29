@@ -9,6 +9,15 @@ import {
 } from 'lucide-react';
 import { getDepartment } from '../data/departmentData';
 
+const DEPT_INLINE_IMAGES = [
+  "/images/departments/mechanical/IMG20250516113501.jpg",
+  "/images/departments/mechanical/IMG20250516113522.jpg",
+  "/images/departments/mechanical/IMG20260309120121.jpg",
+  "/images/departments/mechanical/DSC_9624.JPG",
+  "/images/departments/mechanical/DSC_9628.JPG",
+];
+
+
 const ICONS = {
   Home, BookOpen, Users, Cpu, FileText, ArrowRight, Zap, GraduationCap, Award, Radio, CircuitBoard
 };
@@ -191,6 +200,15 @@ export default function MechanicalEngineeringPage({ isHome }) {
                   </FadeInUp>
                 ))}
 
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/mechanical/IMG20250516113501.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/mechanical/IMG20250516113522.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
+
                 {data.homeContent?.salientFeatures && (
                 <FadeInUp delay={300}>
                   <div className="mt-10 glass-card-mechanical-engineering p-8 rounded-2xl bg-white/40">
@@ -209,6 +227,10 @@ export default function MechanicalEngineeringPage({ isHome }) {
                   </div>
                 </FadeInUp>
                 )}
+
+                <div className="my-8 rounded-2xl overflow-hidden shadow-md max-w-3xl">
+                  <img src="/images/departments/mechanical/IMG20260309120121.jpg" alt="Department" className="w-full h-[260px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                </div>
               </div>
             </section>
           </div>
@@ -247,6 +269,15 @@ export default function MechanicalEngineeringPage({ isHome }) {
                     )}
                   </FadeInUp>
                 ))}
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/mechanical/DSC_9624.JPG" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/mechanical/DSC_9628.JPG" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
               </div>
 
               <FadeInUp delay={300}>

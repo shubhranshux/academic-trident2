@@ -43,7 +43,7 @@ const departmentData = {
       titleLine1: "Computer Science",
       titleLine2: "& Engineering",
       subtitle: "One of the premier branches of undergraduate programs in engineering — established in 2005 with AICTE approval and BPUT affiliation.",
-      image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80&w=2000",
+      image: "/images/departments/cse/1-768x576.jpeg",
       breadcrumb: "Computer Science & Engineering",
       stats: [
         { label: "Established", value: "2005" },
@@ -53,10 +53,6 @@ const departmentData = {
       ],
     },
 
-    acmBanner: {
-      text: "ACM Student Chapter Annual Report",
-      href: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/COMPUTER+SCIENCE+%26+ENGINEERING/2024-25Trident-Acm-Student-Chapter-Annual-Report.pdf",
-    },
 
     sidebar: {
       heading: "COMPUTER SCIENCE &\nENGINEERING",
@@ -117,9 +113,19 @@ const departmentData = {
         }
       ],
       images: [
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=600"
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg"
+      ],
+      gallery: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg",
+        "/images/departments/cse/4-768x576.jpeg",
+        "/images/departments/cse/5-768x576.jpeg",
+        "/images/departments/cse/cse (1).jpg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-09-at-6.07.33-PM-1.jpeg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-11-at-3.41.52-PM-768x576.jpeg"
       ]
     },
 
@@ -986,55 +992,55 @@ const departmentData = {
       {
         title: 'State-Level Hackathon "Kouslav Tech Hackathon"',
         description: "Held at Kouslav Groups of Institutions, Bhubaneswar. Students Secured 3rd position.",
-        image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=600",
+        image: "/images/departments/cse/1-768x576.jpeg",
         tag: "3rd Position",
       },
       {
         title: "Amity Noida – SustainInnovation Event",
         description: "A national level hackathon held in September 2025. Team MADX received remarkable achievement during the event.",
-        image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=600",
+        image: "/images/departments/cse/2-768x432.jpeg",
         tag: "National Level",
       },
       {
         title: 'State-Level Hackathon "Srusti TechHack 2.0"',
         description: "Held at Srusti Academy of Management and Technology, Bhubaneswar. Team MAP-X secured 2nd Position.",
-        image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=600",
+        image: "/images/departments/cse/3-768x576.jpeg",
         tag: "2nd Position",
       },
       {
         title: "BPUT Hackathon 2025 Grand Finale",
         description: "Held at BPUT Campus, Rourkela on 1st and 2nd November 2025. Our students secured 2nd Position in PS 2.",
-        image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=600",
+        image: "/images/departments/cse/4-768x576.jpeg",
         tag: "2nd Position",
       },
       {
         title: "Odisha Cyber Safety Campaign Hackathon",
         description: "Along with IIT BBSR conducted on 14th November 2025. One team INNOVATEX achieved Surprise winners of cash prize Rs 10,000.",
-        image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=600",
+        image: "/images/departments/cse/5-768x576.jpeg",
         tag: "Cash Prize ₹10,000",
       },
       {
         title: "The PixelCraft – UI Showdown",
         description: "Prize distribution honoring students who built innovative websites on Preparation Challenges Faced in BTech Placements using AI tools.",
-        image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600",
+        image: "/images/departments/cse/cse (1).jpg",
         tag: "Innovation",
       },
       {
         title: "Smart India Hackathon (SIH) 2024",
         description: "The flagship national-level hackathon organized by MoE, Govt. of India. Our CSE department team 'TechTitans' secured the 1st runner-up position in the Software Edition, winning a cash prize of ₹75,000 for their AI-driven healthcare solution.",
-        image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=600",
+        image: "/images/departments/cse/WhatsApp-Image-2026-03-09-at-6.07.33-PM-1.jpeg",
         tag: "1st Runner-Up (₹75K)",
       },
       {
         title: "TCS CodeVita Season 11",
         description: "A global programming competition by Tata Consultancy Services. Two of our final-year students ranked among the top 100 globally, securing direct placement offers for the prestigious TCS Digital profile.",
-        image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80&w=600",
+        image: "/images/departments/cse/WhatsApp-Image-2026-03-11-at-3.41.52-PM-768x576.jpeg",
         tag: "Global Top 100",
       },
       {
         title: "Google Solution Challenge 2024",
         description: "An annual contest that invites university students to build solutions for UN Sustainable Development Goals. Our student team's project on accessible education was selected in the Top 50 Global Finalists.",
-        image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=600",
+        image: "/images/departments/cse/1-768x576.jpeg",
         tag: "Top 50 Global",
       }
     ],
@@ -1174,27 +1180,27 @@ const departmentData = {
     },
 
     theme: {
-      primary: "text-[#4F46E5]",
-      bgPrimary: "bg-[#4F46E5]",
-      borderPrimary: "border-[#4F46E5]",
-      borderPrimary10: "border-[#4F46E5]/10",
-      bgPrimary10: "bg-[#4F46E5]/10",
-      hoverTextPrimary: "hover:text-[#4F46E5]",
-      hoverBgPrimary: "hover:bg-[#4F46E5]",
-      shadowPrimary20: "shadow-[#4F46E5]/20",
-      accent: "text-[#F59E0B]",
-      bgAccent: "bg-[#F59E0B]",
-      secondary: "text-[#8B5CF6]",
-      gradient: "from-[#312E81]/95 via-[#3730A3]/90 to-[#4338CA]/80",
-      btn: "bg-[#6366F1]",
-      btnHover: "hover:bg-[#4338CA]",
+      primary: "text-[#0891B2]",
+      bgPrimary: "bg-[#0891B2]",
+      borderPrimary: "border-[#0891B2]",
+      borderPrimary10: "border-[#0891B2]/10",
+      bgPrimary10: "bg-[#0891B2]/10",
+      hoverTextPrimary: "hover:text-[#0891B2]",
+      hoverBgPrimary: "hover:bg-[#0891B2]",
+      shadowPrimary20: "shadow-[#0891B2]/20",
+      accent: "text-[#E5AA3E]",
+      bgAccent: "bg-[#E5AA3E]",
+      secondary: "text-[#0E7490]",
+      gradient: "from-[#164E63]/95 via-[#155E75]/90 to-[#0E7490]/80",
+      btn: "bg-[#06B6D4]",
+      btnHover: "hover:bg-[#0891B2]",
     },
 
     hero: {
       titleLine1: "Computer Science &",
       titleLine2: "Information Technology",
       subtitle: "Focused on the application of computing technologies across diverse industries.",
-      image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=2000",
+      image: "/images/departments/cse/4-768x576.jpeg",
       breadcrumb: "Computer Science & Information Technology",
       stats: [
         { label: "B.Tech Seats", value: "60" },
@@ -1251,9 +1257,19 @@ const departmentData = {
         }
       ],
       images: [
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=600"
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg"
+      ],
+      gallery: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg",
+        "/images/departments/cse/4-768x576.jpeg",
+        "/images/departments/cse/5-768x576.jpeg",
+        "/images/departments/cse/cse (1).jpg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-09-at-6.07.33-PM-1.jpeg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-11-at-3.41.52-PM-768x576.jpeg"
       ]
     },
 
@@ -1440,27 +1456,27 @@ const departmentData = {
     },
 
     theme: {
-      primary: "text-[#008080]",
-      bgPrimary: "bg-[#008080]",
-      borderPrimary: "border-[#008080]",
-      borderPrimary10: "border-[#008080]/10",
-      bgPrimary10: "bg-[#008080]/10",
-      hoverTextPrimary: "hover:text-[#008080]",
-      hoverBgPrimary: "hover:bg-[#008080]",
-      shadowPrimary20: "shadow-[#008080]/20",
-      accent: "text-[#FF7F50]",
-      bgAccent: "bg-[#FF7F50]",
-      secondary: "text-[#2E8B57]",
-      gradient: "from-[#004d40]/95 via-[#00695c]/90 to-[#00897b]/80",
-      btn: "bg-[#20B2AA]",
-      btnHover: "hover:bg-[#008B8B]",
+      primary: "text-[#EA580C]",
+      bgPrimary: "bg-[#EA580C]",
+      borderPrimary: "border-[#EA580C]",
+      borderPrimary10: "border-[#EA580C]/10",
+      bgPrimary10: "bg-[#EA580C]/10",
+      hoverTextPrimary: "hover:text-[#EA580C]",
+      hoverBgPrimary: "hover:bg-[#EA580C]",
+      shadowPrimary20: "shadow-[#EA580C]/20",
+      accent: "text-[#E5AA3E]",
+      bgAccent: "bg-[#E5AA3E]",
+      secondary: "text-[#C2410C]",
+      gradient: "from-[#7C2D12]/95 via-[#9A3412]/90 to-[#C2410C]/80",
+      btn: "bg-[#F97316]",
+      btnHover: "hover:bg-[#EA580C]",
     },
 
     hero: {
       titleLine1: "Computer Science &",
       titleLine2: "Technology",
       subtitle: "Preparing students for future-ready careers in the rapidly evolving field of technology.",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=2000",
+      image: "/images/departments/cse/4-768x576.jpeg",
       breadcrumb: "Computer Science and Technology",
       stats: [
         { label: "B.Tech Seats", value: "120" },
@@ -1518,9 +1534,19 @@ const departmentData = {
         }
       ],
       images: [
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=600"
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg"
+      ],
+      gallery: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg",
+        "/images/departments/cse/4-768x576.jpeg",
+        "/images/departments/cse/5-768x576.jpeg",
+        "/images/departments/cse/cse (1).jpg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-09-at-6.07.33-PM-1.jpeg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-11-at-3.41.52-PM-768x576.jpeg"
       ]
     },
 
@@ -2238,8 +2264,7 @@ const departmentData = {
         ]
       }
     ]
-  }
-,
+  },
 
   "computer-science-engineering-data-science": {
     name: "Computer Science & Engineering (Data Science)",
@@ -2250,27 +2275,27 @@ const departmentData = {
     },
 
     theme: {
-      primary: "text-[#E11D48]",
-      bgPrimary: "bg-[#E11D48]",
-      borderPrimary: "border-[#E11D48]",
-      borderPrimary10: "border-[#E11D48]/10",
-      bgPrimary10: "bg-[#E11D48]/10",
-      hoverTextPrimary: "hover:text-[#E11D48]",
-      hoverBgPrimary: "hover:bg-[#E11D48]",
-      shadowPrimary20: "shadow-[#E11D48]/20",
-      accent: "text-[#2563EB]",
-      bgAccent: "bg-[#2563EB]",
-      secondary: "text-[#E11D48]",
-      gradient: "from-[#881337]/95 via-[#9F1239]/90 to-[#BE123C]/80",
-      btn: "bg-[#F43F5E]",
-      btnHover: "hover:bg-[#BE123C]",
+      primary: "text-[#0D9488]",
+      bgPrimary: "bg-[#0D9488]",
+      borderPrimary: "border-[#0D9488]",
+      borderPrimary10: "border-[#0D9488]/10",
+      bgPrimary10: "bg-[#0D9488]/10",
+      hoverTextPrimary: "hover:text-[#0D9488]",
+      hoverBgPrimary: "hover:bg-[#0D9488]",
+      shadowPrimary20: "shadow-[#0D9488]/20",
+      accent: "text-[#E5AA3E]",
+      bgAccent: "bg-[#E5AA3E]",
+      secondary: "text-[#0F766E]",
+      gradient: "from-[#134E4A]/95 via-[#0F766E]/90 to-[#0D9488]/80",
+      btn: "bg-[#14B8A6]",
+      btnHover: "hover:bg-[#0F766E]",
     },
 
     hero: {
       titleLine1: "Computer Science &",
       titleLine2: "Engineering (Data Science)",
       subtitle: "Preparing students for future-ready careers in the rapidly evolving field of technology.",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=2000",
+      image: "/images/departments/cse/4-768x576.jpeg",
       breadcrumb: "Computer Science & Engineering (Data Science)",
       stats: [
         { label: "B.Tech Seats", value: "120" },
@@ -2328,9 +2353,19 @@ const departmentData = {
         }
       ],
       images: [
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=600"
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg"
+      ],
+      gallery: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg",
+        "/images/departments/cse/4-768x576.jpeg",
+        "/images/departments/cse/5-768x576.jpeg",
+        "/images/departments/cse/cse (1).jpg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-09-at-6.07.33-PM-1.jpeg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-11-at-3.41.52-PM-768x576.jpeg"
       ]
     },
 
@@ -3048,8 +3083,7 @@ const departmentData = {
         ]
       }
     ]
-  }
-,
+  },
 
   "computer-science-engineering-ai-ml": {
     name: "Computer Science & Engineering (AI & ML)",
@@ -3060,27 +3094,27 @@ const departmentData = {
     },
 
     theme: {
-      primary: "text-[#059669]",
-      bgPrimary: "bg-[#059669]",
-      borderPrimary: "border-[#059669]",
-      borderPrimary10: "border-[#059669]/10",
-      bgPrimary10: "bg-[#059669]/10",
-      hoverTextPrimary: "hover:text-[#059669]",
-      hoverBgPrimary: "hover:bg-[#059669]",
-      shadowPrimary20: "shadow-[#059669]/20",
-      accent: "text-[#D97706]",
-      bgAccent: "bg-[#D97706]",
-      secondary: "text-[#059669]",
-      gradient: "from-[#022C22]/95 via-[#064E3B]/90 to-[#047857]/80",
-      btn: "bg-[#10B981]",
-      btnHover: "hover:bg-[#047857]",
+      primary: "text-[#7C3AED]",
+      bgPrimary: "bg-[#7C3AED]",
+      borderPrimary: "border-[#7C3AED]",
+      borderPrimary10: "border-[#7C3AED]/10",
+      bgPrimary10: "bg-[#7C3AED]/10",
+      hoverTextPrimary: "hover:text-[#7C3AED]",
+      hoverBgPrimary: "hover:bg-[#7C3AED]",
+      shadowPrimary20: "shadow-[#7C3AED]/20",
+      accent: "text-[#E5AA3E]",
+      bgAccent: "bg-[#E5AA3E]",
+      secondary: "text-[#6D28D9]",
+      gradient: "from-[#4C1D95]/95 via-[#5B21B6]/90 to-[#6D28D9]/80",
+      btn: "bg-[#8B5CF6]",
+      btnHover: "hover:bg-[#7C3AED]",
     },
 
     hero: {
       titleLine1: "Computer Science &",
       titleLine2: "Engineering (AI & ML)",
       subtitle: "Preparing students for future-ready careers in the rapidly evolving field of technology.",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=2000",
+      image: "/images/departments/cse/4-768x576.jpeg",
       breadcrumb: "Computer Science & Engineering (AI & ML)",
       stats: [
         { label: "B.Tech Seats", value: "120" },
@@ -3138,9 +3172,19 @@ const departmentData = {
         }
       ],
       images: [
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=600"
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg"
+      ],
+      gallery: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg",
+        "/images/departments/cse/4-768x576.jpeg",
+        "/images/departments/cse/5-768x576.jpeg",
+        "/images/departments/cse/cse (1).jpg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-09-at-6.07.33-PM-1.jpeg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-11-at-3.41.52-PM-768x576.jpeg"
       ]
     },
 
@@ -3911,25 +3955,12 @@ const departmentData = {
       titleLine1: "Civil",
       titleLine2: "Engineering",
       subtitle: "Building the foundations of tomorrow with innovative and sustainable infrastructure solutions.",
-      image: "/CIVIL.png",
+      image: "https://images.unsplash.com/photo-1541888086925-0c13bb105ecf?auto=format&fit=crop&q=80&w=2000",
       breadcrumb: "Civil Engineering",
       stats: [
         { label: "Founded", value: "2013" },
         { label: "BPUT Affiliated", value: "Yes" },
         { label: "AICTE Approved", value: "Yes" }
-      ]
-    },
-
-    homeContent: {
-      paragraphs: [
-        "The Department of Civil Engineering (CE) at Trident Academy of Technology (TAT), started in the year 2013 as an addition to the existing stream of technical degree courses, at present offers an undergraduate degrees program of 204 credit points in civil engineering (B.Tech. in Civil) from Biju Pattnaik University of Technology (BPUT), Odisha.",
-        "The Department of Civil Engineering adequately equipped with state-of-the-art up-to-date Lab infrastructure delivers the courses by a group of competent and dedicated faculty members and field instructors who help them develop strong and dependable proficiency in various structural design skills which yield them with high degree of confidence in designing effective and efficient solutions to real-life problems."
-      ],
-      salientFeatures: [
-        "State-of-the-art up-to-date Lab infrastructure",
-        "Competent and dedicated faculty members and field instructors",
-        "Strong focus on ethical issues and importance of Civil Engineering work in society",
-        "Learn with Fun approach to nurture intellectual, technological and personal skill development"
       ]
     },
 
@@ -3995,6 +4026,20 @@ const departmentData = {
           label: "M.Tech (Struct.)",
           content: "M.Tech. in Structural Engineering \u2013 18 Seats\n\nThese programs are delivered under the able leadership of Mr. Sanjay Kumar Behera (HoD, Civil), an eminent academician with extensive field exposure and experience. A team of highly qualified, dedicated, and experienced faculty members contributes to creating a conducive learning environment that focuses on delivering a broad spectrum of knowledge aligned with the civil engineering curriculum, while also preparing students to become job-ready professionals capable of contributing meaningfully to society.\n\nThe department boasts state-of-the-art laboratory facilities, enabling students to build strong technical proficiency and confidence in designing effective and efficient engineering solutions to real-world problems. In addition to structured classroom teaching as per BPUT guidelines, the department places significant emphasis on enhancing students\u2019 professional competencies, communication skills, and interpersonal abilities.\n\nTo strengthen industry\u2013academia collaboration and ensure holistic exposure, the department has signed MoUs with leading organizations such as NBCC and OCC, and is also associated with OMC, IDCO, OBCC, and other reputed agencies. These partnerships play a pivotal role in enriching students\u2019 industrial training and practical understanding.\n\nAs a part of the Trident Culture, students are engaged through the \u201cLearn with Fun\u201d approach, which nurtures intellectual, technological, and personal growth. Various technical and intellectual clubs, as well as professional societies, actively involve students in hands-on learning, innovation, and skill-building activities. The academic environment at Trident is intentionally crafted to cultivate a mindset geared toward lifelong learning, thereby equipping students with the skills and attitudes essential for success in industry, research, and society at large."
         }
+      ]
+    ,
+      images: [
+        "/images/departments/civil/Untitled design (1).png",
+        "/images/departments/civil/Untitled design (2).png",
+        "/images/departments/civil/WhatsApp Image 2025-05-19 at 12.50.15_0c400f24.jpg"
+      ],
+      gallery: [
+        "/images/departments/civil/Untitled design (1).png",
+        "/images/departments/civil/Untitled design (2).png",
+        "/images/departments/civil/WhatsApp Image 2025-05-19 at 12.50.15_0c400f24.jpg",
+        "/images/departments/civil/WhatsApp Image 2025-05-19 at 12.50.16_a943ecc6.jpg",
+        "/images/departments/civil/WhatsApp Image 2026-02-24 at 4.10.53 PM.jpeg",
+        "/images/departments/civil/WhatsApp Image 2026-02-24 at 4.10.54 PM.jpeg"
       ]
     },
     
@@ -4233,7 +4278,7 @@ const departmentData = {
       titleLine1: "School of",
       titleLine2: "Biotechnology",
       subtitle: "INNOVATING FOR A HEALTHIER TOMORROW\nThe School of Biotechnology offers advanced programmes fostering research and innovation in healthcare, agriculture, and environmental sustainability. Students work on cutting-edge projects in state-of-the-art labs, bridging the gap between science and real-world impact.",
-      image: "/images/biotech_hero.png",
+      image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&q=80&w=2000",
       breadcrumb: "Biotechnology Engineering",
       stats: [
         { label: "Established", value: "2018" },
@@ -4606,6 +4651,20 @@ const departmentData = {
       po: [{text: "PO1: Engineering Knowledge"}],
       peo: [{text: "PEO1: Core Competency"}],
       pso: [{text: "PSO1: Apply knowledge in Electronics"}]
+    ,
+      images: [
+        "/images/departments/etc/IMG20250516111930.jpg",
+        "/images/departments/etc/IMG20250516115054.jpg",
+        "/images/departments/etc/IMG_5069.JPG"
+      ],
+      gallery: [
+        "/images/departments/etc/IMG20250516111930.jpg",
+        "/images/departments/etc/IMG20250516115054.jpg",
+        "/images/departments/etc/IMG_5069.JPG",
+        "/images/departments/etc/IMG_5073.JPG",
+        "/images/departments/etc/OMG_6566.JPG",
+        "/images/departments/etc/IMG20250516111930 (1).jpg"
+      ]
     },
     faculty: [
       {
@@ -4918,6 +4977,13 @@ const departmentData = {
         ]
       }
     ],
+    syllabus: [
+      { year: "First Year", title: "SYLLABUS FOR FIRST YEAR", buttonText: "VIEW / DOWNLOAD 1ST YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Course-Structure-and-Detailed-Syllabus-for-1st-Year-B.Tech-Admission-Batch-2023-24.pdf" },
+      { year: "Second Year", title: "SYLLABUS FOR SECOND YEAR", buttonText: "VIEW / DOWNLOAD 2ND YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ES05-ETC-2nd-Year.pdf" },
+      { year: "Third Year", title: "SYLLABUS FOR THIRD YEAR", buttonText: "VIEW / DOWNLOAD 3RD YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ES05-ETC-3rd-Year.pdf" },
+      { year: "Fourth Year", title: "SYLLABUS FOR FOURTH YEAR", buttonText: "VIEW / DOWNLOAD 4TH YEAR SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/ETC-ECE_7th-8th-sem.pdf" },
+      { year: "M.Tech", title: "SYLLABUS FOR M. TECH", buttonText: "VIEW / DOWNLOAD M. TECH SYLLABUS", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/MTECH-ETC_merged.pdf" }
+    ],
     placement: [
       { year: "2024-25", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2024-25-ETC.pdf" },
       { year: "2023-24", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Placement-2023-24-ETC.pdf" },
@@ -5097,7 +5163,21 @@ const departmentData = {
         title: "Student Achievements & Participation",
         description: "The Department of Electronics and Telecommunication Engineering at Trident Academy of Technology, Bhubaneswar takes pride in the outstanding achievements of its students in various inter-institute competitions, hackathons, and technical events.",
         subtitle: "Our students consistently demonstrate innovation, teamwork, and technical excellence by securing top positions across prestigious platforms."
-      },
+      ,
+      images: [
+        "/images/departments/vlsi/455789587_7942766909176121_7698136008696861692_n.jpg",
+        "/images/departments/vlsi/456084895_7942763579176454_2230763532092766752_n.jpg",
+        "/images/departments/vlsi/IMG20260127173037.jpg"
+      ],
+      gallery: [
+        "/images/departments/vlsi/455789587_7942766909176121_7698136008696861692_n.jpg",
+        "/images/departments/vlsi/456084895_7942763579176454_2230763532092766752_n.jpg",
+        "/images/departments/vlsi/IMG20260127173037.jpg",
+        "/images/departments/vlsi/Meity c2s photo1.jpeg",
+        "/images/departments/vlsi/Meity c2s photo2.jpeg",
+        "/images/departments/vlsi/Meity c2s photo4 (1).jpeg"
+      ]
+    },
       highlights: [
         "Multiple First Positions in BPUT Hackathon 2024",
         "Strong performance in Robotics Competitions (Robo Soccer, Robo Sumo, Line Follower)",
@@ -5258,664 +5338,1625 @@ const departmentData = {
       ],
       vision: "To empower students to become future entrepreneurs and innovators, contributing to technological and economic growth.",
       reportLink: "#" // Link to be updated later
-    },
-
-  }
-,
-  /* ┌─────────────────────────────────────────────┐
-     │  MECHANICAL ENGINEERING                     │
-     └─────────────────────────────────────────────┘ */
-  "mechanical-engineering": {
-    name: "Mechanical Engineering",
-    shortName: "ME",
-    meta: {
-      title: "Mechanical Engineering — Trident Academy of Technology",
-      description: "Department of Mechanical Engineering at Trident Academy of Technology — B.Tech & Diploma programmes with modern labs and industry partnerships."
-    },
+    }
+  },
+  
+  "electrical-and-electronics-engineering": {
+    name: "Electrical and Electronics Engineering",
     theme: {
-      primary: "text-[#D97706]",
-      bgPrimary: "bg-[#D97706]",
-      borderPrimary: "border-[#D97706]"
+      primary: "from-[#F59E0B] to-[#D97706]", // Amber to darker amber
+      light: "bg-[#FEF3C7]",
+      border: "border-[#FDE68A]",
+      text: "text-[#B45309]",
+      iconBg: "bg-gradient-to-br from-[#F59E0B]/20 to-[#D97706]/20",
+      alert: "bg-[#FFFBEB] border-[#FCD34D] text-[#92400E]"
     },
+    meta: {
+      title: "Electrical & Electronics Engineering | Trident Academy of Technology",
+      description: "Department of Electrical and Electronics Engineering at Trident Academy of Technology."
+    },
+    heroImage: "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?auto=format&fit=crop&q=80&w=2000",
+    hero: {
+      titleLine1: "Electrical & Electronics",
+      titleLine2: "Engineering",
+      subtitle: "Empowering the future with advanced power systems, renewable energy technologies, and smart grids.",
+      image: "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?auto=format&fit=crop&q=80&w=2000",
+      breadcrumb: "Electrical & Electronics Engineering",
+      stats: [
+        { label: "Established", value: "2005" },
+        { label: "B.Tech Intake", value: "60" },
+        { label: "Industry Partners", value: "12+" }
+      ]
+    },
+    sidebar: {
+      heading: "ELECTRICAL &\nELECTRONICS",
+      items: [
+        { id: "overview", label: "DEPARTMENT OVERVIEW", icon: "BookOpen", href: "/electrical-and-electronics-engineering/overview" },
+        { id: "lecture-notes", label: "LECTURE NOTES", icon: "FileText", href: "/electrical-and-electronics-engineering/lecture-notes" },
+        { id: "clubs", label: "CLUBS", icon: "Users", href: "/electrical-and-electronics-engineering/clubs" },
+        { id: "professional-societies", label: "PROFESSIONAL SOCIETY & CHAPTERS", icon: "Award", href: "/electrical-and-electronics-engineering/professional-societies" },
+        { id: "syllabus", label: "SYLLABUS", icon: "Layers", href: "/electrical-and-electronics-engineering/syllabus" },
+        { id: "faculty", label: "FACULTIES", icon: "Users", href: "/electrical-and-electronics-engineering/faculty" },
+        { id: "laboratories", label: "LABORATORIES", icon: "Beaker", href: "/electrical-and-electronics-engineering/laboratories" }
+      ]
+    },
+    homeContent: {
+      paragraphs: [
+        "The Department of Electrical and Electronics Engineering (EEE) was established in the year 2005 and offers an undergraduate programme, B.Tech in Electrical and Electronics Engineering, with an approved intake of 30 students. From the academic session 2024-25, the department has expanded its academic offerings by introducing two postgraduate programmes, namely M.Tech in Electric Vehicle Technology and M.Tech in Energy and Environmental Engineering, each with an approved intake of 18 students. The department is staffed with 15 qualified faculty members who are actively involved in teaching, laboratory instruction, and academic mentoring. During the last three academic years, the faculty members have made notable research contributions, resulting in 10 publications in national journals, 5 publications in international journals, and the filing/granting of 7 patents.",
+        "The B.Tech programme in Electrical and Electronics Engineering (EEE) has been duly accredited by the National Board of Accreditation (NBA), reflecting its compliance with prescribed quality standards in technical education.",
+        "Students of the department enhance their technical knowledge and practical skills through active participation in various departmental clubs like the Renewable Energy (RENEN) Club, Energy Efficiency Club, and Electric Vehicle Club, which facilitate experiential learning, innovation, and professional development beyond the curriculum.",
+        "The Department of Electrical and Electronics Engineering (EEE), along with its students, has installed a 10 kWp on-grid rooftop solar plant for powering specific electrical loads and a 2 kWp solar hybrid system for campus street lighting. Additionally, a 235 kWp on-grid rooftop system on hostel buildings and a 35 kWp canal-top ground-mounted solar system have been installed. Further strengthening sustainability efforts, a 15 kWp solar hybrid system with battery backup powers the campus greenhouse and has been planned for integration with a biomass system.",
+        "The department has certified trainers from the Power Sector Skill Council (PSSC) and the Skill Council for Green Jobs (SCGJ) who impart National Skills Qualification Framework (NSQF)-aligned certification courses. These initiatives enhance students' employability by providing industry-relevant skills and facilitating their placement and deployment in reputed organisations."
+      ],
+      salientFeatures: []
+    },
+    programmes: [
+      {
+        title: "Diploma in Electrical Engineering",
+        seats: "60 Seats",
+        details: "The Department of Electrical and Electronics Engineering at Trident Academy of Technology offers a comprehensive Diploma programme in Electrical Engineering, designed to provide students with a strong foundation in core principles along with exposure to contemporary advancements in the discipline. The curriculum is structured to ensure academic rigor, practical relevance, and alignment with industry and professional standards.\n\nIn addition to the structured academic curriculum, students of the Electrical Engineering programme are provided with diverse experiential learning opportunities. Distinguished Lectures delivered by eminent experts from various domains of Electrical Engineering facilitate knowledge dissemination, intellectual interaction, and exposure to contemporary practices. These activities effectively complement classroom teaching and motivate students to explore interdisciplinary approaches and real-world applications of theoretical concepts.",
+        sections: []
+      },
+      {
+        title: "B.Tech. in Electrical & Electronics Engineering",
+        seats: "30 Seats",
+        details: "The Department of Electrical and Electronics Engineering at Trident Academy of Technology offers a comprehensive B.Tech programme in Electrical and Electronics Engineering, designed to provide students with a strong foundation in core principles along with exposure to contemporary advancements in the discipline. The curriculum is structured to ensure academic rigor, practical relevance, and alignment with industry and professional standards.\n\nIn addition to the structured academic curriculum, students of the Electrical and Electronics Engineering programme are provided with diverse experiential learning opportunities. Distinguished Lectures delivered by eminent experts from various domains of Electrical and Electronics Engineering facilitate knowledge dissemination, intellectual interaction, and exposure to contemporary practices. These activities effectively complement classroom teaching and motivate students to explore interdisciplinary approaches and real-world applications of theoretical concepts.\n\nFurthermore, the Department of Electrical and Electronics Engineering promotes a strong culture of research and innovation by encouraging students participation in hands-on projects, internships, and collaborative activities with industry partners. These initiatives enable students to reinforce theoretical knowledge through practical application while developing industry-relevant skills essential for professional competence and career readiness.\n\nThe Department of Electrical and Electronics Engineering is committed for nurturing competent professionals who are not only technically proficient but also innovative, ethical, and socially responsible. Through a holistic approach to education, the department aims to empower students with leadership qualities and a sense of professional responsibility, enabling them to contribute effectively to technological advancement and societal progress.",
+        sections: []
+      },
+      {
+        title: "M.Tech. in Electric Vehicle Technology",
+        seats: "18 Seats",
+        details: "The M.Tech programme in Electric Vehicle Technology is a forward-looking initiative designed to equip students with comprehensive knowledge and specialized skills in the domain of electric mobility. With the rapid global adoption of electric vehicles and the evolving transportation ecosystem, the programme is both timely and essential, addressing emerging industry requirements and technological advancements.\n\nThe programme provides in-depth coverage of the engineering and technological aspects of electric mobility applications. It enables students to develop a comprehensive understanding of electric vehicle design, including power requirements, torque characteristics, and overall vehicle performance parameters. The curriculum also emphasizes informed selection and integration of engines and electric motors, focusing on optimizing efficiency, sustainability, and performance in electric vehicle systems.\n\nMoreover, the programme offers a holistic understanding of battery pack design, covering critical aspects such as power and energy density, energy storage capacity, and lifecycle performance. Through a balanced integration of theoretical instruction and hands-on learning, students gain exposure to battery testing and evaluation procedures, ensuring reliability, safety, and performance of electric vehicle systems under real-world operating conditions.\n\nIn addition to technical competencies, the M.Tech programme in Electric Vehicle Technology addresses broader aspects of electric mobility, including infrastructure development, environmental sustainability, and economic considerations. The curriculum enables students to study the planning and implementation of charging infrastructure and to analyze its impact on urban environments, energy demand, and overall mobility ecosystems.\n\nFurthermore, the programme develops a comprehensive understanding of the environmental impact of electric vehicles, emphasizing their role in reducing greenhouse gas emissions and advancing sustainable transportation systems. It also addresses economic considerations such as cost\u2013benefit analysis and market dynamics, thereby equipping students with the analytical skills required to effectively navigate the rapidly evolving electric vehicle industry.\n\nIn summary, the M.Tech programme in Electric Vehicle Technology adopts a comprehensive and multidisciplinary approach to electric mobility, extending beyond conventional academic boundaries. By equipping students with a broad skill set and in-depth knowledge of electric vehicle technologies, the programme aims to foster innovation and enable meaningful contributions to the advancement of sustainable and efficient transportation systems.",
+        sections: []
+      },
+      {
+        title: "M.Tech. in Energy & Environmental Engineering",
+        seats: "18 Seats",
+        details: "The M.Tech programme in Energy and Environmental Engineering is designed to develop highly skilled graduates equipped to address the evolving challenges in the fields of energy and environmental management. By fostering innovation, interdisciplinary learning, and a focus on sustainability, the programme prepares students to become future leaders in advancing sustainable development and environmentally responsible solutions.\n\nAs part of the curriculum, students participate in hands-on projects, internships, and research initiatives that address real-world energy and environmental challenges. They gain practical experience in areas such as designing advanced lighting systems, optimizing heating, ventilation, and air conditioning systems, and implementing strategies to improve energy efficiency and minimize environmental impact.\n\nBeyond technical expertise, the programme cultivates a strong sense of environmental responsibility and ethical leadership in students. Through courses on environmental compliance and sustainability, students develop a thorough understanding of the ecological impact of energy systems and the importance of making responsible decisions to promote sustainable practices for the benefit of future generations.\n\nIn essence, the M.Tech programme in Energy and Environmental Engineering integrates knowledge, innovation, and sustainability. By equipping students with the skills and perspectives required to address complex energy and environmental challenges, the programme prepares them to become catalysts for positive change and contributors to a sustainable and resilient future.",
+        sections: []
+      }
+    ],
+    overview: {
+      paragraphs: [
+        "The Department of Electrical and Electronics Engineering (EEE) at Trident Academy of Technology (TAT) currently offers an undergraduate programme in Electrical and Electronics Engineering (B.Tech in EEE) and two postgraduate programmes — M.Tech in Electric Vehicle Technology and M.Tech in Energy and Environmental Engineering under Biju Patnaik University of Technology (BPUT), Odisha. The B.Tech program curriculum, distributed over eight semesters and the M.Tech. program curricula, distributed over four semesters, are delivered under the able headship of Professor P. K. Sahoo with a team of highly experienced and committed faculty members. The programmes aim to provide comprehensive knowledge and exposure across core areas like Power System, Control System, Electrical Machine, Instrumentation, Switchgear and Industrial Protection, Power Electronics, Electrical Drives, and Electromagnetic Fields and Waves.",
+        "The department is dynamic and vibrant, equipped with state-of-the-art laboratories including Electrical Machines Lab, Electrical & Electronics Measurement Lab, Electrical Circuit Analysis Lab and Power Electronics Lab, enabling hands-on learning under the guidance of competent and dedicated instructors. The department follows a \"Learn with Fun\" approach to foster intellectual, technological, and personal skill development in addition to the prescribed BPUT curriculum. Students actively engage in a variety of technical and professional clubs and chapters, including IEEE, IET, IETE, and ISTE, to enhance their practical knowledge, leadership, and collaborative abilities.",
+        "Over the past five years, the Department has demonstrated strong academic performance, with 10% of students achieving a CGPA of 9.0 and above, and 20% securing a CGPA of 8.0 and above. Coupled with an impressive placement record of approximately 90% during the same period, Trident Academy of Technology has emerged as a preferred choice for both students and parents seeking quality technical education in core engineering disciplines."
+      ],
+      vision: "To be a model of excellence in technical education and research by producing world-class graduates who are prepared for life-long engagement in the rapidly changing fields of electrical and related fields ",
+      mission: [
+        { text: "M1. To create and sustain an environment of education where students will acquire the requisite technical knowledge and learn to apply it professionally with due consideration to ethical, social, economic and environmental issues." },
+        { text: "M2. To create awareness among student about the energy management & encourage them to explore avenues concerning renewable energy." },
+        { text: "M3. To create research oriented environment & also provide quality consultancy." },
+        { text: "M4. To hone innovative & entrepreneurial skills of students." }
+      ],
+      po: [
+        { title: "PO1. Engineering knowledge", description: "Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems." },
+        { title: "PO2. Problem analysis", description: "Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences." },
+        { title: "PO3. Design/development of solutions", description: "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations." },
+        { title: "PO4. Conduct investigations of complex problems", description: "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions." },
+        { title: "PO5. Modern tool usage", description: "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations." },
+        { title: "PO6. The engineer and society", description: "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice." },
+        { title: "PO7. Environment and sustainability", description: "Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development." },
+        { title: "PO8. Ethics", description: "Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice." },
+        { title: "PO9. Individual and team work", description: "Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings." },
+        { title: "PO10. Communication", description: "Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions." },
+        { title: "PO11. Project management and finance", description: "Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments." },
+        { title: "PO12. Life-long learning", description: "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change." }
+      ],
+      peo: [
+        { text: "PEO1. An ability to apply advanced engineering principles, methodologies and tools for identification, formulation and solution of engineering problems." },
+        { text: "PEO2. An ability to use techniques, problem solving and analytical skills, and modern engineering tools for engineering practice and employability prospects." },
+        { text: "PEO3. To understand the impact of engineering solutions in a global, environmental and societal context and develop team sprit to be able to function effectively in multidisciplinary teams." },
+        { text: "PEO4. To have an understanding of professional and ethical responsibility and a desire to engage oneself in the process of lifelong learning." }
+      ],
+      pso: [
+        { text: "PSO1. Proficient skills: To exhibit the capacity to employ the newest hardware and software to tackle complicated problems in Electrical and Electronics Engineering, as well as analytical abilities to contribute to practical, economical, and environmentally responsible solutions." },
+        { text: "PSO2. Effective career build-up: To have excellent employability rates and plenty of options for further education by becoming proficient in hardware/software design and electrical and electronics circuit design." },
+        { text: "PSO3. Professional Engineer: To demonstrate the capacity to design and construct complex systems in the areas of next generation electrical systems, renewable energy, and power systems in order to meet Sustainable Development Goals." }
+      ]
+    },
+    faculty: [
+      {
+        name: "Mr.Mohammed Nadeem Iqbal",
+        designation: "Assistant Professor",
+        doj: "22/2/2011",
+        qualification: "M.Tech",
+        bputId: "T111828903"
+      },
+      {
+        name: "Mr.Shitya Ranjan Das",
+        designation: "Associate Professor",
+        doj: "3/7/2006",
+        qualification: "M.Tech",
+        bputId: "T081828906"
+      },
+      {
+        name: "Mr.Pradipta Kumar Sahoo",
+        designation: "Prof. & HOD",
+        doj: "7/8/2006",
+        qualification: "M.Tech",
+        bputId: "T081828902"
+      },
+      {
+        name: "Mr.Mir Manjur Elahi",
+        designation: "Assistant Professor",
+        doj: "10/1/2011",
+        qualification: "M.Tech",
+        bputId: "T111828902"
+      },
+      {
+        name: "Mrs.Smrutirekha Mahanta",
+        designation: "Assistant Professor",
+        doj: "14/9/2011",
+        qualification: "M.Tech",
+        bputId: "T111828905"
+      }
+    ],
+    laboratories: [
+      {
+        name: "BASIC ELECTRICAL ENGG. LABORATORY",
+        description: "This laboratory is designed to provide first-year students with a solid foundation in the practical aspects of electrical engineering. It familiarizes them with basic electrical circuits, components, and measuring instruments.",
+        equipments: ["DC Power Supplies", "Function Generators", "Cathode Ray Oscilloscopes (CRO)", "Multimeters", "Rheostats", "Voltmeters & Ammeters"],
+        keyExperiments: [
+          "Verification of Ohm's Law and Kirchhoff's Laws",
+          "Verification of Superposition and Thevenin’s Theorems",
+          "Study of R-L-C Series and Parallel Resonant Circuits",
+          "Measurement of Power in Single-Phase AC Circuits"
+        ]
+      },
+      {
+        name: "Power Electronics Lab",
+        description: "Equipped with modern solid-state devices and converter modules, this lab focuses on the application of power semiconductor devices for efficient power conversion and control.",
+        equipments: ["SCR, MOSFET, IGBT Trainer Kits", "Digital Storage Oscilloscopes (DSO)", "Single-phase and Three-phase Inverter Modules", "Chopper Modules", "Isolation Transformers"],
+        keyExperiments: [
+          "V-I Characteristics of SCR, MOSFET, and IGBT",
+          "Study of Single-Phase Half and Full-Wave Controlled Rectifiers",
+          "Analysis of DC-DC Step-Down and Step-Up Choppers",
+          "PWM Techniques in Single-Phase Inverters"
+        ]
+      },
+      {
+        name: "Electrical Measurement & Instrumentation Lab",
+        description: "This lab provides hands-on experience in measuring various electrical quantities using analog and digital instruments. It emphasizes precision and calibration of measuring devices.",
+        equipments: ["LVDT Trainer Kits", "Strain Gauge Modules", "Kelvin’s Double Bridge", "Schering Bridge", "Energy Meters", "Current & Potential Transformers"],
+        keyExperiments: [
+          "Measurement of Low Resistance using Kelvin's Double Bridge",
+          "Measurement of Unknown Capacitance using Schering Bridge",
+          "Calibration of Single-Phase Energy Meter",
+          "Measurement of Displacement using LVDT"
+        ]
+      },
+      {
+        name: "Digital Signal Processing Lab",
+        description: "A software and hardware integrated lab that introduces students to signal processing techniques, filter design, and spectral analysis using DSP processors and simulation tools.",
+        equipments: ["TMS320C6713 DSP Starter Kits", "MATLAB Software", "Function Generators", "Digital Oscilloscopes", "Computers with Code Composer Studio"],
+        keyExperiments: [
+          "Generation and Analysis of Standard Signals",
+          "Linear and Circular Convolution of Sequences",
+          "Design of FIR and IIR Digital Filters",
+          "Implementation of FFT Algorithms on DSP Hardware"
+        ]
+      },
+      {
+        name: "Communication Engineering Lab",
+        description: "Focuses on analog and digital communication techniques, enabling students to understand modulation, demodulation, multiplexing, and coding processes.",
+        equipments: ["AM/FM Trainer Kits", "PCM/TDM Trainer Modules", "ASK/FSK/PSK Modulation Kits", "Spectrum Analyzers", "DSO"],
+        keyExperiments: [
+          "Amplitude Modulation and Demodulation",
+          "Frequency Modulation and Phase-Locked Loop (PLL)",
+          "Pulse Code Modulation (PCM) and Demodulation",
+          "Digital Modulation Techniques: ASK, FSK, PSK"
+        ]
+      },
+      {
+        name: "Electrical Machines Lab",
+        description: "This core facility provides practical exposure to the operation, testing, and performance analysis of various DC and AC electrical machines under different load conditions.",
+        equipments: ["DC Motor-Generator Sets", "Single-Phase and Three-Phase Transformers", "Squirrel Cage and Slip-Ring Induction Motors", "Synchronous Motors/Generators", "Loading Rheostats"],
+        keyExperiments: [
+          "Open Circuit and Short Circuit Tests on Transformers",
+          "Load Test on DC Shunt and Series Motors",
+          "Speed Control of DC Shunt Motor",
+          "V-Curves and Inverted V-Curves of Synchronous Motor"
+        ]
+      },
+      {
+        name: "Electrical Circuit Analysis Lab",
+        description: "Dedicated to the in-depth analysis of complex electrical networks. Students learn to analyze transient and steady-state responses of linear circuits.",
+        equipments: ["Network Theorem Trainer Kits", "Transient Analysis Kits", "Two-Port Network Modules", "Function Generators", "Dual-Trace Oscilloscopes"],
+        keyExperiments: [
+          "Verification of Maximum Power Transfer Theorem",
+          "Determination of Z, Y, ABCD, and h Parameters of Two-Port Networks",
+          "Transient Response of RC and RL Circuits",
+          "Analysis of Series and Parallel Resonance"
+        ]
+      },
+      {
+        name: "Power System Simulation Lab",
+        description: "A computational lab equipped with advanced simulation software for modeling, analyzing, and optimizing large-scale electrical power grids and systems.",
+        equipments: ["High-Performance Workstations", "MATLAB/Simulink", "MiPower Software", "ETAP Software"],
+        keyExperiments: [
+          "Formation of Y-Bus and Z-Bus Matrices",
+          "Load Flow Analysis using Gauss-Seidel and Newton-Raphson Methods",
+          "Short Circuit and Fault Analysis of Power Systems",
+          "Transient Stability Analysis of Single-Machine Infinite-Bus Systems"
+        ]
+      },
+      {
+        name: "Control System Lab",
+        description: "Provides practical understanding of linear control systems, system dynamics, stability analysis, and compensator design using hardware models and software.",
+        equipments: ["DC Servo Motor Kits", "AC Servo Motor Kits", "PID Controller Modules", "Synchro Transmitter-Receiver Pairs", "MATLAB"],
+        keyExperiments: [
+          "Time Response Analysis of Second-Order Systems",
+          "Characteristics of AC and DC Servo Motors",
+          "Study of Synchro Transmitter and Receiver",
+          "Design and Implementation of PID Controllers"
+        ]
+      },
+      {
+        name: "Microprocessor Lab",
+        description: "Introduces students to the architecture, programming, and interfacing of microprocessors and microcontrollers, essential for embedded system design.",
+        equipments: ["8085/8086 Microprocessor Kits", "8051 Microcontroller Kits", "Stepper Motor Interfacing Modules", "ADC/DAC Interfacing Cards", "Traffic Light Controller Modules"],
+        keyExperiments: [
+          "Assembly Language Programming for Arithmetic Operations",
+          "Interfacing ADC and DAC with Microprocessors",
+          "Stepper Motor Speed and Direction Control",
+          "Traffic Light Controller Interfacing"
+        ]
+      },
+      {
+        name: "POWER SYSTEM LAB",
+        description: "A hardware-oriented lab designed to study the protection, operation, and characteristics of power system components such as relays, transmission lines, and insulators.",
+        equipments: ["Transmission Line Simulators", "Electromechanical and Solid-State Relays", "Oil Testing Kits", "High Voltage Testing Transformers"],
+        keyExperiments: [
+          "Characteristics of Overcurrent, Earth Fault, and Directional Relays",
+          "Determination of Transmission Line Parameters (ABCD)",
+          "Measurement of Dielectric Strength of Transformer Oil",
+          "String Efficiency of Suspension Insulators"
+        ]
+      },
+      {
+        name: "Electrical Project Lab",
+        description: "An innovation hub where students design, build, and test prototypes for their final year projects, bridging the gap between theoretical knowledge and practical engineering.",
+        equipments: ["PCB Fabrication Units", "Soldering Stations", "Digital Multimeters", "Microcontroller Development Boards", "Various Sensors and Actuators"],
+        keyExperiments: [
+          "Design and Fabrication of Custom PCBs",
+          "Hardware Integration of Sensor Networks",
+          "Prototyping Embedded System Applications",
+          "Testing and Validation of Capstone Projects"
+        ]
+      },
+      {
+        name: "Electric Vehicle Technology Lab",
+        description: "A state-of-the-art facility dedicated to the study of electric mobility, battery management systems, motor drives, and EV charging infrastructure.",
+        equipments: ["BLDC Motor Drive Kits", "Battery Management System (BMS) Trainers", "EV Charging Station Simulators", "Lithium-Ion Battery Packs", "Vehicle Dynamics Simulation Software"],
+        keyExperiments: [
+          "Performance Analysis of BLDC Motors for EVs",
+          "Study of Battery Charging and Discharging Characteristics",
+          "Simulation of EV Powertrain Dynamics",
+          "Analysis of Regenerative Braking Systems"
+        ]
+      },
+      {
+        name: "RENEWABLE ENERGY LAB",
+        description: "Focuses on sustainable energy generation technologies, enabling students to experiment with solar, wind, and hybrid energy systems.",
+        equipments: ["Solar PV Training Systems", "Wind Energy Trainers", "Fuel Cell Demonstration Kits", "Pyranometers", "Grid-Tied Inverter Modules"],
+        keyExperiments: [
+          "I-V and P-V Characteristics of Solar Panels",
+          "Effect of Shading and Tilt Angle on Solar PV Output",
+          "Performance Evaluation of Wind Turbine Generators",
+          "Study of Solar-Wind Hybrid Energy Systems"
+        ]
+      }
+    ],
+    lectureNotes: [
+      { title: "Power electronics", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/5.power-electronics-by-lohit-sahoo-156c-1.pdf" },
+      { title: "Network Theory", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/4.Network-Theory-LOHIT.pdf" },
+      { title: "ODI module-1", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/ODI-module-1-by-LKS.pdf" },
+      { title: "Optoelectronics Devices & Instrumentation", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/Optoelectronics-Devices-Instrumentation-Madhulita-(1).pdf" },
+      { title: "Electrical Power Transmission & Distribution", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/2.Electrical-Power-Transmission-Distribution-LOHIT-(1).pdf" },
+      { title: "Control System Engineering", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/electronics/1.Control-System-Engineering-LOHIT.pdf" }
+    ],
+    clubs: [
+      {
+        name: "RENEN (RENEWABLE ENERGY) CLUB",
+        purpose: "Encouraging students to learn about renewable energy technologies, participate in innovative projects, and develop practical technical skills. The club aims to create awareness about sustainable energy solutions and inspire students to contribute toward a greener and more environmentally responsible future.",
+        activities: "The club organizes workshops, seminars, and technical activities that promote innovation and eco-friendly practices on campus. These initiatives help students explore renewable energy concepts while actively engaging in projects that support a sustainable future."
+      },
+      {
+        name: "EV (ELECTRIC VEHICLE) CLUB",
+        purpose: "Encouraging students to explore electric vehicle design, battery technologies, charging infrastructure, and energy-efficient mobility systems. The club provides a platform for students to understand modern transportation technologies and the global transition toward sustainable mobility.",
+        activities: "The club promotes hands-on learning through practical projects, technical workshops, and participation in competitions. These activities strengthen innovation, problem-solving abilities, and engineering skills related to electric vehicle technology."
+      }
+    ],
+    professionalSocieties: [
+      {
+        name: "IEEE PES STUDENT CHAPTER",
+        description: "The student chapter of the Institute of Electrical and Electronics Engineers Power and Energy Society (IEEE PES), one of the largest multidisciplinary professional organisations of engineers worldwide, is administered by the Department of Electrical & Electronics Engineering at TAT. The chapter provides a professional platform for students to engage with global engineering communities and stay updated with the latest technological developments.\n\nThe chapter entrusts the institution with the responsibility of promoting the advancement of engineering knowledge and professional development among students, faculty members, and individuals associated with the institution. It encourages innovation, collaboration, and technical excellence in the field of electrical and electronics engineering.\n\nThe student chapter provides excellent opportunities for networking, mentoring, and building strong professional connections through shared technical interests. The initiatives extend beyond the institution by supporting local communities while also benefiting the student body through various technical programs and outreach activities. Our students actively participate in this chapter and contribute to its initiatives.\n\nThe primary objective of the chapter within the Department of Electrical & Electronics Engineering is to develop strategies and implementation plans for effective technology transition and management. This approach helps students rapidly learn, adapt, and absorb emerging technologies, preparing them to contribute meaningfully to technological advancement in the country.",
+        images: []
+      }
+    ],
+    syllabus: {
+      years: [
+        {
+          year: "FIRST YEAR",
+          buttons: [
+            { text: "VIEW/DOWNLOAD 1ST YEAR SYLLABUS", link: "#" }
+          ]
+        },
+        {
+          year: "SECOND YEAR",
+          buttons: [
+            { text: "VIEW / DOWNLOAD 3RD SEM SYLLABUS", link: "#" },
+            { text: "VIEW / DOWNLOAD 4th Sem SYLLABUS", link: "#" }
+          ]
+        },
+        {
+          year: "THIRD YEAR",
+          buttons: [
+            { text: "VIEW / DOWNLOAD 5TH SEM SYLLABUS", link: "#" },
+            { text: "VIEW / DOWNLOAD 6TH SEM SYLLABUS", link: "#" }
+          ]
+        },
+        {
+          year: "FOURTH YEAR",
+          buttons: [
+            { text: "VIEW / DOWNLOAD 7TH SEM SYLLABUS", link: "#" },
+            { text: "VIEW / DOWNLOAD 8TH SEM SYLLABUS", link: "#" }
+          ]
+        }
+      ],
+      addOnCourses: ["Smart Grid Technologies", "Renewable Energy Systems", "Industrial Automation"]
+    }
+  },
+  "mechanical-engineering": {
+    heroImage: "https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&q=80&w=2000",
     hero: {
       titleLine1: "Mechanical",
       titleLine2: "Engineering",
-      subtitle: "Shaping the future of manufacturing, design, and innovation with cutting-edge mechanical engineering education.",
-      image: "/MECH.png",
+      subtitle: "Building the future of mechanics and automation.",
+      image: "https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&q=80&w=2000",
       breadcrumb: "Mechanical Engineering",
       stats: [
-        { label: "B.Tech Intake", value: "120" },
-        { label: "Diploma Intake", value: "60" },
-        { label: "AICTE Approved", value: "Yes" }
+        { label: "Intake", value: "30" },
+        { label: "Established", value: "2011" }
       ]
     },
     sidebar: {
       heading: "MECHANICAL\nENGINEERING",
       items: [
         { id: "overview", label: "DEPARTMENT OVERVIEW", icon: "BookOpen" },
-        { id: "syllabus", label: "SYLLABUS", icon: "FileText" },
+        { id: "placement", label: "PLACEMENT", icon: "Award" },
+        { id: "lecture-notes", label: "LECTURE NOTES", icon: "FileText" },
+        { id: "syllabus", label: "SYLLABUS", icon: "Layers" },
         { id: "faculty", label: "FACULTY", icon: "Users" },
         { id: "laboratories", label: "LABORATORIES", icon: "Cpu" }
       ]
     },
     homeContent: {
       paragraphs: [
-        "The Department of Mechanical Engineering at Trident Academy of Technology offers B.Tech and Diploma programmes with a strong emphasis on practical skills, innovation, and industry readiness. The department is equipped with state-of-the-art laboratories and workshops that provide hands-on experience in manufacturing, thermal engineering, design, and automation.",
-        "With a team of experienced and dedicated faculty members, the department focuses on building a strong foundation in core mechanical engineering principles while preparing students for careers in manufacturing, automotive, aerospace, energy, and emerging fields like robotics and additive manufacturing."
+        "The NBA Accredited Department of Mechanical Engineering, with an intake capacity of 30 Seats and established in the year of 2011, is amongst the top-rated departments of the NAAC Accredited institute Trident Academy of Technology, leading in academics, placements, research projects, entrepreneurship and students' achievements. The undergraduate course structure of mechanical engineering is designed keeping in view the technological evolution and industrial requirements. The department offers the course curriculum as per the credit-based system of Biju Patnaik University of Technology (BPUT) under AICTE. The students here get a platform to showcase their talents at the state and national level competitions. The Department of Mechanical Engineering aims to produce high-quality individuals with a keen interest in the frontier areas of mechanical engineering, automobile engineering and mechatronics engineering.",
+        "Department is equipped with a number of state-of-the-art labs, including EV Technology, Advanced Manufacturing lab, Renewable energy, Robotics, 3D Printing and CNC(Turning & Milling). Students are exposed to these laboratories through curricular teaching-learning processes during their four-year engineering studies."
       ],
       salientFeatures: [
-        "Well-equipped workshops and modern laboratories",
-        "Industry-aligned curriculum with practical training emphasis",
-        "Experienced faculty with strong industry and research backgrounds",
-        "Active participation in national-level technical competitions"
+        "The Department of Mechanical Engineering imparts cutting-edge skills through teaching, training, industrial internship, industrial projects, research and consultancy in leading areas of mechanical engineering.",
+        "The well-qualified and experienced faculty members are committed to ensuring an understanding of fundamental concepts and exploring the students' talent to lay a strong foundation.",
+        "Students are provided with training on current technologies, design tools and product design skills to become industry-ready.",
+        "A set of innovative pedagogy is designed such that the students are able to connect theory with applications and apply them in furthering their careers.",
+        "The department is strategically aligned with industry through MoUs to enhance students' knowledge and skills through internships, real-world projects, expert talks, workshops, seminars, and conferences."
       ]
     },
     overview: {
       paragraphs: [
-        "The Department of Mechanical Engineering at Trident Academy of Technology was established to cater to the growing demand for skilled mechanical engineers in India's rapidly expanding manufacturing and industrial sectors. The department offers both B.Tech and Diploma programmes, providing students with comprehensive knowledge of core mechanical engineering subjects.",
-        "The curriculum is designed to cover a wide range of subjects including Thermodynamics, Fluid Mechanics, Manufacturing Technology, Machine Design, Automobile Engineering, Industrial Engineering, and CAD/CAM. Students gain hands-on experience through well-equipped laboratories and workshops, industrial visits, and project-based learning."
+        "The Department of Mechanical Engineering imparts cutting-edge skills through teaching, training, industrial internship, industrial projects, research and consultancy in leading areas of mechanical engineering.",
+        "The undergraduate course structure of mechanical engineering is designed keeping in view the technological evolution and industrial requirements. The department is strategically aligned with industry through MoUs to enhance students' knowledge and skills through internships, real-world projects, expert talks, workshops, seminars, and conferences."
       ],
-      vision: "To be a center of excellence in mechanical engineering education and research, producing competent engineers who contribute to the advancement of technology and society.",
+      vision: "To be a premier department of Mechanical Engineering recognized for academic excellence, innovative research, and producing industry-ready graduates capable of addressing global engineering challenges.",
       mission: [
-        "To provide quality education in mechanical engineering through innovative teaching methodologies.",
-        "To foster research and development activities in collaboration with industry.",
-        "To develop professional skills and ethical values in students for successful careers.",
-        "To promote entrepreneurship and lifelong learning among students."
+        { text: "M1. To impart quality education through innovative teaching-learning processes and state-of-the-art facilities." },
+        { text: "M2. To foster a culture of research, innovation, and entrepreneurship among students." },
+        { text: "M3. To strengthen industry-institute interaction for bridging the gap between academia and industry requirements." },
+        { text: "M4. To instill ethical values, teamwork, and lifelong learning skills in students for sustainable societal development." }
       ],
       po: [
-        "Apply knowledge of mathematics, science, and engineering fundamentals to solve mechanical engineering problems.",
-        "Design and conduct experiments, analyze and interpret data for mechanical systems.",
-        "Design mechanical components and systems to meet desired needs within realistic constraints.",
-        "Function effectively on multidisciplinary teams.",
-        "Identify, formulate, and solve complex mechanical engineering problems."
+        { title: "PO1. Engineering knowledge", description: "Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems." },
+        { title: "PO2. Problem analysis", description: "Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences." },
+        { title: "PO3. Design/development of solutions", description: "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations." },
+        { title: "PO4. Conduct investigations of complex problems", description: "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions." },
+        { title: "PO5. Modern tool usage", description: "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations." },
+        { title: "PO6. The engineer and society", description: "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice." },
+        { title: "PO7. Environment and sustainability", description: "Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development." },
+        { title: "PO8. Ethics", description: "Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice." },
+        { title: "PO9. Individual and team work", description: "Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings." },
+        { title: "PO10. Communication", description: "Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions." },
+        { title: "PO11. Project management and finance", description: "Demonstrate knowledge and understanding of the engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments." },
+        { title: "PO12. Life-long learning", description: "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change." }
       ],
       peo: [
-        "Graduates will demonstrate competence in core mechanical engineering disciplines.",
-        "Graduates will pursue higher education or engage in research and development.",
-        "Graduates will exhibit leadership qualities and professional ethics in their careers."
+        { text: "PEO1. To apply mechanical engineering principles and advanced tools to design, analyze, and solve complex engineering problems." },
+        { text: "PEO2. To pursue successful careers in mechanical and allied industries, entrepreneurship, or higher education." },
+        { text: "PEO3. To demonstrate professionalism, leadership, and ethical responsibility in multidisciplinary environments." },
+        { text: "PEO4. To engage in lifelong learning and adapt to technological advancements for sustainable development." }
       ],
       pso: [
-        "Apply knowledge of CAD/CAM, manufacturing processes, and thermal systems to solve real-world engineering problems.",
-        "Design and analyze mechanical systems using modern computational tools and techniques."
+        { text: "PSO1. Apply the knowledge of manufacturing, thermal, and fluid sciences to model, design, and analyze mechanical systems." },
+        { text: "PSO2. Utilize modern CAD/CAM/CAE tools and automation technologies to develop innovative and sustainable solutions for the industry." }
+      ]
+    ,
+      images: [
+        "/images/departments/mechanical/IMG20250516113501.jpg",
+        "/images/departments/mechanical/IMG20250516113522.jpg",
+        "/images/departments/mechanical/IMG20260309120121.jpg"
       ],
-      tabs: [
+      gallery: [
+        "/images/departments/mechanical/IMG20250516113501.jpg",
+        "/images/departments/mechanical/IMG20250516113522.jpg",
+        "/images/departments/mechanical/IMG20260309120121.jpg",
+        "/images/departments/mechanical/DSC_9624.JPG",
+        "/images/departments/mechanical/DSC_9628.JPG"
+      ]
+    },
+    laboratories: {
+      core: [
         {
-          id: "diploma",
-          label: "Diploma",
-          content: "Diploma in Mechanical Engineering - 60 Seats\n\n• Strong foundation in manufacturing, design, and thermal engineering.\n• Hands-on training through workshops, labs, and industrial visits.\n• High employability in manufacturing, automobile, and maintenance sectors.\n• Opportunities in government and private sectors as Junior Engineers.\n• Pathway to B.Tech through lateral entry."
+          name: "Workshop & Digital Manufacturing Lab",
+          experimentList: [
+            "Preparation of job in fitting section / Study of lathe and turning operation.\nPreparation of job in blacksmith section / Study of milling machine and milling operation.\nPreparation of job in carpentry section / Milling operation on CNC milling machine.\nStudy of CNC lathe machine and turning operation on CNC lathe.\nStudy of Robot (Pick and Place and Palletizing operation).\nStudy of additive manufacturing using 3D printer and product development.",
+            "1. Carpentry Section\nStudy of different hand tools, measuring instruments and equipment used in carpentry work along with safety precautions.\n\nPreparation of Job:\nCarpentry job involving different types of joints.\n\nOperations Included:\n• Measuring\n• Marking\n• Sawing\n• Planing\n• Chiseling\n• Mortising\n• Tenoning\n• Half-lap joint\n• Mortise & Tenon joint\n• Nail joint",
+            "2. Fitting Section\nStudy of different hand tools, measuring instruments and equipment used in fitting work along with safety precautions. Study of drilling machine and grinding machine.\n\nPreparation of Job:\nPaper weight / Square or rectangular joint (male-female joint).\n\nOperations Included:\n• Measuring\n• Marking\n• Filing\n• Sawing\n• Drilling\n• Tapping\n• Dieing\n• Punching",
+            "3. Blacksmith Section\nStudy of different hand tools, equipment and open hearth furnace used in blacksmith work. Study of different heat treatment processes and safety precautions.\n\nPreparation of Job:\nWeeding hook / Chisel.\n\nOperations Included:\n• Measuring\n• Marking\n• Cutting\n• Upsetting\n• Drawing down\n• Bending\n• Fullering\n• Quenching",
+            "4. Turning / Milling Section (Conventional & CNC)\nA. Lathe Machine\n• Study of lathe machine\n• Different parts and applications of lathe\n• Study of measuring and marking instruments\n\nB. Milling Machine\n• Study of milling machine\n• Different parts and applications of milling machine\n• Study of measuring and marking instruments\n\nC. CNC Lathe\n• Study of CNC lathe machine and its parts\n• Part programming for turning operations\n\nD. CNC Milling Machine\n• Study of CNC milling machine and its parts\n• Part programming for milling operations",
+            "5. Robotics Lab\n• Study of robot\n• Pick and place operation with demonstration and explanation of code\n• Palletizing operation with demonstration and explanation of code",
+            "6. Additive Manufacturing Lab\n• Study of 3D printer\n• Demonstration of additive manufacturing operation and product development"
+          ],
+          equipmentList: ["Lathe Machines", "Milling Machines", "Welding Sets", "Carpentry Tools", "3D Printers"]
         },
         {
-          id: "btech",
-          label: "B.Tech",
-          content: "B.Tech. in Mechanical Engineering - 120 Seats\n\n• Comprehensive curriculum covering all core areas of mechanical engineering.\n• Modern laboratories for Manufacturing, Thermal, Fluid Mechanics, and CAD/CAM.\n• Strong placement record with leading manufacturing and engineering companies.\n• Opportunities for higher studies (M.Tech, MS, MBA) and research.\n• Active student chapters and technical clubs fostering innovation."
-        }
-      ]
-    },
-    syllabus: {
-      documents: [
-        { title: "SYLLABUS FOR FIRST YEAR", fileUrl: "#", btnText: "VIEW / DOWNLOAD 1ST YEAR SYLLABUS" },
-        { title: "SYLLABUS FOR SECOND YEAR", fileUrl: "#", btnText: "VIEW / DOWNLOAD 2ND YEAR SYLLABUS" },
-        { title: "SYLLABUS FOR THIRD YEAR", fileUrl: "#", btnText: "VIEW / DOWNLOAD 3RD YEAR SYLLABUS" },
-        { title: "SYLLABUS FOR FOURTH YEAR", fileUrl: "#", btnText: "VIEW / DOWNLOAD 4TH YEAR SYLLABUS" }
-      ]
-    },
-    faculty: [],
-    laboratories: []
-  },
-
-  /* ┌─────────────────────────────────────────────┐
-     │  ELECTRICAL & ELECTRONICS ENGINEERING       │
-     └─────────────────────────────────────────────┘ */
-  "electricals-and-electronics-engineering": {
-    name: "Electrical and Electronics Engineering",
-    shortName: "EEE",
-    meta: {
-      title: "Electrical and Electronics Engineering — Trident Academy of Technology",
-      description: "Department of Electrical and Electronics Engineering at Trident Academy of Technology — B.Tech programme with focus on power systems, control, and electronics."
-    },
-    theme: {
-      primary: "text-[#EAB308]",
-      bgPrimary: "bg-[#EAB308]",
-      borderPrimary: "border-[#EAB308]"
-    },
-    hero: {
-      titleLine1: "Electrical &",
-      titleLine2: "Electronics Engineering",
-      subtitle: "Powering the future with expertise in electrical systems, power electronics, and smart grid technologies.",
-      image: "/EEE.png",
-      breadcrumb: "Electrical & Electronics Engineering",
-      stats: [
-        { label: "B.Tech Intake", value: "60" },
-        { label: "BPUT Affiliated", value: "Yes" },
-        { label: "AICTE Approved", value: "Yes" }
-      ]
-    },
-    sidebar: {
-      heading: "ELECTRICAL &\nELECTRONICS",
-      items: [
-        { id: "overview", label: "DEPARTMENT OVERVIEW", icon: "BookOpen" },
-        { id: "syllabus", label: "SYLLABUS", icon: "FileText" },
-        { id: "faculty", label: "FACULTY", icon: "Users" },
-        { id: "laboratories", label: "LABORATORIES", icon: "Cpu" }
-      ]
-    },
-    homeContent: {
-      paragraphs: [
-        "The Department of Electrical and Electronics Engineering (EEE) at Trident Academy of Technology offers a comprehensive B.Tech programme that combines the principles of electrical engineering with electronics. The department prepares students for careers in power generation, transmission, distribution, control systems, and electronics design.",
-        "With well-equipped laboratories and experienced faculty, the department emphasizes both theoretical knowledge and practical skills, ensuring graduates are ready to meet the challenges of the rapidly evolving electrical and electronics industry."
-      ],
-      salientFeatures: [
-        "Comprehensive curriculum covering power systems, control, and electronics",
-        "Modern laboratories with industry-standard equipment",
-        "Experienced faculty with expertise in diverse areas of EEE",
-        "Focus on emerging technologies like smart grids and renewable energy"
-      ]
-    },
-    overview: {
-      paragraphs: [
-        "The Department of Electrical and Electronics Engineering at Trident Academy of Technology provides students with a strong foundation in electrical machines, power systems, control engineering, power electronics, and digital electronics. The curriculum is designed to meet the current industry demands while preparing students for future technological challenges.",
-        "The department focuses on developing well-rounded engineers who can work across multiple domains including power generation and distribution, industrial automation, embedded systems, and renewable energy technologies."
-      ],
-      vision: "To be recognized as a center of excellence in electrical and electronics engineering education and research, producing competent professionals who contribute to technological advancement and societal development.",
-      mission: [
-        "To impart quality technical education in electrical and electronics engineering.",
-        "To promote research and innovation in collaboration with industry and academia.",
-        "To develop professional competence and ethical values in students.",
-        "To encourage lifelong learning and entrepreneurship."
-      ],
-      po: [
-        "Apply knowledge of mathematics, science, and engineering to solve EEE problems.",
-        "Design and conduct experiments for electrical and electronic systems.",
-        "Design systems to meet desired specifications within realistic constraints.",
-        "Function effectively in multidisciplinary teams.",
-        "Identify, formulate, and solve complex engineering problems."
-      ],
-      peo: [
-        "Graduates will demonstrate competence in core EEE disciplines.",
-        "Graduates will pursue higher education or engage in R&D.",
-        "Graduates will exhibit professional ethics and leadership."
-      ],
-      pso: [
-        "Apply knowledge of electrical machines, power systems, and electronics to solve engineering problems.",
-        "Design and analyze electrical systems using modern tools and simulation software."
-      ],
-      tabs: [
+          name: "Engineering Graphics & Design Lab",
+          experimentList: [
+            "Introduction to AutoCAD\n• Basic AutoCAD commands\n• Code provisions of IS-696 regarding lines, lettering and dimensioning",
+            "Drawing of Scales\n• Plane scales\n• Diagonal scales\n• Vernier scales\n• Scales of chords",
+            "Construction of Geometrical Figures\n• Simple geometrical constructions\n• Engineering curves",
+            "Orthographic Projections\n• Projection of a point situated in various quadrants\n• Projections of straight lines\n• Projection of plane figures\n• Projection of simple solids\n• Section of solids and development of surfaces",
+            "Isometric and Perspective Views\n• Isometric projection\n• Perspective view"
+          ],
+          equipmentList: ["Drawing Boards", "Drafting Machines", "AutoCAD Software", "Computer Workstations"]
+        },
         {
-          id: "btech",
-          label: "B.Tech",
-          content: "B.Tech. in Electrical and Electronics Engineering - 60 Seats\n\n• Strong foundation in electrical machines, power systems, and electronics.\n• Hands-on experience with modern lab equipment and simulation tools.\n• Career opportunities in power utilities, manufacturing, and automation.\n• Excellent higher study pathways (M.Tech, MS, MBA).\n• Growing relevance with India's focus on renewable energy and smart grids."
+          name: "Machine Drawing and Solid Modelling Lab",
+          description: "Course Objective\nThis laboratory course aims to develop students’ skills in creating detailed machine drawings and 3D solid models using Computer-Aided Design (CAD) software. By the end of the course, students will be proficient in interpreting technical drawings, designing mechanical components, and producing accurate models. These skills are essential for effective communication and design in modern engineering practice.",
+          experimentList: [
+            "Sketcher Workbench\n• Creating sketches\n• Selecting and editing geometry, features, and models\n• Creating sketcher geometry and using sketcher tools\n• Using sketches and datum features",
+            "Basic Solid Part Modeling\n• Creating extrudes, revolves, and ribs\n• Creating holes, shells, draft, and patterns\n• Creating rounds, chamfers, and using layers",
+            "Advanced Solid Part Modeling\n• Advanced selection, creating sweeps and blends\n• Sweeps with variable sections\n• Helical sweeps and swept blends\n• Relations, parameters, and family tables\n• Measuring and inspecting models",
+            "Assembly Design\n• Creating assemblies using top-down and bottom-up approaches\n• Assembling with constraints, exploding assemblies, and replacing components\n• Cross-sections in assemblies",
+            "Drafting Workbench\n• Introduction to drafting, creating new drawings and drawing views\n• Adding model details and tolerance information to drawings\n• Adding notes, symbols, tables, balloons, and layers in drawings"
+          ],
+          equipmentList: ["SolidWorks", "CATIA", "Computer Workstations"]
+        },
+        {
+          name: "Material Testing Lab",
+          description: "Course Objective\nThis laboratory course aims to familiarize students with the techniques and equipment used to evaluate the properties and performance of engineering materials so that students will be able to conduct standard material tests, analyze data, and understand the mechanical behavior of materials under various conditions, reinforcing theoretical knowledge from material science courses.",
+          experimentList: [
+            "Determination of tensile strength of materials by Universal Testing Machine.",
+            "Determination of compressive strength of materials by Universal Testing Machine.",
+            "Determination of bending strength of materials by Universal Testing Machine.",
+            "Double shear test in Universal Testing Machine.",
+            "Determination of rigidity modulus of material.",
+            "Determination of fatigue strength of material.",
+            "Estimation of spring constant under tension and compression.",
+            "Load measurement using load indicator and load cells.",
+            "Strain measurement using strain gauge.",
+            "Stress measurement using strain rosette."
+          ],
+          equipmentList: ["Universal Testing Machine (UTM)", "Impact Testing Machine", "Hardness Testers"]
+        },
+        {
+          name: "Thermal Engineering Lab",
+          description: "Course Objective\nThis laboratory course aims to provide students with practical experience in analyzing and evaluating thermal systems and processes. Through this course, students will learn to conduct experiments, interpret experimental data, and apply the principles of thermodynamics and heat transfer to real-world engineering problems, thereby enhancing their understanding of thermal engineering concepts.",
+          experimentList: [
+            "Study of cut-sections of 2-stroke and 4-stroke diesel engine/petrol engine.",
+            "Study of steam power plant.",
+            "Study of refrigeration system.",
+            "Study of gas turbine power plant.",
+            "Performance analysis of reciprocating air compressor.",
+            "Performance analysis of centrifugal / axial flow compressor.",
+            "Determination of performance characteristics of gear pump.",
+            "Load test on 4-stroke single cylinder C.I. engine.",
+            "Load test on 4-stroke single cylinder S.I. engine.",
+            "Morse test on multi-cylinder S.I. or C.I. engine."
+          ],
+          equipmentList: ["Bomb Calorimeter", "Air Compressor Test Rig", "Boiler Models", "Steam Turbine Model"]
+        },
+        {
+          name: "Programming Internet of Things Lab",
+          description: "Overall Course Objectives\nTo empower students with a comprehensive understanding of IoT and Embedded Systems, Arduino and Raspberry Pi platforms, and C and Python programming. This will enable them to create innovative IoT designs and products and understand how these devices interact with the physical world. Students will also learn debugging techniques and network protocols essential for embedded systems.",
+          experimentList: [
+            "Module 1: Introduction to Internet of Things and Embedded Systems [12 Hours]\nThis module introduces the significant role of the Internet of Things (IoT) in the modern world and explores future trends in connected technologies. It explains the concepts of IoT and embedded systems, their components, and their impact on society.\n\nSub Topics:\n• Embedded Systems Hardware and Software\n• Networking and the Internet\n• What is the Internet of Things (IoT)?\n\nFormative Assessments: 4 quizzes and 4 peer-review assignments.",
+            "Module 2: The Arduino Platform and C Programming [13 Hours]\nThis module provides detailed knowledge of the Arduino platform, including the physical board, libraries, and the integrated development environment (IDE). Students will learn how to program Arduino boards using C language and understand the role of shields in extending hardware capabilities.\n\nSub Topics:\n• Arduino Environment\n• Arduino Programs\n• C Programming Basics\n• C Operators\n• Arduino Sketch Structure\n\nFormative Assessments: 4 quizzes and 4 peer-review assignments.",
+            "Module 3: The Raspberry Pi Platform and Python Programming [19 Hours]\nThe Raspberry Pi is a small and affordable single-board computer used to design and develop practical IoT devices. In this module, students will learn how to set up the Raspberry Pi environment, install and run a Linux operating system, and execute Python programs.\n\nSub Topics:\n• Raspberry Pi Processor\n• Operating System Benefits\n• Raspberry Pi Configuration\n• Navigating the File System\n• Linux Graphical User Interface\n• Python Programming on Raspberry Pi\n\nFormative Assessments: 4 quizzes and 4 peer-review assignments.",
+            "Learning Outcomes\nOn successful completion of the course, students will be able to:\n• Understand and define key concepts of the Internet of Things (IoT) and its societal impact.\n• Understand the design considerations and components of IoT devices.\n• Program the Arduino development board and use shields and libraries effectively.\n• Compile and execute programs using C programming language for embedded systems.\n• Set up and operate the Raspberry Pi platform with a Linux operating system.\n• Develop Python programs on Raspberry Pi and debug them using appropriate tools.\n• Understand networking fundamentals including Internet structure and network protocols relevant to IoT devices."
+          ],
+          equipmentList: ["Arduino Kits", "Raspberry Pi", "Various Sensors (Temperature, Pressure, etc.)", "Actuators"]
+        },
+        {
+          name: "Basic Manufacturing Processes Lab",
+          experimentList: [
+            "Determination of grain size.",
+            "Determination of clay content and permeability of moulding sand.",
+            "Preparation of pattern and study of foundry practices.",
+            "Practice and preparation of jobs through arc welding.",
+            "Practice and preparation of jobs through oxy-acetylene welding.",
+            "Determination of strength of brazed and soldered joints.",
+            "Practice and preparation of jobs using sheet metal forming processes such as forming and deep drawing.",
+            "Demonstration of different types of rolling mills.",
+            "Demonstration of extrusion processes."
+          ],
+          equipmentList: ["Sand Testing Equipment", "Moulding Boxes", "Forging Hearth", "Sheet Metal Tools"]
+        },
+        {
+          name: "Fluid Mechanics and Fluid Machinery Lab",
+          description: "Objective\nTo study the flow measurement techniques and analyze the performance characteristics of various fluid machinery through practical experiments.",
+          experimentList: [
+            "Calibration of venturimeter.",
+            "Pressure measurement with pitot-static tube.",
+            "Determination of pipe flow losses.",
+            "Verification of Bernoulli’s theorem.",
+            "Flow visualization by Hele-Shaw apparatus.",
+            "Performance test on centrifugal pump.",
+            "Performance test on reciprocating pump.",
+            "Determination of viscosity of a fluid."
+          ],
+          equipmentList: ["Bernoulli's Apparatus", "Venturimeter", "Pelton Wheel Turbine Rig", "Centrifugal Pump Test Rig"]
+        },
+        {
+          name: "Machines and Mechanisms Lab",
+          experimentList: [
+            "Design of any one working model related to Kinematics & Dynamics of Machines (Module I & II).",
+            "Design of any one working model related to Kinematics & Dynamics of Machines (Module III, IV & V).",
+            "Experiments on simple, compound and reverted gear trains.",
+            "Study of interference and undercutting for gear drives.",
+            "Determination of moment of inertia of a flywheel.",
+            "Study of performance characteristics of a spring-loaded governor.",
+            "Experiment / study on screw jack.",
+            "Experiment / study on clutches.",
+            "Experiment on static and dynamic balancing apparatus."
+          ],
+          equipmentList: ["Kinematic Models", "Cam and Follower Apparatus", "Gear Trains", "Gyroscope"]
+        },
+        {
+          name: "Design of Machine Elements-I Lab",
+          experimentList: [
+            "Design of riveted joint.",
+            "Design of welded joint.",
+            "Design of cotter joint.",
+            "Design of knuckle joint.",
+            "Design of shaft.",
+            "Design of flexible coupling.",
+            "Design of rigid coupling.",
+            "Design of helical spring.",
+            "Design of journal bearing.",
+            "Design of elements of roller bearing."
+          ],
+          equipmentList: ["Design Data Books", "CAD Software (ANSYS)", "Computer Workstations"]
+        },
+        {
+          name: "Design of Machine Elements - II Lab",
+          description: "Course Objectives\nThis laboratory course provides hands-on experience in designing critical machine elements such as cranks, pistons, shafts, clutches, brakes, and gear systems. Students will apply theories of failure and fatigue analysis to solve practical design problems, reinforcing theoretical concepts through computational and analytical exercises.",
+          experimentList: [
+            "Problems for practice on theories of failure.",
+            "Problems for practice on fatigue failure.",
+            "Design of crank, piston and cylinder.",
+            "Design of connecting rod and shaft.",
+            "Design of clutches.",
+            "Design of brakes (block brake, band brake and internal expanding brake).",
+            "Design of belt, rope and chain drives.",
+            "Design of spur, bevel and helical gears."
+          ],
+          equipmentList: ["Design Data Books", "CAD Software (ANSYS)", "Computer Workstations"]
+        },
+        {
+          name: "Machining Lab",
+          description: "Course Objectives\nThis laboratory course provides hands-on experience in fundamental machining operations, including turning, milling, grinding, and threading. Students will analyze tool geometry using ASA and ORS systems, measure cutting forces, and evaluate the role of coolants in machining processes. Emphasis is placed on developing practical skills in operating lathes, milling machines, and grinding machines for manufacturing precision components.",
+          experimentList: [
+            "A study on tool geometry in both ASA and ORS systems.",
+            "Preparation of a threaded joint using drilling and tapping operations.",
+            "Perform operations such as taper turning, thread cutting, knurling, and groove cutting on a lathe machine.",
+            "Determine the cutting forces during turning of a cylindrical component on a lathe machine.",
+            "Perform gear cutting on a milling machine.",
+            "Working with shaper, planer, and slotting machines.",
+            "Working with surface grinding and cylindrical grinding machines.",
+            "A study on the importance of coolant during machining."
+          ],
+          equipmentList: ["Centre Lathes", "Universal Milling Machine", "Surface Grinder", "Shaper Machine"]
+        },
+        {
+          name: "Soft Computing Lab",
+          description: "Course Objectives\nThis laboratory course introduces soft computing techniques such as fuzzy logic, neural networks, and genetic algorithms using MATLAB and Python. Students will design fuzzy systems, implement perceptron models, and solve optimization problems. The course emphasizes hybrid systems (GA-ANN/Fuzzy) and real-world applications such as thermal system modeling, CFD optimization, and robotics path planning.",
+          experimentList: [
+            "Introduction to MATLAB/Python Fuzzy Logic Toolbox / scikit-fuzzy – Create a simple fuzzy inference system (FIS).",
+            "Application of Fuzzy Logic in mechanical systems.",
+            "Introduction to Neural Networks in MATLAB / Python (TensorFlow/Keras) – Implement a perceptron model.",
+            "Application of Artificial Neural Networks (ANN) in mechanical engineering.",
+            "Introduction to Genetic Algorithms – Implement a basic GA using MATLAB / Python (DEAP library).",
+            "Solving optimization problems using Genetic Algorithms – Example: Design optimization of truss structures, springs, or shafts.",
+            "Study of Hybrid Soft Computing Systems – Combining GA with ANN/Fuzzy for performance enhancement.",
+            "Case Study / Mini Project – Example: Thermal system modeling, CFD optimization, or robotics path planning.",
+            "Simulation and Analysis of soft computing models – Performance testing, model comparison, and analysis using real data."
+          ],
+          equipmentList: ["MATLAB Software", "Python Environment", "Computer Workstations"]
+        },
+        {
+          name: "Project for Product Development - I Lab",
+          description: "Course Objectives\nThis course aims to develop students’ ability to plan, manage, and evaluate product development projects. Students will learn how to analyze market and customer needs, apply structured product development models, and propose strategies for successful product launches in real industrial contexts.",
+          experimentList: [
+            "Learning Outcomes\nUpon completing the course, students are expected to be able to:\n• Plan and independently execute projects aimed at collecting, systematizing, and analyzing information about markets and customer contexts as key inputs for product development in different industrial sectors.\n• Apply important models for organizing and managing product development and their implementation in practical commercial settings.\n• Analyze complex product development situations and propose suitable strategies, plans, and action programs for different types of organizations.\n• Identify the need for additional knowledge and tools (analytical and computer-based) required to conduct product development tasks.\n• Critically evaluate the outcomes of a product development project and reflect on uncertainties and risks involved in implementation.",
+            "Instruction\nThe course is organized as an independent project carried out in teams of 4–5 students. Each team develops an idea into a product concept ready for market launch for a specific company. The project work is supported through methodological lectures that guide students in applying product development tools and techniques.\n\nThroughout the course, project progress is presented during a series of seminars where opposition groups act as “control gates”. These sessions provide feedback and evaluation at different stages of development. The course concludes with a final seminar where the opponent group assesses the project and decides whether the product should be launched or not."
+          ],
+          equipmentList: ["Prototyping Tools", "3D Printers", "Design Software"]
+        },
+        {
+          name: "IC Engines & Heat Transfer Lab",
+          experimentList: [
+            "IC Engines Experiments\n• Performance test on a 4-stroke diesel engine – Determine brake power, indicated power, mechanical efficiency, BSFC, and heat balance.\n• Performance test on a 4-stroke petrol (SI) engine – Evaluate power output, fuel consumption, and overall efficiency.\n• Morse test on a multi-cylinder petrol engine – Determine indicated power of each cylinder.\n• Retardation test (motoring test) – Determine frictional power of the engine.\n• Study of fuel-injection systems – In-line pump, rotary pump, CRDI systems, and injection characteristics.",
+            "Heat Transfer Experiments\n• Heat transfer by natural convection – Determine heat transfer coefficient from a vertical or horizontal cylinder/plate.\n• Heat transfer by forced convection – Determine the convective heat transfer coefficient in a forced air flow duct.\n• Thermal conductivity of insulating material – Measure thermal conductivity using a guarded hot plate or heat flow meter.\n• Heat transfer in a shell-and-tube heat exchanger – Determine LMTD and overall heat transfer coefficient.\n• Radiation heat transfer experiment – Study Stefan-Boltzmann law and emissivity."
+          ],
+          equipmentList: ["IC Engine Test Rigs", "Thermal Conductivity Apparatus", "Heat Exchanger Test Rig"]
+        },
+        {
+          name: "Mechanical Vibration Lab",
+          experimentList: [
+            "Mass – Spring System.",
+            "Simple and Compound Pendulums.",
+            "Mass Moment of Inertia Estimation – Part I: Bifilar Suspension Method.",
+            "Mass Moment of Inertia Estimation – Part II: Auxiliary Mass Method.",
+            "Forced Vibration with Negligible Damping.",
+            "Transverse Vibration of a Beam."
+          ],
+          equipmentList: ["Spring-Mass System Apparatus", "Universal Vibration Apparatus", "Rotor Balancing Machine", "Vibration Sensors"]
+        }
+      ],
+      additional: [
+        {
+          name: "EV TECH LAB",
+          description: "An Electric Vehicle Technology Lab as an additional lab facility has been set in the department to impact the latest technology on Electric Vehicles to the students. This lab is equipped with two EV 2 wheelers (Wokinawa make) with one 2 Wheeler cut section model where students are exposed to hands on practice of assembling and dismantling of all EV components. Besides, this lab houses 3 special sections with three wall display TV Units for Mechanical, Electrical and Electronics sections where students are imparted training and demo with EV power train live model, battery pack, traction motor and controller, battery management system and diagnostic tools.",
+          experimentList: [
+            "Study of EV battery management systems",
+            "Performance analysis of BLDC motors",
+            "EV charging infrastructure simulation",
+            "Design of EV powertrains"
+          ],
+          equipmentList: ["EV Powertrain Models", "Battery Management System Kits", "BLDC Motors", "Simulation Software"]
+        },
+        {
+          name: "RENEWABLE ENERGY LAB",
+          description: "A special lab of sustainability solar and wind energy has been setup with 500 watt field model wind turbine, a vertical axis Tulip model and a blade less suction model for students training and practices on the renewable energy technology. Besides, this lab is equipped with PV solar panels, solar off-grid setup, solar nano-grid to study the parameters of solar PV system using MPPT and PWM controller.",
+          experimentList: [
+            "Performance analysis of solar PV panels",
+            "Study of wind turbine characteristics",
+            "Biomass gasification processes",
+            "Fuel cell performance testing"
+          ],
+          equipmentList: ["Solar PV Training Kit", "Wind Turbine Model", "Biomass Gasifier", "Fuel Cell Training System"]
+        },
+        {
+          name: "CAD/CAM/CAE Lab",
+          description: "CAD/CAM laboratories provide significant engineering benefits by integrating Computer-Aided Design (CAD) and Computer-Aided Manufacturing (CAM) processes. This integration enables engineers and students to design, analyze, and manufacture components efficiently within a unified digital environment. By combining design and manufacturing workflows, CAD/CAM technology improves productivity, reduces design time, and enhances product accuracy and quality.\n\nKey advantages of CAD/CAM laboratories include easy creation of complex 3D models, rapid design modifications, automated generation of CAM codes, and direct integration with manufacturing systems. These capabilities support faster prototyping, efficient production planning, and better product development processes.\n\nKey Benefits for Students\n• Design Efficiency and Accuracy: CAD tools enable students to create precise 2D and 3D models quickly. They allow easy editing and modification of designs while maintaining high drawing quality and accuracy. Advanced simulation and analysis features also help identify design issues early in the development stage.\n• Manufacturing Integration (CAM): CAD models can be directly transferred to CAM systems to generate CNC toolpaths and machine instructions. This seamless integration reduces manual errors, improves efficiency, and significantly saves time during the manufacturing process.\n\nCommon Software and Tools Used\nCAD Software: AutoCAD, CATIA, Pro/ENGINEER, Solid Edge, Siemens NX, Creo, Fusion 360\nCAM & Analysis Tools: ANSYS for engineering analysis and CNC programming using G and M codes",
+          experimentList: [
+            "Advanced 3D modeling and assembly",
+            "Finite element analysis (FEA) of structural components",
+            "Computational fluid dynamics (CFD) simulations",
+            "Computer-aided manufacturing (CAM) and tool path generation"
+          ],
+          equipmentList: ["ANSYS", "SolidWorks", "MasterCAM", "High-Performance Workstations"]
         }
       ]
     },
+    faculty: [
+      { name: "Mrs. Itishree Behera", designation: "Assistant Professor", doj: "25/7/2013", qualification: "M.Tech", bputId: "T132728903" },
+      { name: "Mr. Purna Chandra Routray", designation: "Assistant Professor", doj: "5/7/2013", qualification: "M.Tech", bputId: "T132728904" },
+      { name: "Mr. Prasanna Kumar Padhy", designation: "Assistant Professor", doj: "20/8/2007", qualification: "M.Tech", bputId: "T210128907" },
+      { name: "Mr. Ashis Kumar Barik", designation: "Assistant Professor", doj: "11/4/2013", qualification: "M.Tech", bputId: "T132728905" },
+      { name: "Dr. Ajay Kumar Sahoo", designation: "Prof. & HOD", doj: "1/12/2007", qualification: "Ph.D", bputId: "T082728901" },
+      { name: "Mrs. Kalyani Pradhan", designation: "Assistant Professor", doj: "1/9/2012", qualification: "M.Tech", bputId: "T132728901" },
+      { name: "Mr. Diptiranjan Panda", designation: "Assistant Professor", doj: "5/8/2008", qualification: "M.Tech", bputId: "T082728904" },
+      { name: "Mr. Deepak Kumar Mohapatra", designation: "Assistant Professor", doj: "12/9/2012", qualification: "M.Tech", bputId: "T132728902" },
+      { name: "Mr. Tusarkanta Kumbhar", designation: "Assistant Professor", doj: "24/8/2015", qualification: "M.Tech", bputId: "T162728901" }
+    ],
     syllabus: {
-      documents: [
-        { title: "SYLLABUS FOR FIRST YEAR", fileUrl: "#", btnText: "VIEW / DOWNLOAD 1ST YEAR SYLLABUS" },
-        { title: "SYLLABUS FOR SECOND YEAR", fileUrl: "#", btnText: "VIEW / DOWNLOAD 2ND YEAR SYLLABUS" },
-        { title: "SYLLABUS FOR THIRD YEAR", fileUrl: "#", btnText: "VIEW / DOWNLOAD 3RD YEAR SYLLABUS" },
-        { title: "SYLLABUS FOR FOURTH YEAR", fileUrl: "#", btnText: "VIEW / DOWNLOAD 4TH YEAR SYLLABUS" }
+      years: [
+        {
+          year: "FIRST YEAR",
+          buttons: [
+            { text: "VIEW/DOWNLOAD 1ST YEAR SYLLABUS", link: "#" }
+          ]
+        },
+        {
+          year: "SECOND YEAR",
+          buttons: [
+            { text: "VIEW / DOWNLOAD 3RD SEM SYLLABUS", link: "#" },
+            { text: "VIEW / DOWNLOAD 4th Sem SYLLABUS", link: "#" }
+          ]
+        },
+        {
+          year: "THIRD YEAR",
+          buttons: [
+            { text: "VIEW / DOWNLOAD 5TH SEM SYLLABUS", link: "#" },
+            { text: "VIEW / DOWNLOAD 6TH SEM SYLLABUS", link: "#" }
+          ]
+        },
+        {
+          year: "FOURTH YEAR",
+          buttons: [
+            { text: "VIEW / DOWNLOAD 7TH SEM SYLLABUS", link: "#" },
+            { text: "VIEW / DOWNLOAD 8TH SEM SYLLABUS", link: "#" }
+          ]
+        }
       ]
     },
-    faculty: [],
-    laboratories: []
+    placement: [
+      { year: "2019 - 2020", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2019-20.pdf" },
+      { year: "2020 - 2021", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2020-21.xlsx" },
+      { year: "2021 - 2022", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2021-22.pdf" },
+      { year: "2022 - 2023", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2022-23.pdf" },
+      { year: "2023 - 2024", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2023-24-1.pdf" },
+      { year: "2024 - 2025", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2024-25.pdf" },
+      { year: "2025 - 2026", link: "https://site-generator-documents.s3.eu-north-1.amazonaws.com/Mechanical/2025-26.pdf" }
+    ],
+    lectureNotes: []
   },
 
   /* ┌─────────────────────────────────────────────┐
-     │  ELECTRICAL ENGINEERING (DIPLOMA)           │
+     │  ENVIRONMENTAL ENGINEERING (M.TECH)         │
      └─────────────────────────────────────────────┘ */
-  "electrical-engineering-diploma": {
-    name: "Electrical Engineering (Diploma)",
-    shortName: "EE-Dip",
-    meta: {
-      title: "Electrical Engineering Diploma — Trident Academy of Technology",
-      description: "Diploma in Electrical Engineering at Trident Academy of Technology — a practical, skill-focused programme for aspiring electrical professionals."
-    },
-    hero: {
-      titleLine1: "Electrical",
-      titleLine2: "Engineering (Diploma)",
-      subtitle: "Building practical expertise in electrical systems, wiring, maintenance, and power distribution for a strong technical career.",
-      image: "/EE-DIP.png",
-      breadcrumb: "Electrical Engineering (Diploma)",
-      stats: [
-        { label: "Programme", value: "Diploma" },
-        { label: "Duration", value: "3 Years" },
-        { label: "AICTE Approved", value: "Yes" }
-      ]
-    },
-    sidebar: {
-      heading: "ELECTRICAL\nENGG (DIPLOMA)",
-      items: [
-        { id: "overview", label: "PROGRAMME OVERVIEW", icon: "BookOpen" },
-        { id: "syllabus", label: "SYLLABUS", icon: "FileText" },
-        { id: "faculty", label: "FACULTY", icon: "Users" },
-        { id: "laboratories", label: "LABORATORIES", icon: "Cpu" }
-      ]
-    },
-    homeContent: {
-      paragraphs: [
-        "The Diploma in Electrical Engineering at Trident Academy of Technology provides a strong foundation in electrical principles, power systems, electrical machines, wiring, and industrial automation. This programme is designed for students who wish to enter the workforce quickly with hands-on technical skills.",
-        "Diploma graduates are in high demand across government departments (PWD, electricity boards), private industries, and construction firms for roles in installation, maintenance, and supervision of electrical systems."
-      ],
-      salientFeatures: [
-        "Practical, skill-focused training with emphasis on hands-on learning",
-        "Strong placement support in government and private sectors",
-        "Pathway to B.Tech through lateral entry (direct 2nd year admission)",
-        "Cost-effective and time-efficient programme for quick career entry"
-      ]
-    },
-    overview: {
-      paragraphs: [
-        "The Diploma in Electrical Engineering programme at Trident Academy of Technology is designed to produce technically skilled professionals who can contribute effectively to the electrical industry. The three-year programme covers fundamental and applied aspects of electrical engineering.",
-        "Students receive extensive hands-on training in electrical workshops and laboratories, preparing them for careers in power utilities, manufacturing industries, and electrical contracting firms."
-      ],
-      vision: "To produce skilled electrical engineering technicians who contribute to the nation's infrastructure and industrial development.",
-      mission: [
-        "To provide quality diploma-level education in electrical engineering.",
-        "To develop practical skills through laboratory and workshop training.",
-        "To prepare students for employment in the electrical industry."
-      ],
-      po: [
-        "Apply fundamental knowledge of electrical engineering to solve practical problems.",
-        "Perform installation, testing, and maintenance of electrical systems.",
-        "Work effectively in teams and communicate technical information clearly."
-      ],
-      peo: [
-        "Graduates will be employed as skilled technicians in the electrical industry.",
-        "Graduates will pursue further education through lateral entry to B.Tech."
-      ],
-      pso: [
-        "Install, test, and maintain electrical systems and equipment.",
-        "Apply safety practices in electrical installations and operations."
-      ]
-    },
-    syllabus: {
-      documents: [
-        { title: "SYLLABUS FOR FIRST YEAR", fileUrl: "#", btnText: "VIEW / DOWNLOAD 1ST YEAR SYLLABUS" },
-        { title: "SYLLABUS FOR SECOND YEAR", fileUrl: "#", btnText: "VIEW / DOWNLOAD 2ND YEAR SYLLABUS" },
-        { title: "SYLLABUS FOR THIRD YEAR", fileUrl: "#", btnText: "VIEW / DOWNLOAD 3RD YEAR SYLLABUS" }
-      ]
-    },
-    faculty: [],
-    laboratories: []
-  },
-
-  /* ┌─────────────────────────────────────────────┐
-     │  ENVIRONMENTAL ENGINEERING (M.Tech)         │
-     └─────────────────────────────────────────────┘ */
-  "environmental-engineering": {
+  "environmental-engineering-mtech": {
     name: "Environmental Engineering (M.Tech)",
     shortName: "ENV",
-    meta: {
-      title: "M.Tech Environmental Engineering — Trident Academy of Technology",
-      description: "M.Tech in Environmental Engineering at Trident Academy of Technology — specialized postgraduate programme in sustainable environmental solutions."
-    },
-    hero: {
-      titleLine1: "Environmental",
-      titleLine2: "Engineering (M.Tech)",
-      subtitle: "Advancing sustainable solutions for environmental challenges through specialized postgraduate research and education.",
-      image: "/ENV.png",
-      breadcrumb: "Environmental Engineering (M.Tech)",
-      stats: [
-        { label: "Programme", value: "M.Tech" },
-        { label: "Seats", value: "18" },
-        { label: "Duration", value: "2 Years" }
-      ]
-    },
+    theme: { accent: "#27AE60", accentDark: "#1E8449", gradient: "from-[#27AE60] to-[#2ECC71]" },
+
     sidebar: {
       heading: "ENVIRONMENTAL\nENGINEERING",
       items: [
-        { id: "overview", label: "PROGRAMME OVERVIEW", icon: "BookOpen" },
-        { id: "syllabus", label: "SYLLABUS", icon: "FileText" },
-        { id: "faculty", label: "FACULTY", icon: "Users" }
+        { id: "overview", label: "Department Overview", icon: "BookOpen" },
+        { id: "syllabus", label: "Syllabus", icon: "Layers" },
+        { id: "faculty", label: "Faculties", icon: "Users" },
+        { id: "laboratories", label: "Laboratories", icon: "Beaker" }
       ]
     },
-    homeContent: {
-      paragraphs: [
-        "The M.Tech in Environmental Engineering at Trident Academy of Technology is a specialized postgraduate programme that prepares students to address critical environmental challenges. The programme covers water and wastewater treatment, air pollution control, solid waste management, environmental impact assessment, and sustainable development.",
-        "With a focus on research and practical application, graduates are equipped to work in pollution control boards, environmental consultancies, water treatment plants, and research organizations."
-      ],
-      salientFeatures: [
-        "Specialized curriculum aligned with national environmental missions",
-        "Research-oriented programme with focus on sustainable technologies",
-        "Opportunities in government environmental agencies and private consultancies",
-        "Strong foundation for pursuing Ph.D. and academic careers"
+
+    hero: {
+      titleLine1: "Environmental",
+      titleLine2: "Engineering",
+      subtitle: "A 2-year M.Tech programme dedicated to developing engineers who can design sustainable solutions for water treatment, waste management, air pollution control, and environmental impact assessment.",
+      image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=2000",
+      breadcrumb: "Environmental Engineering (M.Tech)",
+      stats: [
+        { label: "Duration", value: "2 Yrs" },
+        { label: "AICTE Approved", value: "Yes" },
+        { label: "Degree", value: "M.Tech" }
       ]
     },
+
     overview: {
       paragraphs: [
-        "The M.Tech in Environmental Engineering programme provides advanced knowledge in environmental science and engineering, preparing students for careers in environmental management, research, and consultancy. The curriculum integrates theoretical concepts with practical research methodologies.",
-        "Students engage in cutting-edge research projects addressing issues like climate change, water scarcity, waste management, and environmental monitoring, aligned with national initiatives such as Swachh Bharat, Namami Gange, and Smart Cities Mission."
+        "The M.Tech programme in Environmental Engineering at Trident Academy of Technology is designed to equip postgraduate students with advanced knowledge in environmental science, pollution control technologies, and sustainable development practices. The programme addresses critical global challenges including water scarcity, air pollution, waste management, and climate change.",
+        "Students gain expertise in environmental impact assessment, water and wastewater treatment, solid waste management, air pollution control, environmental modelling, and green building technologies. The curriculum integrates theoretical knowledge with practical applications through laboratory work, field studies, and research projects.",
+        "Graduates of this programme are prepared for careers in environmental consulting firms, government regulatory agencies, research institutions, and industries focused on sustainability and environmental compliance."
       ],
-      vision: "To be a leading centre for environmental engineering education and research, producing professionals who contribute to sustainable development and environmental protection.",
+      vision: "To be a centre of excellence in Environmental Engineering education and research, producing environmentally conscious engineers who contribute to sustainable development and ecological balance.",
       mission: [
-        "To provide advanced education in environmental engineering and science.",
-        "To promote research in sustainable technologies and environmental management.",
-        "To prepare professionals for careers in environmental protection and policy."
+        "M1. Provide advanced education in environmental engineering principles, pollution control technologies, and sustainable development practices.",
+        "M2. Foster research and innovation in areas of water treatment, waste management, air quality, and environmental impact assessment.",
+        "M3. Develop professionals with strong ethical values who can address complex environmental challenges through interdisciplinary approaches."
       ],
       po: [
-        "Apply advanced knowledge of environmental engineering to solve complex environmental problems.",
-        "Design and implement environmental management systems.",
-        "Conduct independent research in environmental engineering."
+        "PO1. Apply advanced knowledge of environmental science and engineering to solve complex environmental problems.",
+        "PO2. Design and evaluate water treatment, wastewater treatment, and solid waste management systems.",
+        "PO3. Conduct environmental impact assessments and develop mitigation strategies.",
+        "PO4. Utilize modern tools and techniques for environmental monitoring, modelling, and data analysis.",
+        "PO5. Pursue independent research and contribute to the advancement of environmental engineering knowledge."
+      ]
+    ,
+      images: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg"
       ],
-      peo: [
-        "Graduates will be competent environmental engineers and researchers.",
-        "Graduates will contribute to environmental protection and sustainable development."
-      ],
-      pso: [
-        "Design environmental treatment systems for water, air, and solid waste.",
-        "Conduct environmental impact assessments and develop mitigation strategies."
+      gallery: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg",
+        "/images/departments/cse/4-768x576.jpeg",
+        "/images/departments/cse/5-768x576.jpeg",
+        "/images/departments/cse/cse (1).jpg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-09-at-6.07.33-PM-1.jpeg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-11-at-3.41.52-PM-768x576.jpeg"
       ]
     },
+
     syllabus: {
       documents: [
-        { title: "M.TECH ENVIRONMENTAL ENGINEERING SYLLABUS", fileUrl: "#", btnText: "VIEW / DOWNLOAD SYLLABUS" }
+        { title: "M.Tech Environmental Engineering — Semester I & II", btnText: "View / Download Syllabus", fileUrl: "#" },
+        { title: "M.Tech Environmental Engineering — Semester III & IV", btnText: "View / Download Syllabus", fileUrl: "#" }
       ]
     },
-    faculty: [],
-    laboratories: []
+
+    laboratories: [
+      {
+        name: "Environmental Chemistry Lab",
+        description: "Equipped for analysis of water, soil, and air samples using advanced analytical instruments.",
+        experimentList: [
+          "Determination of pH, conductivity, and TDS of water samples.",
+          "Analysis of dissolved oxygen (DO) and biochemical oxygen demand (BOD).",
+          "Chemical oxygen demand (COD) estimation.",
+          "Determination of hardness and alkalinity of water.",
+          "Analysis of chlorides, fluorides, and heavy metals in water.",
+          "Soil quality analysis — pH, organic matter, and nutrient content.",
+          "Air quality monitoring using high-volume samplers."
+        ],
+        equipmentList: ["Spectrophotometer", "BOD Incubator", "COD Digester", "pH Meter", "High Volume Air Sampler", "Turbidity Meter"]
+      },
+      {
+        name: "Water & Wastewater Treatment Lab",
+        description: "Focuses on design and evaluation of treatment processes for potable water and industrial wastewater.",
+        experimentList: [
+          "Jar test for coagulation and flocculation optimization.",
+          "Sedimentation analysis and column settling test.",
+          "Sand filtration efficiency study.",
+          "Activated sludge process simulation.",
+          "Adsorption studies using activated carbon.",
+          "Ion exchange for water softening.",
+          "Membrane filtration (microfiltration, ultrafiltration) studies."
+        ],
+        equipmentList: ["Jar Test Apparatus", "Column Settling Tank", "Sand Filter Unit", "Activated Sludge Model", "Membrane Filtration Setup"]
+      }
+    ],
+
+    faculty: []
   },
 
   /* ┌─────────────────────────────────────────────┐
-     │  ENERGY & ENVIRONMENTAL ENGINEERING (M.Tech)│
+     │  ENERGY & ENVIRONMENTAL ENGINEERING (M.TECH)│
      └─────────────────────────────────────────────┘ */
-  "energy-environmental-engineering": {
-    name: "Energy and Environmental Engineering (M.Tech)",
+  "energy-and-environmental-engineering-mtech": {
+    name: "Energy & Environmental Engineering (M.Tech)",
     shortName: "EEE-MT",
-    meta: {
-      title: "M.Tech Energy and Environmental Engineering — Trident Academy of Technology",
-      description: "M.Tech in Energy and Environmental Engineering — an interdisciplinary programme bridging energy systems and environmental sustainability."
+    theme: { accent: "#E67E22", accentDark: "#D35400", gradient: "from-[#E67E22] to-[#F39C12]" },
+
+    sidebar: {
+      heading: "ENERGY &\nENVIRONMENTAL\nENGINEERING",
+      items: [
+        { id: "overview", label: "Department Overview", icon: "BookOpen" },
+        { id: "syllabus", label: "Syllabus", icon: "Layers" },
+        { id: "faculty", label: "Faculties", icon: "Users" },
+        { id: "laboratories", label: "Laboratories", icon: "Beaker" }
+      ]
     },
+
     hero: {
       titleLine1: "Energy &",
-      titleLine2: "Environmental Engg (M.Tech)",
-      subtitle: "Bridging energy systems and environmental sustainability through interdisciplinary postgraduate education and research.",
-      image: "/EEE-MT.png",
+      titleLine2: "Environmental",
+      subtitle: "A specialized 2-year M.Tech programme bridging energy systems and environmental sustainability — training engineers in renewable energy, energy efficiency, and environmental management.",
+      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80&w=2000",
       breadcrumb: "Energy & Environmental Engineering (M.Tech)",
       stats: [
-        { label: "Programme", value: "M.Tech" },
-        { label: "Seats", value: "18" },
-        { label: "Duration", value: "2 Years" }
+        { label: "Duration", value: "2 Yrs" },
+        { label: "AICTE Approved", value: "Yes" },
+        { label: "Degree", value: "M.Tech" }
       ]
     },
-    sidebar: {
-      heading: "ENERGY &\nENVIRONMENTAL",
-      items: [
-        { id: "overview", label: "PROGRAMME OVERVIEW", icon: "BookOpen" },
-        { id: "syllabus", label: "SYLLABUS", icon: "FileText" },
-        { id: "faculty", label: "FACULTY", icon: "Users" }
-      ]
-    },
-    homeContent: {
-      paragraphs: [
-        "The M.Tech in Energy and Environmental Engineering at Trident Academy of Technology is an interdisciplinary programme that integrates energy engineering with environmental science. Students gain expertise in renewable energy systems, energy efficiency, carbon management, and environmental sustainability.",
-        "The programme prepares graduates for careers in the growing clean energy sector, environmental consultancies, government energy departments, and research institutions focused on sustainable energy solutions."
-      ],
-      salientFeatures: [
-        "Interdisciplinary curriculum covering energy and environmental domains",
-        "Focus on renewable energy, energy efficiency, and green technologies",
-        "Industry-relevant research projects and collaborations",
-        "Career opportunities in the rapidly growing clean energy sector"
-      ]
-    },
+
     overview: {
       paragraphs: [
-        "The M.Tech programme in Energy and Environmental Engineering addresses the critical intersection of energy production and environmental protection. The curriculum covers renewable energy technologies, conventional and non-conventional energy sources, energy auditing, environmental monitoring, and waste-to-energy systems.",
-        "Students undertake research projects that contribute to solving real-world energy and environmental challenges, preparing them for leadership roles in the energy transition."
+        "The M.Tech programme in Energy and Environmental Engineering at Trident Academy of Technology addresses the dual challenge of meeting growing energy demands while minimizing environmental impact. This interdisciplinary programme combines advanced concepts from energy engineering, environmental science, and sustainability.",
+        "The curriculum covers renewable energy systems (solar, wind, biomass, hydrogen fuel cells), energy storage technologies, smart grid systems, energy auditing, environmental impact assessment, climate change mitigation, and sustainable development frameworks.",
+        "Students engage in cutting-edge research projects and gain hands-on experience with solar PV systems, wind turbine models, and energy simulation software. The programme prepares graduates for roles in the rapidly growing clean energy sector, environmental consulting, and research institutions."
       ],
-      vision: "To be a premier centre for energy and environmental engineering education, producing professionals who drive the transition to sustainable energy systems.",
+      vision: "To become a premier institution for advanced education and research in energy and environmental engineering, driving the transition towards a sustainable and clean energy future.",
       mission: [
-        "To provide advanced education in energy and environmental engineering.",
-        "To promote research in renewable energy and environmental technologies.",
-        "To develop professionals capable of addressing energy and environmental challenges."
+        "M1. Provide comprehensive education in renewable energy technologies, energy management, and environmental protection strategies.",
+        "M2. Foster interdisciplinary research addressing the energy-environment nexus and sustainable development goals.",
+        "M3. Develop industry-ready professionals capable of designing efficient energy systems while ensuring environmental compliance and sustainability."
       ],
       po: [
-        "Apply advanced knowledge of energy systems and environmental engineering.",
-        "Design and evaluate renewable energy systems.",
-        "Conduct research in energy and environmental engineering."
+        "PO1. Apply advanced knowledge of energy systems, thermodynamics, and environmental science to complex engineering challenges.",
+        "PO2. Design and optimize renewable energy systems including solar, wind, biomass, and hybrid configurations.",
+        "PO3. Conduct energy audits, life cycle assessments, and environmental impact evaluations.",
+        "PO4. Utilize modern simulation and modelling tools for energy system analysis and environmental monitoring.",
+        "PO5. Engage in independent research and contribute to the advancement of clean energy and sustainability knowledge."
+      ]
+    ,
+      images: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg"
       ],
-      peo: [
-        "Graduates will be competent professionals in energy and environmental sectors.",
-        "Graduates will contribute to sustainable energy development."
-      ],
-      pso: [
-        "Design and analyze renewable energy systems and energy-efficient technologies.",
-        "Evaluate environmental impacts of energy systems and develop mitigation strategies."
+      gallery: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg",
+        "/images/departments/cse/4-768x576.jpeg",
+        "/images/departments/cse/5-768x576.jpeg",
+        "/images/departments/cse/cse (1).jpg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-09-at-6.07.33-PM-1.jpeg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-11-at-3.41.52-PM-768x576.jpeg"
       ]
     },
+
     syllabus: {
       documents: [
-        { title: "M.TECH ENERGY & ENVIRONMENTAL ENGINEERING SYLLABUS", fileUrl: "#", btnText: "VIEW / DOWNLOAD SYLLABUS" }
+        { title: "M.Tech Energy & Environmental Engg. — Semester I & II", btnText: "View / Download Syllabus", fileUrl: "#" },
+        { title: "M.Tech Energy & Environmental Engg. — Semester III & IV", btnText: "View / Download Syllabus", fileUrl: "#" }
       ]
     },
-    faculty: [],
-    laboratories: []
+
+    laboratories: [
+      {
+        name: "Renewable Energy Systems Lab",
+        description: "A state-of-the-art lab equipped with solar PV training systems, wind turbine models, and biomass gasification setups for hands-on learning in renewable energy technologies.",
+        experimentList: [
+          "Performance analysis of solar PV panels under varying conditions.",
+          "Study of MPPT (Maximum Power Point Tracking) controllers.",
+          "Characterization of a small wind turbine — power curve analysis.",
+          "Study of a biomass gasification system.",
+          "Hydrogen fuel cell performance testing.",
+          "Energy storage system analysis — battery charge/discharge characteristics.",
+          "Grid-connected vs. off-grid solar system comparison study."
+        ],
+        equipmentList: ["Solar PV Training Kit", "Wind Turbine Model (500W)", "Biomass Gasifier", "Fuel Cell Training System", "Battery Analyzer"]
+      },
+      {
+        name: "Energy Auditing & Management Lab",
+        description: "Focuses on energy efficiency assessment, thermal imaging, power quality analysis, and building energy simulation.",
+        experimentList: [
+          "Energy audit of an electrical installation — load analysis and power factor measurement.",
+          "Thermal imaging for heat loss detection in buildings and equipment.",
+          "Power quality analysis using a power analyzer.",
+          "Illumination measurement and lighting efficiency study.",
+          "Building energy simulation using software tools.",
+          "Study of smart grid components and demand response strategies."
+        ],
+        equipmentList: ["Power Analyzer", "Thermal Imaging Camera", "Lux Meter", "Power Quality Analyzer", "Energy Simulation Software"]
+      }
+    ],
+
+    faculty: []
   },
 
   /* ┌─────────────────────────────────────────────┐
-     │  ELECTRICAL VEHICLE TECHNOLOGY (M.Tech)     │
+     │  ELECTRICAL VEHICLE TECHNOLOGY (M.TECH)     │
      └─────────────────────────────────────────────┘ */
-  "electrical-vehicle-technology": {
+  "electrical-vehicle-technology-mtech": {
     name: "Electrical Vehicle Technology (M.Tech)",
     shortName: "EVT",
-    meta: {
-      title: "M.Tech Electrical Vehicle Technology — Trident Academy of Technology",
-      description: "M.Tech in Electrical Vehicle Technology — a cutting-edge programme focused on EV design, battery systems, and electric drivetrains."
+    theme: { accent: "#3498DB", accentDark: "#2980B9", gradient: "from-[#3498DB] to-[#5DADE2]" },
+
+    sidebar: {
+      heading: "ELECTRICAL VEHICLE\nTECHNOLOGY",
+      items: [
+        { id: "overview", label: "Department Overview", icon: "BookOpen" },
+        { id: "syllabus", label: "Syllabus", icon: "Layers" },
+        { id: "faculty", label: "Faculties", icon: "Users" },
+        { id: "laboratories", label: "Laboratories", icon: "Beaker" }
+      ]
     },
+
     hero: {
       titleLine1: "Electrical Vehicle",
-      titleLine2: "Technology (M.Tech)",
-      subtitle: "Leading the electric mobility revolution through specialized education in EV design, battery systems, and smart transportation.",
-      image: "/EVT.png",
+      titleLine2: "Technology",
+      subtitle: "A forward-looking 2-year M.Tech programme focused on the design, development, and optimization of electric vehicles — covering powertrains, battery management, charging infrastructure, and autonomous driving systems.",
+      image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=2000",
       breadcrumb: "Electrical Vehicle Technology (M.Tech)",
       stats: [
-        { label: "Programme", value: "M.Tech" },
-        { label: "Seats", value: "18" },
-        { label: "Duration", value: "2 Years" }
+        { label: "Duration", value: "2 Yrs" },
+        { label: "AICTE Approved", value: "Yes" },
+        { label: "Degree", value: "M.Tech" }
       ]
     },
-    sidebar: {
-      heading: "ELECTRICAL\nVEHICLE TECH",
-      items: [
-        { id: "overview", label: "PROGRAMME OVERVIEW", icon: "BookOpen" },
-        { id: "syllabus", label: "SYLLABUS", icon: "FileText" },
-        { id: "faculty", label: "FACULTY", icon: "Users" }
-      ]
-    },
-    homeContent: {
-      paragraphs: [
-        "The M.Tech in Electrical Vehicle Technology at Trident Academy of Technology is a cutting-edge postgraduate programme designed to meet the growing demand for EV professionals. The programme covers electric drivetrain design, battery management systems, power electronics for EVs, charging infrastructure, and autonomous vehicle technologies.",
-        "With India's ambitious EV adoption targets and the global shift toward electric mobility, graduates of this programme are well-positioned for careers in the automotive industry, EV startups, battery manufacturing, and research institutions."
-      ],
-      salientFeatures: [
-        "Cutting-edge curriculum aligned with India's EV mission",
-        "Focus on battery technology, power electronics, and motor design",
-        "Industry collaboration with EV manufacturers and component suppliers",
-        "High demand for EV engineers in India's rapidly growing EV market"
-      ]
-    },
+
     overview: {
       paragraphs: [
-        "The M.Tech programme in Electrical Vehicle Technology provides comprehensive education in all aspects of electric vehicle engineering. Students study electric motor design, battery chemistry and management, power converter design, vehicle dynamics, charging systems, and connected vehicle technologies.",
-        "The programme emphasizes practical learning through industry projects, internships, and research collaborations with leading EV companies and research labs."
+        "The M.Tech programme in Electrical Vehicle Technology at Trident Academy of Technology is at the forefront of India's electric mobility revolution. This specialized programme prepares engineers to design, develop, test, and optimize next-generation electric vehicles and their critical subsystems.",
+        "The curriculum encompasses EV powertrain design (BLDC motors, PMSM, induction motors), battery technology and management systems (BMS), power electronics for motor drives, regenerative braking systems, EV charging infrastructure (AC/DC, fast charging, wireless charging), vehicle dynamics and control, autonomous driving fundamentals, and IoT-enabled vehicle diagnostics.",
+        "The department's dedicated EV Tech Lab, equipped with Wokinawa EV 2-wheelers, cut-section models, and live powertrain demonstration units, provides students with unparalleled hands-on experience. Graduates are highly sought after by automotive OEMs, EV startups, battery manufacturers, and charging infrastructure companies."
       ],
-      vision: "To be a leading centre for electric vehicle technology education and research, producing engineers who drive the transition to sustainable transportation.",
+      vision: "To be a leading centre of excellence in Electric Vehicle Technology education and research, driving India's transition to sustainable e-mobility through innovation and industry collaboration.",
       mission: [
-        "To provide advanced education in electric vehicle technology and systems.",
-        "To promote research and innovation in EV design and manufacturing.",
-        "To develop industry-ready professionals for the EV ecosystem."
+        "M1. Deliver advanced education in EV powertrain design, battery technology, power electronics, and charging infrastructure.",
+        "M2. Foster hands-on research and industry collaboration to accelerate the development and adoption of electric vehicles.",
+        "M3. Develop skilled professionals with strong technical expertise and ethical values to lead the electric mobility revolution."
       ],
       po: [
-        "Apply advanced knowledge of electrical and mechanical engineering to EV design.",
-        "Design and evaluate electric drivetrain systems and battery management systems.",
-        "Conduct research in electric vehicle technologies."
+        "PO1. Apply advanced knowledge of electrical engineering, power electronics, and control systems to design and optimize EV powertrains.",
+        "PO2. Design and evaluate battery management systems (BMS), energy storage solutions, and charging infrastructure.",
+        "PO3. Utilize simulation tools (MATLAB/Simulink, ANSYS) for modelling and analysis of EV subsystems.",
+        "PO4. Conduct independent research in EV technologies and contribute to the advancement of sustainable mobility.",
+        "PO5. Demonstrate professional ethics and leadership in the rapidly evolving electric vehicle industry."
+      ]
+    ,
+      images: [
+        "/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.17.04 PM (2).jpeg",
+        "/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.17.09 PM.jpeg",
+        "/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.29.28 PM.jpeg"
       ],
-      peo: [
-        "Graduates will be competent EV engineers in the automotive and energy sectors.",
-        "Graduates will contribute to advancing electric mobility technologies."
-      ],
-      pso: [
-        "Design electric drivetrain systems including motors, controllers, and batteries.",
-        "Analyze and optimize EV performance, range, and charging systems."
+      gallery: [
+        "/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.17.04 PM (2).jpeg",
+        "/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.17.09 PM.jpeg",
+        "/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.29.28 PM.jpeg",
+        "/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.31.24 PM.jpeg",
+        "/images/departments/electrical/EE lab (1).png",
+        "/images/departments/electrical/WhatsApp Image 2026-03-09 at 6.45.56 PM (1).jpeg"
       ]
     },
+
     syllabus: {
       documents: [
-        { title: "M.TECH ELECTRICAL VEHICLE TECHNOLOGY SYLLABUS", fileUrl: "#", btnText: "VIEW / DOWNLOAD SYLLABUS" }
+        { title: "M.Tech Electrical Vehicle Technology — Semester I & II", btnText: "View / Download Syllabus", fileUrl: "#" },
+        { title: "M.Tech Electrical Vehicle Technology — Semester III & IV", btnText: "View / Download Syllabus", fileUrl: "#" }
       ]
     },
-    faculty: [],
-    laboratories: []
+
+    laboratories: [
+      {
+        name: "EV Powertrain & Motor Drives Lab",
+        description: "A comprehensive lab for studying electric vehicle powertrain components, motor characteristics, and power electronics converters used in EV applications.",
+        experimentList: [
+          "Characterization of BLDC motor — torque-speed curves and efficiency mapping.",
+          "Study of PMSM (Permanent Magnet Synchronous Motor) for EV traction applications.",
+          "Design and testing of DC-DC converters (buck, boost, buck-boost) for EV power electronics.",
+          "Three-phase inverter design and control for motor drives.",
+          "Regenerative braking system simulation and testing.",
+          "Study of EV powertrain architectures — series, parallel, and series-parallel hybrid.",
+          "Vehicle dynamics simulation using MATLAB/Simulink."
+        ],
+        equipmentList: ["BLDC Motors", "PMSM Motor", "DC-DC Converter Kits", "Three-Phase Inverter", "Motor Drive Controller", "MATLAB/Simulink Workstations"]
+      },
+      {
+        name: "Battery Technology & BMS Lab",
+        description: "Dedicated to battery cell characterization, pack design, and battery management system development for electric vehicles.",
+        experimentList: [
+          "Battery cell characterization — capacity testing, C-rate analysis, and cycle life evaluation.",
+          "Study of battery chemistries — Li-ion, LiFePO4, NMC comparison.",
+          "Design and testing of Battery Management System (BMS) — cell balancing and SOC estimation.",
+          "Thermal management of battery packs — temperature monitoring and cooling strategies.",
+          "EV charging system study — AC Level 1/2, DC fast charging (CCS, CHAdeMO).",
+          "Battery pack assembly and disassembly — hands-on with Wokinawa EV 2-wheeler battery.",
+          "Wireless charging system fundamentals and efficiency analysis."
+        ],
+        equipmentList: ["Battery Analyzer", "BMS Development Kit", "EV Battery Packs (Wokinawa)", "Charging Station Simulator", "Thermal Imaging Camera"]
+      }
+    ],
+
+    faculty: []
   },
 
   /* ┌─────────────────────────────────────────────┐
-     │  STRUCTURAL ENGINEERING (M.Tech)            │
+     │  STRUCTURAL ENGINEERING (M.TECH)            │
      └─────────────────────────────────────────────┘ */
-  "structural-engineering": {
+  "structural-engineering-mtech": {
     name: "Structural Engineering (M.Tech)",
     shortName: "SE",
-    meta: {
-      title: "M.Tech Structural Engineering — Trident Academy of Technology",
-      description: "M.Tech in Structural Engineering — advanced programme in structural analysis, design, and construction technology."
-    },
-    hero: {
-      titleLine1: "Structural",
-      titleLine2: "Engineering (M.Tech)",
-      subtitle: "Advancing the art and science of structural design with cutting-edge analysis, materials, and construction technologies.",
-      image: "/SE.png",
-      breadcrumb: "Structural Engineering (M.Tech)",
-      stats: [
-        { label: "Programme", value: "M.Tech" },
-        { label: "Seats", value: "18" },
-        { label: "Duration", value: "2 Years" }
-      ]
-    },
+    theme: { accent: "#8E44AD", accentDark: "#7D3C98", gradient: "from-[#8E44AD] to-[#9B59B6]" },
+
     sidebar: {
       heading: "STRUCTURAL\nENGINEERING",
       items: [
-        { id: "overview", label: "PROGRAMME OVERVIEW", icon: "BookOpen" },
-        { id: "syllabus", label: "SYLLABUS", icon: "FileText" },
-        { id: "faculty", label: "FACULTY", icon: "Users" }
+        { id: "overview", label: "Department Overview", icon: "BookOpen" },
+        { id: "syllabus", label: "Syllabus", icon: "Layers" },
+        { id: "faculty", label: "Faculties", icon: "Users" },
+        { id: "laboratories", label: "Laboratories", icon: "Beaker" }
       ]
     },
-    homeContent: {
-      paragraphs: [
-        "The M.Tech in Structural Engineering at Trident Academy of Technology provides advanced knowledge in structural analysis, design of concrete and steel structures, earthquake engineering, bridge engineering, and computational methods. The programme is ideal for engineers seeking expertise in designing safe and efficient structures.",
-        "Graduates are highly sought after in construction companies, consulting firms, government infrastructure departments, and research organizations involved in structural design and analysis."
-      ],
-      salientFeatures: [
-        "Advanced curriculum covering structural analysis and design",
-        "Focus on earthquake-resistant design and modern construction materials",
-        "Computational tools training (STAAD Pro, ETABS, SAP2000)",
-        "Strong demand in India's booming infrastructure and construction sector"
+
+    hero: {
+      titleLine1: "Structural",
+      titleLine2: "Engineering",
+      subtitle: "A rigorous 2-year M.Tech programme training engineers in advanced structural analysis, earthquake-resistant design, and modern construction technologies for building safe and resilient infrastructure.",
+      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=2000",
+      breadcrumb: "Structural Engineering (M.Tech)",
+      stats: [
+        { label: "Duration", value: "2 Yrs" },
+        { label: "AICTE Approved", value: "Yes" },
+        { label: "Degree", value: "M.Tech" }
       ]
     },
+
     overview: {
       paragraphs: [
-        "The M.Tech programme in Structural Engineering equips students with advanced knowledge of structural mechanics, finite element analysis, prestressed concrete, steel structure design, bridge engineering, and earthquake engineering. The curriculum integrates theoretical foundations with computational methods and practical applications.",
-        "Students undertake research projects in areas like high-performance concrete, seismic retrofitting, structural health monitoring, and sustainable construction, contributing to the advancement of structural engineering practice."
+        "The M.Tech programme in Structural Engineering at Trident Academy of Technology provides advanced education in the analysis, design, and construction of structures that are safe, durable, and resilient. The programme covers both theoretical foundations and practical applications of modern structural engineering.",
+        "The curriculum includes advanced structural analysis (matrix methods, finite element analysis), reinforced concrete and prestressed concrete design, steel structure design, earthquake engineering and seismic-resistant design, bridge engineering, wind engineering, structural dynamics, stability of structures, and composite materials in construction.",
+        "Students utilize state-of-the-art structural analysis software (STAAD.Pro, ETABS, SAP2000, ANSYS) and gain hands-on experience in the structural testing laboratory. The programme prepares graduates for careers in structural design consultancies, construction companies, infrastructure development organizations, and research institutions."
       ],
-      vision: "To be a premier centre for structural engineering education and research, producing experts who design safe, sustainable, and innovative structures.",
+      vision: "To be a distinguished centre of learning and research in Structural Engineering, producing competent professionals who design safe, sustainable, and innovative structures for society.",
       mission: [
-        "To provide advanced education in structural analysis, design, and construction.",
-        "To promote research in structural engineering and construction technology.",
-        "To develop professionals capable of designing safe and efficient structures."
+        "M1. Provide advanced education in structural analysis, design, and construction using state-of-the-art methodologies and tools.",
+        "M2. Foster research and innovation in earthquake-resistant design, bridge engineering, and sustainable construction practices.",
+        "M3. Develop ethical and industry-ready professionals who contribute to building resilient infrastructure for communities."
       ],
       po: [
-        "Apply advanced structural analysis and design methods.",
-        "Design structures that are safe, sustainable, and economically viable.",
-        "Conduct research in structural engineering."
+        "PO1. Apply advanced knowledge of structural mechanics, finite element analysis, and material behaviour to solve complex structural engineering problems.",
+        "PO2. Design and analyse reinforced concrete, prestressed concrete, steel, and composite structures in accordance with relevant design codes.",
+        "PO3. Evaluate the seismic performance of structures and design earthquake-resistant structural systems.",
+        "PO4. Utilize modern structural analysis and design software for modelling, simulation, and optimization.",
+        "PO5. Conduct independent research and contribute to the advancement of structural engineering knowledge."
+      ]
+    ,
+      images: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg"
       ],
-      peo: [
-        "Graduates will be competent structural engineers and consultants.",
-        "Graduates will contribute to safe and innovative infrastructure development."
-      ],
-      pso: [
-        "Design and analyze complex structures using advanced computational tools.",
-        "Evaluate structural safety and develop retrofitting solutions."
+      gallery: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg",
+        "/images/departments/cse/4-768x576.jpeg",
+        "/images/departments/cse/5-768x576.jpeg",
+        "/images/departments/cse/cse (1).jpg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-09-at-6.07.33-PM-1.jpeg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-11-at-3.41.52-PM-768x576.jpeg"
       ]
     },
+
     syllabus: {
       documents: [
-        { title: "M.TECH STRUCTURAL ENGINEERING SYLLABUS", fileUrl: "#", btnText: "VIEW / DOWNLOAD SYLLABUS" }
+        { title: "M.Tech Structural Engineering — Semester I & II", btnText: "View / Download Syllabus", fileUrl: "#" },
+        { title: "M.Tech Structural Engineering — Semester III & IV", btnText: "View / Download Syllabus", fileUrl: "#" }
       ]
     },
-    faculty: [],
-    laboratories: []
+
+    laboratories: [
+      {
+        name: "Structural Analysis & Design Lab",
+        description: "Equipped with advanced structural analysis software and computational resources for modelling, simulation, and design of complex structures.",
+        experimentList: [
+          "Analysis of continuous beams and frames using matrix methods.",
+          "Finite Element Analysis (FEA) of structural components using ANSYS.",
+          "Structural modelling and analysis using STAAD.Pro.",
+          "Seismic analysis of multi-storey buildings using ETABS.",
+          "Design of RC beam, column, and slab elements as per IS codes.",
+          "Prestressed concrete beam design and analysis.",
+          "Wind load analysis and design of tall structures.",
+          "Bridge deck analysis and design using SAP2000."
+        ],
+        equipmentList: ["STAAD.Pro", "ETABS", "SAP2000", "ANSYS", "AutoCAD Structural Detailing", "High-Performance Workstations"]
+      },
+      {
+        name: "Structural Testing Lab",
+        description: "A comprehensive testing facility for evaluating the strength, stiffness, and ductility of structural elements and materials under various loading conditions.",
+        experimentList: [
+          "Flexural testing of RC beams — load-deflection characteristics.",
+          "Compression testing of concrete cubes and cylinders.",
+          "Split tensile strength test of concrete.",
+          "Pull-out test for bond strength of reinforcement in concrete.",
+          "Non-destructive testing (NDT) of structures — rebound hammer and UPV test.",
+          "Strain measurement on structural elements using strain gauges.",
+          "Load testing of structural models."
+        ],
+        equipmentList: ["Universal Testing Machine (UTM)", "Rebound Hammer", "Ultrasonic Pulse Velocity Tester", "Strain Gauges & Data Logger", "Loading Frame"]
+      }
+    ],
+
+    faculty: []
   },
 
   /* ┌─────────────────────────────────────────────┐
-     │  INDUSTRIAL SAFETY ENGINEERING (M.Tech)     │
+     │  INDUSTRIAL SAFETY ENGINEERING (M.TECH)     │
      └─────────────────────────────────────────────┘ */
-  "industrial-safety-engineering": {
+  "industrial-safety-engineering-mtech": {
     name: "Industrial Safety Engineering (M.Tech)",
     shortName: "ISE",
-    meta: {
-      title: "M.Tech Industrial Safety Engineering — Trident Academy of Technology",
-      description: "M.Tech in Industrial Safety Engineering — specialized programme in workplace safety, hazard management, and occupational health."
+    theme: { accent: "#E74C3C", accentDark: "#C0392B", gradient: "from-[#E74C3C] to-[#C0392B]" },
+
+    sidebar: {
+      heading: "INDUSTRIAL SAFETY\nENGINEERING",
+      items: [
+        { id: "overview", label: "Department Overview", icon: "BookOpen" },
+        { id: "syllabus", label: "Syllabus", icon: "Layers" },
+        { id: "faculty", label: "Faculties", icon: "Users" },
+        { id: "laboratories", label: "Laboratories", icon: "Beaker" }
+      ]
     },
+
     hero: {
       titleLine1: "Industrial Safety",
-      titleLine2: "Engineering (M.Tech)",
-      subtitle: "Protecting lives and assets through expertise in industrial safety, hazard management, and occupational health engineering.",
-      image: "/ISE.png",
+      titleLine2: "Engineering",
+      subtitle: "A comprehensive 2-year M.Tech programme focused on occupational health, workplace safety, hazard analysis, fire safety, and industrial risk management — preparing safety professionals for high-demand roles.",
+      image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=2000",
       breadcrumb: "Industrial Safety Engineering (M.Tech)",
       stats: [
-        { label: "Programme", value: "M.Tech" },
-        { label: "Seats", value: "18" },
-        { label: "Duration", value: "2 Years" }
+        { label: "Duration", value: "2 Yrs" },
+        { label: "AICTE Approved", value: "Yes" },
+        { label: "Degree", value: "M.Tech" }
       ]
     },
-    sidebar: {
-      heading: "INDUSTRIAL\nSAFETY ENGG",
-      items: [
-        { id: "overview", label: "PROGRAMME OVERVIEW", icon: "BookOpen" },
-        { id: "syllabus", label: "SYLLABUS", icon: "FileText" },
-        { id: "faculty", label: "FACULTY", icon: "Users" }
-      ]
-    },
-    homeContent: {
-      paragraphs: [
-        "The M.Tech in Industrial Safety Engineering at Trident Academy of Technology is a specialized programme that trains professionals in workplace safety management, hazard identification and control, fire safety, occupational health, and industrial hygiene. The programme addresses the growing need for safety professionals across all industrial sectors.",
-        "With increasing emphasis on workplace safety regulations and standards (both national and international), graduates are in high demand in manufacturing, oil & gas, construction, mining, chemical, and pharmaceutical industries."
-      ],
-      salientFeatures: [
-        "Comprehensive coverage of industrial safety and occupational health",
-        "Training in hazard identification, risk assessment, and safety auditing",
-        "Alignment with national and international safety standards",
-        "High demand for safety professionals across all industries"
-      ]
-    },
+
     overview: {
       paragraphs: [
-        "The M.Tech programme in Industrial Safety Engineering provides comprehensive education in industrial safety management, covering fire and explosion protection, chemical process safety, construction safety, ergonomics, environmental management systems, and safety legislation. The curriculum is designed to meet the requirements of safety professionals in diverse industrial settings.",
-        "Students engage in practical safety audits, hazard assessments, and research projects, developing the skills needed to create safe working environments and ensure regulatory compliance."
+        "The M.Tech programme in Industrial Safety Engineering at Trident Academy of Technology addresses the critical need for qualified safety professionals in India's rapidly growing industrial sector. This programme provides comprehensive training in occupational health and safety, hazard identification and risk assessment, fire safety engineering, and industrial hygiene.",
+        "The curriculum covers industrial safety management systems (ISO 45001), hazard and operability studies (HAZOP), failure mode and effects analysis (FMEA), fault tree analysis, fire safety engineering, construction safety, process safety management, ergonomics, environmental health, personal protective equipment (PPE) design and selection, and emergency response planning.",
+        "Students gain practical experience through industrial visits, safety audits, and research projects in collaboration with industries. Graduates are in high demand across manufacturing, oil & gas, construction, mining, chemical, and pharmaceutical industries as safety officers, safety engineers, and risk management consultants."
       ],
-      vision: "To be a leading centre for industrial safety engineering education, producing professionals who create safe and healthy workplaces across industries.",
+      vision: "To be a nationally recognized centre for Industrial Safety Engineering education and research, producing competent safety professionals who create safer workplaces and protect human life.",
       mission: [
-        "To provide advanced education in industrial safety and occupational health.",
-        "To promote research in safety engineering and hazard management.",
-        "To develop safety professionals who protect lives and assets in industrial settings."
+        "M1. Provide advanced education in occupational health, workplace safety, risk assessment, and safety management systems.",
+        "M2. Foster research and practical training in fire safety, hazard analysis, and emergency response planning.",
+        "M3. Develop safety leaders with strong ethical values who can design, implement, and manage comprehensive safety programmes in industrial settings."
       ],
       po: [
-        "Apply advanced knowledge of safety engineering to identify and control workplace hazards.",
-        "Design and implement industrial safety management systems.",
-        "Conduct safety audits and risk assessments."
+        "PO1. Apply advanced knowledge of safety engineering, risk assessment, and management systems to identify and mitigate industrial hazards.",
+        "PO2. Design and implement occupational health and safety management systems in compliance with national and international standards.",
+        "PO3. Conduct hazard analysis studies (HAZOP, FMEA, FTA) and develop risk mitigation strategies for industrial processes.",
+        "PO4. Evaluate fire safety systems, emergency response plans, and personal protective equipment for industrial applications.",
+        "PO5. Conduct independent research and safety audits to contribute to the advancement of industrial safety practices."
+      ]
+    ,
+      images: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg"
       ],
-      peo: [
-        "Graduates will be competent safety engineers and managers.",
-        "Graduates will contribute to creating safe workplaces and reducing industrial accidents."
-      ],
-      pso: [
-        "Design and implement safety management systems for industrial facilities.",
-        "Conduct hazard identification, risk assessment, and develop mitigation strategies."
+      gallery: [
+        "/images/departments/cse/1-768x576.jpeg",
+        "/images/departments/cse/2-768x432.jpeg",
+        "/images/departments/cse/3-768x576.jpeg",
+        "/images/departments/cse/4-768x576.jpeg",
+        "/images/departments/cse/5-768x576.jpeg",
+        "/images/departments/cse/cse (1).jpg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-09-at-6.07.33-PM-1.jpeg",
+        "/images/departments/cse/WhatsApp-Image-2026-03-11-at-3.41.52-PM-768x576.jpeg"
       ]
     },
+
     syllabus: {
       documents: [
-        { title: "M.TECH INDUSTRIAL SAFETY ENGINEERING SYLLABUS", fileUrl: "#", btnText: "VIEW / DOWNLOAD SYLLABUS" }
+        { title: "M.Tech Industrial Safety Engineering — Semester I & II", btnText: "View / Download Syllabus", fileUrl: "#" },
+        { title: "M.Tech Industrial Safety Engineering — Semester III & IV", btnText: "View / Download Syllabus", fileUrl: "#" }
       ]
     },
-    faculty: [],
-    laboratories: []
+
+    laboratories: [
+      {
+        name: "Industrial Safety & Hazard Analysis Lab",
+        description: "A specialized lab for hands-on training in hazard identification, risk assessment techniques, safety instrumentation, and personal protective equipment evaluation.",
+        experimentList: [
+          "Hazard identification and risk assessment of an industrial process.",
+          "HAZOP (Hazard and Operability) study of a chemical process plant.",
+          "Failure Mode and Effects Analysis (FMEA) of a mechanical system.",
+          "Fault Tree Analysis (FTA) for reliability and safety evaluation.",
+          "Noise level measurement and mapping in industrial environments.",
+          "Air quality monitoring and dust concentration measurement.",
+          "Evaluation and selection of personal protective equipment (PPE).",
+          "Ergonomic assessment of workstation design."
+        ],
+        equipmentList: ["Sound Level Meter", "Air Quality Monitor", "Dust Sampler", "PPE Testing Equipment", "Ergonomic Assessment Tools", "Lux Meter"]
+      },
+      {
+        name: "Fire Safety & Emergency Response Lab",
+        description: "Equipped with fire detection systems, suppression equipment models, and simulation tools for training in fire safety engineering and emergency response planning.",
+        experimentList: [
+          "Study of fire detection and alarm systems — smoke detectors, heat detectors, flame detectors.",
+          "Fire suppression system analysis — sprinkler systems, CO2 systems, foam systems.",
+          "Fire extinguisher types and their applications — hands-on practice.",
+          "Fire load calculation and compartment fire simulation.",
+          "Evacuation planning and emergency escape route design.",
+          "First aid and rescue techniques — practical training.",
+          "Safety audit of a building — fire safety compliance check."
+        ],
+        equipmentList: ["Fire Detection System Models", "Fire Extinguishers (All Types)", "Sprinkler System Model", "Fire Simulation Software", "First Aid Training Kit"]
+      }
+    ],
+
+    faculty: []
+  },
+
+  /* ┌─────────────────────────────────────────────┐
+     │  DATA SCIENCE (M.TECH)                      │
+     └─────────────────────────────────────────────┘ */
+  "data-science-mtech": {
+    name: "Data Science (M.Tech)",
+
+    meta: {
+      title: "Data Science (M.Tech) — Trident Academy of Technology",
+      description: "M.Tech in Data Science at Trident Academy of Technology — AICTE Approved postgraduate programme in Machine Learning, Big Data Analytics, and AI.",
+    },
+
+    theme: {
+      primary: "text-[#E11D48]",
+      bgPrimary: "bg-[#E11D48]",
+      borderPrimary: "border-[#E11D48]",
+      borderPrimary10: "border-[#E11D48]/10",
+      bgPrimary10: "bg-[#E11D48]/10",
+      hoverTextPrimary: "hover:text-[#E11D48]",
+      hoverBgPrimary: "hover:bg-[#E11D48]",
+      shadowPrimary20: "shadow-[#E11D48]/20",
+      accent: "text-[#E5AA3E]",
+      bgAccent: "bg-[#E5AA3E]",
+      secondary: "text-[#BE123C]",
+      gradient: "from-[#881337]/95 via-[#9F1239]/90 to-[#BE123C]/80",
+      btn: "bg-[#F43F5E]",
+      btnHover: "hover:bg-[#E11D48]",
+    },
+
+    hero: {
+      titleLine1: "Data",
+      titleLine2: "Science",
+      subtitle: "A cutting-edge 2-year M.Tech programme training the next generation of data scientists in machine learning, deep learning, big data analytics, NLP, and AI-driven decision making.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2000",
+      breadcrumb: "Data Science (M.Tech)",
+      stats: [
+        { label: "Duration", value: "2 Yrs" },
+        { label: "AICTE Approved", value: "Yes" },
+        { label: "Degree", value: "M.Tech" }
+      ],
+    },
+
+    acmBanner: null,
+
+    sidebar: {
+      heading: "DATA SCIENCE\n(M.TECH)",
+      items: [
+        { id: "overview", label: "Department Overview", icon: "BookOpen", href: "/overview" },
+        { id: "syllabus", label: "Syllabus", icon: "Layers", href: "/syllabus" },
+        { id: "faculties", label: "Faculties", icon: "Users", href: "/faculties" },
+        { id: "laboratories", label: "Laboratories", icon: "Beaker", href: "/laboratories" },
+        { id: "placement", label: "Placement Data", icon: "BarChart3", href: "/placement" }
+      ],
+    },
+
+    overview: {
+      paragraphs: [
+        "The M.Tech programme in Data Science at Trident Academy of Technology is designed to meet the surging demand for skilled data scientists across industries. This 2-year postgraduate programme provides an intensive, research-oriented curriculum that bridges the gap between theoretical computer science, statistical modelling, and real-world data-driven applications.",
+        "The programme covers core areas including Advanced Machine Learning, Deep Learning & Neural Networks, Big Data Technologies (Hadoop, Spark), Natural Language Processing (NLP), Computer Vision, Statistical Inference, Data Visualization, Cloud Computing for Data Science, and Reinforcement Learning. Students also gain proficiency in Python, R, SQL, TensorFlow, PyTorch, and industry-standard tools.",
+        "With a strong emphasis on research dissertations and industry projects, students work on real-world datasets and solve practical problems in domains such as healthcare analytics, financial modelling, IoT data analysis, and recommendation systems. The programme prepares graduates for roles as Data Scientists, ML Engineers, AI Researchers, and Analytics Consultants in top-tier organizations."
+      ],
+      tabs: [
+        {
+          id: 'vision',
+          label: 'Vision',
+          content: 'To be a nationally recognized centre of excellence in Data Science education and research, producing innovative data scientists who leverage advanced analytics and artificial intelligence to solve complex real-world problems and drive data-informed decision making.',
+        },
+        {
+          id: 'mission',
+          label: 'Mission',
+          content: 'M1. Provide rigorous postgraduate education in data science, machine learning, and AI, with strong foundations in mathematics, statistics, and computer science.\n\nM2. Foster a research-driven learning environment where students engage with cutting-edge technologies, real-world datasets, and industry collaboration.\n\nM3. Develop ethical, innovative, and industry-ready data science professionals who can lead AI-driven transformation across diverse sectors.',
+        },
+        {
+          id: 'peo',
+          label: 'PEO',
+          content: 'PEO-1. To produce data science professionals capable of designing and deploying machine learning models and AI solutions for complex, real-world problems.\nKeyword: AI & ML Solutions.\n\nPEO-2. To develop strong analytical and research skills in students, enabling them to pursue advanced research or leadership roles in data-driven organizations.\nKeywords: Research & Analytics.\n\nPEO-3. To instill professional ethics, communication skills, and a commitment to lifelong learning in the rapidly evolving field of data science and AI.\nKeywords: Ethics & Lifelong Learning.',
+        },
+        {
+          id: 'po',
+          label: 'PO',
+          content: '1. Advanced Knowledge: Apply in-depth knowledge of mathematics, statistics, and computer science to formulate and solve complex data science problems.\n\n2. Data Analysis & Modelling: Design and implement machine learning, deep learning, and statistical models for extracting insights from structured and unstructured data.\n\n3. Big Data Technologies: Utilize distributed computing frameworks (Hadoop, Spark) and cloud platforms for processing and analysing large-scale datasets.\n\n4. Research & Innovation: Conduct independent research, design experiments, analyse results, and publish findings in the domain of data science and artificial intelligence.\n\n5. Tools & Technologies: Demonstrate proficiency in Python, R, SQL, TensorFlow, PyTorch, and industry-standard data science tools and libraries.\n\n6. Ethics & Responsibility: Apply ethical principles in data collection, processing, and modelling, with awareness of bias, fairness, and privacy considerations.\n\n7. Communication: Effectively communicate data-driven insights through visualizations, reports, and presentations to technical and non-technical audiences.\n\n8. Lifelong Learning: Recognize the need for continuous learning and adapt to emerging trends in AI, machine learning, and data engineering.',
+        },
+        {
+          id: 'pso',
+          label: 'PSO',
+          content: 'PSO1: Machine Learning Engineering — Design, train, evaluate, and deploy machine learning and deep learning models for real-world applications across diverse domains.\n\nPSO2: Big Data Analytics — Process, analyse, and derive actionable insights from large-scale structured and unstructured datasets using distributed computing technologies.\n\nPSO3: AI Research & Innovation — Conduct cutting-edge research in artificial intelligence, publish findings, and contribute to the advancement of data science knowledge.',
+        }
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=600"
+      ]
+    },
+
+    programmes: [
+      {
+        title: "M.Tech in Data Science",
+        seats: "18 Seats",
+        details: "2-Year Full-Time Programme | AICTE Approved",
+        sections: [
+          {
+            heading: "Programme Overview",
+            text: "The M.Tech in Data Science is a 2-year full-time postgraduate programme designed to train students in the science and engineering of data. The programme equips students with advanced skills in machine learning, deep learning, natural language processing, big data analytics, computer vision, and AI — enabling them to build intelligent systems and data-driven solutions for industry and research."
+          },
+          {
+            heading: "Curriculum Highlights",
+            text: "The curriculum is carefully crafted to cover:\n• Advanced Machine Learning & Deep Learning (CNNs, RNNs, GANs, Transformers)\n• Big Data Technologies (Hadoop, Apache Spark, Kafka)\n• Natural Language Processing & Computer Vision\n• Statistical Inference & Bayesian Methods\n• Data Engineering & Cloud Computing (AWS, GCP, Azure)\n• Reinforcement Learning & Optimization\n• Research Methodology & Dissertation\n• Industry Internship / Collaborative Research Project"
+          },
+          {
+            heading: "Career Prospects",
+            text: "Graduates of this programme are highly sought after in roles such as Data Scientist, Machine Learning Engineer, AI Researcher, NLP Engineer, Big Data Engineer, Analytics Consultant, and Computer Vision Engineer. Top recruiters include leading technology companies, financial institutions, healthcare analytics firms, e-commerce platforms, and research organizations."
+          }
+        ]
+      }
+    ],
+
+    questionBank: {
+      years: [
+        { id: "1st-semester", label: "1st Semester", color: "bg-[#5B50C2]", subjects: [] },
+        { id: "2nd-semester", label: "2nd Semester", color: "bg-[#D18E47]", subjects: [] },
+        { id: "3rd-semester", label: "3rd Semester", color: "bg-[#C3594B]", subjects: [] },
+        { id: "4th-semester", label: "4th Semester", color: "bg-[#27AE60]", subjects: [] }
+      ]
+    },
+
+    syllabus: [
+      {
+        program: "M.TECH.",
+        years: [
+          {
+            title: "SYLLABUS FOR FIRST YEAR",
+            buttons: [
+              { label: "VIEW / DOWNLOAD 1ST SEM SYLLABUS", href: "#" },
+              { label: "VIEW / DOWNLOAD 2ND SEM SYLLABUS", href: "#" }
+            ]
+          },
+          {
+            title: "SYLLABUS FOR SECOND YEAR",
+            buttons: [
+              { label: "VIEW / DOWNLOAD 3RD SEM SYLLABUS", href: "#" },
+              { label: "VIEW / DOWNLOAD 4TH SEM SYLLABUS", href: "#" }
+            ]
+          }
+        ]
+      }
+    ],
+
+    faculties: [],
+
+    laboratories: [
+      {
+        name: "Machine Learning & AI Lab",
+        location: "Computing Block, Room C-401",
+        hardware: ["GPU Workstations (NVIDIA RTX 3090)", "High-Performance Computing Cluster", "32GB RAM Workstations"],
+        software: ["Python (Anaconda)", "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Jupyter Notebook", "Google Colab Pro", "MATLAB"],
+        experimentList: [
+          "Implementation of linear regression and logistic regression from scratch.",
+          "Decision tree, random forest, and gradient boosting classifiers.",
+          "Support Vector Machine (SVM) for classification and regression tasks.",
+          "Convolutional Neural Networks (CNN) for image classification.",
+          "Recurrent Neural Networks (RNN/LSTM) for sequence modelling and time series forecasting.",
+          "Generative Adversarial Networks (GANs) for image generation.",
+          "Transfer learning using pre-trained models (ResNet, VGG, BERT).",
+          "Reinforcement learning — Q-learning and policy gradient methods.",
+          "Hyperparameter tuning and model optimization techniques."
+        ]
+      },
+      {
+        name: "Big Data Analytics Lab",
+        location: "Computing Block, Room C-402",
+        hardware: ["Multi-Node Hadoop Cluster", "Apache Spark Cluster", "16GB+ RAM Workstations"],
+        software: ["Apache Hadoop", "Apache Spark", "Apache Kafka", "Hive", "PySpark", "MongoDB", "Tableau", "Power BI", "AWS/GCP Cloud Services"],
+        experimentList: [
+          "Setting up and configuring a Hadoop distributed file system (HDFS).",
+          "MapReduce programming for large-scale data processing.",
+          "Real-time data streaming and processing with Apache Kafka and Spark Streaming.",
+          "Data warehousing and querying with Apache Hive.",
+          "NoSQL database operations with MongoDB — CRUD and aggregation pipelines.",
+          "Exploratory data analysis and visualization using Tableau and Power BI.",
+          "Cloud-based data pipeline design using AWS (S3, EMR, Redshift) or GCP (BigQuery, Dataflow).",
+          "Natural language processing — text classification, sentiment analysis, and named entity recognition.",
+          "Computer vision — object detection and image segmentation using YOLO and U-Net."
+        ]
+      }
+    ],
+
+    clubs: [],
+    publications: [],
+    placement: [],
+    events: []
+  },
+
+  /* ┌─────────────────────────────────────────────┐
+     │  DIPLOMA IN ELECTRICAL ENGINEERING          │
+     └─────────────────────────────────────────────┘ */
+  "diploma-electrical-engineering": {
+    name: "Diploma in Electrical Engineering",
+    
+    meta: {
+      title: "Diploma in Electrical Engineering — Trident Academy of Technology",
+      description: "The Department of Electrical and Electronics Engineering at Trident Academy of Technology offers a comprehensive Diploma programme in Electrical Engineering.",
+    },
+
+    theme: { accent: "#D97706", accentDark: "#B45309", gradient: "from-amber-500 to-orange-600" },
+
+    hero: {
+      titleLine1: "Diploma in",
+      titleLine2: "Electrical Engineering",
+      subtitle: "The Department of Electrical and Electronics Engineering at Trident Academy of Technology offers a comprehensive Diploma programme in Electrical Engineering, designed to provide students with a strong foundation in core principles along with exposure to contemporary advancements in the discipline.",
+      image: "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?auto=format&fit=crop&q=80&w=2000",
+      breadcrumb: "Diploma in Electrical Engineering",
+      stats: [
+        { label: "Intake Seats", value: "60" },
+        { label: "Established", value: "2024" },
+        { label: "Advanced Labs", value: "7+" },
+        { label: "Placement Rate", value: "90%" },
+      ],
+    },
+
+    sidebar: {
+      heading: "DIPLOMA EE",
+      items: [
+        { id: "overview", label: "Department Overview", icon: "BookOpen", href: "/diploma-electrical-engineering/overview" },
+        { id: "faculties", label: "Faculties", icon: "Users", href: "/diploma-electrical-engineering/faculties" },
+        { id: "laboratories", label: "Laboratories", icon: "Beaker", href: "/diploma-electrical-engineering/laboratories" },
+        { id: "clubs", label: "Departmental Clubs", icon: "Code2", href: "/diploma-electrical-engineering/clubs" }
+      ],
+    },
+
+    overview: {
+      paragraphs: [
+        "The Department of Electrical and Electronics Engineering at Trident Academy of Technology offers a comprehensive Diploma programme in Electrical Engineering, designed to provide students with a strong foundation in core principles along with exposure to contemporary advancements in the discipline. The curriculum is structured to ensure academic rigor, practical relevance, and alignment with industry and professional standards.",
+        "In addition to the structured academic curriculum, students of the Electrical Engineering programme are provided with diverse experiential learning opportunities. Distinguished Lectures delivered by eminent experts from various domains of Electrical Engineering facilitate knowledge dissemination, intellectual interaction, and exposure to contemporary practices.",
+        "These activities effectively complement classroom teaching and motivate students to explore interdisciplinary approaches and real-world applications of theoretical concepts.",
+        "Furthermore, the department promotes a strong culture of research and innovation by encouraging student participation in hands-on projects, internships, and collaborative activities with industry partners. These initiatives enable students to reinforce theoretical knowledge through practical application while developing industry-relevant skills essential for professional competence and career readiness."
+      ],
+      tabs: [
+        {
+          id: 'highlights',
+          label: 'Programme Highlights',
+          content: "• Strong entry pathway into the electrical engineering industry with practical, skill-focused training\n• Hands-on learning through labs, fieldwork, and project-based activities\n• High employability in power generation, transmission, distribution, and renewable energy sectors\n• Opportunities in government sectors such as OERC, GRIDCO, OPTCL, TPCODL, and NESCO as Junior Engineers (JE)\n• Excellent scope in private industry including power plants, electrical contractors, and manufacturing firms\n• Cost-effective & time-efficient program that enables students to start a professional career earlier\n• Pathway to higher studies — lateral entry to B.Tech (direct 2nd year), and later M.Tech or advanced specializations\n• Opportunities for entrepreneurship in electrical contracting, solar installation, and energy auditing services",
+        }
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=600",
+        "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=600"
+      ]
+    },
+
+    faculties: [
+      { name: "Mr. Pradipta Kumar Sahoo", designation: "Prof. & HOD", qualification: "M.Tech", doj: "7/8/2006", bputId: "T081828902" },
+      { name: "Mr. Shitya Ranjan Das", designation: "Associate Professor", qualification: "M.Tech", doj: "3/7/2006", bputId: "T081828906" },
+      { name: "Mr. Mohammed Nadeem Iqbal", designation: "Assistant Professor", qualification: "M.Tech", doj: "22/2/2011", bputId: "T111828903" },
+      { name: "Mr. Mir Manjur Elahi", designation: "Assistant Professor", qualification: "M.Tech", doj: "10/1/2011", bputId: "T111828902" },
+      { name: "Mrs. Smrutirekha Mahanta", designation: "Assistant Professor", qualification: "M.Tech", doj: "14/9/2011", bputId: "T111828905" }
+    ],
+
+    laboratories: [
+      { name: "Basic Electrical Engineering Laboratory", description: "Provides first-year students with a solid foundation in practical aspects of electrical engineering — basic circuits, components, and measuring instruments.", equipments: [], software: [], experiments: [], images: [] },
+      { name: "Power Electronics Lab", description: "Modern solid-state devices and converter modules for efficient power conversion and control systems design.", equipments: [], software: [], experiments: [], images: [] },
+      { name: "Electrical Machines Lab", description: "Comprehensive study of DC machines, transformers, induction motors, synchronous machines, and special machines.", equipments: [], software: [], experiments: [], images: [] },
+      { name: "Electrical Measurement & Instrumentation Lab", description: "Bridges, potentiometers, CROs, transducers, and digital instruments for precision measurement training.", equipments: [], software: [], experiments: [], images: [] },
+      { name: "Control Systems Lab", description: "Study of time and frequency response, stability analysis, and PID controller design using MATLAB/Simulink.", equipments: [], software: [], experiments: [], images: [] },
+      { name: "Power Systems Lab", description: "Load flow analysis, fault analysis, relay testing, and power system protection schemes.", equipments: [], software: [], experiments: [], images: [] },
+      { name: "Renewable Energy Lab", description: "Solar PV systems, wind energy trainers, and hybrid energy system design and testing.", equipments: [], software: [], experiments: [], images: [] }
+    ],
+
+    clubs: [
+      {
+        title: "Renewable Energy (RENEN) Club",
+        description: "To create awareness and promote research in renewable energy technologies among students.",
+        activities: [
+          "Solar panel installations",
+          "Energy audit workshops",
+          "Green campus initiatives",
+          "Technical seminars on sustainable energy solutions"
+        ]
+      },
+      {
+        title: "Energy Efficiency Club",
+        description: "To educate students about energy conservation and efficient utilization of electrical energy.",
+        activities: [
+          "Energy audits",
+          "LED lighting drives",
+          "Power factor improvement projects",
+          "Awareness campaigns on National Energy Conservation Day"
+        ]
+      },
+      {
+        title: "Electric Vehicle Club",
+        description: "To explore electric mobility technologies and encourage innovation in EV design.",
+        activities: [
+          "EV prototype building",
+          "Battery management workshops",
+          "Participation in national-level EV competitions",
+          "Industry visits to EV manufacturing units"
+        ]
+      }
+    ],
+
+    programmes: [],
+    questionBank: null,
+    syllabus: [],
+    publications: [],
+    placement: [],
+    events: [],
+    homeContent: {}
   }
 };
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const infoData = [
 
@@ -6,7 +7,7 @@ const infoData = [
     title: "Calendar",
     description: "Stay updated with Trident's academic and event calendars, featuring important dates, examinations, holidays, workshops, and campus activities. The calendar helps students and faculty plan effectively and stay organized throughout the academic year. The academic calendar provides a structured overview of the semester, ensuring clarity and transparency in all institutional activities. It keeps students informed about key deadlines, internal assessments, and examination schedules. Regular updates help the campus community stay aligned with upcoming events and important announcements.",
     image: "/images/calendar_pins.jpg",
-    linkHref: "https://academics-tat.tekkzy.com/academics/calendar/",
+    linkHref: "/calendar",
     reverse: true,
     accent: "#283B91"
   },
@@ -14,7 +15,7 @@ const infoData = [
     title: "Chapters",
     description: "Explore the various chapters that shape Trident's vibrant academic and student life. Every chapter represents a unique initiative, activity, or community that encourages leadership, creativity, and collaboration, helping students develop beyond the classroom. Our chapters provide students with opportunities to engage in technical, cultural, social, and leadership activities that enrich their academic journey. Through events, competitions, and community initiatives, students gain practical exposure and build networks that foster teamwork, innovation, and prepare individuals to excel in both professional and personal realms.",
     image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1000",
-    linkHref: "https://academics-tat.tekkzy.com/chapters",
+    linkHref: "/chapters",
     reverse: false,
     accent: "#8B6E66"
   },
@@ -22,7 +23,7 @@ const infoData = [
     title: "Time Table",
     description: "Discover Trident's diverse chapters that bring students together through academics, culture, innovation, and social initiatives. These chapters provide platforms to explore talents, build leadership skills, encourage teamwork, and create meaningful experiences beyond the classroom. They play a vital role in shaping confident, responsible, and well-rounded individuals. Stay updated with the detailed timetable designed to ensure a smooth academic schedule for all students. The timetable provides clear information about class timings, subjects, faculty allocations, and room numbers. It helps students organize their daily routine efficiently and manage their academic commitments effectively.",
     image: "https://images.unsplash.com/photo-1506784365847-bbad939e9335?auto=format&fit=crop&q=80&w=1200",
-    linkHref: "https://academics-tat.tekkzy.com/time-table/",
+    linkHref: "/timetable",
     reverse: true,
     accent: "#E5AA3E"
   }
@@ -99,14 +100,25 @@ export default function InstitutionalInfo() {
                 <p className="font-sans text-[#5c5855] text-[16px] leading-relaxed mb-10 max-w-xl">
                   {item.description}
                 </p>
-                <a 
-                  href={item.linkHref} 
-                  className="inline-flex items-center gap-4 font-sans font-bold text-[12px] uppercase tracking-widest hover:text-[#212529] transition-colors"
-                  style={{ color: item.accent }}
-                >
-                  Discover More 
-                  <span className="w-12 h-[1px] inline-block group-hover:w-20 transition-all duration-500" style={{ backgroundColor: item.accent }}></span>
-                </a>
+                {item.linkHref.startsWith('/') ? (
+                  <Link 
+                    to={item.linkHref} 
+                    className="inline-flex items-center gap-4 font-sans font-bold text-[12px] uppercase tracking-widest hover:text-[#212529] transition-colors"
+                    style={{ color: item.accent }}
+                  >
+                    Discover More 
+                    <span className="w-12 h-[1px] inline-block group-hover:w-20 transition-all duration-500" style={{ backgroundColor: item.accent }}></span>
+                  </Link>
+                ) : (
+                  <a 
+                    href={item.linkHref} 
+                    className="inline-flex items-center gap-4 font-sans font-bold text-[12px] uppercase tracking-widest hover:text-[#212529] transition-colors"
+                    style={{ color: item.accent }}
+                  >
+                    Discover More 
+                    <span className="w-12 h-[1px] inline-block group-hover:w-20 transition-all duration-500" style={{ backgroundColor: item.accent }}></span>
+                  </a>
+                )}
               </div>
             </div>
 

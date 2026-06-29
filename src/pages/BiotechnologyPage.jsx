@@ -10,6 +10,16 @@ import {
 } from 'lucide-react';
 import { getDepartment } from '../data/departmentData';
 
+const DEPT_INLINE_IMAGES = [
+  "/images/departments/biotech/IMG_20240604_114326.jpg",
+  "/images/departments/biotech/IMG_20240604_114532.jpg",
+  "/images/departments/biotech/IMG_20240604_115009.jpg",
+  "/images/departments/biotech/IMG_20260101_135058.jpg",
+  "/images/departments/biotech/IMG_20260101_135346.jpg",
+  "/images/departments/biotech/IMG_20260101_151341.jpg",
+];
+
+
 const ICONS = {
   Home, BookOpen, Users, Beaker, FileText, ArrowRight, Cog, GraduationCap, Award, Layers,
   Dna, Activity, Microscope
@@ -174,6 +184,15 @@ export default function BiotechnologyPage({ isHome }) {
                   </FadeInUp>
                 ))}
 
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/biotech/IMG_20240604_114326.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/biotech/IMG_20240604_114532.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
+
                 <FadeInUp delay={300}>
                   <div className="mt-10 glass-card-biotech p-8 rounded-2xl bg-white/40">
                     <h3 className="text-[20px] font-black text-[#004D40] mb-6 flex items-center gap-3">
@@ -228,6 +247,15 @@ export default function BiotechnologyPage({ isHome }) {
                     )}
                   </FadeInUp>
                 ))}
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/biotech/IMG_20240604_115009.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/biotech/IMG_20260101_135058.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
               </div>
 
               <FadeInUp delay={300}>

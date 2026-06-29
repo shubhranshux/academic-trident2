@@ -91,7 +91,7 @@ export default function Hero() {
             <a href="https://placement-tat.tekkzy.com" className="text-[#212529] font-bold text-[13px] uppercase tracking-widest border-b-2 border-[#EFE7DF] hover:border-[#8B6E66] transition-colors pb-1">
               View Placements
             </a>
-            <a href="#about" className="text-[#212529] font-bold text-[13px] uppercase tracking-widest border-b-2 border-[#EFE7DF] hover:border-[#8B6E66] transition-colors pb-1">
+            <a href="https://about-tat.tekkzy.com/" target="_blank" rel="noopener noreferrer" className="text-[#212529] font-bold text-[13px] uppercase tracking-widest border-b-2 border-[#EFE7DF] hover:border-[#8B6E66] transition-colors pb-1">
               Know Our Impact
             </a>
           </div>

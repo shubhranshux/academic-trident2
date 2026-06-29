@@ -178,7 +178,7 @@ const fluidStyles = `
 const programs = [
   {
     title: "School of Computing",
-    slug: "computer-science-engineering",
+    slug: "school-of-computing",
     subtitle: "Driving the Digital Revolution",
     description: "The School of Computing offers cutting-edge programmes in Computer Science, Artificial Intelligence, and Data Science. Our curriculum blends strong theoretical foundations with practical, industry-relevant exposure, preparing graduates for high-demand careers in emerging technologies.",
     nba: "B.Tech in Computer Science & Engineering",
@@ -188,7 +188,7 @@ const programs = [
       { name: "Computer Science & Engineering (Data Science) (B.Tech)", href: "/computer-science-engineering-data-science" },
       { name: "Computer Science and Technology (CST) (B.Tech)", href: "/computer-science-technology" },
       { name: "Computer Science & Information Technology (CSIT) (B.Tech)", href: "/computer-science-information-technology" },
-      { name: "Data Science (M.Tech)", href: "#" }
+      { name: "Data Science (M.Tech)", href: "/data-science-mtech" }
     ],
     image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80&w=800",
   },
@@ -199,27 +199,29 @@ const programs = [
     nba: "MCA",
     programmes: [
       "Bachelor of Computer Applications (BCA)",
-      "Master of Computer Applications (MCA)"
+      "Master of Computer Applications (MCA)",
+      "Integrated M.Tech with B.Tech in Data Science"
     ],
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
+    image: "/images/programming-lab-img-1.jpeg",
   },
   {
     title: "School of Engineering",
+    slug: "school-of-engineering",
     subtitle: "Building the Future, One Innovation at a Time",
     description: "From Mechanical to Civil, Electrical, and Electronics Engineering, this school combines core engineering principles with modern advancements. Students gain hands-on experience through well-equipped labs, live projects, and industry partnerships.",
     nba: "B.Tech in Electronics & Telecommunication Engineering | B.Tech in Electrical & Electronics Engineering",
     programmes: [
       { name: "Electronics and Telecommunication Engineering (B.Tech / M.Tech)", href: "/electronics-and-telecommunication-engineering" },
       { name: "Electronics Engineering (VLSI Design) (B.Tech / M.Tech)", slug: "electronics-vlsi-design", href: "/electronics-vlsi-design" },
-      { name: "Electrical and Electronics Engineering (B.Tech)", href: "#" },
+      { name: "Electrical and Electronics Engineering (B.Tech)", href: "/electrical-and-electronics-engineering" },
       { name: "Civil Engineering (B.Tech / Diploma)", href: "/civil-engineering" },
-      { name: "Mechanical Engineering (B.Tech / Diploma)", href: "#" },
-      { name: "Electrical Engineering (Diploma)", href: "#" },
-      { name: "Environmental Engineering (M.Tech)", href: "#" },
-      { name: "Energy and Environmental Engineering (M.Tech)", href: "#" },
-      { name: "Electrical Vehicle Technology (M.Tech)", href: "#" },
-      { name: "Structural Engineering (M.Tech)", href: "#" },
-      { name: "Industrial Safety Engineering (M.Tech)", href: "#" }
+      { name: "Mechanical Engineering (B.Tech / Diploma)", href: "/mechanical-engineering" },
+      { name: "Electrical Engineering (Diploma)", href: "/diploma-electrical-engineering" },
+      { name: "Environmental Engineering (M.Tech)", href: "/environmental-engineering-mtech" },
+      { name: "Energy and Environmental Engineering (M.Tech)", href: "/energy-and-environmental-engineering-mtech" },
+      { name: "Electrical Vehicle Technology (M.Tech)", href: "/electrical-vehicle-technology-mtech" },
+      { name: "Structural Engineering (M.Tech)", href: "/structural-engineering-mtech" },
+      { name: "Industrial Safety Engineering (M.Tech)", href: "/industrial-safety-engineering-mtech" }
     ],
     image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
   },
@@ -320,11 +322,24 @@ export default function AcademicPrograms() {
             <div className="sticky top-0 w-full h-screen overflow-hidden bg-gray-200 shadow-2xl">
                {programs.map((prog, idx) => (
                  <div key={idx} className={`absolute inset-0 transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] ${activeIndex === idx ? 'opacity-100 z-10' : 'opacity-0 scale-105 z-0'}`}>
-                   <img 
-                     src={prog.image} 
-                     alt={prog.title} 
-                     className="w-full h-full object-cover" 
-                   />
+                   {Array.isArray(prog.image) ? (
+                     <div className="w-full h-full flex">
+                       {prog.image.map((imgSrc, i) => (
+                         <img 
+                           key={i}
+                           src={imgSrc} 
+                           alt={`${prog.title} ${i + 1}`} 
+                           className="w-1/2 h-full object-cover" 
+                         />
+                       ))}
+                     </div>
+                   ) : (
+                     <img 
+                       src={prog.image} 
+                       alt={prog.title} 
+                       className="w-full h-full object-cover" 
+                     />
+                   )}
                    {/* Gradient Overlay for Image */}
                    <div className="absolute inset-0 bg-gradient-to-t from-[#1a2660]/90 via-black/20 to-transparent"></div>
                    {/* Text padding aligns with max-w-1400 container if viewport > 1400px */}

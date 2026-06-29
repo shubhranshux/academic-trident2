@@ -9,6 +9,16 @@ import {
 } from 'lucide-react';
 import { getDepartment } from '../data/departmentData';
 
+const DEPT_INLINE_IMAGES = [
+  "/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.17.04 PM (2).jpeg",
+  "/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.17.09 PM.jpeg",
+  "/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.29.28 PM.jpeg",
+  "/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.31.24 PM.jpeg",
+  "/images/departments/electrical/EE lab (1).png",
+  "/images/departments/electrical/WhatsApp Image 2026-03-09 at 6.45.56 PM (1).jpeg",
+];
+
+
 const ICONS = {
   Home, BookOpen, Users, Cpu, FileText, ArrowRight, Zap, GraduationCap, Award, Radio, CircuitBoard
 };
@@ -191,6 +201,15 @@ export default function ElectricalEngineeringPage({ isHome }) {
                   </FadeInUp>
                 ))}
 
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.17.04 PM (2).jpeg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.17.09 PM.jpeg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
+
                 {data.homeContent?.salientFeatures && (
                 <FadeInUp delay={300}>
                   <div className="mt-10 glass-card-electrical-engineering p-8 rounded-2xl bg-white/40">
@@ -209,6 +228,10 @@ export default function ElectricalEngineeringPage({ isHome }) {
                   </div>
                 </FadeInUp>
                 )}
+
+                <div className="my-8 rounded-2xl overflow-hidden shadow-md max-w-3xl">
+                  <img src="/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.29.28 PM.jpeg" alt="Department" className="w-full h-[260px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                </div>
               </div>
             </section>
           </div>
@@ -247,6 +270,15 @@ export default function ElectricalEngineeringPage({ isHome }) {
                     )}
                   </FadeInUp>
                 ))}
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/electrical/WhatsApp Image 2026-02-18 at 4.31.24 PM.jpeg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/electrical/EE lab (1).png" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
               </div>
 
               <FadeInUp delay={300}>

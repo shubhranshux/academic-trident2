@@ -9,6 +9,16 @@ import {
 } from 'lucide-react';
 import { getDepartment } from '../data/departmentData';
 
+const DEPT_INLINE_IMAGES = [
+  "/images/departments/civil/Untitled design (1).png",
+  "/images/departments/civil/Untitled design (2).png",
+  "/images/departments/civil/WhatsApp Image 2025-05-19 at 12.50.15_0c400f24.jpg",
+  "/images/departments/civil/WhatsApp Image 2025-05-19 at 12.50.16_a943ecc6.jpg",
+  "/images/departments/civil/WhatsApp Image 2026-02-24 at 4.10.53 PM.jpeg",
+  "/images/departments/civil/WhatsApp Image 2026-02-24 at 4.10.54 PM.jpeg",
+];
+
+
 const ICONS = {
   Home, BookOpen, Users, Cpu, FileText, ArrowRight, Zap, GraduationCap, Award, Radio, CircuitBoard
 };
@@ -191,6 +201,15 @@ export default function CivilEngineeringPage({ isHome }) {
                   </FadeInUp>
                 ))}
 
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/civil/Untitled design (1).png" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/civil/Untitled design (2).png" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
+
                 {data.homeContent?.salientFeatures && (
                 <FadeInUp delay={300}>
                   <div className="mt-10 glass-card-civil-engineering p-8 rounded-2xl bg-white/40">
@@ -209,6 +228,10 @@ export default function CivilEngineeringPage({ isHome }) {
                   </div>
                 </FadeInUp>
                 )}
+
+                <div className="my-8 rounded-2xl overflow-hidden shadow-md max-w-3xl">
+                  <img src="/images/departments/civil/WhatsApp Image 2025-05-19 at 12.50.15_0c400f24.jpg" alt="Department" className="w-full h-[260px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                </div>
               </div>
             </section>
           </div>
@@ -247,6 +270,15 @@ export default function CivilEngineeringPage({ isHome }) {
                     )}
                   </FadeInUp>
                 ))}
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/civil/WhatsApp Image 2025-05-19 at 12.50.16_a943ecc6.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/civil/WhatsApp Image 2026-02-24 at 4.10.53 PM.jpeg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
               </div>
 
               <FadeInUp delay={300}>

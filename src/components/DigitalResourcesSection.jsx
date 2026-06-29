@@ -80,6 +80,9 @@ export default function DigitalResourcesSection({ title, items }) {
                   <p className="font-sans text-[#5c5855] text-[15px] leading-relaxed mb-4">
                     {items[1].description}
                   </p>
+                  <a href={items[1].linkHref} className="text-[#8B6E66] font-bold text-[11px] uppercase tracking-widest hover:text-[#212529] transition-colors">
+                    Read More &gt;
+                  </a>
                 </div>
               </div>
             )}

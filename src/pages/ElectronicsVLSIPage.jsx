@@ -10,6 +10,16 @@ import {
 } from 'lucide-react';
 import { getDepartment } from '../data/departmentData';
 
+const DEPT_INLINE_IMAGES = [
+  "/images/departments/vlsi/455789587_7942766909176121_7698136008696861692_n.jpg",
+  "/images/departments/vlsi/456084895_7942763579176454_2230763532092766752_n.jpg",
+  "/images/departments/vlsi/IMG20260127173037.jpg",
+  "/images/departments/vlsi/Meity c2s photo1.jpeg",
+  "/images/departments/vlsi/Meity c2s photo2.jpeg",
+  "/images/departments/vlsi/Meity c2s photo4 (1).jpeg",
+];
+
+
 const ICONS = {
   Home, BookOpen, Users, Cpu, FileText, ArrowRight, Zap, GraduationCap, Award, Radio, CircuitBoard, Trophy, MapPin, Calendar, Rocket, Star, Target, CheckCircle2
 };
@@ -212,6 +222,15 @@ export default function ElectronicsVLSIPage({ isHome = true }) {
                   </FadeInUp>
                 ))}
 
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/vlsi/455789587_7942766909176121_7698136008696861692_n.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/vlsi/456084895_7942763579176454_2230763532092766752_n.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
+
                 {data.homeContent?.salientFeatures && (
                 <FadeInUp delay={300}>
                   <div className="mt-10 glass-card-electronics p-8 rounded-2xl bg-white/40">
@@ -230,6 +249,10 @@ export default function ElectronicsVLSIPage({ isHome = true }) {
                   </div>
                 </FadeInUp>
                 )}
+
+                <div className="my-8 rounded-2xl overflow-hidden shadow-md max-w-3xl">
+                  <img src="/images/departments/vlsi/IMG20260127173037.jpg" alt="Department" className="w-full h-[260px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                </div>
               </div>
             </section>
           </div>
@@ -268,6 +291,15 @@ export default function ElectronicsVLSIPage({ isHome = true }) {
                     )}
                   </FadeInUp>
                 ))}
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/vlsi/Meity c2s photo1.jpeg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/vlsi/Meity c2s photo2.jpeg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
               </div>
 
               <FadeInUp delay={300}>
@@ -1383,6 +1415,15 @@ export default function ElectronicsVLSIPage({ isHome = true }) {
                 {data.startup.paragraphs.map((p, idx) => (
                   <p key={idx}>{p}</p>
                 ))}
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/vlsi/Meity c2s photo4 (1).jpeg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/vlsi/455789587_7942766909176121_7698136008696861692_n.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
               </div>
             </FadeInUp>
 
@@ -1398,6 +1439,15 @@ export default function ElectronicsVLSIPage({ isHome = true }) {
                     <span>{focus}</span>
                   </li>
                 ))}
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/vlsi/456084895_7942763579176454_2230763532092766752_n.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-md">
+                    <img src="/images/departments/vlsi/IMG20260127173037.jpg" alt="Department" className="w-full h-[220px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  </div>
+                </div>
               </ul>
             </FadeInUp>
 
